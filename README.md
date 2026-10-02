@@ -98,7 +98,8 @@ Read the [Stage 3 findings](artifacts/pcb1_memory_selection_comparison/findings.
 [project journey](docs/journey/README.md) and [decision log](docs/journey/decision_log.md).
 All 81 tests, both independent reviews and resource gates passed. PCB2 remains sealed; category
 adaptation and normal-geometry checks must be frozen before fresh confirmation.
-The Stage 3 work is local and has not yet been committed or pushed.
+The completed Stage 3 snapshot is committed locally at `120b2bf` and has not
+been pushed. See [commit provenance](docs/development/stage3_publication_notes.md).
 
 ## Inspect the first findings
 
