@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+.DS_Store
+data/raw/
+data/cache/
+artifacts/runs/**/anomaly_maps/
+artifacts/runs/**/model.pt
+artifacts/runs/**/features.npz
+artifacts/runs/**/calibration_maps.npz
+.ipynb_checkpoints/
+artifacts/runs/**/features.npy
+artifacts/runs/**/calibration_maps.npy

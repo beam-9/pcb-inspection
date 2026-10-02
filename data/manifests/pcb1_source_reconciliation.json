@@ -1,0 +1,7 @@
+{
+  "image_binary_label_mask_agreement": true,
+  "images": 1104,
+  "label_transformation": "Owner normal remains normal; owner named anomaly classes collapse to anomaly, consistent with official one-class CSV.",
+  "owner_annotations_sha256": "e41a1595f07a33fcd97e978e991d324e4ff7e0c201f965368d2c2d7860a0cdf4",
+  "source_split_sha256": "a48557e6033318cb90556f706196bc9d247a776a23ea51aecee5a80dd0332995"
+}

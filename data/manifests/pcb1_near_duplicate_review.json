@@ -1,0 +1,208 @@
+{
+  "candidate_count": 1261,
+  "finding": "Aligned PCB images may share coarse perceptual hashes. Unequal file SHA-256 and thumbnail pixel differences do not establish shared physical board identity. Source supplies no object IDs. No similarity-based exclusions or additional groups inferred.",
+  "limitation": "Unknown repeated-object identity may inflate performance; official image holdout is not a verified unseen-object holdout.",
+  "pairs": [
+    {
+      "dhash_hamming": 0,
+      "left_id": "2a8e2d654846ae67277a627f",
+      "left_path": "pcb1/Data/Images/Normal/0037.JPG",
+      "left_split": "fit",
+      "right_id": "fbfdec218cbf0635738d2c12",
+      "right_path": "pcb1/Data/Images/Normal/0109.JPG",
+      "right_split": "fit",
+      "thumbnail_rgb_mae": 0.036173662173202614
+    },
+    {
+      "dhash_hamming": 0,
+      "left_id": "70167206a708a11cfa66d657",
+      "left_path": "pcb1/Data/Images/Normal/0068.JPG",
+      "left_split": "fit",
+      "right_id": "234dc1c4cebdbd3e6d5e5727",
+      "right_path": "pcb1/Data/Images/Normal/0301.JPG",
+      "right_split": "calibration",
+      "thumbnail_rgb_mae": 0.04953182444852942
+    },
+    {
+      "dhash_hamming": 0,
+      "left_id": "f25970dc2c335751b35e4cfc",
+      "left_path": "pcb1/Data/Images/Normal/0069.JPG",
+      "left_split": "fit",
+      "right_id": "7362ade95f32642a9f44c44a",
+      "right_path": "pcb1/Data/Images/Normal/0106.JPG",
+      "right_split": "fit",
+      "thumbnail_rgb_mae": 0.04150262969771241
+    },
+    {
+      "dhash_hamming": 0,
+      "left_id": "f25970dc2c335751b35e4cfc",
+      "left_path": "pcb1/Data/Images/Normal/0069.JPG",
+      "left_split": "fit",
+      "right_id": "2f583ef3203d5ac90b59a547",
+      "right_path": "pcb1/Data/Images/Normal/0180.JPG",
+      "right_split": "fit",
+      "thumbnail_rgb_mae": 0.044033075469771234
+    },
+    {
+      "dhash_hamming": 0,
+      "left_id": "f25970dc2c335751b35e4cfc",
+      "left_path": "pcb1/Data/Images/Normal/0069.JPG",
+      "left_split": "fit",
+      "right_id": "a6a57f9e79100cebf512f1db",
+      "right_path": "pcb1/Data/Images/Normal/0346.JPG",
+      "right_split": "calibration",
+      "thumbnail_rgb_mae": 0.03271994995915032
+    },
+    {
+      "dhash_hamming": 0,
+      "left_id": "fd8fe61532624c2989845031",
+      "left_path": "pcb1/Data/Images/Normal/0102.JPG",
+      "left_split": "fit",
+      "right_id": "7b28d70455b033b2dcf8fc9b",
+      "right_path": "pcb1/Data/Images/Normal/0239.JPG",
+      "right_split": "calibration",
+      "thumbnail_rgb_mae": 0.040322776245915036
+    },
+    {
+      "dhash_hamming": 0,
+      "left_id": "7362ade95f32642a9f44c44a",
+      "left_path": "pcb1/Data/Images/Normal/0106.JPG",
+      "left_split": "fit",
+      "right_id": "2f583ef3203d5ac90b59a547",
+      "right_path": "pcb1/Data/Images/Normal/0180.JPG",
+      "right_split": "fit",
+      "thumbnail_rgb_mae": 0.05797621783088235
+    },
+    {
+      "dhash_hamming": 0,
+      "left_id": "7362ade95f32642a9f44c44a",
+      "left_path": "pcb1/Data/Images/Normal/0106.JPG",
+      "left_split": "fit",
+      "right_id": "a6a57f9e79100cebf512f1db",
+      "right_path": "pcb1/Data/Images/Normal/0346.JPG",
+      "right_split": "calibration",
+      "thumbnail_rgb_mae": 0.05150888480392157
+    },
+    {
+      "dhash_hamming": 0,
+      "left_id": "b732c57615def8f4ab818c3f",
+      "left_path": "pcb1/Data/Images/Normal/0156.JPG",
+      "left_split": "fit",
+      "right_id": "a184ab3d7b4df361792c7188",
+      "right_path": "pcb1/Data/Images/Normal/0847.JPG",
+      "right_split": "fit",
+      "thumbnail_rgb_mae": 0.025390624999999997
+    },
+    {
+      "dhash_hamming": 0,
+      "left_id": "2f583ef3203d5ac90b59a547",
+      "left_path": "pcb1/Data/Images/Normal/0180.JPG",
+      "left_split": "fit",
+      "right_id": "a6a57f9e79100cebf512f1db",
+      "right_path": "pcb1/Data/Images/Normal/0346.JPG",
+      "right_split": "calibration",
+      "thumbnail_rgb_mae": 0.029160603043300648
+    },
+    {
+      "dhash_hamming": 0,
+      "left_id": "e30051d3d8fd995844562e4d",
+      "left_path": "pcb1/Data/Images/Normal/0183.JPG",
+      "left_split": "fit",
+      "right_id": "d7ff54c7b4657ca3abb8760c",
+      "right_path": "pcb1/Data/Images/Normal/0530.JPG",
+      "right_split": "calibration",
+      "thumbnail_rgb_mae": 0.04079573886846405
+    },
+    {
+      "dhash_hamming": 0,
+      "left_id": "2f36d93c0e7531d8cbd3f8fb",
+      "left_path": "pcb1/Data/Images/Normal/0209.JPG",
+      "left_split": "calibration",
+      "right_id": "3bfdd25cbb71671f75e39ff5",
+      "right_path": "pcb1/Data/Images/Normal/0932.JPG",
+      "right_split": "fit",
+      "thumbnail_rgb_mae": 0.043279909620098034
+    },
+    {
+      "dhash_hamming": 0,
+      "left_id": "75e6d970a10dafc3054e0571",
+      "left_path": "pcb1/Data/Images/Normal/0236.JPG",
+      "left_split": "fit",
+      "right_id": "e011d89cc836ba1aa1bc02a9",
+      "right_path": "pcb1/Data/Images/Normal/0459.JPG",
+      "right_split": "fit",
+      "thumbnail_rgb_mae": 0.0536129621119281
+    },
+    {
+      "dhash_hamming": 0,
+      "left_id": "75e6d970a10dafc3054e0571",
+      "left_path": "pcb1/Data/Images/Normal/0236.JPG",
+      "left_split": "fit",
+      "right_id": "6e40a5c5b295ccc3dce76395",
+      "right_path": "pcb1/Data/Images/Normal/0852.JPG",
+      "right_split": "fit",
+      "thumbnail_rgb_mae": 0.043892654718137254
+    },
+    {
+      "dhash_hamming": 0,
+      "left_id": "2d8cb21136a9201405edf1b5",
+      "left_path": "pcb1/Data/Images/Normal/0279.JPG",
+      "left_split": "fit",
+      "right_id": "3ffaebc342f5f383bf88b1ed",
+      "right_path": "pcb1/Data/Images/Normal/0426.JPG",
+      "right_split": "fit",
+      "thumbnail_rgb_mae": 0.03021854575163399
+    },
+    {
+      "dhash_hamming": 0,
+      "left_id": "2fb5196803f6c730af314161",
+      "left_path": "pcb1/Data/Images/Normal/0343.JPG",
+      "left_split": "fit",
+      "right_id": "e198308262ce13324faec9fd",
+      "right_path": "pcb1/Data/Images/Normal/0407.JPG",
+      "right_split": "fit",
+      "thumbnail_rgb_mae": 0.0528036279616013
+    },
+    {
+      "dhash_hamming": 0,
+      "left_id": "a5544cf8c3f4495df7d798ea",
+      "left_path": "pcb1/Data/Images/Normal/0350.JPG",
+      "left_split": "fit",
+      "right_id": "7d4e47ad65dc99387ba61cb2",
+      "right_path": "pcb1/Data/Images/Normal/0502.JPG",
+      "right_split": "fit",
+      "thumbnail_rgb_mae": 0.04922704758986928
+    },
+    {
+      "dhash_hamming": 0,
+      "left_id": "76697c1a28dd3ef624fb0471",
+      "left_path": "pcb1/Data/Images/Normal/0421.JPG",
+      "left_split": "fit",
+      "right_id": "5dcfc0e65ab4ebc09fc86fbe",
+      "right_path": "pcb1/Data/Images/Normal/0600.JPG",
+      "right_split": "fit",
+      "thumbnail_rgb_mae": 0.044741561989379085
+    },
+    {
+      "dhash_hamming": 0,
+      "left_id": "37365c15acdfe8cb778d226d",
+      "left_path": "pcb1/Data/Images/Normal/0449.JPG",
+      "left_split": "fit",
+      "right_id": "55d9a5ec969dbb3e47e1a2cb",
+      "right_path": "pcb1/Data/Images/Normal/0838.JPG",
+      "right_split": "fit",
+      "thumbnail_rgb_mae": 0.03893995098039216
+    },
+    {
+      "dhash_hamming": 0,
+      "left_id": "e011d89cc836ba1aa1bc02a9",
+      "left_path": "pcb1/Data/Images/Normal/0459.JPG",
+      "left_split": "fit",
+      "right_id": "6e40a5c5b295ccc3dce76395",
+      "right_path": "pcb1/Data/Images/Normal/0852.JPG",
+      "right_split": "fit",
+      "thumbnail_rgb_mae": 0.039900556576797384
+    }
+  ],
+  "scope": "20 lowest dHash-distance official training normal pairs; numeric investigation only"
+}

@@ -1,0 +1,22 @@
+category: pcb1
+seed: 42
+input_size: 256
+backbone: resnet18
+weights: IMAGENET1K_V1
+feature_layers: [layer2, layer3]
+device: cpu
+threads: 4
+memory_cap: 4096
+memory_sampling: deterministic_uniform_without_replacement
+image_score: maximum_patch_nearest_neighbor_distance
+baseline_score: euclidean_nearest_neighbor_l2_normalized_global_average_features
+normal_false_alarm_policy: 0.05
+image_threshold_quantile: 0.95
+pixel_threshold_quantile: 0.99
+quantile_method: higher
+threshold_comparison: strict_greater
+resize: direct_bilinear_square_no_crop
+mask_resize: nearest
+map_resize: bilinear_align_corners_false
+map_normalization: none
+max_debug_runs: 3

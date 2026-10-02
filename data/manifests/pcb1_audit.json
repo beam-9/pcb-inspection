@@ -1,0 +1,35 @@
+{
+  "audit_exposure": "Structural decode/checksums/geometry/mask count only. No held-out views or model scoring.",
+  "category": "pcb1",
+  "counts": {
+    "calibration/normal": 181,
+    "fit/normal": 723,
+    "test/anomaly": 100,
+    "test/normal": 100
+  },
+  "dimensions": [
+    {
+      "count": 1104,
+      "height": 1070,
+      "width": 1404
+    }
+  ],
+  "exact_duplicate_groups": 0,
+  "exclusions": [],
+  "included_count": 1104,
+  "manifest_path": "pcb1_manifest.csv",
+  "mask_policy": "Original multi-class scalar labels converted to binary with >0; normal masks implicit zeros",
+  "near_duplicate_candidates_count": 1261,
+  "near_duplicate_scope": "Official training normals only; dHash Hamming <=2; no automatic exclusions",
+  "official_split_sha256": "a48557e6033318cb90556f706196bc9d247a776a23ea51aecee5a80dd0332995",
+  "physical_object_identity": "Unavailable: filename and image similarity cannot establish shared physical PCB identities.",
+  "resize_256_mask_audit": {
+    "count": 100,
+    "masks_lost_completely": 0,
+    "positive_fraction_ratio_max": 1.193772588079986,
+    "positive_fraction_ratio_min": 0.920091675227076
+  },
+  "seed": 42,
+  "source_count": 1104,
+  "split_hash": "3b6c9c04f2342ca1e5d31923612b3fb39769a3db7b7bbcd846415f50cd87ec08"
+}
