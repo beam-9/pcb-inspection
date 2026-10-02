@@ -1,0 +1,13 @@
+{
+  "review_date_local": "2026-10-02",
+  "source_document_name": "pcb_inspection_next_steps_handoff.md",
+  "source_document_sha256": "64fded8efb4d4b1f726152604e61e8ad8134bad197d6600c44332bd81cc51994",
+  "base_commit": "75e4758f7c3b579cc6dc7832c65dba5def57c52f",
+  "scope": "Review proposed plan; complete PCB1 A2 retrospective diagnostics and identify bounded improvement candidates. No model replacement or PCB2 unsealing as a side effect.",
+  "pilot_run_id": "31e0704ff1da6906",
+  "pilot_completion_sha256": "212a17cf459ad2f949d72fa6307b98e62bbdfa117a43d8afd12ad1d7787f0319",
+  "pilot_protocol_sha256": "31e0704ff1da6906cc45fb420b21ade4bf473fcb6388ea05bb1cf9eda9e3bd2d",
+  "original_inputs_verified": true,
+  "pcb1_role": "Development after original frozen feasibility evaluation",
+  "pcb2_role": "Unacquired and sealed for future recipe confirmation; no images/masks opened."
+}

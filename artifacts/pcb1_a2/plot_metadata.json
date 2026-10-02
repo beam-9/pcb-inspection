@@ -1,0 +1,14 @@
+{
+  "rendered_utc": "2026-10-02T16:17:54.761260+00:00",
+  "source_tables": "A2 CSV tables; no refitting/inference",
+  "charts": {
+    "normal_score_distribution.png": "e3842e93fbe2efebeb7ee547b3daa23e92ef86ab38abee0abc7c115fa5ece1ef",
+    "pixel_ap_by_defect_type.png": "331e64a0fe5e1bc74de970d951d794e2d2e13498cec5a978cc884b98bdc57265",
+    "recall_by_defect_size_quartile.png": "c76f62398b58024c9c5a547ca572475412fb77cdf94b76d6e6c0cfa68d3bc722",
+    "recall_by_defect_type.png": "fd4437fb861048098b23d227edbf9bb7d0ed2b543369bf5e04e43d0fe5656e19",
+    "recall_vs_fpr.png": "6d1700454f68f2b64d6b597db09d16b09e75a4651a8f03197b4a1de66d6cea03",
+    "score_vs_defect_area.png": "dadeb151f4f005bbce48423c39f231bbd84226ed3ece3e2f8442d24c9a1daedb"
+  },
+  "type_counting": "A multilabel image contributes once per source label; grouped sample counts may exceed100",
+  "qualitative_selection": "Deterministic metric/order-based reasons; IDs and reasons retained in qualitative/selection.csv"
+}

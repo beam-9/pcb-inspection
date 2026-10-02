@@ -1,0 +1,34 @@
+{
+  "scope": "Exploratory PCB1 development association/uncertainty; no operating-threshold selection",
+  "test_normal_fpr_wilson95": {
+    "low": 0.048072540002565146,
+    "high": 0.1622621285271631,
+    "assumptions": "Independent Bernoulli test-normal images at the fixed threshold. Physical board independence is unverified; descriptive illustration, not factory guarantee."
+  },
+  "calibration_test_normal_ks": {
+    "statistic": 0.10187845303867403,
+    "pvalue": 0.4765614241575948,
+    "assumptions": "Two-sample independent-image continuous-score null; related-object independence unavailable; exploratory and no shift proven."
+  },
+  "mask_area_score_spearman": {
+    "rho": 0.41141046664433895,
+    "pvalue": 2.1162039635332703e-05,
+    "interpretation": "Rank association, not causal resize proof; size and defect type are confounded."
+  },
+  "detection_localization_groups": [
+    {
+      "detected_at_frozen_threshold": false,
+      "image_count": 57,
+      "median_pixel_ap": 0.009868147141471,
+      "peak_inside_mask_rate": 0.05263157894736842,
+      "any_overlap_rate": 0.631578947368421
+    },
+    {
+      "detected_at_frozen_threshold": true,
+      "image_count": 43,
+      "median_pixel_ap": 0.3509355734933436,
+      "peak_inside_mask_rate": 0.5348837209302325,
+      "any_overlap_rate": 1.0
+    }
+  ]
+}

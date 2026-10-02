@@ -26,6 +26,27 @@ fall inside annotations for 26/100 anomalies. CPU inference takes 0.307 s median
 reliable small-region inspection workflow. [Full findings](docs/pilot_findings.md)
 include failures, protocol, runtime, provenance and proposed next study.
 
+## A2 development diagnostics — 2 October 2026
+
+The proposed improvement plan was critically reviewed, then the saved Run 1 outputs
+were analyzed without refitting. PCB1 is now development data; PCB2 remains sealed.
+
+- Source-labeled scratch recall is **3/21 (14.3%)**; melt recall is **19/54 (35.2%)**.
+- The largest mask-area quartile has **70.8% recall**, versus **29–40%** for the smaller groups.
+- A retrospective threshold can detect **53/100** anomalies with the same **9/100**
+  observed false alarms. This is a diagnostic oracle point, not a calibrated operating policy.
+- Poor localization remains concentrated in misses; the saved location traces do not
+  establish cross-location matching as their cause.
+
+Start with the [A2 diagnostic summary](artifacts/pcb1_a2/diagnostic_summary.md) and
+[executed A2 notebook](notebooks/pcb1_a2_diagnostics.ipynb). The
+[plan review](docs/improvement_plan_review.md) corrects method/source assumptions;
+[feasibility note](docs/improvement_feasibility.md) bounds memory and search costs.
+
+The next proposed comparison isolates verified board geometry and then 512 resolution
+with ResNet18 and a fixed memory budget. Coreset/backbone changes follow separate tests.
+No revised-model improvement or fresh PCB2 confirmation has been claimed.
+
 ## Inspect the first findings
 
 ![Score distributions for both frozen methods](artifacts/runs/31e0704ff1da6906/score_distributions.png)

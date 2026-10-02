@@ -1,0 +1,21 @@
+{
+  "run_id": "31e0704ff1da6906",
+  "n_traces": 200,
+  "new_inference": false,
+  "coordinate_scope": "unregistered_32x32_Run1",
+  "source_sha256": {
+    "artifacts/runs/31e0704ff1da6906/predictions.parquet": "298e588eba5cdc44f9299a30c337b34279760b9cc3b86470eb659a3bede27c3d",
+    "artifacts/runs/31e0704ff1da6906/calibration.json": "f0505512aaccb5883425d0947b569a681b8c0a192bc520e1b6eb1ca0fb5499ef",
+    "artifacts/runs/31e0704ff1da6906/memory_bank_metadata.json": "a4582f8d497cca5b4918c14a3bb7e32d4c95a8dd7fa441c6e3be48375b5aeda1",
+    "artifacts/pcb1_a2/per_anomaly_diagnostics.csv": "6dbe7c203b8846f1a8800a396a57563a06a5df6cd73a0a0ae5c0d0408126b7f1",
+    "/Users/beam.t/Documents/ChatGPT/internships/pcb-inspection/src/pcb_inspection/trace_diagnostics.py": "333c8c6c829ef9aa9c8c0f6c7abf0951b42da79c7fc2a6b5f218b9f499b22262"
+  },
+  "output_sha256": {
+    "artifacts/pcb1_a2/trace_by_defect_type.csv": "7e943e5670b4557f45ea185a37dcbfd7217c0e7ad20e61c82b006679b05a0848",
+    "artifacts/pcb1_a2/trace_by_defect_type_outcome.csv": "d6b9989e486873c3e61c563b97e7daa0d00b1dffc7f31e33d6d01484fdcb020c",
+    "artifacts/pcb1_a2/trace_by_outcome.csv": "01e0ee62883e48c2cca3a2997ffe1b00a5c084b4275ff38c09d75f9cb3e3960c",
+    "artifacts/pcb1_a2/trace_offsets.csv": "b0ef99337654efeee099e82d2130c4464cee21166054988103a7b3676a597524",
+    "artifacts/pcb1_a2/trace_offsets.parquet": "b5bb6a2632056b4a81a7fd3da98163f6a36fbdeaebfa4ad0cfb81aa6a75edb87",
+    "artifacts/pcb1_a2/trace_summary.md": "beefd82b516d3eefbab1862ae73f21512664b3197c58699cca8997af6cc19e4e"
+  }
+}

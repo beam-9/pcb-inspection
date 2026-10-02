@@ -1,0 +1,18 @@
+{
+  "checked_utc": "2026-10-02T16:16:26.628541+00:00",
+  "passed": true,
+  "original_frozen_identity_preserved": true,
+  "anomaly_rows": 100,
+  "normal_rows": 281,
+  "type_memberships": 110,
+  "checks": [
+    "All anomaly membership/scores/frozen flags",
+    "All per-image AP/overlap against independently computed Run1 review",
+    "Calibration/test-normal IDs and saved scores",
+    "Complete ROC curve against independent sklearn >= implementation",
+    "All diagnostic operating-point confusion and optimal recall within budget",
+    "Multilabel membership uniqueness/counts"
+  ],
+  "no_model_inference": true,
+  "pcb2_access": false
+}

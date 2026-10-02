@@ -1,0 +1,15 @@
+{
+  "validated_at_utc": "2026-10-02T16:26:41.179011+00:00",
+  "tests_command": ".venv/bin/python -m pytest -q",
+  "tests_exit_code": 0,
+  "tests_output": "...........................................                              [100%]\n43 passed in 3.15s",
+  "notebook_schema_valid": true,
+  "executed_code_cells": 7,
+  "notebook_error_outputs": 0,
+  "frozen_original_protocol_verified": true,
+  "visual_review": {
+    "figures_checked": 6,
+    "qualitative_pages_checked": 3,
+    "result": "Axes, legends, shared map scale, masks and captions inspected. Wrapped captions repaired before completion."
+  }
+}
