@@ -1,0 +1,51 @@
+{
+  "declared_at_utc": "2026-10-02T20:04:32.455358+00:00",
+  "user_authorization": "Start stage3",
+  "purpose": "Matched normal-memory selection at4096 references; PCB1 development only",
+  "run_ids": [
+    "coreset_256_v1",
+    "coreset_512_v1"
+  ],
+  "control_runs": [
+    "geometry_256_v1",
+    "geometry_512_v1"
+  ],
+  "candidate_population": "All723 fitting-normal patch positions, including padding; same canonical manifest image order ascontrols",
+  "candidate_counts": {
+    "256": 740352,
+    "512": 2961408
+  },
+  "selector": {
+    "method": "Projected approximate greedy, mean10anchorEuclidean initializer, running minimum with eachselectedcenter",
+    "projection": "Gaussian float32 torch.randn Generator43, scaled1/sqrt64,384to64",
+    "projection_only_for_selection": true,
+    "selection_seed": 42,
+    "anchor_rng": "numpy.default_rng42 choice withoutreplacement",
+    "initial_count": 10,
+    "final_count": 4096,
+    "tie_rule": "Firstglobalcandidateindex argmax; explicitlyexclude selectedindices",
+    "reference_order": "Greedy selectionorder; exactNNties choose firstreference asbefore"
+  },
+  "feature_scoring_unchanged": "384D ResNet18 native scoring, layer2/layer3 aggregated; exactCPU Euclidean maxallpatches includingpadding",
+  "normal_calibration_unchanged": "Same181normals;95thimage/99thcommon256pixel, higher andstrictgreater",
+  "geometry_evaluation_unchanged": "Stage2samecrop/aspect/padding, inversefullsource->common256; outsidecropzero, sourceGT retained",
+  "diagnostics": {
+    "query_count": 2048,
+    "query_seed": 44,
+    "population": "Uniformpositions acrossallfittingpatches, samequeriesforcontrolandcoreset perresolution",
+    "space": "Original384D Euclidean nearestreference",
+    "possible_reference_overlap": true,
+    "padding_definition": "Featurecellcenter proxy, halfopen letterboxcontentrectangle; notentire receptivefield"
+  },
+  "resource_caps": {
+    "peak_rss_bytes": 8589934592,
+    "median_inference_seconds": 10,
+    "end_to_end_normal_preparation_seconds": 1800
+  },
+  "engineering_pilot_sha256": "dca98a81106e2f617df92d6208e99e5d10ead32bcabd84345456fbd92264897c",
+  "cache_reuse": "Identicalfull512normalprojectioncache reused ifsource/weight/manifest/matrix hashesmatch; original extractioncostchargedendtoend",
+  "evaluation_count_per_new_recipe": 1,
+  "post_result_retuning": false,
+  "pcb2_exposure_allowed": false,
+  "publishing": "Independentchecks, fullmetricandtype/size/resource/compositiontables,6staticfigures,fixed11A2examples,executed artifact-reader notebook,journeychapteranddecisionlog"
+}

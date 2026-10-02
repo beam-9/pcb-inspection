@@ -1,0 +1,36 @@
+{
+  "preparation_seconds": 361.74148137500015,
+  "peak_rss_bytes": 2334834688,
+  "physical_current_preparation_seconds": 317.12558241700026,
+  "charged_cached_extraction_seconds": 44.615899791999254,
+  "median_inference_seconds": 1.0829027090003365,
+  "p95_inference_seconds": 1.140294624998205,
+  "phases": {
+    "backbone_load": {
+      "seconds": 0.9111963329996797,
+      "peak_rss_bytes": 522993664
+    },
+    "projection": {
+      "seconds": 0.7263614589974168,
+      "peak_rss_bytes": 533807104,
+      "projection_sha256": "6e1101a4c90b4c4bdf64beeaa4e1e8a57974977b33954e6af54e442428ebe49f",
+      "charged_cached_extraction_seconds": 44.615899791999254
+    },
+    "selection": {
+      "seconds": 72.51140716599912,
+      "peak_rss_bytes": 2334834688
+    },
+    "reextraction": {
+      "seconds": 43.17190579200178,
+      "peak_rss_bytes": 2334834688
+    },
+    "preparation_diagnostics": {
+      "seconds": 1.26073845800056,
+      "peak_rss_bytes": 2334834688
+    },
+    "calibration": {
+      "seconds": 198.34544299999834,
+      "peak_rss_bytes": 2334834688
+    }
+  }
+}

@@ -1,0 +1,128 @@
+# Project decision log
+
+This is an append-only narrative index of decisions. Entries for completed stages
+are retrospective summaries linked to contemporaneous protocols and evidence;
+they are not substitute preregistrations. New findings receive a new entry rather
+than rewriting the rationale of an earlier decision.
+
+## October1,2026 — Stage1: stop before the review application
+
+**Decision:** stop/revise methodology after the frozen feasibility evaluation.
+
+**Evidence:** Run1 `31e0704ff1da6906`: primary recall43/100, false alarms9/100;
+image AP0.852/AUROC0.865; median anomaly pixel AP0.039; peak inside annotation26/100.
+The original test was frozen before scoring, and the post-final supplemental
+localization analysis is labeled retrospective. See [original findings](../pilot_findings.md)
+and [exposure ledger](../exposure_ledger.md).
+
+**Alternatives:** build a polished review UI immediately; lower a threshold using
+test outcomes; switch models immediately.
+
+**Reason:** valid provenance, useful ranking and fast inference did not compensate
+for inconsistent localization and57 missed anomalies. Diagnose with saved evidence
+before adding a workflow or promising inspection reliability.
+
+**Uncertainty:** which combination of effective resolution, normal representation,
+matching, normal variation and operating point limits this recipe. The result did
+not establish that all57 misses were invisible to the representation.
+
+## October2,2026 — A2: reuse saved PCB1 results for diagnosis
+
+**Decision:** explicitly treat PCB1 as development after original result exposure;
+reuse scores/maps with original thresholds and preserve Run1 artifacts.
+
+**Evidence:** [A2 diagnostic summary](../../artifacts/pcb1_a2/diagnostic_summary.md)
+and [A2 ledger](../development/a2_exposure_ledger.md) describe type/size variation,
+per-image localization and retrospective operating-point tradeoffs.
+
+**Alternatives:** rerun expensive inference without a changed question; describe an
+A2 oracle threshold as independently selected; call a size association proof of
+resize causality.
+
+**Reason:** saved-output analysis identifies testable hypotheses while preserving
+the distinction between original frozen evidence and retrospective development.
+
+**Uncertainty:**9/100 test-normal flags alone do not establish a calibration defect
+or distribution shift; reduced RGB detail and cross-location matching remain
+hypotheses requiring controlled interventions.
+
+## October2,2026 — Stage2: test geometry then effective resolution
+
+**Decision:** implement a content-derived blue-board crop with conservative margins
+and gray letterboxing, without introducing pose registration. Execute C1 at256,
+then C2 at512 with the same4096 uniform bank policy and normal-only calibration.
+
+**Evidence:** [geometry review](../../artifacts/pcb1_geometry/geometry_review.json)
+preceded fitting; [execution ledger](../development/geometry_execution_ledger.md)
+and [comparison findings](../../artifacts/pcb1_geometry_comparison/findings.md)
+record resource gates and one development evaluation per recipe. C1 reached61%
+recall/4% FPR; C2 reached70%/12%; median pixel AP0.097/0.354 respectively.
+
+**Alternatives:** replace backbone/memory/scoring simultaneously; fit registration
+without proving need; implement tiles and several image sizes at once.
+
+**Reason:** the bounded geometry block made a useful comparison on the actual CPU
+machine. Retain C1 as the less expensive lower-FPR reference and C2 as a localization
+candidate for a matched memory-selection question.
+
+**Uncertainty:** crop/aspect/padding and extra interpolation jointly define C1's
+intervention. Fixed reference count samples a smaller fraction at512. C2's higher
+median AP and lower pooled AP show uneven effects, not uniform improvement. This
+does not establish factory generalization or the cause of the higher normal FPR.
+
+## October2,2026 — Stage3: test representative memory before adding capacity
+
+**Decision:** the user explicitly authorized Stage3. Prepare projected approximate
+greedy selection of exactly4096 unique references from the complete fitting-normal
+patch population, then run matched D1/D2 only if normal-only resource gates pass.
+No PCB2 access or Stage4 intervention is authorized by this entry.
+
+**Evidence available at decision:** [Stage3 proposal review](../development/stage3_plan_review.md)
+and preserved C1/C2 show a plausible redundancy/coverage question. Reference fractions
+0.5533% and0.1383% are sampling fractions, not measured feature-space coverage.
+**New detector outcomes remain pending** at the time this entry is written.
+
+**Alternatives:** increase memory count; replace ResNet18; add spatial restrictions;
+exclude padding; tune a threshold against anomalies.
+
+**Reason:** change reference selection while holding those alternatives fixed.
+Record candidate ordering, projection/seed, initialization, tie semantics, selected
+indices/order and full-dimensional reference identity before anomaly evaluation.
+Measure normal-space nearest-reference coverage on fixed queries for both banks.
+
+**Uncertainty:** farthest-first emphasis may help rare healthy modes or overemphasize
+outliers; projected coverage need not imply original-feature coverage. Full-population
+selection may exceed8GiB/30minutes. If reduced candidates become necessary, preserve
+the failed feasibility evidence and declare a changed comparison before proceeding.
+Do not silently fall back to uniform or claim a selection-only test after changing
+the candidate population.
+
+**Next entry condition:** append measured matched outcomes and one justified decision
+after D1/D2 completion and independent review, or append a resource-stop decision if
+the engineering gate prevents execution. Keep pending results out of earlier entries.
+
+## October 2, 2026 — Stage 3 completed: carry D1 forward
+
+**Decision:** retain representative 256 (D1) as the default development recipe.
+Prepare a frozen category-adaptation and normal-geometry gate before any fresh PCB2
+confirmation. PCB2 remains sealed; this entry does not execute the next stage.
+
+**Evidence:** both independent reviews passed. C1→D1 improves recall 61%→89% at
+unchanged 4% normal FPR; median anomaly pixel AP improves 0.097→0.353 at approximately
+0.291 seconds median inference. C2→D2 improves recall 70%→95%, FPR 12%→11%, median
+pixel AP 0.354→0.535. See [Stage 3 findings](../../artifacts/pcb1_memory_selection_comparison/findings.md).
+
+**Alternatives:** D2 offers higher recall/localization but eleven normal flags and
+roughly 3.7 times the processing cost. Uniform controls are preserved. More memory,
+a new backbone, spatial matching, seed search and anomaly-tuned thresholds were
+not tested or silently introduced.
+
+**Reason:** D1 provides the better default balance of observed detection, review
+burden and CPU cost. The comparison supports this selector on exposed PCB1; it does
+not identify a single bottleneck or establish factory readiness. Normal coverage
+mean/median worsened despite better tails, and D1 pixel IoU slightly regressed.
+
+**Uncertainty:** D1 still misses eleven anomalies. Coverage/composition are descriptive;
+physical board identities are unknown. Generalization and crop suitability require
+fresh evidence under a frozen procedure. Preserve D2 as an alternative rather than
+claiming that one recipe dominates every metric.

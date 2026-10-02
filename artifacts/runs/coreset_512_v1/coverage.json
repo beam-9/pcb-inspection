@@ -1,0 +1,28 @@
+{
+  "uniform_control": {
+    "sample_count": 2048,
+    "dimensions": 384,
+    "units": "Euclidean",
+    "mean": 1.0336790084838867,
+    "median": 1.1220554113388062,
+    "p95": 1.7095098495483398,
+    "maximum": 2.370107412338257,
+    "query_index_in_bank_count": 4,
+    "zero_distance_count": 4,
+    "query_rule": "sorted 2048 candidate indices sampled without replacement, default_rng seed44"
+  },
+  "coreset": {
+    "sample_count": 2048,
+    "dimensions": 384,
+    "units": "Euclidean",
+    "mean": 1.36098051071167,
+    "median": 1.4125914573669434,
+    "p95": 1.6149945259094238,
+    "maximum": 1.983875036239624,
+    "query_index_in_bank_count": 3,
+    "zero_distance_count": 3,
+    "query_rule": "sorted 2048 candidate indices sampled without replacement, default_rng seed44"
+  },
+  "query_indices_sha256": "3f75296fe781a6b32e4061d2bb74fa735d23691f4b932fc0a694a1ee35a63cdf",
+  "queries_may_coincide_with_selected_references": true
+}

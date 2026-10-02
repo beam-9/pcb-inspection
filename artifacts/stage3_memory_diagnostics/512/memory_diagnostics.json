@@ -1,0 +1,163 @@
+{
+  "candidate_count": 2961408,
+  "code_sha256": "34b639207063a957018e196a47a574f6dc353ed35d38852d7197d3de81aea034",
+  "composition": {
+    "coreset": {
+      "padding_center_proxy_fraction": 0.005615234375,
+      "reference_count": 4096,
+      "references_per_fitting_image": {
+        "count": 723,
+        "includes_zero_reference_images": true,
+        "maximum": 35,
+        "mean": 5.665283540802213,
+        "median": 4.0,
+        "minimum": 0,
+        "p95": 15.0
+      },
+      "selected_duplicate_indices": 0,
+      "unique_source_images": 691
+    },
+    "uniform": {
+      "padding_center_proxy_fraction": 0.272216796875,
+      "reference_count": 4096,
+      "references_per_fitting_image": {
+        "count": 723,
+        "includes_zero_reference_images": true,
+        "maximum": 14,
+        "mean": 5.665283540802213,
+        "median": 6.0,
+        "minimum": 0,
+        "p95": 10.0
+      },
+      "selected_duplicate_indices": 0,
+      "unique_source_images": 719
+    }
+  },
+  "coverage": {
+    "coreset": {
+      "independent_direct_distance_queries_checked": 16,
+      "maximum": 1.983875036239624,
+      "mean": 1.3609806001986726,
+      "median": 1.4125913977622986,
+      "p95": 1.6149944841861725,
+      "padding_center_proxy_slices": {
+        "False": {
+          "maximum": 1.983875036239624,
+          "mean": 1.421203501388341,
+          "median": 1.4351910352706907,
+          "p95": 1.6336655855178832,
+          "quantile_method": "linear",
+          "query_count": 1499,
+          "zero_distance_convention": "Exactly zero, no tolerance band",
+          "zero_distance_fraction": 0.0020013342228152103
+        },
+        "True": {
+          "maximum": 1.6843829154968262,
+          "mean": 1.1965468499558436,
+          "median": 1.2293555736541748,
+          "p95": 1.5832710266113281,
+          "quantile_method": "linear",
+          "query_count": 549,
+          "zero_distance_convention": "Exactly zero, no tolerance band",
+          "zero_distance_fraction": 0.0
+        }
+      },
+      "quantile_method": "linear",
+      "query_count": 2048,
+      "query_selected_reference_count": 3,
+      "zero_distance_convention": "Exactly zero, no tolerance band",
+      "zero_distance_fraction": 0.00146484375
+    },
+    "uniform": {
+      "independent_direct_distance_queries_checked": 16,
+      "maximum": 2.370107412338257,
+      "mean": 1.0336790238388858,
+      "median": 1.1220554113388062,
+      "p95": 1.7095097899436946,
+      "padding_center_proxy_slices": {
+        "False": {
+          "maximum": 2.370107412338257,
+          "mean": 1.278223210608983,
+          "median": 1.2189403772354126,
+          "p95": 1.778936314582824,
+          "quantile_method": "linear",
+          "query_count": 1499,
+          "zero_distance_convention": "Exactly zero, no tolerance band",
+          "zero_distance_fraction": 0.0020013342228152103
+        },
+        "True": {
+          "maximum": 1.15683114528656,
+          "mean": 0.3659709437507695,
+          "median": 0.2837347090244293,
+          "p95": 0.9000838041305541,
+          "quantile_method": "linear",
+          "query_count": 549,
+          "zero_distance_convention": "Exactly zero, no tolerance band",
+          "zero_distance_fraction": 0.0018214936247723133
+        }
+      },
+      "quantile_method": "linear",
+      "query_count": 2048,
+      "query_selected_reference_count": 4,
+      "zero_distance_convention": "Exactly zero, no tolerance band",
+      "zero_distance_fraction": 0.001953125
+    }
+  },
+  "definitions": {
+    "coordinates": "Continuous edge coordinates; source position mapped through crop/rounded letterbox resize. Proxy centers do not assert exact backbone receptive-field center.",
+    "coverage": "Saved preparation-query scores; summary arithmetic plus16seed45 directfloat64 nearest checks independently verified. Exact Euclidean distance in original384-dimensional scoring representation to nearest selected reference; no projection or anomaly masks",
+    "padding_proxy": "Equal-grid feature-cell center ((column+.5)*8,(row+.5)*8) outside half-open resized-content rectangle; receptive fields may cross content/padding boundaries",
+    "population": "All ordered fitting-normal feature positions, including letterbox padding; same full population for both banks",
+    "query_sample": "Seed44 independent uniform sampling without replacement, sorted global positions; fitting-only descriptive coverage, not independent normal validation",
+    "regions": "3x3 bins in normalized source-crop content coordinates; padding centers separate. Descriptive composition only, no selection/scoring exclusion.",
+    "selection_order": "Coreset metadata selection order if present; otherwise bank/reference enumeration. Uniform has source-order bank indices, not a greedy ordering.",
+    "self_matches": "Query may be selected; exact-zero distance fraction and selected-query count reported explicitly"
+  },
+  "fitting_count": 723,
+  "input_size": 512,
+  "no_anomaly_access": true,
+  "no_pcb2_access": true,
+  "outputs": {
+    "coreset_memory_selection.csv": "76fbe431168f86bd81b27f3fa2de9b6f23cead1512b7ffb8ee1965d55fab1121",
+    "coreset_memory_selection.parquet": "9ac909f5bb7a159079407650ab8ce3a838c8215021870872f9bf012bb3d5d038",
+    "coreset_normalized_crop_regions.csv": "96264c3a6680587c14b43310e9da8b90bf0fcdc3c40f414f68eed6f640c583a2",
+    "coreset_normalized_crop_regions.parquet": "0a0bd0e7194d13202147f83f8cf0385324be4b0310188513fb8a0041fd430440",
+    "coreset_references_per_image.csv": "2f52c1251dd2cf18f1d9efbbc46919af02a1ed852bde20324131d98dca849962",
+    "coreset_references_per_image.parquet": "d383cca97f3a5bd0314a2cf15013a94df4ab4a76824d4ae81dbcaa040748c258",
+    "coverage_distances.csv": "1ad55cee7eb09c0d1a8502dfb83077c7283ae34e60f4a17603a8c98eef84c2a8",
+    "coverage_distances.parquet": "34874a3571ef9b581b65fe209f3c564cfe36a8afa12809949436504a16ec7823",
+    "query_flat_indices.npy": "3f75296fe781a6b32e4061d2bb74fa735d23691f4b932fc0a694a1ee35a63cdf",
+    "uniform_memory_selection.csv": "a917a32fc6e4ef8f69bc9ceff0a9dd6c9cc89bae776ae1a9649dbb0e4c4adf10",
+    "uniform_memory_selection.parquet": "4535beebf7e635f0550a8352ccd811d57edc50c931a07bbf7de8a57ddbf75446",
+    "uniform_normalized_crop_regions.csv": "dc2aa714d9ac2f1b2d7134db27128143fb1e4672f1c381a7d7bfb05a53884378",
+    "uniform_normalized_crop_regions.parquet": "1ba9116f258c045f824215deb7b476150e185524b7afb01ceb3e5e44045868d1",
+    "uniform_references_per_image.csv": "1d552f03bcaea713595522e9f142e4e646406cc8a6b5adc45fa9b957c70c203f",
+    "uniform_references_per_image.parquet": "46aec5e868f488fd937d55ec98dcb63ff643e2dfa3e8ba6c249b5ac6cbe26d93"
+  },
+  "query_count": 2048,
+  "query_image_count": 681,
+  "query_index_sha256": "3f75296fe781a6b32e4061d2bb74fa735d23691f4b932fc0a694a1ee35a63cdf",
+  "query_seed": 44,
+  "resource": {
+    "new_feature_extraction_seconds": 0.0,
+    "peak_rss_bytes": 353501184,
+    "total_seconds": 0.17343500000060885
+  },
+  "source_hashes": {
+    "artifacts/pcb1_geometry/normal_transforms.json": "4a430fa0f9456e921931e7b7e5f24f04585a6b92e4575511c861abb3e9a8017e",
+    "artifacts/runs/coreset_512_v1/cache/coverage_queries.npy": "b6b8d765c7b704900649888cc164ffbc899355257c86fcd58cfc166d29c314e3",
+    "artifacts/runs/coreset_512_v1/cache/query_flat_indices.npy": "3f75296fe781a6b32e4061d2bb74fa735d23691f4b932fc0a694a1ee35a63cdf",
+    "artifacts/runs/coreset_512_v1/coverage.json": "66dae57a1ece091420c92633d4c75369a8bd267ff3cb2e08739f71c50a8ac8ee",
+    "artifacts/runs/coreset_512_v1/coverage_distances.csv": "0187361ee84a36021839f8ca7fbb92980d3a7c02ba2507d7bc20c2b028b36240",
+    "artifacts/runs/coreset_512_v1/memory.npy": "44ae296a308637b439a5e6c708c6b5cebbf310071797a795dec35822625e571b",
+    "artifacts/runs/coreset_512_v1/memory_metadata.json": "3a93d5d0cf211162430e59747821684f53eccf11a20f94f972fbca41bc71afa5",
+    "artifacts/runs/coreset_512_v1/prepared.json": "d8c054a527648d0c979714066973a985b54c9fb0315a1f009201ae2417f6053f",
+    "artifacts/runs/coreset_512_v1/protocol.json": "fdd7181ee70bfd41484835ea14f29f58084b6e2a39b9d66870a2ea80fc4d1963",
+    "artifacts/runs/geometry_512_v1/memory.npy": "bf67fefe99c3792e11614cc2fc098c79715465228ccb53e99e82427aebd02631",
+    "artifacts/runs/geometry_512_v1/memory_metadata.json": "b334a7eef9ad0cbcedc477e6eeb03e1898579a1a691cbad6ec77495ca656d91e",
+    "artifacts/runs/geometry_512_v1/prepared.json": "c449bb73f57abb14af8b8b10e2a80aae5ab2d6c07f944e3c5896724d8ae82054",
+    "artifacts/runs/geometry_512_v1/protocol.json": "c65faa874a5a5bf77b86b966e1d46cc9cdaf691ae5e0fea343567871ecbb1777",
+    "data/manifests/pcb1_manifest.csv": "3b6c9c04f2342ca1e5d31923612b3fb39769a3db7b7bbcd846415f50cd87ec08"
+  },
+  "source_identity_hash": "d208bf71a4488254b61cfcf4dbf827a766de7e452fa03aa1685e1981b539b523"
+}

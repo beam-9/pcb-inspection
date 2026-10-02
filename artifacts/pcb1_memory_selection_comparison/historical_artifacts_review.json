@@ -1,0 +1,16 @@
+{
+  "checked_at_utc": "2026-10-02T20:30:15.032996+00:00",
+  "passed": true,
+  "scope": {
+    "artifacts/pcb1_a2/a2_complete.json": {
+      "snapshot_hashes_verified": 55,
+      "current_paths_verified_except_evolving_readme": 54
+    },
+    "artifacts/pcb1_geometry_comparison/comparison_complete.json": {
+      "snapshot_hashes_verified": 32,
+      "current_paths_verified_except_evolving_readme": 32
+    }
+  },
+  "readme_historical_only": true,
+  "old_receipts_not_modified": true
+}

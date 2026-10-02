@@ -1,0 +1,31 @@
+{
+  "reviewed_at_utc": "2026-10-02T20:21:19.069122+00:00",
+  "size": 256,
+  "passed": true,
+  "review_code_sha256": "1ad95d2afc2d9f06c167973799e2727803ef76af9d924e6264d7a6d0daecc23a",
+  "complete_sha256": "752622b4da50535136e89af448beb34cf23bcf711de1c8d7cdc8a8d97db58490",
+  "preserved_control_protocol_sha256": "b85272c6ac03102240b379ed489d5fe0c2d118978320f7e6140f3f32981aa609",
+  "all_source_output_prerequisite_hashes_checked": true,
+  "matched_control_config_unchanged": true,
+  "normal_quantile_ranks_verified": true,
+  "all_200_flags_image_ap_auroc_confusion_verified": true,
+  "all_100_common_pixel_ap_and_all_200_inverse_mapping_verified": true,
+  "pooled_common_pixel_ap_verified": true,
+  "source_resolution_pixel_metrics_sample_verified": [
+    "016abd4045700c4284b5e89c",
+    "941fc11ace7235f6a8c754a4",
+    "fc0e0c77761b585a8ee21495"
+  ],
+  "source_metrics_not_all_independently_recomputed": true,
+  "selected_4096_unique_fitting_indices_and_all_coordinates_verified": true,
+  "reextracted_vector_and_projection_orders_verified": [
+    0,
+    1024,
+    2048,
+    3072,
+    4095
+  ],
+  "selection_prefix_check": "Independent NumPyfloat32 first16 oracle",
+  "full_4096_selector_not_rerun": true,
+  "pcb2_access": false
+}

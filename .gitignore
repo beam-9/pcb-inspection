@@ -13,3 +13,6 @@ artifacts/runs/**/calibration_maps.npz
 artifacts/runs/**/features.npy
 artifacts/runs/**/calibration_maps.npy
 artifacts/runs/**/memory.npy
+artifacts/stage3_engineering/*.npy
+artifacts/runs/**/cache/
+artifacts/runs/**/model_maps/

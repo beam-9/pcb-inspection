@@ -1,0 +1,12 @@
+image_id,reasons
+de611bce473c840af8adafcd,"[""TP: strongest per-image localization""]"
+ca6517206c7ed606f1334b73,"[""TP: weakest per-image localization""]"
+d974322eff775a646b101f0e,"[""FN: nearest below image threshold""]"
+ef6143041222529aa5aaae7c,"[""FN: lowest image score""]"
+d513967cbf2cbf166191b214,"[""Smallest-area quartile""]"
+d9a35e62add18f84d5fe6ab2,"[""bent: middle score-ranked image""]"
+cf0b7d2b92f0fb2e900016bc,"[""melt: middle score-ranked image""]"
+f8c75b3d35149a713c6f9194,"[""missing: middle score-ranked image""]"
+06a000c3b7f783f28804f8a4,"[""scratch: middle score-ranked image""]"
+122c351f4783e562322ae0b4,"[""FP: middle score-ranked normal""]"
+3f63eec4c68e447f5194cad6,"[""FP: highest-scoring normal""]"

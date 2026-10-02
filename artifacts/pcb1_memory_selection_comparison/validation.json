@@ -1,0 +1,14 @@
+{
+  "checked_at_utc": "2026-10-02T20:31:03.577789+00:00",
+  "pytest_command": ".venv/bin/python -m pytest -q",
+  "tests_passed": 81,
+  "elapsed_seconds": 3.21,
+  "both_independent_reviews_passed": true,
+  "notebook_code_cells": 6,
+  "notebook_errors": 0,
+  "notebook_schema_valid": true,
+  "six_figures_visually_reviewed": true,
+  "legend_overlap_repaired_without_detector_changes": true,
+  "documentation_links_checked": true,
+  "pcb2_access": false
+}

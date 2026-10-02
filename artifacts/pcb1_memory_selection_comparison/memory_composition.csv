@@ -1,0 +1,5 @@
+recipe,size,padding_center_proxy_fraction,reference_count,selected_duplicate_indices,unique_source_images,per_image_count,per_image_includes_zero_reference_images,per_image_maximum,per_image_mean,per_image_median,per_image_minimum,per_image_p95
+C1 uniform256,256,0.263671875,4096,0,720,723,True,14,5.665283540802213,5.0,0,10.0
+D1 coreset256,256,0.010009765625,4096,0,667,723,True,50,5.665283540802213,4.0,0,17.0
+C2 uniform512,512,0.272216796875,4096,0,719,723,True,14,5.665283540802213,6.0,0,10.0
+D2 coreset512,512,0.005615234375,4096,0,691,723,True,35,5.665283540802213,4.0,0,15.0

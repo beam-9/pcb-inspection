@@ -1,0 +1,13 @@
+{
+  "represented_fit_images": 691,
+  "selected_duplicate_indices": 0,
+  "duplicate_feature_vector_count": 0,
+  "total_fit_images": 723,
+  "references_per_fit_image_minimum": 0,
+  "references_per_fit_image_median": 4.0,
+  "references_per_fit_image_p95": 15.0,
+  "references_per_fit_image_maximum": 35,
+  "padding_center_count": 23,
+  "padding_center_fraction": 0.005615234375,
+  "padding_proxy": "cell bin center ((column+.5)*8,(row+.5)*8), not receptive-field extent"
+}

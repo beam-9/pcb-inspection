@@ -1,0 +1,5 @@
+recipe,size,independent_direct_distance_queries_checked,maximum,mean,median,p95,quantile_method,query_count,query_selected_reference_count,zero_distance_convention,zero_distance_fraction
+C1 uniform256,256,16,2.083444833755493,0.9355436216101225,0.9710369408130646,1.5171326518058776,linear,2048,10,"Exactly zero, no tolerance band",0.0048828125
+D1 coreset256,256,16,1.6594772338867188,1.163217315406655,1.192209005355835,1.423847758769989,linear,2048,11,"Exactly zero, no tolerance band",0.00537109375
+C2 uniform512,512,16,2.370107412338257,1.0336790238388858,1.1220554113388062,1.7095097899436946,linear,2048,4,"Exactly zero, no tolerance band",0.001953125
+D2 coreset512,512,16,1.983875036239624,1.3609806001986726,1.4125913977622986,1.6149944841861725,linear,2048,3,"Exactly zero, no tolerance band",0.00146484375

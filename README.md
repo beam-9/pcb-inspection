@@ -77,10 +77,28 @@ comparison has now been completed. Historical README hashes can be verified agai
 the A2 commit documented in the [publication notes](docs/development/publication_notes.md)
 rather than this evolving README.
 
-The [Stage 3 proposal review](docs/development/stage3_plan_review.md) records the
-possible next comparison: representative memory selection at the same reference
-count. It has not been implemented or evaluated; candidate-pool controls and
-normal-only resource feasibility must be settled before new runs.
+## Representative memory selection — Stage 3 completed
+
+At the same 4,096-reference budget, selecting representative normal patches improves
+both preserved geometry branches. Each new recipe was frozen before evaluation;
+thresholds still use normal-only calibration. These are PCB1 development results.
+
+| Recipe | Detected /100 | Normal false alarms /100 | Median anomaly pixel AP | Median CPU inference |
+| --- | ---: | ---: | ---: | ---: |
+| Uniform 256 → representative 256 | 61 → **89** | **4 → 4** | 0.097 → 0.353 | 0.291 s |
+| Uniform 512 → representative 512 | 70 → **95** | 12 → **11** | 0.354 → **0.535** | 1.081 s |
+
+Carry representative 256 (D1) forward as the default balance of detection, review
+burden and speed. D2 offers higher recall/localization with more normal flags and
+processing cost. D1 pixel IoU slightly regresses; measured fitting-memory coverage
+improves in the tail but worsens on average. All outcomes and limits are retained.
+
+Read the [Stage 3 findings](artifacts/pcb1_memory_selection_comparison/findings.md),
+[executed artifact-only notebook](notebooks/pcb1_memory_selection.ipynb),
+[project journey](docs/journey/README.md) and [decision log](docs/journey/decision_log.md).
+All 81 tests, both independent reviews and resource gates passed. PCB2 remains sealed; category
+adaptation and normal-geometry checks must be frozen before fresh confirmation.
+The Stage 3 work is local and has not yet been committed or pushed.
 
 ## Inspect the first findings
 

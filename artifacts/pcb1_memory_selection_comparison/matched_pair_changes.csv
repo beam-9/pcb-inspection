@@ -1,0 +1,13 @@
+control,revised,metric,control_value,revised_value,difference_revised_minus_control,preferred_direction
+C1 uniform256,D1 coreset256,recall,0.61,0.89,0.28,higher
+C1 uniform256,D1 coreset256,fpr,0.04,0.04,0.0,lower
+C1 uniform256,D1 coreset256,image_ap,0.9056062080759776,0.96804653513242,0.062440327056442424,higher
+C1 uniform256,D1 coreset256,auroc,0.9082,0.9731,0.06489999999999996,higher
+C1 uniform256,D1 coreset256,median_pixel_ap,0.0968200747101784,0.35290586236314053,0.25608578765296214,higher
+C1 uniform256,D1 coreset256,peak_inside_count,30.0,49.0,19.0,higher
+C2 uniform512,D2 coreset512,recall,0.7,0.95,0.25,higher
+C2 uniform512,D2 coreset512,fpr,0.12,0.11,-0.009999999999999995,lower
+C2 uniform512,D2 coreset512,image_ap,0.9031095676811739,0.9759814988768856,0.07287193119571167,higher
+C2 uniform512,D2 coreset512,auroc,0.9133,0.9782,0.06489999999999996,higher
+C2 uniform512,D2 coreset512,median_pixel_ap,0.35352044745421085,0.534819595317216,0.18129914786300516,higher
+C2 uniform512,D2 coreset512,peak_inside_count,50.0,71.0,21.0,higher

@@ -1,0 +1,21 @@
+{
+  "completed_at_utc": "2026-10-02T20:10:11.896541+00:00",
+  "resource_gate_passed": true,
+  "protocol_sha256": "ce1de6e907d7b0aeafe17673fe62fdfdf4e232c882b9ca5447c4a50e941f092f",
+  "prerequisites": {
+    "selected_indices.npy": "4e593416e07b45632bf4d335e6d8e20dccce4c18c313e8479a89ab785f6bff5f",
+    "memory.npy": "2964b75e97988385cdf9723c571b79c4422882ba2742bcb3a079a5d3a2b48f1c",
+    "memory_metadata.json": "03c97fc277a986e157f56af8f8f9d54af7e0d3bfd43c276baf73df661b2236c8",
+    "fit_reference_transforms.json": "eea7a35ce0d295ff85be880f2c2b31a44d06f4598a4c2933977df1c4f78c586e",
+    "calibration_predictions.csv": "bcf47b1640e98da734a7497fcde4a98fb5c4d4ca86ecf382d943498b91cb6ccb",
+    "calibration_maps.npy": "6ba82001bde6f6d9482e00e7ea2c2224877863ca4afe9dbafecc68521c289bfb",
+    "calibration.json": "4784e49837d5a16cb47f237d7d8be9d60e778770db4a806fcc9952ed154b6818",
+    "normal_runtime.json": "9734e12ff94feccba810450e57b4dedf45873d10c24f307209ca2b119ab4d922",
+    "coverage_query_indices.npy": "c2eecb7cefc8da2026e3f06e24533322bc93bd3f0403d8110f02ae07b482617d",
+    "coverage.json": "6d1b6598056be852707a8ac0e8eb108899d84b0769b56a33de0c4bf505cce509",
+    "memory_composition.json": "d951e2270bca9c212823e9fb23dbbd863514d235b7830cdf9e0bb9ce04ccac18",
+    "coverage_distances.csv": "3e2e7d232aa4e475915933e85dd101abefc41a011f5cc4f35d90e431924064e5",
+    "cache/coverage_queries.npy": "12e59da202ec4e9357d2cdd69b3f6c8f5e9e5795a5d07cc751c767c588bda0d1",
+    "cache/query_flat_indices.npy": "c2eecb7cefc8da2026e3f06e24533322bc93bd3f0403d8110f02ae07b482617d"
+  }
+}
