@@ -1,0 +1,55 @@
+{
+  "image": {
+    "n_images": 200,
+    "anomaly_count": 100,
+    "normal_count": 100,
+    "anomaly_prevalence": 0.5,
+    "threshold": 2.716463804244995,
+    "tp": 70,
+    "fp": 12,
+    "fn": 30,
+    "tn": 88,
+    "precision": 0.8536585365853658,
+    "recall": 0.7,
+    "normal_false_alarm_rate": 0.12,
+    "average_precision": 0.9031095676811739,
+    "auroc": 0.9133
+  },
+  "localization_common256": {
+    "pixel_average_precision": 0.6863186737447287,
+    "n_images": 200,
+    "n_pixels": 13107200,
+    "positive_pixels": 61045,
+    "includes_normal_images": true,
+    "pixel_threshold": 1.910818338394165,
+    "intersection_pixels": 58474,
+    "union_pixels": 459299,
+    "pixel_iou": 0.12731140281167605
+  },
+  "anomaly_localization": {
+    "common256_": {
+      "median_per_image_pixel_ap": 0.35352044745421085,
+      "q25": 0.12110017300703954,
+      "q75": 0.5591799157595084,
+      "peak_inside_count": 50,
+      "overlap_count": 98
+    },
+    "source_": {
+      "median_per_image_pixel_ap": 0.35232064078066105,
+      "q25": 0.11747613491061248,
+      "q75": 0.5520870580219615,
+      "peak_inside_count": 46,
+      "overlap_count": 98
+    }
+  },
+  "runtime": {
+    "median_inference_seconds": 1.0809672499999579,
+    "p95_inference_seconds": 1.1007501291984225,
+    "peak_rss_bytes": 1711996928
+  },
+  "geometry": {
+    "fallback_count": 0,
+    "anomaly_with_annotation_outside_crop_count": 0,
+    "maximum_annotation_outside_fraction": 0.0
+  }
+}

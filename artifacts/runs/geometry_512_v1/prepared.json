@@ -1,0 +1,13 @@
+{
+  "completed_at_utc": "2026-10-02T18:39:52.566094+00:00",
+  "resource_gate_passed": true,
+  "protocol_sha256": "c65faa874a5a5bf77b86b966e1d46cc9cdaf691ae5e0fea343567871ecbb1777",
+  "prerequisites": {
+    "memory.npy": "bf67fefe99c3792e11614cc2fc098c79715465228ccb53e99e82427aebd02631",
+    "memory_metadata.json": "b334a7eef9ad0cbcedc477e6eeb03e1898579a1a691cbad6ec77495ca656d91e",
+    "calibration_predictions.csv": "d0cad41696cbcc5c00bdf547232de5faa8beddc13bedb577c840ec3e359a9a92",
+    "calibration_maps.npy": "3c46acf57d3caf90aa51945b37518fa3e30f359ff622c7cfd944d9871b773e4e",
+    "calibration.json": "f307f78d8553d5e527339fe601d1b8cbd334e651801f6a371dbb5c3e08f3fcd5",
+    "normal_runtime.json": "4136788c624e79b13640d05a3b5a0b86f73e47853d7a03b7475f560617bbefda"
+  }
+}

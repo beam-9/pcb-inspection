@@ -1,0 +1,14 @@
+{
+  "started_at_utc": "2026-10-02T16:55:29.524366+00:00",
+  "user_request": "Lets start the next steps",
+  "scope": "G0 normal geometry feasibility, then two controlled PCB1 development recipes at256/512 if geometry and resource checks pass",
+  "original_protocol_sha256": "31e0704ff1da6906cc45fb420b21ade4bf473fcb6388ea05bb1cf9eda9e3bd2d",
+  "a2_completion_sha256": "7b803ec15ec7a54a4039d02f43597d45db74b533be412a5c6a1621a203176709",
+  "planned_backbone": "ResNet18 IMAGENET1K_V1 layer2+layer3",
+  "planned_memory_count": 4096,
+  "fit_seed": 42,
+  "pcb1_role": "development",
+  "pcb2_exposure_allowed": false,
+  "geometry_design_data": "fitting normals only; calibration normals for feasibility validation",
+  "anomaly_evaluation_gate": "Root visual geometry review, frozen recipe and normal-only preparation resource gates"
+}

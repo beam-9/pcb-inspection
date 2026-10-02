@@ -1,0 +1,17 @@
+{
+  "reviewed_at_utc": "2026-10-02T18:33:46.326498+00:00",
+  "audit_sha256": "87eaa78de384f80e694358fcfae6002f03ec4d795ac41fd9d67f48bbf9b433eb",
+  "approved_for_bounded_development": true,
+  "normal_count_audited": 904,
+  "fallback_count": 0,
+  "visual_sample_count": 14,
+  "contact_pages_reviewed": 3,
+  "observations": "Conservative margin retains board housings and connectors in all reviewed normal examples; both 180 orientations retained. Crop boxes occupy57.2\u201365.7% of source image. This is category-specific blue segmentation, not a general PCB detector. No pose registration or landmark error claim. All original source pixels remain in evaluation denominator; annotation exclusions reported after evaluation.",
+  "remaining_risks": [
+    "Unreviewed normals may have geometry faults despite no segmentation fallback",
+    "Blue-color rule may react to anomalous color changes",
+    "Letterbox changes appearance/receptive field relative to original direct-square resize",
+    "Crop margins preserve connectors in sample but do not prove universal containment"
+  ],
+  "selection_basis": "Systematic fit/calibration IDs and min/max crop-area normals, no anomaly evidence"
+}

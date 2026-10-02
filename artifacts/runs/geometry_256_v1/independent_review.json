@@ -1,0 +1,14 @@
+{
+  "reviewed_at_utc": "2026-10-02T18:45:38.218885+00:00",
+  "size": 256,
+  "passed": true,
+  "source_and_output_hashes_verified": true,
+  "normal_thresholds_independently_checked": true,
+  "all_200_predictions_checked": true,
+  "image_ap_pairwise_auroc_confusion_checked": true,
+  "all_100_common256_localization_ap_checked": true,
+  "memory_sampling_and_fit_membership_checked": true,
+  "three_bank_vectors_reextracted_and_checked": true,
+  "source_resolution_metrics_not_independently_recomputed": true,
+  "complete_sha256": "c11b6a7cb1ad8243c274ce2c598c2acc8faea292092dcaabeed5d48cfef29af6"
+}

@@ -12,3 +12,4 @@ artifacts/runs/**/calibration_maps.npz
 .ipynb_checkpoints/
 artifacts/runs/**/features.npy
 artifacts/runs/**/calibration_maps.npy
+artifacts/runs/**/memory.npy

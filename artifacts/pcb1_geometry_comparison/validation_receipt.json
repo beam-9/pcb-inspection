@@ -1,0 +1,17 @@
+{
+  "validated_at_utc": "2026-10-02T18:49:50.778793+00:00",
+  "test_command": ".venv/bin/python -m pytest -q",
+  "tests_passed": 50,
+  "test_exit_code": 0,
+  "notebook_schema_valid": true,
+  "executed_code_cells": 5,
+  "notebook_errors": 0,
+  "visual_review": {
+    "comparison_figures": 2,
+    "comparison_contact_pages": 3,
+    "normal_geometry_pages": 3,
+    "draft_colorbar_repaired": true
+  },
+  "original_pilot_and_a2_identities_verified": true,
+  "both_independent_run_reviews_passed": true
+}

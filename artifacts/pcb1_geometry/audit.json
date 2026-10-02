@@ -1,0 +1,67 @@
+{
+  "created_at_utc": "2026-10-02T18:31:10.377194+00:00",
+  "config": {
+    "id": "pcb1-blue-margin-letterbox-v1",
+    "detection_width": 512,
+    "blue_minus_red": 0.05,
+    "green_minus_red": 0.03,
+    "minimum_saturation": 0.12,
+    "closing_iterations": 3,
+    "minimum_component_fraction": 0.02,
+    "maximum_component_fraction": 0.65,
+    "horizontal_margin_board_width": 0.08,
+    "vertical_margin_board_height": 0.45,
+    "padding_rgb": [
+      128,
+      128,
+      128
+    ],
+    "pose": "unchanged; 180-degree ambiguity retained"
+  },
+  "code_sha256": {
+    "src/pcb_inspection/geometry.py": "932bca6b7b1209764536532857a10beec465a9f073b554846c83a7ba1a101c0f",
+    "src/pcb_inspection/geometry_audit.py": "9ff095135868eaa086128f6625eb12bc65bc69088c1a94fa3ce01506f34a595a",
+    "tests/test_geometry.py": "ce86b091740ce1f9350b5cf9b6c039b4161fe4f37093c4858cb644b0da30720b"
+  },
+  "manifest_sha256": "3b6c9c04f2342ca1e5d31923612b3fb39769a3db7b7bbcd846415f50cd87ec08",
+  "normal_count": 904,
+  "split_counts": {
+    "calibration": 181,
+    "fit": 723
+  },
+  "fallback_count": 0,
+  "crop_area_quantiles": {
+    "0.0": 0.5719732673003701,
+    "0.05": 0.5813982746225737,
+    "0.5": 0.5957012008413878,
+    "0.95": 0.618814069281359,
+    "1.0": 0.6568515855899033
+  },
+  "normal_only": true,
+  "pose_registration": false,
+  "selection_ids": [
+    "009cd3639a67c3e8ac9da12b",
+    "37007bcf2d5f43196d17bd6c",
+    "7381cb78aaec6db422f04d3f",
+    "9e7c13f8064b9fc62fe964d6",
+    "d2039782b7096a17e967307e",
+    "ff622b143161a670803d7cbf",
+    "004d895dc5990ee7d7ca573b",
+    "2f36d93c0e7531d8cbd3f8fb",
+    "733cf3579a505b8802a8c9fc",
+    "a225a34cb357c4d82bc3ea46",
+    "d3d83542e27f2321ad358195",
+    "fe191a0f5ae4e2fdc30865c4",
+    "31f176914f7ef2559f447dab",
+    "a7561e96de8cce01921490d5"
+  ],
+  "elapsed_seconds": 16.376940125002875,
+  "peak_rss_bytes": 341098496,
+  "outputs": {
+    "normal_transforms.json": "4a430fa0f9456e921931e7b7e5f24f04585a6b92e4575511c861abb3e9a8017e",
+    "normal_contact_sheet_02.png": "26dc6dd3d7eff055803f69f04320932cb31f801936e7e163522a268396c0e6e9",
+    "normal_contact_sheet_03.png": "5a06b03baf25300700b888a494c96157b885b8aa17daeaac1b4a617ed570a614",
+    "normal_contact_sheet_01.png": "09e6e3af7d78d0851956228804da9464f780cba1da218278ae0df7c6fae63b6f",
+    "normal_geometry.csv": "d4f3079d6ed9b747f1da00a883ae668facf9ced06b2bb65d4b0ff42bc655c37e"
+  }
+}

@@ -47,6 +47,35 @@ The next proposed comparison isolates verified board geometry and then 512 resol
 with ResNet18 and a fixed memory budget. Coreset/backbone changes follow separate tests.
 No revised-model improvement or fresh PCB2 confirmation has been claimed.
 
+## Geometry and resolution experiments — 2 October 2026
+
+The completed comparison retained ResNet18 and the same 4,096-reference budget,
+then tested a conservative content-derived board crop with aspect preservation at
+256 and 512 pixels. Thresholds were recalibrated only from the same normal partition.
+
+| Recipe | Detected defects /100 | Normal false alarms /100 | Median anomaly pixel AP |
+| --- | ---: | ---: | ---: |
+| Original direct 256 | 43 | 9 | 0.039 |
+| Crop 256 | **61** | **4** | 0.097 |
+| Crop 512 | 70 | 12 | **0.354** |
+
+Crop 256 offers the better current balance of detection, normal review burden and
+cost. Crop 512 improves typical localization but takes about 3.7 times longer than
+crop 256, raises false alarms, and lowers pooled pixel AP. Neither result establishes
+factory readiness or fresh-category generalization. These are PCB1 development results.
+
+Read the [complete comparison](artifacts/pcb1_geometry_comparison/findings.md),
+[executed notebook](notebooks/pcb1_geometry_resolution.ipynb),
+[coordinate and experiment controls](docs/development/geometry_resolution_protocol_review.md),
+and [experiment registry](artifacts/experiment_registry.csv).
+All 50 tests pass and both independent run reviews passed. PCB2 remains sealed.
+Large reference arrays, calibration maps and individual heatmaps remain local;
+tables, figures, protocols and artifact-reading notebooks are published.
+
+The A2 section above records the earlier diagnostic snapshot; its proposed geometry
+comparison has now been completed. Historical README hashes can be verified against
+the A2 commit documented in the publication notes rather than this evolving README.
+
 ## Inspect the first findings
 
 ![Score distributions for both frozen methods](artifacts/runs/31e0704ff1da6906/score_distributions.png)

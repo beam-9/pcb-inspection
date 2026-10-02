@@ -1,0 +1,24 @@
+{
+  "created_at_utc": "2026-10-02T18:47:50.935731+00:00",
+  "role": "PCB1 development comparison",
+  "display_normalization_only": "heatmaps divided by each recipe pixel threshold, no change to metric inputs",
+  "selection": "Same eleven examples fixed in A2 before geometry results",
+  "inputs": {
+    "artifacts/runs/31e0704ff1da6906/metrics.json": "3d279415d7b645ca40ba079f411951774753fffc019aacee818412fc8f6a1c7c",
+    "artifacts/pcb1_a2/qualitative/selection.csv": "7f986c893843d2b62b3aff4b26d89413e117522df7c5322fc6c9ece68db4f932",
+    "artifacts/runs/geometry_256_v1/complete.json": "c11b6a7cb1ad8243c274ce2c598c2acc8faea292092dcaabeed5d48cfef29af6",
+    "artifacts/runs/geometry_512_v1/complete.json": "72f2ce062a567e9e4608a21859aac4d85071ddde3a023ec32bad66ab7422ac15",
+    "artifacts/runs/geometry_256_v1/independent_review.json": "475f294638212d834e34e479637def8343fd053f33d75499fe62dc5086316ffb",
+    "artifacts/runs/geometry_512_v1/independent_review.json": "62f654b48cf6ed5cc84594b94fe2ab48216f5e75f8158f76248d34f82b402b8e"
+  },
+  "outputs": {
+    "contact_sheet_03.png": "3e3feaf9a166f44df718d5e33d93ad5d574b60d779e76c6b4a55f6707b50af26",
+    "contact_sheet_02.png": "c48d8ff8ba945500262e0a066e9c337986dec6035315bb869490737ef182723c",
+    "contact_sheet_01.png": "1ac3e072025a0f522aeeccc3de0fe1f06ef0c75770012f5ffdbec1981c97a1e5",
+    "type_recall_comparison.csv": "0ebdd754dc22c9824b37667a23ca4c8228ddfd8f78e66108b3dba602705d0398",
+    "comparison.png": "214bb0495739599633cbe41f4f023d6b68ea505fa14c5de4aaedeb8725504974",
+    "type_recall.png": "378b4ad019e7586793371b7a038bd32934f6b1d7711bc1c74348c0352439f521",
+    "comparison.csv": "6212f90cb2182eb658ef58558dec0093b44e42390c6f75929a5c24835f950c06",
+    "qualitative_selection.csv": "7f986c893843d2b62b3aff4b26d89413e117522df7c5322fc6c9ece68db4f932"
+  }
+}

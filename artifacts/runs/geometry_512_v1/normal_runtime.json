@@ -1,0 +1,6 @@
+{
+  "preparation_seconds": 239.43292220799776,
+  "peak_rss_bytes": 1116454912,
+  "median_inference_seconds": 1.077875041999505,
+  "p95_inference_seconds": 1.0954295419978735
+}

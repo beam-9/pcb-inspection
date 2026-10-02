@@ -1,0 +1,13 @@
+recipe,defect_type,sample_count,detected_count,recall
+Run1 direct256,bent,15,12,0.8
+Run1 direct256,melt,54,19,0.3518518518518518
+Run1 direct256,missing,20,14,0.6999999999999998
+Run1 direct256,scratch,21,3,0.1428571428571428
+C1 crop256,bent,15,15,1.0
+C1 crop256,melt,54,25,0.4629629629629629
+C1 crop256,missing,20,16,0.8
+C1 crop256,scratch,21,11,0.5238095238095238
+C2 crop512,bent,15,14,0.9333333333333332
+C2 crop512,melt,54,35,0.6481481481481481
+C2 crop512,missing,20,16,0.8
+C2 crop512,scratch,21,13,0.6190476190476191
