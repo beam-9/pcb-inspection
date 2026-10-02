@@ -74,7 +74,13 @@ tables, figures, protocols and artifact-reading notebooks are published.
 
 The A2 section above records the earlier diagnostic snapshot; its proposed geometry
 comparison has now been completed. Historical README hashes can be verified against
-the A2 commit documented in the publication notes rather than this evolving README.
+the A2 commit documented in the [publication notes](docs/development/publication_notes.md)
+rather than this evolving README.
+
+The [Stage 3 proposal review](docs/development/stage3_plan_review.md) records the
+possible next comparison: representative memory selection at the same reference
+count. It has not been implemented or evaluated; candidate-pool controls and
+normal-only resource feasibility must be settled before new runs.
 
 ## Inspect the first findings
 

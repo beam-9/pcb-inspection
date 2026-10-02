@@ -1,0 +1,10 @@
+{
+  "publication_date_local": "2026-10-02",
+  "a2_snapshot_commit": "f08ab0874d77ab493d0793662c27c0d215df644d",
+  "geometry_snapshot_commit": "20682b293a6b89157169d10b767c1c747fb08b51",
+  "a2_completion_sha256": "7b803ec15ec7a54a4039d02f43597d45db74b533be412a5c6a1621a203176709",
+  "geometry_comparison_completion_sha256": "1b344fd1e5c58968d990116ac41b7d0fa66aea052c48dfcb61e93594c484f7c7",
+  "historical_snapshot_rule": "Verify completion file paths against the indicated Git commit, not a later evolving working tree. The A2 README snapshot remains at its commit; the current README includes completed geometry results.",
+  "historical_status_fields": "local/uncommitted fields in receipts and registry describe execution time. These publication commit identities supersede them for publication status, without rewriting original receipts.",
+  "local_only_files": "Dataset, checkpoint, reference arrays, calibration arrays and individual maps remain ignored; published summary tables/charts and notebooks are inspectable without them."
+}
