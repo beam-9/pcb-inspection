@@ -1,0 +1,7 @@
+{
+  "scope": "Post-final descriptive check on all100 test anomalies, no tuning; excludes normals here, primary pooled pixel AP includes normals.",
+  "anomalies": 100,
+  "median_per_anomaly_pixel_ap": 0.03933737824864988,
+  "map_peak_in_mask_count": 26,
+  "positive_overlap_count": 79
+}

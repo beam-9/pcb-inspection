@@ -1,0 +1,6 @@
+{
+  "clone_to_frozen_protocol_seconds": 961.1979990005493,
+  "dependency_setup_span_seconds": 486.54764437675476,
+  "selective_acquisition_successful_attempt_seconds": 211.27177810668945,
+  "method": "Filesystem timestamp span: clone HEAD creation to saved protocol timestamp; pyvenv.cfg creation to dependency lock write. Includes implementation/research/waits; not an install-only performance benchmark. Acquisition timer from successful downloader attempt excludes interrupted attempts."
+}

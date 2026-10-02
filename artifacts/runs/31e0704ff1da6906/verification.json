@@ -1,0 +1,94 @@
+{
+  "verified_utc": "2026-10-02T05:36:45.619475+00:00",
+  "run_id": "31e0704ff1da6906",
+  "passed": true,
+  "method": "Independent tied-score grouped AP, pairwise image AUROC, direct confusion and independently decoded nearest-resized masks",
+  "completion_sha256": "212a17cf459ad2f949d72fa6307b98e62bbdfa117a43d8afd12ad1d7787f0319",
+  "metrics": {
+    "baseline": {
+      "tp": 43,
+      "fp": 2,
+      "fn": 57,
+      "tn": 98,
+      "n_images": 200,
+      "anomaly_count": 100,
+      "normal_count": 100,
+      "anomaly_prevalence": 0.5,
+      "threshold": 0.06611746549606323,
+      "precision": 0.9555555555555556,
+      "recall": 0.43,
+      "normal_false_alarm_rate": 0.02,
+      "average_precision": 0.8275757492813471,
+      "auroc": 0.7872
+    },
+    "primary": {
+      "tp": 43,
+      "fp": 9,
+      "fn": 57,
+      "tn": 91,
+      "n_images": 200,
+      "anomaly_count": 100,
+      "normal_count": 100,
+      "anomaly_prevalence": 0.5,
+      "threshold": 2.4000701904296875,
+      "precision": 0.8269230769230769,
+      "recall": 0.43,
+      "normal_false_alarm_rate": 0.09,
+      "average_precision": 0.851567641327479,
+      "auroc": 0.8654
+    },
+    "localization": {
+      "pixel_average_precision": 0.7919770961719909,
+      "n_images": 200,
+      "n_pixels": 13107200,
+      "positive_pixels": 61045,
+      "includes_normal_images": true,
+      "pixel_threshold": 1.8157923221588135,
+      "intersection_pixels": 54333,
+      "union_pixels": 446022,
+      "pixel_iou": 0.121816861051697
+    }
+  },
+  "evidence_membership_rows_checked": 200,
+  "independent_patch_traces": [
+    {
+      "image_id": "00b64bd580c8d09f962d7bb7",
+      "score": 1.8568266612885376,
+      "row": 17,
+      "column": 7,
+      "reference_index": 685,
+      "reference": {
+        "image_id": "e14263e312b5e2338aece9d3",
+        "row": 17,
+        "column": 7,
+        "flat_index": 122407
+      }
+    },
+    {
+      "image_id": "016abd4045700c4284b5e89c",
+      "score": 2.4111959620209906,
+      "row": 11,
+      "column": 19,
+      "reference_index": 2632,
+      "reference": {
+        "image_id": "1d12ec902c3113b35c317ef8",
+        "row": 11,
+        "column": 18,
+        "flat_index": 473458
+      }
+    },
+    {
+      "image_id": "0438e965f1679055ec619e77",
+      "score": 2.087283608961935,
+      "row": 17,
+      "column": 9,
+      "reference_index": 3784,
+      "reference": {
+        "image_id": "c06d3ceaf63e1591e4fb4494",
+        "row": 17,
+        "column": 21,
+        "flat_index": 687669
+      }
+    }
+  ]
+}

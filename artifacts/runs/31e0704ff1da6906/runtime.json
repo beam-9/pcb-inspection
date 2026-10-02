@@ -1,0 +1,25 @@
+{
+  "final_eval_seconds": 65.96204700000817,
+  "cold_backbone_load_seconds": 1.0260116659919731,
+  "cold_reference_load_seconds": 0.005636874993797392,
+  "baseline_including_features": {
+    "median_seconds": 0.024119791050907224,
+    "p95_seconds": 0.027996300341328606,
+    "first_image_seconds": 0.026212541037239134,
+    "warm_count": 199
+  },
+  "primary_including_features": {
+    "median_seconds": 0.3069211660185829,
+    "p95_seconds": 0.335487174091395,
+    "first_image_seconds": 0.32050537498435006,
+    "warm_count": 199
+  },
+  "both_including_shared_features": {
+    "median_seconds": 0.3078030420001596,
+    "p95_seconds": 0.3361443582747597,
+    "first_image_seconds": 0.3213692079880275,
+    "warm_count": 199
+  },
+  "process_peak_rss_bytes": 1420705792,
+  "note": "Final eval timing excludes raw hashing/reference load; separate cold reference/backbone load timings recorded. Warm percentiles exclude first image. One feature extraction shared by both methods; no Ollama."
+}

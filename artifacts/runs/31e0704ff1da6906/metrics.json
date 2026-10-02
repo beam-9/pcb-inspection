@@ -1,0 +1,45 @@
+{
+  "baseline": {
+    "n_images": 200,
+    "anomaly_count": 100,
+    "normal_count": 100,
+    "anomaly_prevalence": 0.5,
+    "threshold": 0.06611746549606323,
+    "tp": 43,
+    "fp": 2,
+    "fn": 57,
+    "tn": 98,
+    "precision": 0.9555555555555556,
+    "recall": 0.43,
+    "normal_false_alarm_rate": 0.02,
+    "average_precision": 0.8275757492813473,
+    "auroc": 0.7872
+  },
+  "primary": {
+    "n_images": 200,
+    "anomaly_count": 100,
+    "normal_count": 100,
+    "anomaly_prevalence": 0.5,
+    "threshold": 2.4000701904296875,
+    "tp": 43,
+    "fp": 9,
+    "fn": 57,
+    "tn": 91,
+    "precision": 0.8269230769230769,
+    "recall": 0.43,
+    "normal_false_alarm_rate": 0.09,
+    "average_precision": 0.8515676413274791,
+    "auroc": 0.8654
+  },
+  "localization": {
+    "pixel_average_precision": 0.7919770961719909,
+    "n_images": 200,
+    "n_pixels": 13107200,
+    "positive_pixels": 61045,
+    "includes_normal_images": true,
+    "pixel_threshold": 1.8157923221588135,
+    "intersection_pixels": 54333,
+    "union_pixels": 446022,
+    "pixel_iou": 0.121816861051697
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-02T05:27:36.878688+00:00",
+  "normal_paths": [
+    "pcb1/Data/Images/Normal/0067.JPG",
+    "pcb1/Data/Images/Normal/0656.JPG",
+    "pcb1/Data/Images/Normal/0885.JPG"
+  ],
+  "weight_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+  "cold_backbone_load_seconds": 0.8050946249859408,
+  "feature_seconds": [
+    0.02771854097954929,
+    0.021481000003404915,
+    0.0204702919581905
+  ],
+  "primary_nn_seconds": 0.21974808297818527,
+  "repeat_exact": true,
+  "peak_rss_bytes": 488275968
+}

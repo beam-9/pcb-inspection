@@ -1,0 +1,16 @@
+{
+  "first_model_test_access_utc": "2026-10-02T05:35:22.402573+00:00",
+  "run_id": "31e0704ff1da6906",
+  "protocol_sha256": "31e0704ff1da6906cc45fb420b21ade4bf473fcb6388ea05bb1cf9eda9e3bd2d",
+  "prerequisite_files": {
+    "artifacts/runs/31e0704ff1da6906/calibration.json": "f0505512aaccb5883425d0947b569a681b8c0a192bc520e1b6eb1ca0fb5499ef",
+    "artifacts/runs/31e0704ff1da6906/model.pt": "d41311e7617c3c893064bbb6a23aef20294faa8709cadf34db90dfda880f0dc9",
+    "artifacts/runs/31e0704ff1da6906/memory_bank_metadata.json": "a4582f8d497cca5b4918c14a3bb7e32d4c95a8dd7fa441c6e3be48375b5aeda1",
+    "artifacts/runs/31e0704ff1da6906/calibration_predictions.parquet": "6a4b8d2940eb81e9a0892df74c3083ab53d2e2a06acbe4a37c14e49684958f7a",
+    "artifacts/runs/31e0704ff1da6906/calibration_maps.npy": "be9ae91e436a130908adce00ee58475ad1e9b1f468acb5fccb5f3695b00f9e46",
+    "artifacts/runs/31e0704ff1da6906/pretest_runtime.json": "395942a9d25c7f6755d34f003ea8a1eaa03095625b5ac9a22780034a4a141156",
+    "artifacts/tests_passed.json": "ad96ab3ee861591af7adf42eda221be11d96ed14bb27951fe9f0744cb7e0c982"
+  },
+  "scope": "One final evaluation of both frozen methods; no retuning",
+  "prior_access": "Structural data audit only; no held-out model scoring or visual review"
+}

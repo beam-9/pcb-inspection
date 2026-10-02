@@ -1,0 +1,19 @@
+{
+  "baseline": {
+    "image_threshold": 0.06611746549606323,
+    "image_quantile": 0.95,
+    "pixel_quantile": 0.99,
+    "quantile_method": "higher",
+    "comparison": ">",
+    "normal_calibration_count": 181
+  },
+  "primary": {
+    "image_threshold": 2.4000701904296875,
+    "image_quantile": 0.95,
+    "pixel_quantile": 0.99,
+    "quantile_method": "higher",
+    "comparison": ">",
+    "normal_calibration_count": 181,
+    "pixel_threshold": 1.8157923221588135
+  }
+}
