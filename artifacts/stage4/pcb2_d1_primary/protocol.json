@@ -1,0 +1,133 @@
+{
+  "input_size": 256,
+  "role": "primary",
+  "normal_protocol_sha256": "1e1c42713189b43da0c0d8c772165656265d329eae0da5dc32a7ef0ed8d39b6c",
+  "config": {
+    "declared_at_utc": "2026-10-02T22:33:00.450222+00:00",
+    "authorization": "Review stage4 handoff, evaluate and begin",
+    "handoff_sha256": "ac03c05e9f8fe2c19d2e16a5dfd8a9ed4b0b788ff886cf920f369b3ae24fe998",
+    "base_commit": "91aa6970ad55872c83f1b39dc4a66cfabf4bb7f4",
+    "role": "Fresh PCB2 confirmation of category-adapted frozen procedure; not zero-shot transfer or a causal comparison of selection methods",
+    "primary": "pcb2_d1_primary,256",
+    "secondary": "pcb2_d2_secondary,512; never post-result fallback",
+    "detector": "Reuse frozen Stage3feature/scoring/selector/map/calibration functions; no old code edits",
+    "normal_split": {
+      "official_train": "SHA duplicate groups sorted then default_rng42 shuffle; ceil20percentcalibration,remainingfit",
+      "official_test_normal": "Final heldoutnormal evaluation; excluded geometry adaptation",
+      "crosscategory_exact_duplicate": "Stop if anyPCB2image SHA matches previouslyexposed PCB1"
+    },
+    "geometry": {
+      "mode": "inherited_blue",
+      "id": "pcb1-blue-margin-letterbox-v1",
+      "detection_width": 512,
+      "blue_minus_red": 0.05,
+      "green_minus_red": 0.03,
+      "minimum_saturation": 0.12,
+      "closing_iterations": 3,
+      "minimum_component_fraction": 0.02,
+      "maximum_component_fraction": 0.65,
+      "horizontal_margin_board_width": 0.08,
+      "vertical_margin_board_height": 0.45,
+      "padding_rgb": [
+        128,
+        128,
+        128
+      ],
+      "pose": "unchanged; 180-degree ambiguity retained"
+    },
+    "selector": {
+      "memory_count": 4096,
+      "all_fitting_candidates": true,
+      "projection_dimensions": 64,
+      "scoring_dimensions": 384,
+      "projection_seed": 43,
+      "selection_seed": 42,
+      "initial_anchor_count": 10,
+      "method": "Frozen Stage3projected approximate greedy"
+    },
+    "calibration": {
+      "image_quantile": 0.95,
+      "pixel_quantile": 0.99,
+      "method": "higher",
+      "comparison": ">",
+      "pixel_space": "fullsource inverse then common256"
+    },
+    "caps": {
+      "peak_rss_bytes": 8589934592,
+      "preparation_seconds": 1800,
+      "median_inference_seconds": 10
+    },
+    "primary_practical_criteria": {
+      "recall_minimum": 0.8,
+      "normal_fpr_maximum": 0.1,
+      "median_common_pixel_ap_minimum": 0.25,
+      "peak_inside_fraction_minimum": 0.4,
+      "interpretation": "All jointly required for project feasibility criterion; not an equivalence/statistical test or factory target. Report every endpoint regardless."
+    },
+    "size_slices": {
+      "primary": "FixedPCB1A2higherquartile area boundaries; call referencearea bands onPCB2",
+      "edges": [
+        0.001495361328125,
+        0.0019989013671875,
+        0.003143310546875
+      ],
+      "tie": "searchsorted sideleft",
+      "supplement": "PCB2own higher q25/q50/q75 algorithm, computed onceafterunseal without outcomes; tieslowerband,emptygroupsretained",
+      "space": "Fullsource common256 mask fraction, notsource-nativefraction"
+    },
+    "qualitative_rule": {
+      "priority": [
+        "2TP smallestpositiveprimaryscoremargin",
+        "2FN largestnegativeprimaryscoremargin",
+        "2FP largestprimaryscore",
+        "2smallestmaskarea",
+        "2largestmaskarea",
+        "onepersourcetype nearestmedianarea",
+        "2recipe disagreements lowestID",
+        "oneoverlapbutpeakoutside lowestID",
+        "onepeakinside lowestID"
+      ],
+      "ties": "fullimageIDascending",
+      "deduplicate": true,
+      "maximum": 24,
+      "do_not_replace_unflattering_examples": true
+    },
+    "normal_geometry_visual_rule": "Allfallbacks plus extreme croparea/aspect/padding and systematic sortednormaltrain samples; heldoutnormals excluded",
+    "freeze_sequence": [
+      "geometryreview and splitidentity",
+      "bothrecipe config/codefreeze",
+      "bothnormalprepare",
+      "independentnormalpreflight",
+      "finalfreeze binds prepared models thresholds environment dataset",
+      "exclusive sharedunseal",
+      "primaryonce then secondaryonce"
+    ],
+    "anomaly_access_before_finalfreeze": false,
+    "retuning_after_unseal": false,
+    "stage5_execution": false,
+    "geometry_module": "pcb_inspection.stage4_geometry",
+    "geometry_review": "artifacts/stage4/geometry_preflight/normal_geometry_review.json",
+    "normal_manifest": "artifacts/stage4/pcb2_normals/normal_manifest.csv",
+    "test_loader_module": "pcb_inspection.pcb2_confirmation_data",
+    "test_loader_function": "load_test_manifest",
+    "normal_split_counts": {
+      "fit": 720,
+      "calibration": 181,
+      "normal_test": 100
+    },
+    "normal_candidate_counts": {
+      "256": 737280,
+      "512": 2949120
+    },
+    "provenance_inputs": [
+      "configs/stage4_protocol_draft.json",
+      "artifacts/stage4/pcb2_normals/normal_acquisition.json",
+      "artifacts/stage4/pcb2_normals/normal_audit.json",
+      "artifacts/stage4/pcb2_normals/official_normal_routes.csv",
+      "artifacts/stage4/geometry_preflight/geometry_preflight.json",
+      "data/manifests/source_acquisition.json",
+      "data/raw/1cls.csv"
+    ],
+    "geometry_approved_at_utc": "2026-10-02T22:43:54.352879+00:00"
+  }
+}

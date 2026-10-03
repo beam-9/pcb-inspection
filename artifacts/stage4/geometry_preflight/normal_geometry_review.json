@@ -1,0 +1,39 @@
+{
+  "approved_at_utc": "2026-10-02T22:43:54.352414+00:00",
+  "passed": true,
+  "geometry": {
+    "mode": "inherited_blue",
+    "id": "pcb1-blue-margin-letterbox-v1",
+    "detection_width": 512,
+    "blue_minus_red": 0.05,
+    "green_minus_red": 0.03,
+    "minimum_saturation": 0.12,
+    "closing_iterations": 3,
+    "minimum_component_fraction": 0.02,
+    "maximum_component_fraction": 0.65,
+    "horizontal_margin_board_width": 0.08,
+    "vertical_margin_board_height": 0.45,
+    "padding_rgb": [
+      128,
+      128,
+      128
+    ],
+    "pose": "unchanged; 180-degree ambiguity retained"
+  },
+  "preflight_sha256": "a317d547dffda73266ac3f802f2e897572de531eb4b6c373f8e3884ef817ce47",
+  "normal_manifest_sha256": "618cc7a6885c5622dc531542adc9bf1c128da2bb8a904aebce9c6a3c075709ed",
+  "visual_review_count": 17,
+  "all_three_contact_sheets_reviewed": true,
+  "fallback_count": 0,
+  "board_or_crop_source_boundary_contacts": 0,
+  "observations": [
+    "All reviewed board edges and connector pins remain inside conservative crop",
+    "Largest blue component identifies complete rectangular PCB; no reviewed background component mistaken for board",
+    "Mild in-plane tilt remains; no rotation or orientation normalization added",
+    "No PCB1-style 180-degree flips seen among these17normals; cannot establish all futurepose behavior",
+    "Conservative vertical margin retains appreciablebackground; unchanged to avoid unjustifiedadaptation"
+  ],
+  "decision": "Retain inherited geometry unchanged; no category-specific adaptation needed on reviewedtrainingnormals",
+  "limitations": "Visual sample+allnormal numeric checks cannot prove unseen anomalies entirelyinsidecrop; GT denominator retained atconfirmation",
+  "heldout_normals_or_anomalies_inspected": false
+}

@@ -126,3 +126,41 @@ mean/median worsened despite better tails, and D1 pixel IoU slightly regressed.
 physical board identities are unknown. Generalization and crop suitability require
 fresh evidence under a frozen procedure. Preserve D2 as an alternative rather than
 claiming that one recipe dominates every metric.
+
+## October 2, 2026 — Stage4 completed: useful detection, diagnose localization
+
+**Decision:** retain D1 as the predeclared primary and passing practical feasibility
+result, while reporting mixed localization. Preserve D2's stronger secondary result.
+Defer UI; recommend saved-map/reference diagnosis before selecting one controlled
+spatial-matching intervention or a backbone question. No Stage5 experiment executed.
+
+**Why confirmation now:** Stage3 supplied useful PCB1 development improvements, but
+another PCB1 optimization would not answer fresh-category usefulness. D1 was primary
+for lower burden/cost before PCB2 outcomes; D2 was secondary, never a fallback.
+
+**Geometry and freeze:** 901 training normals passed inherited crop diagnostics;
+17 fixed normal examples retained board/pins. No adaptation was needed. Both banks
+and thresholds passed normal-only independent review. Final freeze was 2026-10-03
+01:01:20.600342 UTC; logical unseal 01:01:58.729924. Primary then secondary evaluated
+once, without changing thresholds, geometry, model or memory.
+
+**Evidence:** D1 recall 80%, FPR 5%, median common anomaly AP 0.3245, peak-inside 44%
+meet all four predeclared point criteria. D2 recall 91%, FPR 4%, median AP 0.4957,
+peak-inside 71%. But pooled AP 0.1534/0.2766 and IoU 0.04744/0.07044 are markedly below
+PCB1; missing/small defects remain difficult. Both reviews passed. See
+[confirmation findings](../../artifacts/stage4/comparison/findings.md) and
+[exposure ledger](../development/stage4_exposure_ledger.md).
+
+**Reason:** useful image discrimination does not establish precise heatmaps. Diagnose
+broad maps and source missing-component labels using saved evidence before committing
+to spatial matching or a new representation. Some selected boards are physically
+reversed; pose is a post-confirmation candidate explanation, not a tested cause.
+
+**Uncertainty:** no PCB2 uniform/direct-resize control isolates causal transfer;
+category-specific fitting/calibration is not zero-shot transfer. Historical incidental
+archive transport cannot be ruled out, despite no discovered earlier analytical
+PCB2 exposure. Preparation timer gates passed, but UTC calendar spans exceeded 30 minutes
+and their discrepancy is unexplained. Source arithmetic was independently sampled
+on three anomalies, and full 4096 selection was not rerun. Practical criteria are
+point-estimate project criteria, not equivalence or factory guarantees. Any later
+PCB2 tuning becomes post-confirmation development, with new identities.

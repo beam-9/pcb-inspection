@@ -1,0 +1,14 @@
+{
+  "reference_edges": [
+    0.001495361328125,
+    0.0019989013671875,
+    0.003143310546875
+  ],
+  "pcb2_supplement_edges": [
+    0.0018157958984375,
+    0.002655029296875,
+    0.0039215087890625
+  ],
+  "ties": "lower band; searchsorted left",
+  "empty_groups_retained": true
+}

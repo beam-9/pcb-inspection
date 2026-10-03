@@ -1,0 +1,42 @@
+{
+  "new_model_inference": false,
+  "interpretation": "Saved common256 union/intersection counts at frozen thresholds; descriptive postconfirmation analysis.",
+  "results": {
+    "pcb2_d1_primary": {
+      "total_false_positive_pixels": 510336,
+      "normal_false_positive_pixels": 81281,
+      "anomaly_false_positive_pixels": 429055,
+      "top_10_share": 0.3635134499623777,
+      "top_10_image_ids": [
+        "2bea857039ef9c03907fb299",
+        "735d89d870bbb25b3bc3dfce",
+        "bfebbd19caf4dad38fd66eab",
+        "9bd08200d5d939f4a498aae7",
+        "76964f3ab9f7c03b08de6900",
+        "d664d5515d0f8355c2df16ea",
+        "31656a11b9780d9f8a2fa83f",
+        "c6f55ba2051edb1e35f9131c",
+        "f47ac1b5ffc4a30190f75ecb",
+        "ec4e48b6b9adcb98383ae5e7"
+      ]
+    },
+    "pcb2_d2_secondary": {
+      "total_false_positive_pixels": 325593,
+      "normal_false_positive_pixels": 65668,
+      "anomaly_false_positive_pixels": 259925,
+      "top_10_share": 0.354961562441453,
+      "top_10_image_ids": [
+        "bfebbd19caf4dad38fd66eab",
+        "735d89d870bbb25b3bc3dfce",
+        "2bea857039ef9c03907fb299",
+        "9bd08200d5d939f4a498aae7",
+        "76964f3ab9f7c03b08de6900",
+        "31656a11b9780d9f8a2fa83f",
+        "d664d5515d0f8355c2df16ea",
+        "31c82c66a7fccb2763c06c8c",
+        "166db33b924deb15dc0a50d8",
+        "f316425a0a5da9c324b8ff3c"
+      ]
+    }
+  }
+}

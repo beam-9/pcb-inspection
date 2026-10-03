@@ -1,0 +1,10 @@
+{
+  "anomaly_access_sha256": "746c355f5af55c1a6b37d63afee291664fbe903cdbc11de770b6d18cd1d87353",
+  "freeze_receipt_sha256": "a574ab907b9c871dbd55778fa5374b61c4c0d1bd988272e65819ddc4243a8d4d",
+  "official_test_counts": {
+    "anomaly": 100,
+    "normal": 100
+  },
+  "purpose": "Single dataset unseal shared by predeclared primary/secondary; no retuning",
+  "started_utc": "2026-10-03T01:01:58Z"
+}

@@ -1,0 +1,30 @@
+{
+  "acquisition_sha256": "541cc89926fd95d55169bf105c931f0fd22394bc83fe083748a95dcf3de0d1eb",
+  "adaptation_policy": "Geometry design fitting normals only; calibration normals quality audit only; heldout normals excluded before freeze",
+  "anomaly_masks_accessed": false,
+  "anomaly_payload_accessed": false,
+  "category": "pcb2",
+  "cross_category_exact_duplicate_count": 0,
+  "decode_passed_fit_calibration": 901,
+  "defect_types_accessed": false,
+  "dimensions_fit_calibration": [
+    {
+      "count": 901,
+      "height": 1070,
+      "width": 1404
+    }
+  ],
+  "exact_duplicate_groups": 0,
+  "heldout_decode_deferred": 100,
+  "image_id_policy": "Canonical source revision/original relative path/SHA256 hash first24hex; paths/IDs never detector features",
+  "normal_manifest_sha256": "618cc7a6885c5622dc531542adc9bf1c128da2bb8a904aebce9c6a3c075709ed",
+  "official_heldout_normals": 100,
+  "official_training_normals": 901,
+  "seed": 42,
+  "split_counts": {
+    "calibration": 181,
+    "fit": 720,
+    "normal_test": 100
+  },
+  "split_policy": "Same PCB1 algorithm: sorted exact-SHA training groups, default_rng42 shuffle, ceil20%groupscalibration; officialtestnormalsunchanged"
+}

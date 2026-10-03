@@ -1,10 +1,10 @@
 # PCB visual inspection feasibility pilot
 
-A local educational project using public **VisA PCB1**, exploring whether visible
+A local educational project using public **VisA PCB1 and PCB2**, exploring whether visible
 anomaly scores and suspicious-region maps can support a human inspection workflow.
 It uses no Seagate data and establishes no factory performance or root causes.
 
-The initial scope is **Phase A**: a frozen global-embedding nearest-normal baseline
+The initial **Phase A** scope compared a frozen global-embedding nearest-normal baseline
 versus a clearly labeled **PatchCore-inspired** normal patch-memory detector.
 Both use frozen ResNet18 features. Normal-only calibration and an exclusive guarded
 final evaluation preserve the official benchmark and prohibit test-driven tuning.
@@ -98,8 +98,46 @@ Read the [Stage 3 findings](artifacts/pcb1_memory_selection_comparison/findings.
 [project journey](docs/journey/README.md) and [decision log](docs/journey/decision_log.md).
 All 81 tests, both independent reviews and resource gates passed. PCB2 remains sealed; category
 adaptation and normal-geometry checks must be frozen before fresh confirmation.
-The completed Stage 3 snapshot is committed locally at `120b2bf` and has not
-been pushed. See [commit provenance](docs/development/stage3_publication_notes.md).
+The completed Stage 3 snapshot and follow-up publication notes were pushed through
+`91aa697`. See [commit provenance](docs/development/stage3_publication_notes.md).
+
+## Fresh PCB2 confirmation — Stage 4
+
+The frozen procedure fitted new references from **720 PCB2 construction normals**,
+calibrated on **181 normals**, and evaluated once on **100 held-out normals and
+100 anomalies**. Normal-only geometry review preceded unsealing; D1 at 256 was
+declared primary and D2 at 512 secondary. Both independent confirmation reviews passed.
+
+| Recipe | Detected /100 | Normal false alarms /100 | Median anomaly pixel AP | Peak inside /100 | Median CPU inference |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| D1 primary 256 | **80** | **5** | **0.325** | **44** | **0.292 s** |
+| D2 secondary 512 | 91 | 4 | 0.496 | 71 | 1.076 s |
+
+D1 meets all four declared project criteria: recall ≥80%, normal FPR ≤10%, median
+common 256 pixel AP ≥0.25 and peak-inside fraction ≥40%. D2 has stronger observed
+detection and localization at about 3.7 times the inference cost; it remains secondary.
+These are category-adapted benchmark results, with normal references fitted for PCB2.
+They do not establish factory readiness or isolate the cause of category differences.
+
+Localization remains limited: pooled pixel AP fell from 0.845/0.830 on PCB1 to
+0.153/0.277 on PCB2, and fixed-threshold IoU is only 0.047/0.070. Missing-component
+images were detected in 12/19 and 13/19 cases. These weaknesses motivate diagnosis
+before building the application. See the [full findings](artifacts/stage4/comparison/findings.md)
+and [executed evidence notebook](notebooks/pcb2_stage4_confirmation.ipynb).
+
+Preparation timing has a material limit: the frozen measured timer reports 207/652 s
+for D1/D2, while recorded start-to-finish UTC spans are 2,457/2,943 s, above the
+1,800-second preparation target. The saved runtime table preserves both measures;
+an end-to-end preparation-cap claim remains unsupported.
+
+Read the [Stage 4 journey and interpretation](docs/journey/stage_04_pcb2_confirmation.md),
+[normal-only adaptation record](docs/journey/stage_04a_pcb2_normal_adaptation.md),
+[comparison table](artifacts/stage4/comparison/d1_vs_d2.csv),
+[runtime evidence](artifacts/stage4/comparison/runtime.csv) and
+[predeclared qualitative examples](artifacts/stage4/comparison/qualitative_selection.csv).
+The [frozen protocol](configs/stage4_protocol.json) records the criteria and sequence.
+Earlier sections preserve the historical snapshots when PCB2 was still sealed.
+Application/UI, Ollama and Stage 5 execution remain deferred.
 
 ## Inspect the first findings
 

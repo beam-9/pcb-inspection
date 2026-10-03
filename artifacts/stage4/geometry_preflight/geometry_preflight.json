@@ -1,0 +1,67 @@
+{
+  "created_at_utc": "2026-10-02T22:42:35.998312+00:00",
+  "scope": "PCB2 official training normals only; heldout normals and anomalies excluded",
+  "manifest_sha256": "618cc7a6885c5622dc531542adc9bf1c128da2bb8a904aebce9c6a3c075709ed",
+  "geometry": {
+    "mode": "inherited_blue",
+    "id": "pcb1-blue-margin-letterbox-v1",
+    "detection_width": 512,
+    "blue_minus_red": 0.05,
+    "green_minus_red": 0.03,
+    "minimum_saturation": 0.12,
+    "closing_iterations": 3,
+    "minimum_component_fraction": 0.02,
+    "maximum_component_fraction": 0.65,
+    "horizontal_margin_board_width": 0.08,
+    "vertical_margin_board_height": 0.45,
+    "padding_rgb": [
+      128,
+      128,
+      128
+    ],
+    "pose": "unchanged; 180-degree ambiguity retained"
+  },
+  "normal_count": 901,
+  "fallback_count": 0,
+  "source_boundary_contact_count": 0,
+  "board_boundary_contact_count": 0,
+  "statistics": {
+    "crop_area_fraction": {
+      "min": 0.5945063503474718,
+      "median": 0.6243789440051122,
+      "max": 0.6822330058311367
+    },
+    "crop_aspect_ratio": {
+      "min": 1.256921373200443,
+      "median": 1.3595641646489105,
+      "max": 1.4173913043478261
+    },
+    "padding_fraction": {
+      "min": 0.203125,
+      "median": 0.265625,
+      "max": 0.29296875
+    },
+    "component_fraction": {
+      "min": 0.1694611378205128,
+      "median": 0.18232672275641026,
+      "max": 0.1957832532051282
+    }
+  },
+  "visual_example_count": 17,
+  "contact_sheets": [
+    "normal_contact_sheet_01.png",
+    "normal_contact_sheet_02.png",
+    "normal_contact_sheet_03.png"
+  ],
+  "pose": "No orientation normalization; visual consistency requires review",
+  "anomaly_access": false,
+  "review_status": "pending visual suitability review",
+  "outputs": {
+    "normal_transforms.json": "79f79ed8e71d5e61fe5292bcfd55cdec1a6b2ede21d6ec1eeef49ce236d292d2",
+    "normal_contact_sheet_02.png": "c61738ea1bee415b4c0adea11d22511dc2d7054acfc0d1283a80dea620f2da0c",
+    "normal_contact_sheet_03.png": "110e3a669e0ab08f182f393988391c5cf1e1202948c0aced3c22b51d101b307d",
+    "normal_contact_sheet_01.png": "d56987505743ec966f2cdf74efba79e1251376eecb332ee1ee91257c8cd28622",
+    "normal_geometry.csv": "6d711d3338416d8738beaf089301d4cc2938e54f769c4845c1ae6aa5387926ad",
+    "visual_selection.csv": "350c6a25ddcc426717cf5e3857493ef9cc4fc66c6bae23a5f752e516e5edaae5"
+  }
+}

@@ -1,0 +1,1420 @@
+{
+  "archive_etag": "\"05c830591a1172938cb714895c9e0cfb-113\"",
+  "archive_headers_read": 1210,
+  "cache_enabled": false,
+  "entries": [
+    {
+      "archive_body_offset": 1205035008,
+      "bytes": 49340,
+      "path": "data/raw/stage4/pcb2/image_anno.csv",
+      "sha256": "b165a50f04595b0f30285b49ab422d994bae42bc22c754a2e38fb846d4e25560",
+      "source_path": "pcb2/image_anno.csv"
+    },
+    {
+      "archive_body_offset": 1205086720,
+      "bytes": 262853,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/001.JPG",
+      "sha256": "2d71a3af119e7495bb69af5a063020ad23e8ee0089be0ca1a1e8ac022d48bab9",
+      "source_path": "pcb2/Data/Images/Anomaly/001.JPG"
+    },
+    {
+      "archive_body_offset": 1205350400,
+      "bytes": 226712,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/098.JPG",
+      "sha256": "508a16673a28af40a55fcf60e09b046f93899a0884cd446e2c06a204f14550aa",
+      "source_path": "pcb2/Data/Images/Anomaly/098.JPG"
+    },
+    {
+      "archive_body_offset": 1205577728,
+      "bytes": 250814,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/089.JPG",
+      "sha256": "aecf5a56d76065250395ea439890519f9176d24dd8c9a69ccefa0b68a6bbc5cc",
+      "source_path": "pcb2/Data/Images/Anomaly/089.JPG"
+    },
+    {
+      "archive_body_offset": 1205829120,
+      "bytes": 255188,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/010.JPG",
+      "sha256": "f2a9758e961a446ded92f68287e810b401b74d0d731d2e33475e335efb158ab7",
+      "source_path": "pcb2/Data/Images/Anomaly/010.JPG"
+    },
+    {
+      "archive_body_offset": 1206085120,
+      "bytes": 250040,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/045.JPG",
+      "sha256": "0366e453cb32875f4e09856cafd2c9ff36b90ef2d134792f03fbff77331f2d39",
+      "source_path": "pcb2/Data/Images/Anomaly/045.JPG"
+    },
+    {
+      "archive_body_offset": 1206336000,
+      "bytes": 258290,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/081.JPG",
+      "sha256": "f07a6e764b3be97f788b8a92be393722bbdcc3be7bf82d439fee16088de0c253",
+      "source_path": "pcb2/Data/Images/Anomaly/081.JPG"
+    },
+    {
+      "archive_body_offset": 1206595072,
+      "bytes": 262121,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/009.JPG",
+      "sha256": "d19ff86d61f5eb821d80986055e3ac0b2fe4e7e1539af80bbf8646de8e52ba43",
+      "source_path": "pcb2/Data/Images/Anomaly/009.JPG"
+    },
+    {
+      "archive_body_offset": 1206857728,
+      "bytes": 243397,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/063.JPG",
+      "sha256": "a7dd2fdcefe3caf7c92bde39551231147772f1eb848f292de9d69e79b6e64c23",
+      "source_path": "pcb2/Data/Images/Anomaly/063.JPG"
+    },
+    {
+      "archive_body_offset": 1207101952,
+      "bytes": 256540,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/027.JPG",
+      "sha256": "35c1a31af0c21970e63c0ccfe3ca47073291b3979a22f5f57dd23a96b518926e",
+      "source_path": "pcb2/Data/Images/Anomaly/027.JPG"
+    },
+    {
+      "archive_body_offset": 1207359488,
+      "bytes": 260761,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/054.JPG",
+      "sha256": "acad776342b15eb60b34b02c22ea676d0c9e3d445b9e79d8142524e3b6dd0c25",
+      "source_path": "pcb2/Data/Images/Anomaly/054.JPG"
+    },
+    {
+      "archive_body_offset": 1207621120,
+      "bytes": 239996,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/090.JPG",
+      "sha256": "220730e2d5953a49db277fff8ac0ef2fe1d90dc1140ee99b38bb3a01141d156d",
+      "source_path": "pcb2/Data/Images/Anomaly/090.JPG"
+    },
+    {
+      "archive_body_offset": 1207861760,
+      "bytes": 286158,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/018.JPG",
+      "sha256": "1e1341c30443a9ff5c24589f9b83dfc723009fb9004b9db0924be25ee619cba8",
+      "source_path": "pcb2/Data/Images/Anomaly/018.JPG"
+    },
+    {
+      "archive_body_offset": 1208148480,
+      "bytes": 280340,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/072.JPG",
+      "sha256": "ae7756307177fb2464bd3ec6db4f442b09cf4a92aa483cbaed4e617ef8158c30",
+      "source_path": "pcb2/Data/Images/Anomaly/072.JPG"
+    },
+    {
+      "archive_body_offset": 1208429568,
+      "bytes": 247611,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/036.JPG",
+      "sha256": "d2909788b6cc6fdc703ee09c197a5d87f4f6d57c672aff459accc1eaefff267c",
+      "source_path": "pcb2/Data/Images/Anomaly/036.JPG"
+    },
+    {
+      "archive_body_offset": 1208677888,
+      "bytes": 277033,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/041.JPG",
+      "sha256": "170b7c294b54dd223492b3a60e5e5efd23fd84aaa1e1e5f276051b101e32dd26",
+      "source_path": "pcb2/Data/Images/Anomaly/041.JPG"
+    },
+    {
+      "archive_body_offset": 1208955904,
+      "bytes": 253211,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/005.JPG",
+      "sha256": "55248263bd27b7637820fa907e0f32057a515967fd7195dce9a51cbb98df758d",
+      "source_path": "pcb2/Data/Images/Anomaly/005.JPG"
+    },
+    {
+      "archive_body_offset": 1209209856,
+      "bytes": 272769,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/023.JPG",
+      "sha256": "1eb2402bcaf720541abab39cf73be2c8c281f8bad9e3a15f71741c85300072a1",
+      "source_path": "pcb2/Data/Images/Anomaly/023.JPG"
+    },
+    {
+      "archive_body_offset": 1209483264,
+      "bytes": 248380,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/050.JPG",
+      "sha256": "ff056823e47b671476b33ad9cfe1864927f796711bd66ac1d848e50fa21806c9",
+      "source_path": "pcb2/Data/Images/Anomaly/050.JPG"
+    },
+    {
+      "archive_body_offset": 1209732608,
+      "bytes": 241385,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/014.JPG",
+      "sha256": "060031a92242246b4a8897346c9ee67831e2d0579b2855af7d4bfbda54e15e7c",
+      "source_path": "pcb2/Data/Images/Anomaly/014.JPG"
+    },
+    {
+      "archive_body_offset": 1209974784,
+      "bytes": 252669,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/032.JPG",
+      "sha256": "b3386da9acc1787c8e3a81077669ed0107a45696c6648e7dddc860cdff0f1b58",
+      "source_path": "pcb2/Data/Images/Anomaly/032.JPG"
+    },
+    {
+      "archive_body_offset": 1210228224,
+      "bytes": 270082,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/049.JPG",
+      "sha256": "f6f93e0798cca51623a0bd1b6216a1ee79c98a76693589d7f769ee1fb3a232fd",
+      "source_path": "pcb2/Data/Images/Anomaly/049.JPG"
+    },
+    {
+      "archive_body_offset": 1210499072,
+      "bytes": 225675,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/085.JPG",
+      "sha256": "909980734853582784a024ba7191b0e9a916c7f8a6c5015efebc2839140d3731",
+      "source_path": "pcb2/Data/Images/Anomaly/085.JPG"
+    },
+    {
+      "archive_body_offset": 1210725376,
+      "bytes": 238494,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/067.JPG",
+      "sha256": "da05b9a66e8d70f0f1d8a78adf2d1754df97ce3433612a4e790723caa6a73179",
+      "source_path": "pcb2/Data/Images/Anomaly/067.JPG"
+    },
+    {
+      "archive_body_offset": 1210964480,
+      "bytes": 267844,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/058.JPG",
+      "sha256": "3fad89f851ef907b35580926d68f88c47d5447f4232fd5b4d27256b98bdac3c1",
+      "source_path": "pcb2/Data/Images/Anomaly/058.JPG"
+    },
+    {
+      "archive_body_offset": 1211233280,
+      "bytes": 240016,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/094.JPG",
+      "sha256": "50ce6bfc29c44835997be18c08f51e91bac4f2919656fa814df6128f6b9e9a25",
+      "source_path": "pcb2/Data/Images/Anomaly/094.JPG"
+    },
+    {
+      "archive_body_offset": 1211473920,
+      "bytes": 250151,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/076.JPG",
+      "sha256": "605d38fe312e23ba2171a3b2f743facc812041d7063cba04fc5fbff5ab4ed3ad",
+      "source_path": "pcb2/Data/Images/Anomaly/076.JPG"
+    },
+    {
+      "archive_body_offset": 1211724800,
+      "bytes": 266271,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/003.JPG",
+      "sha256": "bb30a33d3516f0207e49de98cbdcc4d1834226b6571859bb26147bd40db62b3f",
+      "source_path": "pcb2/Data/Images/Anomaly/003.JPG"
+    },
+    {
+      "archive_body_offset": 1211992064,
+      "bytes": 278420,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/021.JPG",
+      "sha256": "2682d9dbf77ec25e1ff0a413783f20c85803b0b58400001c268fd97be9a77939",
+      "source_path": "pcb2/Data/Images/Anomaly/021.JPG"
+    },
+    {
+      "archive_body_offset": 1212271104,
+      "bytes": 275345,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/012.JPG",
+      "sha256": "3e3bedf0a83e5a5cd191f27a1b3707354d0eb9efbf4399356df14b3c5e16b285",
+      "source_path": "pcb2/Data/Images/Anomaly/012.JPG"
+    },
+    {
+      "archive_body_offset": 1212547072,
+      "bytes": 277159,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/030.JPG",
+      "sha256": "3afdc9ed1be079e52ff74de89f06087319425889a730db3d622d6dbd2252cbb1",
+      "source_path": "pcb2/Data/Images/Anomaly/030.JPG"
+    },
+    {
+      "archive_body_offset": 1212825088,
+      "bytes": 266476,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/047.JPG",
+      "sha256": "1be7809506f2372505d7506c47502f75ec9ba094e306c9d394a067b368c6a8e3",
+      "source_path": "pcb2/Data/Images/Anomaly/047.JPG"
+    },
+    {
+      "archive_body_offset": 1213092352,
+      "bytes": 267703,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/083.JPG",
+      "sha256": "aa2fc7ede268c5c1b678ebcabe5be6e5e4279874a7849e906cb810670b7a2d80",
+      "source_path": "pcb2/Data/Images/Anomaly/083.JPG"
+    },
+    {
+      "archive_body_offset": 1213360640,
+      "bytes": 275935,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/065.JPG",
+      "sha256": "69974ee4cd17e3fbac5df3ea0602d142e446dbd62471b7c9dd0ae658cb561db7",
+      "source_path": "pcb2/Data/Images/Anomaly/065.JPG"
+    },
+    {
+      "archive_body_offset": 1213637120,
+      "bytes": 280261,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/029.JPG",
+      "sha256": "4e39e6046d6bf1aade782ad64342e8972a9a9d4bc1a160b4c7ac7f1ff0164d47",
+      "source_path": "pcb2/Data/Images/Anomaly/029.JPG"
+    },
+    {
+      "archive_body_offset": 1213918208,
+      "bytes": 256642,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/056.JPG",
+      "sha256": "a61d6f7c94133b912e943b27b3a4d6642047101576fc7f8fe09c8b7e51ba6e4e",
+      "source_path": "pcb2/Data/Images/Anomaly/056.JPG"
+    },
+    {
+      "archive_body_offset": 1214175744,
+      "bytes": 256016,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/092.JPG",
+      "sha256": "ae5d8f1c2120b1d5f4c8f6244a97c218463dd0beaa684e5d91f454f6ae980f95",
+      "source_path": "pcb2/Data/Images/Anomaly/092.JPG"
+    },
+    {
+      "archive_body_offset": 1214432768,
+      "bytes": 267222,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/074.JPG",
+      "sha256": "87c0a8496b0592762e36fd58551a1b0d0ecddd39db969353f73fbd19b4514438",
+      "source_path": "pcb2/Data/Images/Anomaly/074.JPG"
+    },
+    {
+      "archive_body_offset": 1214700544,
+      "bytes": 255354,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/038.JPG",
+      "sha256": "1d6c17d454b57bb220c9bcdbcd7b605a96cb89699947be3f40cbdcd584485863",
+      "source_path": "pcb2/Data/Images/Anomaly/038.JPG"
+    },
+    {
+      "archive_body_offset": 1214956544,
+      "bytes": 262918,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/043.JPG",
+      "sha256": "d66a748ed43f099f0f31ebdf2d502e3cca10c506e184a1a5290791edf0d2facf",
+      "source_path": "pcb2/Data/Images/Anomaly/043.JPG"
+    },
+    {
+      "archive_body_offset": 1215220224,
+      "bytes": 224988,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/007.JPG",
+      "sha256": "8c9c27c464af8dbb8b6ba98ed939295fdaf7bdacbad41a1923078dffc47648ab",
+      "source_path": "pcb2/Data/Images/Anomaly/007.JPG"
+    },
+    {
+      "archive_body_offset": 1215446016,
+      "bytes": 260755,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/061.JPG",
+      "sha256": "c685710337256c764b20cff7292ec37eed0a6ff47d85c32dcde3daa2d15bc2ec",
+      "source_path": "pcb2/Data/Images/Anomaly/061.JPG"
+    },
+    {
+      "archive_body_offset": 1215707648,
+      "bytes": 288203,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/025.JPG",
+      "sha256": "093511f120ffc3fa281376d1a3bb436cffe759186d181099ba9c3650c314fa7d",
+      "source_path": "pcb2/Data/Images/Anomaly/025.JPG"
+    },
+    {
+      "archive_body_offset": 1215996416,
+      "bytes": 241025,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/052.JPG",
+      "sha256": "3893f03a41f7abbdddae69f852b42a61005a472581ec227af4ea6ad7976e23a7",
+      "source_path": "pcb2/Data/Images/Anomaly/052.JPG"
+    },
+    {
+      "archive_body_offset": 1216238080,
+      "bytes": 273939,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/016.JPG",
+      "sha256": "977faa6496f55a15390f1b95811aaee36efbe07ce7cd80c3273843cdaa6e470e",
+      "source_path": "pcb2/Data/Images/Anomaly/016.JPG"
+    },
+    {
+      "archive_body_offset": 1216513024,
+      "bytes": 274413,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/070.JPG",
+      "sha256": "0370fe246032412bbac29a9f40b5b52b1657b554601e00f7fb5533ddc9a38e83",
+      "source_path": "pcb2/Data/Images/Anomaly/070.JPG"
+    },
+    {
+      "archive_body_offset": 1216787968,
+      "bytes": 233548,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/034.JPG",
+      "sha256": "823d9deaf43700d24c4e12e6c0b0929c72ced886ba4756203ad32be74750f99e",
+      "source_path": "pcb2/Data/Images/Anomaly/034.JPG"
+    },
+    {
+      "archive_body_offset": 1217022464,
+      "bytes": 259270,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/087.JPG",
+      "sha256": "1f102de136d3cb60d71349ad54306c2d2316d106e846025e99122581768354d8",
+      "source_path": "pcb2/Data/Images/Anomaly/087.JPG"
+    },
+    {
+      "archive_body_offset": 1217282560,
+      "bytes": 284501,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/069.JPG",
+      "sha256": "9b72546c6bf3c7d7f11961fe805ce5d580896286ab5c63a99f3c48a9176474d5",
+      "source_path": "pcb2/Data/Images/Anomaly/069.JPG"
+    },
+    {
+      "archive_body_offset": 1217567744,
+      "bytes": 274940,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/096.JPG",
+      "sha256": "3643f82077c841eb618d3915f5cc33cfd533ec441af3b39237ebb37ba2d9bd39",
+      "source_path": "pcb2/Data/Images/Anomaly/096.JPG"
+    },
+    {
+      "archive_body_offset": 1217843200,
+      "bytes": 276980,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/078.JPG",
+      "sha256": "e7267586186ce603f0cb68d73a83bb5f207f2c898121d6e2c2888af4ad27380c",
+      "source_path": "pcb2/Data/Images/Anomaly/078.JPG"
+    },
+    {
+      "archive_body_offset": 1218120704,
+      "bytes": 263535,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/002.JPG",
+      "sha256": "8a9335e83494f8284a379db3ba5902aa0a99002104f233514c2308ea6b94f40e",
+      "source_path": "pcb2/Data/Images/Anomaly/002.JPG"
+    },
+    {
+      "archive_body_offset": 1218384896,
+      "bytes": 279673,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/020.JPG",
+      "sha256": "81fe42c53dfe2318092ebc98bbd5c70bae79106362a06f2e470d595e11652d8a",
+      "source_path": "pcb2/Data/Images/Anomaly/020.JPG"
+    },
+    {
+      "archive_body_offset": 1218665472,
+      "bytes": 241370,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/099.JPG",
+      "sha256": "e8552016b5e21603a191639df6fccd0f0d751b252af3012de8508e12871bfa02",
+      "source_path": "pcb2/Data/Images/Anomaly/099.JPG"
+    },
+    {
+      "archive_body_offset": 1218907648,
+      "bytes": 249107,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/011.JPG",
+      "sha256": "18004aad0cd4de743a5d76e66c89d3a2b5992b1f6379edb56aeceda53eb9ee98",
+      "source_path": "pcb2/Data/Images/Anomaly/011.JPG"
+    },
+    {
+      "archive_body_offset": 1219157504,
+      "bytes": 259966,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/082.JPG",
+      "sha256": "2acdf853d45bce30ec45c5bc7b2f67c36555e822e33db757d03bde20538695da",
+      "source_path": "pcb2/Data/Images/Anomaly/082.JPG"
+    },
+    {
+      "archive_body_offset": 1219418112,
+      "bytes": 281791,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/046.JPG",
+      "sha256": "adf44cf1ac7204c2c6a7983d6edbdb8b898f43bf5c914f9afc3e5aa15f1f728c",
+      "source_path": "pcb2/Data/Images/Anomaly/046.JPG"
+    },
+    {
+      "archive_body_offset": 1219700736,
+      "bytes": 236638,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/028.JPG",
+      "sha256": "489e688c69ed7811ec54aa4de9ba2bb84505b86771fc24b6cd625e8e393c8784",
+      "source_path": "pcb2/Data/Images/Anomaly/028.JPG"
+    },
+    {
+      "archive_body_offset": 1219938304,
+      "bytes": 242778,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/064.JPG",
+      "sha256": "596d50a7d17c53c117fb69e5685fb7201210a4af9894387ece829f0919aba687",
+      "source_path": "pcb2/Data/Images/Anomaly/064.JPG"
+    },
+    {
+      "archive_body_offset": 1220182016,
+      "bytes": 276605,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/019.JPG",
+      "sha256": "ae4acbf9a9547bf848b9536b2756ce0b1ee44009d80cf7d303a59f6cfbac453e",
+      "source_path": "pcb2/Data/Images/Anomaly/019.JPG"
+    },
+    {
+      "archive_body_offset": 1220459520,
+      "bytes": 239937,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/091.JPG",
+      "sha256": "af559fb03dd80ed1484589d3b2144490c2a4b6abd8200202afbebf9a86db9dd1",
+      "source_path": "pcb2/Data/Images/Anomaly/091.JPG"
+    },
+    {
+      "archive_body_offset": 1220700160,
+      "bytes": 253021,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/055.JPG",
+      "sha256": "5daa7c55373d5972bfeb276645d2e14f008c581be01a8cb06beaf9001f61f8fd",
+      "source_path": "pcb2/Data/Images/Anomaly/055.JPG"
+    },
+    {
+      "archive_body_offset": 1220954112,
+      "bytes": 275044,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/037.JPG",
+      "sha256": "366c7f167b656947d9db01fbe31ae95a97146591be0b14888d18a832b58c1cd0",
+      "source_path": "pcb2/Data/Images/Anomaly/037.JPG"
+    },
+    {
+      "archive_body_offset": 1221230080,
+      "bytes": 273747,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/073.JPG",
+      "sha256": "4b039b36ef869256138fe78160e76a7467021c7c76f09469ba70db3cff6e7969",
+      "source_path": "pcb2/Data/Images/Anomaly/073.JPG"
+    },
+    {
+      "archive_body_offset": 1221504512,
+      "bytes": 243857,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/006.JPG",
+      "sha256": "ad7863602cab14426aa5c01c29442573e74f34bcd3787717db696e630976f086",
+      "source_path": "pcb2/Data/Images/Anomaly/006.JPG"
+    },
+    {
+      "archive_body_offset": 1221749248,
+      "bytes": 287647,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/042.JPG",
+      "sha256": "6e0a927e28aed3e01385b860002b39d88f6d6c1a2ad4fcdaf52cd7ffebcfb2f8",
+      "source_path": "pcb2/Data/Images/Anomaly/042.JPG"
+    },
+    {
+      "archive_body_offset": 1222037504,
+      "bytes": 279133,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/024.JPG",
+      "sha256": "f22b6f511b0c003050e209f583a2273bff5308cad56f979c453b0421d31a7b3a",
+      "source_path": "pcb2/Data/Images/Anomaly/024.JPG"
+    },
+    {
+      "archive_body_offset": 1222317568,
+      "bytes": 266536,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/060.JPG",
+      "sha256": "f2833ebe3c2b0aef8c8b7d121827c0ab526b2bc3dd2d650e25166875f9b02f7c",
+      "source_path": "pcb2/Data/Images/Anomaly/060.JPG"
+    },
+    {
+      "archive_body_offset": 1222584832,
+      "bytes": 284732,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/015.JPG",
+      "sha256": "b1db8a8110b597e35c9946fc334e8d23b78b748589eb349afd6589009e2376a4",
+      "source_path": "pcb2/Data/Images/Anomaly/015.JPG"
+    },
+    {
+      "archive_body_offset": 1222870528,
+      "bytes": 263873,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/051.JPG",
+      "sha256": "2a8b69465218f38c8148a93b3d268da4dcacfc43f22f1852abe429211eedf45e",
+      "source_path": "pcb2/Data/Images/Anomaly/051.JPG"
+    },
+    {
+      "archive_body_offset": 1223135232,
+      "bytes": 272983,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/033.JPG",
+      "sha256": "29c91f17343b06daeffa1d62e771c85d5b442fd134a7d20ecf134bc7cc625c68",
+      "source_path": "pcb2/Data/Images/Anomaly/033.JPG"
+    },
+    {
+      "archive_body_offset": 1223409152,
+      "bytes": 228759,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/086.JPG",
+      "sha256": "a7e1dae4deacc5725603526ea7577ef834058be4806904b804ceaca62885bce2",
+      "source_path": "pcb2/Data/Images/Anomaly/086.JPG"
+    },
+    {
+      "archive_body_offset": 1223638528,
+      "bytes": 267690,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/068.JPG",
+      "sha256": "1eea67f5451ac604fdc0aebc34d8f54889d3101e02234673c6dbf71a94632ff7",
+      "source_path": "pcb2/Data/Images/Anomaly/068.JPG"
+    },
+    {
+      "archive_body_offset": 1223906816,
+      "bytes": 235684,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/095.JPG",
+      "sha256": "b16dc76dd08c4fc4de0c7b642be2a82898f0eb7063a2680eccc36f4c0ef4f16c",
+      "source_path": "pcb2/Data/Images/Anomaly/095.JPG"
+    },
+    {
+      "archive_body_offset": 1224143360,
+      "bytes": 260581,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/059.JPG",
+      "sha256": "7afac97fbc3a50c28d39c552f5c0fbeb6217aacb1a46157866b8b5152a6f25cc",
+      "source_path": "pcb2/Data/Images/Anomaly/059.JPG"
+    },
+    {
+      "archive_body_offset": 1224404480,
+      "bytes": 274155,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/077.JPG",
+      "sha256": "4b88878b966b6af393d8bb3dbc7b024c4f1fb66a5fe4d89b7cdff030fc5bc009",
+      "source_path": "pcb2/Data/Images/Anomaly/077.JPG"
+    },
+    {
+      "archive_body_offset": 1224679424,
+      "bytes": 266222,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/004.JPG",
+      "sha256": "e52327c124f16ff844b05aa3818660a9b0481af14913a20f19c75aea0c00d434",
+      "source_path": "pcb2/Data/Images/Anomaly/004.JPG"
+    },
+    {
+      "archive_body_offset": 1224946176,
+      "bytes": 280006,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/040.JPG",
+      "sha256": "dce0e6f5aa08f61d6bf71f78aa79ae382fefcf7df55fd1aa4b8e09dc3aa470ae",
+      "source_path": "pcb2/Data/Images/Anomaly/040.JPG"
+    },
+    {
+      "archive_body_offset": 1225226752,
+      "bytes": 276227,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/022.JPG",
+      "sha256": "5cb140a8c46130884409af9affb48251363de486201a6367327d1ac79f63d122",
+      "source_path": "pcb2/Data/Images/Anomaly/022.JPG"
+    },
+    {
+      "archive_body_offset": 1225503744,
+      "bytes": 257883,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/013.JPG",
+      "sha256": "b436e7c594e14526b2997816c380e6112c3ec5d34ed616d110dfda21f0844efe",
+      "source_path": "pcb2/Data/Images/Anomaly/013.JPG"
+    },
+    {
+      "archive_body_offset": 1225762304,
+      "bytes": 247701,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/031.JPG",
+      "sha256": "84d413ed374285c7ebbd32bcf457cb792d195e0ca11c6a84cdb3f4e5cdadecf0",
+      "source_path": "pcb2/Data/Images/Anomaly/031.JPG"
+    },
+    {
+      "archive_body_offset": 1226010624,
+      "bytes": 265326,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/084.JPG",
+      "sha256": "989f1ee5016dbad390a1890b933fdb8ee062f72f5b5b06ad6e57ab922f8b9568",
+      "source_path": "pcb2/Data/Images/Anomaly/084.JPG"
+    },
+    {
+      "archive_body_offset": 1226276864,
+      "bytes": 257700,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/048.JPG",
+      "sha256": "875a397638b7a6e37345dd912a569a2ee8ec20de14666814835ff69eaad7a31f",
+      "source_path": "pcb2/Data/Images/Anomaly/048.JPG"
+    },
+    {
+      "archive_body_offset": 1226535424,
+      "bytes": 265282,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/066.JPG",
+      "sha256": "ddbdf892c346f9cc4111e41e863ee16b9c283e884ab2fd1a33d836171096928b",
+      "source_path": "pcb2/Data/Images/Anomaly/066.JPG"
+    },
+    {
+      "archive_body_offset": 1226801664,
+      "bytes": 252157,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/093.JPG",
+      "sha256": "e6a0c6129415bb2cf3e810023656352a5f50abb98745151cc684eec376778876",
+      "source_path": "pcb2/Data/Images/Anomaly/093.JPG"
+    },
+    {
+      "archive_body_offset": 1227054592,
+      "bytes": 255590,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/057.JPG",
+      "sha256": "303638ae399b20498860ed6e561eab0e26d39713539346b9bd00ffe73cff6809",
+      "source_path": "pcb2/Data/Images/Anomaly/057.JPG"
+    },
+    {
+      "archive_body_offset": 1227311104,
+      "bytes": 283406,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/039.JPG",
+      "sha256": "944b4fbb63cc37df50bb5c925a63d6d21a6931e7d867b4613346868a3bd9a12a",
+      "source_path": "pcb2/Data/Images/Anomaly/039.JPG"
+    },
+    {
+      "archive_body_offset": 1227595264,
+      "bytes": 282867,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/075.JPG",
+      "sha256": "8b41fc389d47b91864fd7c890278d829b1473bbd47f7f9991074c64e968bcd46",
+      "source_path": "pcb2/Data/Images/Anomaly/075.JPG"
+    },
+    {
+      "archive_body_offset": 1227878912,
+      "bytes": 231716,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/080.JPG",
+      "sha256": "65562ae12fd17b2dde339e9e87238b432aa6889e0caac948c0969d18d7c1047a",
+      "source_path": "pcb2/Data/Images/Anomaly/080.JPG"
+    },
+    {
+      "archive_body_offset": 1228111360,
+      "bytes": 248226,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/008.JPG",
+      "sha256": "6cbcdb94dc2efb5bdc33bae1cef665bffc31b80decf011f8e8cc66c899d4bdb0",
+      "source_path": "pcb2/Data/Images/Anomaly/008.JPG"
+    },
+    {
+      "archive_body_offset": 1228360192,
+      "bytes": 240848,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/044.JPG",
+      "sha256": "25dce143a5787a39527eacec2d30bc2140879ba4d214e1fad520a5073e53c051",
+      "source_path": "pcb2/Data/Images/Anomaly/044.JPG"
+    },
+    {
+      "archive_body_offset": 1228601856,
+      "bytes": 272950,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/026.JPG",
+      "sha256": "e505c38ca03978ffa64150a707bcd392669810fbe99e86ceafef0c5e976d7486",
+      "source_path": "pcb2/Data/Images/Anomaly/026.JPG"
+    },
+    {
+      "archive_body_offset": 1228875776,
+      "bytes": 243977,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/062.JPG",
+      "sha256": "2f51e47369fa2f426ae3036a4e6aadb7c2d0a2374fc8eeab5dd10ddb7536a0bf",
+      "source_path": "pcb2/Data/Images/Anomaly/062.JPG"
+    },
+    {
+      "archive_body_offset": 1229120512,
+      "bytes": 287600,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/017.JPG",
+      "sha256": "9a825497685ae9ba789025a608d4655eac6d9e600fb5309f66f7b50347667050",
+      "source_path": "pcb2/Data/Images/Anomaly/017.JPG"
+    },
+    {
+      "archive_body_offset": 1229408768,
+      "bytes": 260272,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/053.JPG",
+      "sha256": "35d6f7af17b204eeebe6337e73e33483165e89431960a0fa3ac71bdab215ed3d",
+      "source_path": "pcb2/Data/Images/Anomaly/053.JPG"
+    },
+    {
+      "archive_body_offset": 1229669888,
+      "bytes": 271609,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/035.JPG",
+      "sha256": "da3f9616dedc6a18a7e53baaf21c0d10742622a7403480448dfe1c0fe2dbbe4a",
+      "source_path": "pcb2/Data/Images/Anomaly/035.JPG"
+    },
+    {
+      "archive_body_offset": 1229942272,
+      "bytes": 275606,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/071.JPG",
+      "sha256": "35d60f91ca3b0a641650c3ef6c4cdd7423a52f78b1dfc3e78482feec07ba3428",
+      "source_path": "pcb2/Data/Images/Anomaly/071.JPG"
+    },
+    {
+      "archive_body_offset": 1230218752,
+      "bytes": 235626,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/088.JPG",
+      "sha256": "652e9b8de8c7aecb18eaaeffb9dc135744f78b619a319d4c31a7f822c483aa3e",
+      "source_path": "pcb2/Data/Images/Anomaly/088.JPG"
+    },
+    {
+      "archive_body_offset": 1230455296,
+      "bytes": 285044,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/097.JPG",
+      "sha256": "0db2cf5dff69bb45fd02578ba70d0ead6e79152a3ee418f712390b6c3b46a13b",
+      "source_path": "pcb2/Data/Images/Anomaly/097.JPG"
+    },
+    {
+      "archive_body_offset": 1230740992,
+      "bytes": 251194,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/000.JPG",
+      "sha256": "7ee5d8e7d7496860aa60447f3e779003f4bd852a9f2a1f35b9ed49103a7ef708",
+      "source_path": "pcb2/Data/Images/Anomaly/000.JPG"
+    },
+    {
+      "archive_body_offset": 1230992896,
+      "bytes": 254536,
+      "path": "data/raw/stage4/pcb2/Data/Images/Anomaly/079.JPG",
+      "sha256": "ababe8f688ad026370002e0f5f9b3f53b36942fa317b6b688cebe2228e376a09",
+      "source_path": "pcb2/Data/Images/Anomaly/079.JPG"
+    },
+    {
+      "archive_body_offset": 1479498752,
+      "bytes": 1962,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/076.png",
+      "sha256": "443f5656251740bc18be283757e6dc1f06da7a0084632023475ca5cac7f71a48",
+      "source_path": "pcb2/Data/Masks/Anomaly/076.png"
+    },
+    {
+      "archive_body_offset": 1479501312,
+      "bytes": 1768,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/058.png",
+      "sha256": "347a91c2c96f6cdc1b392296ee4aa9d7483cefe905cbbb6a90c33c54595b07f1",
+      "source_path": "pcb2/Data/Masks/Anomaly/058.png"
+    },
+    {
+      "archive_body_offset": 1479503872,
+      "bytes": 3616,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/094.png",
+      "sha256": "c971b33fc2a9d5c08cf9e996ea4b9fa468aa23e7b818c068c18988cd93260321",
+      "source_path": "pcb2/Data/Masks/Anomaly/094.png"
+    },
+    {
+      "archive_body_offset": 1479508480,
+      "bytes": 1926,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/049.png",
+      "sha256": "b67dd6935ce1ca8e65b2c4dcf0e76bc2664e2ab27db100171a917a9570ef4037",
+      "source_path": "pcb2/Data/Masks/Anomaly/049.png"
+    },
+    {
+      "archive_body_offset": 1479511040,
+      "bytes": 2412,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/085.png",
+      "sha256": "5e24ac4a1d35181495fc36833d6731002ac9d21ebec57cc7cc1f1cdc951dc668",
+      "source_path": "pcb2/Data/Masks/Anomaly/085.png"
+    },
+    {
+      "archive_body_offset": 1479514112,
+      "bytes": 1846,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/067.png",
+      "sha256": "40d40385c000f05cf17beb20c7743a4daa635cc4a29a453b55a7489c8612e78c",
+      "source_path": "pcb2/Data/Masks/Anomaly/067.png"
+    },
+    {
+      "archive_body_offset": 1479516672,
+      "bytes": 2658,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/041.png",
+      "sha256": "556a1ca7e540ec74133ebd807e660b2ca82d70fbce61bd18dc05178928445f0f",
+      "source_path": "pcb2/Data/Masks/Anomaly/041.png"
+    },
+    {
+      "archive_body_offset": 1479520256,
+      "bytes": 2209,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/005.png",
+      "sha256": "f3d49973d02531b00736d201f93bae57824141f804927d4af14447f1d1aa321b",
+      "source_path": "pcb2/Data/Masks/Anomaly/005.png"
+    },
+    {
+      "archive_body_offset": 1479523328,
+      "bytes": 2303,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/023.png",
+      "sha256": "b51d1b0d70678696d9bb2a339d443d2914310001bdb023c91bd2fc9d254498a3",
+      "source_path": "pcb2/Data/Masks/Anomaly/023.png"
+    },
+    {
+      "archive_body_offset": 1479526400,
+      "bytes": 1962,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/050.png",
+      "sha256": "20c25381bc6ed18ea88f31e6c149db7426033b430bed0fb43879ed38b18bd73d",
+      "source_path": "pcb2/Data/Masks/Anomaly/050.png"
+    },
+    {
+      "archive_body_offset": 1479528960,
+      "bytes": 2041,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/014.png",
+      "sha256": "27c717f7a83190466a4c8867a7e3da1792d5fffd4ecba554a484086c7a76ca7f",
+      "source_path": "pcb2/Data/Masks/Anomaly/014.png"
+    },
+    {
+      "archive_body_offset": 1479531520,
+      "bytes": 1985,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/032.png",
+      "sha256": "764ddeb91db588ca25bce18a658df0e73edce462eeb66d82327bf3381a6aa814",
+      "source_path": "pcb2/Data/Masks/Anomaly/032.png"
+    },
+    {
+      "archive_body_offset": 1479534080,
+      "bytes": 2394,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/001.png",
+      "sha256": "15684849f94e0a588227e5182288236a40f75cc816f2fb293174b9d00574dce0",
+      "source_path": "pcb2/Data/Masks/Anomaly/001.png"
+    },
+    {
+      "archive_body_offset": 1479537152,
+      "bytes": 1991,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/098.png",
+      "sha256": "877688fca3a2ff2ee4136ac05bef62d986321998c683e486b0fe4143dbcaabb6",
+      "source_path": "pcb2/Data/Masks/Anomaly/098.png"
+    },
+    {
+      "archive_body_offset": 1479539712,
+      "bytes": 2743,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/089.png",
+      "sha256": "3002ecbc9fa9c6275dac2d3f4297ae0b300f7b8849c265a7ac684aa10bc174e4",
+      "source_path": "pcb2/Data/Masks/Anomaly/089.png"
+    },
+    {
+      "archive_body_offset": 1479543296,
+      "bytes": 2155,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/010.png",
+      "sha256": "801a0f64e146b910b873b576ace928c11e587a0b1bb027ff8d1eb3302afb33fd",
+      "source_path": "pcb2/Data/Masks/Anomaly/010.png"
+    },
+    {
+      "archive_body_offset": 1479546368,
+      "bytes": 2046,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/045.png",
+      "sha256": "e791685ba19e4d5311a45cc0e67909850cf804a0b6a8d4477592ee47015450ba",
+      "source_path": "pcb2/Data/Masks/Anomaly/045.png"
+    },
+    {
+      "archive_body_offset": 1479548928,
+      "bytes": 2324,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/081.png",
+      "sha256": "fa50af1d0bf31d21bf90e1eb1640c920adb11a76cea9238a28a08c9346954814",
+      "source_path": "pcb2/Data/Masks/Anomaly/081.png"
+    },
+    {
+      "archive_body_offset": 1479552000,
+      "bytes": 2176,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/009.png",
+      "sha256": "9562fe7859717cb14f53be97dd395bdda73c801304d497c14d83c9e908134a0b",
+      "source_path": "pcb2/Data/Masks/Anomaly/009.png"
+    },
+    {
+      "archive_body_offset": 1479555072,
+      "bytes": 1960,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/063.png",
+      "sha256": "ea9f3597cc31c54b13a83f81fbb2eb932af81ed6934f162fc988512e676a0235",
+      "source_path": "pcb2/Data/Masks/Anomaly/063.png"
+    },
+    {
+      "archive_body_offset": 1479557632,
+      "bytes": 2238,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/027.png",
+      "sha256": "f513f790b80531e3864a52079918fda4a1e8991aa2823c77e002078919eb074d",
+      "source_path": "pcb2/Data/Masks/Anomaly/027.png"
+    },
+    {
+      "archive_body_offset": 1479560704,
+      "bytes": 2030,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/054.png",
+      "sha256": "bb6cec65ac6a17054970398518628d6cb806e1463a24981e6d54716fb487ae65",
+      "source_path": "pcb2/Data/Masks/Anomaly/054.png"
+    },
+    {
+      "archive_body_offset": 1479563264,
+      "bytes": 2275,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/090.png",
+      "sha256": "f0b2796c89f280fd66b54ba96c1375cafda796fce2278ea371a78f0ae79df035",
+      "source_path": "pcb2/Data/Masks/Anomaly/090.png"
+    },
+    {
+      "archive_body_offset": 1479566336,
+      "bytes": 2283,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/018.png",
+      "sha256": "eefe49539bc04e7a83a59809cb781237b2ce40fecf234ecce981cd4b5628d0b0",
+      "source_path": "pcb2/Data/Masks/Anomaly/018.png"
+    },
+    {
+      "archive_body_offset": 1479569408,
+      "bytes": 1872,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/072.png",
+      "sha256": "8e4a1181ffea9de22ff2d91f48a94f6389b635ede7c659f4401d6110b386ce48",
+      "source_path": "pcb2/Data/Masks/Anomaly/072.png"
+    },
+    {
+      "archive_body_offset": 1479571968,
+      "bytes": 2103,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/036.png",
+      "sha256": "b70cef1b4d30ba1dafbc9bc32fcb82aae213c741267ccaffa952a5851e4e8c92",
+      "source_path": "pcb2/Data/Masks/Anomaly/036.png"
+    },
+    {
+      "archive_body_offset": 1479575040,
+      "bytes": 2092,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/078.png",
+      "sha256": "fab1b29d5a91c84d17a01e51cde76cc9568e289714cbbf4d5d9905f6f9ae6254",
+      "source_path": "pcb2/Data/Masks/Anomaly/078.png"
+    },
+    {
+      "archive_body_offset": 1479578112,
+      "bytes": 2688,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/096.png",
+      "sha256": "1fc7e1c8bf42e9a66db430f0a0a4abb8b42b1f981b2ff9c32176e8adfe60ad66",
+      "source_path": "pcb2/Data/Masks/Anomaly/096.png"
+    },
+    {
+      "archive_body_offset": 1479581696,
+      "bytes": 2691,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/087.png",
+      "sha256": "1ddbce7670a88c15d4e1c3805bb88ff0731adbd4d05ea6ed526deeeac8f1dff0",
+      "source_path": "pcb2/Data/Masks/Anomaly/087.png"
+    },
+    {
+      "archive_body_offset": 1479585280,
+      "bytes": 1905,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/069.png",
+      "sha256": "3cbb318b43929d749fe63307ef0cfc5e2429be421b07c468ef44666548fe071a",
+      "source_path": "pcb2/Data/Masks/Anomaly/069.png"
+    },
+    {
+      "archive_body_offset": 1479587840,
+      "bytes": 2230,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/043.png",
+      "sha256": "c73e5ffd1c0cb76111e94b07a477cc2e2c6395fe201593665799fe63f6bba066",
+      "source_path": "pcb2/Data/Masks/Anomaly/043.png"
+    },
+    {
+      "archive_body_offset": 1479590912,
+      "bytes": 2606,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/007.png",
+      "sha256": "44ab19fb1da23ce49139daa0197d22ed81664c169bf0bc70cf26f29976fbd087",
+      "source_path": "pcb2/Data/Masks/Anomaly/007.png"
+    },
+    {
+      "archive_body_offset": 1479594496,
+      "bytes": 2090,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/061.png",
+      "sha256": "5a849f0f69c7ad92c91228492494dae5b3109e6e3abc9d6d511c725c50337ada",
+      "source_path": "pcb2/Data/Masks/Anomaly/061.png"
+    },
+    {
+      "archive_body_offset": 1479597568,
+      "bytes": 2461,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/025.png",
+      "sha256": "7413e5544ef730012a6990fec4dc0b8b843104f459fdcd3815246162d2de8edc",
+      "source_path": "pcb2/Data/Masks/Anomaly/025.png"
+    },
+    {
+      "archive_body_offset": 1479600640,
+      "bytes": 2218,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/052.png",
+      "sha256": "aaad005269e9c6f6deeba44813a482456757770fe384050fa1dc5217494139df",
+      "source_path": "pcb2/Data/Masks/Anomaly/052.png"
+    },
+    {
+      "archive_body_offset": 1479603712,
+      "bytes": 1966,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/016.png",
+      "sha256": "93ca3bffdb197e8df98db528a1e818872fecbcf21074b16e3b7796333ff8c923",
+      "source_path": "pcb2/Data/Masks/Anomaly/016.png"
+    },
+    {
+      "archive_body_offset": 1479606272,
+      "bytes": 1971,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/070.png",
+      "sha256": "50a09600653f9d1047360ad82ab7e801e6696d0cd11236219574c4d4efa9c4bc",
+      "source_path": "pcb2/Data/Masks/Anomaly/070.png"
+    },
+    {
+      "archive_body_offset": 1479608832,
+      "bytes": 2245,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/034.png",
+      "sha256": "eb1641b62fdfd92b05e9da6f584f54c274cbf930b4222e6ed7b9a3df67de5ab3",
+      "source_path": "pcb2/Data/Masks/Anomaly/034.png"
+    },
+    {
+      "archive_body_offset": 1479611904,
+      "bytes": 2217,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/003.png",
+      "sha256": "c6710a29b0e8d571fa808439ef0ee06d53a2fbd13bc9dd45ded8dc3f66007661",
+      "source_path": "pcb2/Data/Masks/Anomaly/003.png"
+    },
+    {
+      "archive_body_offset": 1479614976,
+      "bytes": 2409,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/021.png",
+      "sha256": "273c993281fb1dccaffe245a9acfbdaafb4141f141bda91d8bb1ebaac3f06d02",
+      "source_path": "pcb2/Data/Masks/Anomaly/021.png"
+    },
+    {
+      "archive_body_offset": 1479618048,
+      "bytes": 2104,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/012.png",
+      "sha256": "c280d531088dda290277e321dfc64ff4dbbe1762a724038efbb258d06f767972",
+      "source_path": "pcb2/Data/Masks/Anomaly/012.png"
+    },
+    {
+      "archive_body_offset": 1479621120,
+      "bytes": 2103,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/030.png",
+      "sha256": "1f013121f4f4f34839644e31332574c2bd417886353abc02ff19d0a4cffe55c3",
+      "source_path": "pcb2/Data/Masks/Anomaly/030.png"
+    },
+    {
+      "archive_body_offset": 1479624192,
+      "bytes": 1685,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/047.png",
+      "sha256": "a59499edb9319a8759d22bcde2547f63a118a816f1e708b3a1bde5104387b5dc",
+      "source_path": "pcb2/Data/Masks/Anomaly/047.png"
+    },
+    {
+      "archive_body_offset": 1479626752,
+      "bytes": 1896,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/083.png",
+      "sha256": "58bb4703a4e3d33e984e27efda3f6e07fbc6c35c7795b57b4174cf8975ab0413",
+      "source_path": "pcb2/Data/Masks/Anomaly/083.png"
+    },
+    {
+      "archive_body_offset": 1479629312,
+      "bytes": 2141,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/065.png",
+      "sha256": "adbc81667b6c1aee0b1a0ceb509b46c568d29358fffa8cad392bd1a6c04fd1ed",
+      "source_path": "pcb2/Data/Masks/Anomaly/065.png"
+    },
+    {
+      "archive_body_offset": 1479632384,
+      "bytes": 2173,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/029.png",
+      "sha256": "507258f074913fcbc452850e21f12a416f54ea8c5152b0b66c5b7df831a58caf",
+      "source_path": "pcb2/Data/Masks/Anomaly/029.png"
+    },
+    {
+      "archive_body_offset": 1479635456,
+      "bytes": 1691,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/056.png",
+      "sha256": "edab5451157db12e894c0a03631c7a778f66a5367a45f3fe957a9a307bf0ae63",
+      "source_path": "pcb2/Data/Masks/Anomaly/056.png"
+    },
+    {
+      "archive_body_offset": 1479638016,
+      "bytes": 2975,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/092.png",
+      "sha256": "29c69c0280fbd7825c7ef5bf960156c9cb6f584592f835f5201957b375d0fcde",
+      "source_path": "pcb2/Data/Masks/Anomaly/092.png"
+    },
+    {
+      "archive_body_offset": 1479641600,
+      "bytes": 2059,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/074.png",
+      "sha256": "6d03c75ba525f4ab94e2266ff1a9f5b4e0fe705ae096af0e93dbd54ef4b98a40",
+      "source_path": "pcb2/Data/Masks/Anomaly/074.png"
+    },
+    {
+      "archive_body_offset": 1479644672,
+      "bytes": 2343,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/038.png",
+      "sha256": "b8587fed8aba620fac0e4bfce6d7b94d17239764fac4e5aa97f16aa9e3bbd2d2",
+      "source_path": "pcb2/Data/Masks/Anomaly/038.png"
+    },
+    {
+      "archive_body_offset": 1479647744,
+      "bytes": 2698,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/077.png",
+      "sha256": "980d4d442345edbe10a1abe18065425cd018546273237e8128b6708ae69ad184",
+      "source_path": "pcb2/Data/Masks/Anomaly/077.png"
+    },
+    {
+      "archive_body_offset": 1479651328,
+      "bytes": 2465,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/095.png",
+      "sha256": "5fcf5bb385cf903fd3bfec64b85af30dfecb3b1e7dbbf7de2d35b53b48914e65",
+      "source_path": "pcb2/Data/Masks/Anomaly/095.png"
+    },
+    {
+      "archive_body_offset": 1479654400,
+      "bytes": 2012,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/059.png",
+      "sha256": "92cc9b3e9f3d04f3836a1fda89f9dd351bc55cf5ce28647b99527ceb36e8e708",
+      "source_path": "pcb2/Data/Masks/Anomaly/059.png"
+    },
+    {
+      "archive_body_offset": 1479656960,
+      "bytes": 2953,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/086.png",
+      "sha256": "51d45f5937f26b4bbb33fc9159022794973f5d2ef2fd82fc552651035983f0db",
+      "source_path": "pcb2/Data/Masks/Anomaly/086.png"
+    },
+    {
+      "archive_body_offset": 1479660544,
+      "bytes": 2249,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/068.png",
+      "sha256": "3d5ba3cd795919056e1518768fe6dd3989920a7745f5f6a6ebd06371259e783b",
+      "source_path": "pcb2/Data/Masks/Anomaly/068.png"
+    },
+    {
+      "archive_body_offset": 1479663616,
+      "bytes": 2704,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/006.png",
+      "sha256": "c2658b16daba4f3c9615b3e93760b67ac4d7187378c3e5c96595d2e460865b29",
+      "source_path": "pcb2/Data/Masks/Anomaly/006.png"
+    },
+    {
+      "archive_body_offset": 1479667200,
+      "bytes": 2939,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/042.png",
+      "sha256": "07a7546c160e6ef7a3f313bae0addeaa818050fbe7e60d977f6131c986673361",
+      "source_path": "pcb2/Data/Masks/Anomaly/042.png"
+    },
+    {
+      "archive_body_offset": 1479670784,
+      "bytes": 2648,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/024.png",
+      "sha256": "aa435387059641cd7b5a219892e9aa538df5826ceaf71b27a0bbdfbd841220f6",
+      "source_path": "pcb2/Data/Masks/Anomaly/024.png"
+    },
+    {
+      "archive_body_offset": 1479674368,
+      "bytes": 1967,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/060.png",
+      "sha256": "9dce23196438f1eede0cb7c9dffc7d007edb833f05fc6873c7608836dba22c61",
+      "source_path": "pcb2/Data/Masks/Anomaly/060.png"
+    },
+    {
+      "archive_body_offset": 1479676928,
+      "bytes": 2484,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/015.png",
+      "sha256": "a40ae67dfcbfb9221529efd9eea7ff5ac004b53f32a1cb7d6f94b62e838a2031",
+      "source_path": "pcb2/Data/Masks/Anomaly/015.png"
+    },
+    {
+      "archive_body_offset": 1479680000,
+      "bytes": 1698,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/051.png",
+      "sha256": "2ff98899ad26415844c5122492f785b93b58a87bb2c146b91696d1a4480b7ea9",
+      "source_path": "pcb2/Data/Masks/Anomaly/051.png"
+    },
+    {
+      "archive_body_offset": 1479682560,
+      "bytes": 2387,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/033.png",
+      "sha256": "9ee33cbe58007cd658619da1e4a759f9a6234d8df4d72a303b018737b1d60808",
+      "source_path": "pcb2/Data/Masks/Anomaly/033.png"
+    },
+    {
+      "archive_body_offset": 1479685632,
+      "bytes": 2200,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/002.png",
+      "sha256": "75551e611ab2b9c621299f2bc29269759871618dad8796f4f8844c52d59b9575",
+      "source_path": "pcb2/Data/Masks/Anomaly/002.png"
+    },
+    {
+      "archive_body_offset": 1479688704,
+      "bytes": 2029,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/020.png",
+      "sha256": "1b520dfd35459f9231e8ddbedcc36b2478c7861c8d98d77f3dc52d76103a0fb4",
+      "source_path": "pcb2/Data/Masks/Anomaly/020.png"
+    },
+    {
+      "archive_body_offset": 1479691264,
+      "bytes": 2588,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/099.png",
+      "sha256": "8b35deea0d6b9a920b96330b85f04adda3d58df05807f1e54ba8bf2b6f1cb0ee",
+      "source_path": "pcb2/Data/Masks/Anomaly/099.png"
+    },
+    {
+      "archive_body_offset": 1479694848,
+      "bytes": 2741,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/011.png",
+      "sha256": "81e463afd8fe0e9546e0c408c8039b0d4940a481ddcaff6aece6555d3b9608d7",
+      "source_path": "pcb2/Data/Masks/Anomaly/011.png"
+    },
+    {
+      "archive_body_offset": 1479698432,
+      "bytes": 2008,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/082.png",
+      "sha256": "2238b5298761256fc186be0958178b03113b04da43b9b82b2318ea1a21159a2c",
+      "source_path": "pcb2/Data/Masks/Anomaly/082.png"
+    },
+    {
+      "archive_body_offset": 1479700992,
+      "bytes": 3158,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/046.png",
+      "sha256": "c372be08e88569d2a895bf51fee7e577b0f9e3f6184cfc5b43ad444c3cbdada1",
+      "source_path": "pcb2/Data/Masks/Anomaly/046.png"
+    },
+    {
+      "archive_body_offset": 1479705088,
+      "bytes": 2421,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/028.png",
+      "sha256": "28f1f1d1b005e3557370e19a535aa078884e3ffbce0d84828387468334e64f86",
+      "source_path": "pcb2/Data/Masks/Anomaly/028.png"
+    },
+    {
+      "archive_body_offset": 1479708160,
+      "bytes": 2355,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/064.png",
+      "sha256": "58af954cfbd081be743afbfd7355627c0d6667a827d2c9d735b6bd60e9dcc387",
+      "source_path": "pcb2/Data/Masks/Anomaly/064.png"
+    },
+    {
+      "archive_body_offset": 1479711232,
+      "bytes": 2667,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/019.png",
+      "sha256": "7c3fda5718ea370048ba5db51cfa87d7796a71a47241a696186913c64df2c715",
+      "source_path": "pcb2/Data/Masks/Anomaly/019.png"
+    },
+    {
+      "archive_body_offset": 1479714816,
+      "bytes": 3128,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/091.png",
+      "sha256": "890f34bdf5b80227c831232da6e2d355575a66f9e0ff75b8ff99a0d20c50c318",
+      "source_path": "pcb2/Data/Masks/Anomaly/091.png"
+    },
+    {
+      "archive_body_offset": 1479718912,
+      "bytes": 1679,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/055.png",
+      "sha256": "05ac43a55c773ad5a4b11c2b51008c6428da7d6ca3aa45821b9618577367684c",
+      "source_path": "pcb2/Data/Masks/Anomaly/055.png"
+    },
+    {
+      "archive_body_offset": 1479721472,
+      "bytes": 2491,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/037.png",
+      "sha256": "edde7eb257b39b080b919d9dee96c0f45530ecb58904b78d769f383c3bd3db80",
+      "source_path": "pcb2/Data/Masks/Anomaly/037.png"
+    },
+    {
+      "archive_body_offset": 1479724544,
+      "bytes": 1819,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/073.png",
+      "sha256": "181944907fbc8ba4d15a768933bf270aef3080b9d908104c2736177664dca8ae",
+      "source_path": "pcb2/Data/Masks/Anomaly/073.png"
+    },
+    {
+      "archive_body_offset": 1479727104,
+      "bytes": 2125,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/079.png",
+      "sha256": "aeb83d28ae6096fc7fc8ccb0488fc95be527c0077912969d7bf59167841ed233",
+      "source_path": "pcb2/Data/Masks/Anomaly/079.png"
+    },
+    {
+      "archive_body_offset": 1479730176,
+      "bytes": 1977,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/000.png",
+      "sha256": "f42fd0018ffafe756cbea26e556a5d0fab36ca2413ad18896206559d63ee7667",
+      "source_path": "pcb2/Data/Masks/Anomaly/000.png"
+    },
+    {
+      "archive_body_offset": 1479732736,
+      "bytes": 2024,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/097.png",
+      "sha256": "850c56e54e93d989caf8f0afb31d503c17c86a39b19a5139f00c0a09c46f9083",
+      "source_path": "pcb2/Data/Masks/Anomaly/097.png"
+    },
+    {
+      "archive_body_offset": 1479735296,
+      "bytes": 2282,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/088.png",
+      "sha256": "498940f29b95a6015d3d74f083ef6d528e5a1a882669fd9efbfbb549a46b1d67",
+      "source_path": "pcb2/Data/Masks/Anomaly/088.png"
+    },
+    {
+      "archive_body_offset": 1479738368,
+      "bytes": 1876,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/080.png",
+      "sha256": "192104fd4ae9be8da3f7d1fbc9036d416c8086034eff6d6b5e25a5112dc0cb4d",
+      "source_path": "pcb2/Data/Masks/Anomaly/080.png"
+    },
+    {
+      "archive_body_offset": 1479740928,
+      "bytes": 2674,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/008.png",
+      "sha256": "64260117240056b3fec8665c27b0a08eb90fcb8fd801622a6da6729e24e3aa46",
+      "source_path": "pcb2/Data/Masks/Anomaly/008.png"
+    },
+    {
+      "archive_body_offset": 1479744512,
+      "bytes": 3758,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/044.png",
+      "sha256": "453493c10baba8d8fe541e026903290c13c87081f9d9c44c9f513f2392a871cc",
+      "source_path": "pcb2/Data/Masks/Anomaly/044.png"
+    },
+    {
+      "archive_body_offset": 1479749120,
+      "bytes": 2652,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/026.png",
+      "sha256": "493434cb9d24a0d884dd8609f08bd09a3c6881b198678e5820ff22c4a7f2be0d",
+      "source_path": "pcb2/Data/Masks/Anomaly/026.png"
+    },
+    {
+      "archive_body_offset": 1479752704,
+      "bytes": 1881,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/062.png",
+      "sha256": "b234703a2cf95a06860ef428b0bacb20b445b1fc43f1f2ea4d056b9e49116ce4",
+      "source_path": "pcb2/Data/Masks/Anomaly/062.png"
+    },
+    {
+      "archive_body_offset": 1479755264,
+      "bytes": 1906,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/017.png",
+      "sha256": "6df4b8763a56aa3b66ddd87e0b4eb11ecae71e3a6fe3598a1a7021e97a4d5391",
+      "source_path": "pcb2/Data/Masks/Anomaly/017.png"
+    },
+    {
+      "archive_body_offset": 1479757824,
+      "bytes": 1627,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/053.png",
+      "sha256": "5354ee808e7dccda892378360bb093758e76566e7999b3ac5428058eb701e937",
+      "source_path": "pcb2/Data/Masks/Anomaly/053.png"
+    },
+    {
+      "archive_body_offset": 1479760384,
+      "bytes": 1953,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/035.png",
+      "sha256": "5255bcce68a2b2ae00cb47895af4f5c36184a4fa6c93b08823969e783ab8c8e5",
+      "source_path": "pcb2/Data/Masks/Anomaly/035.png"
+    },
+    {
+      "archive_body_offset": 1479762944,
+      "bytes": 2588,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/071.png",
+      "sha256": "4b991fb9f93480da26cb1f313a8c666f9bcd6a479dea1342148dff8ffd70bd53",
+      "source_path": "pcb2/Data/Masks/Anomaly/071.png"
+    },
+    {
+      "archive_body_offset": 1479766528,
+      "bytes": 2627,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/004.png",
+      "sha256": "0e9e207573ecdc169ec8e907620d068d31e02af9c2688e1e3bd28a1fb751720c",
+      "source_path": "pcb2/Data/Masks/Anomaly/004.png"
+    },
+    {
+      "archive_body_offset": 1479770112,
+      "bytes": 2638,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/040.png",
+      "sha256": "9111a1fa3ac79189c2d12139e710d1296464e6102146ec1e5b11bf507b53ce5e",
+      "source_path": "pcb2/Data/Masks/Anomaly/040.png"
+    },
+    {
+      "archive_body_offset": 1479773696,
+      "bytes": 1957,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/022.png",
+      "sha256": "4b8fbf0e4b2dfbd33498973120bf1e1ad44a670404dad5fee60b10124add9cf8",
+      "source_path": "pcb2/Data/Masks/Anomaly/022.png"
+    },
+    {
+      "archive_body_offset": 1479776256,
+      "bytes": 2951,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/013.png",
+      "sha256": "e6bb7b86ba44837f2849ce0b443b4a073e213f6d134905be689099886a873740",
+      "source_path": "pcb2/Data/Masks/Anomaly/013.png"
+    },
+    {
+      "archive_body_offset": 1479779840,
+      "bytes": 2105,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/031.png",
+      "sha256": "cceefcf05b5c0ba59f08d88d96f4d47cc5d93c25e5d4247c6147e368aa5d30e5",
+      "source_path": "pcb2/Data/Masks/Anomaly/031.png"
+    },
+    {
+      "archive_body_offset": 1479782912,
+      "bytes": 3046,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/084.png",
+      "sha256": "fcc0cc749d0a05eceabdd9d578522734e85f8b489a43164e34a2bfa0ae784e70",
+      "source_path": "pcb2/Data/Masks/Anomaly/084.png"
+    },
+    {
+      "archive_body_offset": 1479786496,
+      "bytes": 2834,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/048.png",
+      "sha256": "bd2eba61453a7f10af1390cc1fad53fc752ed1694edf68062f4c6ac552c7adfd",
+      "source_path": "pcb2/Data/Masks/Anomaly/048.png"
+    },
+    {
+      "archive_body_offset": 1479790080,
+      "bytes": 2513,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/066.png",
+      "sha256": "ee90dd7d16de0d4e41e2b354bcedbbfe236f63fa5e084c4afa2ca8a1ba3f8ff5",
+      "source_path": "pcb2/Data/Masks/Anomaly/066.png"
+    },
+    {
+      "archive_body_offset": 1479793152,
+      "bytes": 2341,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/093.png",
+      "sha256": "3c527164d0b8b33caed26dd4ccfd5e265d16ece63cc0356983f86ef745bf8ed5",
+      "source_path": "pcb2/Data/Masks/Anomaly/093.png"
+    },
+    {
+      "archive_body_offset": 1479796224,
+      "bytes": 1699,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/057.png",
+      "sha256": "93c0b3db08a6c1337f60ec455e6fc1b4f2860d46e2450c4784836ebbc3f6ed20",
+      "source_path": "pcb2/Data/Masks/Anomaly/057.png"
+    },
+    {
+      "archive_body_offset": 1479798784,
+      "bytes": 2003,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/039.png",
+      "sha256": "e4a0f8f8c1763051da01fd12c6106acbd87fcb506953b7684e164fd7fb114c08",
+      "source_path": "pcb2/Data/Masks/Anomaly/039.png"
+    },
+    {
+      "archive_body_offset": 1479801344,
+      "bytes": 2610,
+      "path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/075.png",
+      "sha256": "2664cda3ee9de64f9b774b907a27361f3fcce84b77aa32531fcff94d5af6f1cf",
+      "source_path": "pcb2/Data/Masks/Anomaly/075.png"
+    }
+  ],
+  "freeze_receipt_sha256": "a574ab907b9c871dbd55778fa5374b61c4c0d1bd988272e65819ddc4243a8d4d",
+  "other_category_payloads_acquired": false,
+  "selected_bytes": 26363939,
+  "source_revision": "2a692ab575001cbde74d402d897a7286086c6199",
+  "transferred_bytes": 26983459,
+  "url": "https://amazon-visual-anomaly.s3.us-west-2.amazonaws.com/VisA_20220922.tar"
+}

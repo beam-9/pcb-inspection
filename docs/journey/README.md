@@ -10,8 +10,8 @@ Seagate production process or establish automatic rejection reliability.
 | 1: frozen feasibility | Does a small normal-reference detector provide useful signal? | Direct256 ResNet18, uniform4096 patch memory, normal-only calibration; global embedding comparator | Ranking signal exists, but57/100 anomalies missed and median localization weak. **Stop/revise methodology**; investigate before building the app. |
 | A2: retrospective diagnosis | Where does that frozen detector struggle? | Reuse saved PCB1 scores/maps; type/size, operating-point and localization analysis | Hypotheses about detail, reference matching and operating points; no independently validated replacement threshold and no established single cause. |
 | 2: geometry/resolution | Does using more input pixels for the board help? | Content crop/margin, aspect preservation, gray padding at256 (C1), then512 (C2); same4096 uniform policy | C1 lowers normal review burden and improves recall. C2 improves typical localization but raises FPR and cost. Keep both matched references for the next question. |
-| 3: memory selection | At the same4096 budget, does representative selection improve either geometry branch? | D1/D2 replace only uniform selection with declared projected approximate greedy selection | Both independently reviewed. Carry D1 forward as the lower-FPR, faster default; preserve D2 for higher recall/localization. Fresh category confirmation is pending. |
-| Fresh confirmation | Does the selected procedure work on a fresh PCB category? | Freeze category-adaptation procedure, then fit/calibrate allowed PCB2 normals | **Deferred. PCB2 remains unacquired and sealed.** |
+| 3: memory selection | At the same4096 budget, does representative selection improve either geometry branch? | D1/D2 replace only uniform selection with declared projected approximate greedy selection | Both independently reviewed. Carry D1 forward as the lower-FPR, faster default; preserve D2 for higher recall/localization. Decision led to the later Stage4 confirmation. |
+| 4: PCB2 confirmation | Does the frozen procedure retain useful signal on a fresh analytical category? | Unchanged normal-reviewed geometry, category-specific fitting/calibration; D1 primary, D2 secondary | D1 80% recall/5% FPR passes practical point criteria; D2 91%/4%. Pooled AP/IoU degrade. Diagnose saved evidence before UI. |
 
 Stage1 was **frozen before original final scoring**. Structural dataset integrity
 checks read labels/masks before the scoring gate, as disclosed in its exposure
@@ -103,18 +103,43 @@ validate a Seagate production process.
 **Decision:** carry D1 forward as the default development recipe: 89% recall,
 4% normal FPR and 0.291-second median inference. Preserve D2 as the higher-recall,
 stronger-localization alternative at 11% FPR and about 3.7 times the inference cost.
-The next work is to freeze a category-specific adaptation procedure and a normal-only
-geometry/resource gate before fresh PCB2 confirmation. That work was not executed
-in Stage3; PCB2 remains unacquired and sealed. No app or Stage4 was built.
+The decision at Stage3 completion was to freeze category adaptation and normal-only
+geometry/resource gates before PCB2 confirmation. That work was not executed in Stage3; the later authorized Stage4 is reported below.
+No app was built.
+
+## Stage4: fresh analytical category confirmation
+
+[Stage4](stage_04_pcb2_confirmation.md) refit/calibrated PCB2 normals under the frozen
+procedure, with D1 primary throughout. Inherited geometry passed normal-only review
+unchanged. D1 reached 80/100 recall and 5/100 normal flags, median anomaly AP 0.3245 and
+peak-inside 44/100: all preregistered practical point criteria passed. D2 reached 91/100,
+4/100 normal flags, median AP 0.4957 and peak-inside 71/100, at about 3.69 times inference.
+
+Pooled pixel AP fell to 0.1534/0.2766 and IoU to 0.04744/0.07044, much lower than PCB1.
+Detection and typical localization retain useful signal; broad pixel responses,
+missing-component and small-defect failures limit the result. Missing-labeled images
+were detected 12/19 by D1 and 13/19 by D2; six of nine D2 misses carry that overlapping
+source label. The smallest fixed area band reached 7/14 and 9/14 recall. Both full reviews passed;
+no retuning or primary reassignment occurred. There was no PCB2 uniform control, so
+causal geometry/coreset transfer is not established. Future diagnosis should reuse
+saved maps/reference traces before one controlled intervention; defer UI. Stage5 was
+not executed.
+
+The [ledger](../development/stage4_exposure_ledger.md) discloses historical uncertain
+incidental archive bytes without discovered prior analytical exposure. Measured
+preparation-clock gates passed, while UTC calendar spans exceeded 30 minutes; no calendar
+guarantee is claimed. Some fixed qualitative examples have reversed physical pose;
+that post-confirmation observation is a hypothesis, not a proven failure cause.
 
 ## Read the evidence
 
 - [Stage1 findings](../pilot_findings.md), [original protocol](../protocol.json), [original exposure ledger](../exposure_ledger.md), [executed pilot notebook](../../notebooks/pcb1_pilot.ipynb).
 - [A2 diagnostics](../../artifacts/pcb1_a2/diagnostic_summary.md), [A2 exposure ledger](../development/a2_exposure_ledger.md).
 - [Stage2 findings](../../artifacts/pcb1_geometry_comparison/findings.md), [coordinate/metric protocol](../development/geometry_resolution_protocol_review.md), [execution ledger](../development/geometry_execution_ledger.md), [executed geometry notebook](../../notebooks/pcb1_geometry_resolution.ipynb).
+- [Stage4 findings](../../artifacts/stage4/comparison/findings.md), [normal geometry chapter](stage_04a_pcb2_normal_adaptation.md), [confirmation chapter](stage_04_pcb2_confirmation.md).
 - [Stage3 proposal review](../development/stage3_plan_review.md), [method notes](../development/stage3_method_notes.md), [exposure ledger](../development/stage3_exposure_ledger.md), [D1 independent review](../../artifacts/runs/coreset_256_v1/independent_review.json), [D2 independent review](../../artifacts/runs/coreset_512_v1/independent_review.json), [decision log](decision_log.md). Earlier proposal text remains historical.
 
 Pretrained weight commercial/redistribution rights remain unverified. Benchmark
 acquisition identity is unknown; no factory timestamps or unseen-factory claims are
-made. PCB2's future category-specific memory and normal calibration would test a
-frozen adaptation procedure, not zero-shot transfer of the PCB1 memory.
+made. PCB2 category-specific memory and normal calibration tested a frozen adaptation
+procedure; zero-shot transfer of the PCB1 memory was not tested.

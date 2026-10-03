@@ -1,0 +1,29 @@
+{
+  "all_abnormal_masks_decoded_and_positive": true,
+  "all_images_decoded": true,
+  "common256_masks_lost_completely": 0,
+  "common256_positive_fraction_ratio_max": 1.0838058663212604,
+  "common256_positive_fraction_ratio_min": 0.8058857917785646,
+  "counts": {
+    "anomaly": 100,
+    "normal": 100
+  },
+  "cross_category_exact_duplicate_count": 0,
+  "cross_fit_calibration_exact_duplicate_count": 0,
+  "dimensions": [
+    {
+      "count": 200,
+      "height": 1070,
+      "width": 1404
+    }
+  ],
+  "exact_duplicate_test_groups": 0,
+  "exclusions": [],
+  "heldout_normal_decode_stage": "After final freeze/shared unseal only",
+  "mask_semantics": "Original scalar class IDs >0; normal implicit zero; inherited grayscale >0 equivalence verified",
+  "masks_touching_source_edge": 0,
+  "multi_label_images": 9,
+  "normal_geometry_not_readapted": true,
+  "source_revision": "2a692ab575001cbde74d402d897a7286086c6199",
+  "test_manifest_sha256": "f8fd7a91ae6ba31a703f1b99d046da8dd559d3230ad74f88d2e65bcdb293af48"
+}

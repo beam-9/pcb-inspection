@@ -1,0 +1,13 @@
+{
+  "checked_at_utc": "2026-10-03T01:01:20.823258+00:00",
+  "passed": true,
+  "freeze_receipt_sha256": "a574ab907b9c871dbd55778fa5374b61c4c0d1bd988272e65819ddc4243a8d4d",
+  "tests_passed": 109,
+  "test_receipt_sha256": "39daf3392fc52d55482cc54b3ee3c7c65078d077bc888f0b8389096ba9248c56",
+  "frozen_code_matches_tested_code": true,
+  "both_normal_preparation_reviews_passed": true,
+  "anomaly_access_receipt_absent": true,
+  "heldout_normal_decode_deferred": true,
+  "historical_transport_uncertainty": "Disclosed in ledger; no prior analytical anomaly exposure discovered",
+  "decision": "Proceed once with primary then predeclared secondary; no retuning"
+}

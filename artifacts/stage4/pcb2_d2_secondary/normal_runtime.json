@@ -1,0 +1,28 @@
+{
+  "preparation_seconds": 652.3350719159971,
+  "peak_rss_bytes": 2935586816,
+  "median_inference_seconds": 2.275188416002493,
+  "p95_inference_seconds": 3.0312104170006933,
+  "phases": {
+    "backbone_load": {
+      "seconds": 0.665707875003136,
+      "peak_rss_bytes": 526385152
+    },
+    "projection": {
+      "seconds": 84.86811966599998,
+      "peak_rss_bytes": 1663729664
+    },
+    "selection": {
+      "seconds": 140.28574854199906,
+      "peak_rss_bytes": 2935586816
+    },
+    "reextraction": {
+      "seconds": 81.8177625419994,
+      "peak_rss_bytes": 2935586816
+    },
+    "calibration": {
+      "seconds": 344.12077558299643,
+      "peak_rss_bytes": 2935586816
+    }
+  }
+}

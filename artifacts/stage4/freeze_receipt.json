@@ -1,0 +1,196 @@
+{
+  "frozen_at_utc": "2026-10-03T01:01:20.600342+00:00",
+  "config": {
+    "declared_at_utc": "2026-10-02T22:33:00.450222+00:00",
+    "authorization": "Review stage4 handoff, evaluate and begin",
+    "handoff_sha256": "ac03c05e9f8fe2c19d2e16a5dfd8a9ed4b0b788ff886cf920f369b3ae24fe998",
+    "base_commit": "91aa6970ad55872c83f1b39dc4a66cfabf4bb7f4",
+    "role": "Fresh PCB2 confirmation of category-adapted frozen procedure; not zero-shot transfer or a causal comparison of selection methods",
+    "primary": "pcb2_d1_primary,256",
+    "secondary": "pcb2_d2_secondary,512; never post-result fallback",
+    "detector": "Reuse frozen Stage3feature/scoring/selector/map/calibration functions; no old code edits",
+    "normal_split": {
+      "official_train": "SHA duplicate groups sorted then default_rng42 shuffle; ceil20percentcalibration,remainingfit",
+      "official_test_normal": "Final heldoutnormal evaluation; excluded geometry adaptation",
+      "crosscategory_exact_duplicate": "Stop if anyPCB2image SHA matches previouslyexposed PCB1"
+    },
+    "geometry": {
+      "mode": "inherited_blue",
+      "id": "pcb1-blue-margin-letterbox-v1",
+      "detection_width": 512,
+      "blue_minus_red": 0.05,
+      "green_minus_red": 0.03,
+      "minimum_saturation": 0.12,
+      "closing_iterations": 3,
+      "minimum_component_fraction": 0.02,
+      "maximum_component_fraction": 0.65,
+      "horizontal_margin_board_width": 0.08,
+      "vertical_margin_board_height": 0.45,
+      "padding_rgb": [
+        128,
+        128,
+        128
+      ],
+      "pose": "unchanged; 180-degree ambiguity retained"
+    },
+    "selector": {
+      "memory_count": 4096,
+      "all_fitting_candidates": true,
+      "projection_dimensions": 64,
+      "scoring_dimensions": 384,
+      "projection_seed": 43,
+      "selection_seed": 42,
+      "initial_anchor_count": 10,
+      "method": "Frozen Stage3projected approximate greedy"
+    },
+    "calibration": {
+      "image_quantile": 0.95,
+      "pixel_quantile": 0.99,
+      "method": "higher",
+      "comparison": ">",
+      "pixel_space": "fullsource inverse then common256"
+    },
+    "caps": {
+      "peak_rss_bytes": 8589934592,
+      "preparation_seconds": 1800,
+      "median_inference_seconds": 10
+    },
+    "primary_practical_criteria": {
+      "recall_minimum": 0.8,
+      "normal_fpr_maximum": 0.1,
+      "median_common_pixel_ap_minimum": 0.25,
+      "peak_inside_fraction_minimum": 0.4,
+      "interpretation": "All jointly required for project feasibility criterion; not an equivalence/statistical test or factory target. Report every endpoint regardless."
+    },
+    "size_slices": {
+      "primary": "FixedPCB1A2higherquartile area boundaries; call referencearea bands onPCB2",
+      "edges": [
+        0.001495361328125,
+        0.0019989013671875,
+        0.003143310546875
+      ],
+      "tie": "searchsorted sideleft",
+      "supplement": "PCB2own higher q25/q50/q75 algorithm, computed onceafterunseal without outcomes; tieslowerband,emptygroupsretained",
+      "space": "Fullsource common256 mask fraction, notsource-nativefraction"
+    },
+    "qualitative_rule": {
+      "priority": [
+        "2TP smallestpositiveprimaryscoremargin",
+        "2FN largestnegativeprimaryscoremargin",
+        "2FP largestprimaryscore",
+        "2smallestmaskarea",
+        "2largestmaskarea",
+        "onepersourcetype nearestmedianarea",
+        "2recipe disagreements lowestID",
+        "oneoverlapbutpeakoutside lowestID",
+        "onepeakinside lowestID"
+      ],
+      "ties": "fullimageIDascending",
+      "deduplicate": true,
+      "maximum": 24,
+      "do_not_replace_unflattering_examples": true
+    },
+    "normal_geometry_visual_rule": "Allfallbacks plus extreme croparea/aspect/padding and systematic sortednormaltrain samples; heldoutnormals excluded",
+    "freeze_sequence": [
+      "geometryreview and splitidentity",
+      "bothrecipe config/codefreeze",
+      "bothnormalprepare",
+      "independentnormalpreflight",
+      "finalfreeze binds prepared models thresholds environment dataset",
+      "exclusive sharedunseal",
+      "primaryonce then secondaryonce"
+    ],
+    "anomaly_access_before_finalfreeze": false,
+    "retuning_after_unseal": false,
+    "stage5_execution": false,
+    "geometry_module": "pcb_inspection.stage4_geometry",
+    "geometry_review": "artifacts/stage4/geometry_preflight/normal_geometry_review.json",
+    "normal_manifest": "artifacts/stage4/pcb2_normals/normal_manifest.csv",
+    "test_loader_module": "pcb_inspection.pcb2_confirmation_data",
+    "test_loader_function": "load_test_manifest",
+    "normal_split_counts": {
+      "fit": 720,
+      "calibration": 181,
+      "normal_test": 100
+    },
+    "normal_candidate_counts": {
+      "256": 737280,
+      "512": 2949120
+    },
+    "provenance_inputs": [
+      "configs/stage4_protocol_draft.json",
+      "artifacts/stage4/pcb2_normals/normal_acquisition.json",
+      "artifacts/stage4/pcb2_normals/normal_audit.json",
+      "artifacts/stage4/pcb2_normals/official_normal_routes.csv",
+      "artifacts/stage4/geometry_preflight/geometry_preflight.json",
+      "data/manifests/source_acquisition.json",
+      "data/raw/1cls.csv"
+    ],
+    "geometry_approved_at_utc": "2026-10-02T22:43:54.352879+00:00"
+  },
+  "normal_split_counts": {
+    "calibration": 181,
+    "fit": 720,
+    "normal_test": 100
+  },
+  "primary": {
+    "run": "pcb2_d1_primary",
+    "input_size": 256
+  },
+  "secondary": {
+    "run": "pcb2_d2_secondary",
+    "input_size": 512
+  },
+  "anomaly_access_status": "sealed",
+  "held_out_normals_status": "not decoded or scored",
+  "frozen_files": {
+    "artifacts/stage4/geometry_preflight/geometry_preflight.json": "a317d547dffda73266ac3f802f2e897572de531eb4b6c373f8e3884ef817ce47",
+    "artifacts/stage4/geometry_preflight/normal_geometry_review.json": "fcf0244d37d42a4b5aecbc11fced6dd33521f951e3fafc2c4161b387b993a5f0",
+    "artifacts/stage4/pcb2_normals/normal_acquisition.json": "541cc89926fd95d55169bf105c931f0fd22394bc83fe083748a95dcf3de0d1eb",
+    "artifacts/stage4/pcb2_normals/normal_audit.json": "82c9402af556fd2feabd32e6ba27be149677db47d348603961a882b43e7d179e",
+    "artifacts/stage4/pcb2_normals/normal_manifest.csv": "618cc7a6885c5622dc531542adc9bf1c128da2bb8a904aebce9c6a3c075709ed",
+    "artifacts/stage4/pcb2_normals/official_normal_routes.csv": "e56a7682bf2ab9cf92f9e414c73b990216b399e35cc7366a0bfcb136a7da1d76",
+    "configs/stage4_protocol.json": "d7840afdca27d879f1279b3d79f8908b94a6fd7a3ccf77a787ef176a532bb650",
+    "configs/stage4_protocol_draft.json": "e2967fc8866767c751e4bdee26ffddabca892e64899ab90f69b410ebbd4c6d6d",
+    "data/cache/hub/checkpoints/resnet18-f37072fd.pth": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+    "data/manifests/source_acquisition.json": "5037da3398554becce1bea299ddacf9ef7a2d6cc86270b37d5229019fe9b0316",
+    "data/raw/1cls.csv": "a48557e6033318cb90556f706196bc9d247a776a23ea51aecee5a80dd0332995",
+    "requirements.lock": "3d871d66732cfc5d114d4be8f4befa152ece2f7789cd9666e3bc5f90637b8a0b",
+    "src/pcb_inspection/acquisition.py": "126c50db527496a83d0c95cd5195755dd33dbe31b536f8a986b58afab351e2aa",
+    "src/pcb_inspection/baseline.py": "f3278d89674d4f0b503054f8200d3ff4f1432e6126b3bb2f03dccedba140627d",
+    "src/pcb_inspection/calibration.py": "72a8243d0a2878ac41be6238c2c6331a711d28e1af6fbc74e4d48d2d7b599dd9",
+    "src/pcb_inspection/coreset.py": "279863b1468130643296ef6e2454c8ac8d17b7008e54b90165f850706c6df773",
+    "src/pcb_inspection/data.py": "7b5163574116ca64e60cb57efeb1ad4a6cc498f427acfcd65ba95441b5c5f69e",
+    "src/pcb_inspection/diagnostics.py": "01c51dcdd3ff8c9efa6d62a7c2899d2dc76516ca3964d013a6b31d8a229f6fb7",
+    "src/pcb_inspection/environment.py": "ee2be0574d2976ddfd1b36b9f17f8b20de28ee252fa47834b067df0c7c7dccfc",
+    "src/pcb_inspection/evaluation.py": "5c13e883b42f53f1a3f85d8b8dc20a0421d1da5385e912465c08538daf39cf77",
+    "src/pcb_inspection/geometry.py": "932bca6b7b1209764536532857a10beec465a9f073b554846c83a7ba1a101c0f",
+    "src/pcb_inspection/geometry_experiment.py": "e46d9e27c59cd1158c2e9df56c382e8ac446a44ea68ed62c5aac8c78c95a7049",
+    "src/pcb_inspection/guard.py": "ccbb0c951c9fc47227dc420c9b588355f846de0c8ccab12a50c1cc5cec1f15ba",
+    "src/pcb_inspection/memory_experiment.py": "7c5ea1d4043710c41644423d764c2f894b65ea4494cbeecc246f2706d2f59da9",
+    "src/pcb_inspection/pcb2_confirmation_data.py": "a8a4ee30fc969f28b206b7a413768980108e9b3dce662475648b40bc578d0624",
+    "src/pcb_inspection/preprocessing.py": "74ff71deb0ba352dde813fb6c1cc4499d82b1e682ddc8827e7e54218cf1246fd",
+    "src/pcb_inspection/provenance.py": "acb633e72603ff56ef27a29aa0460b5bd7175f06234ef7db6479fc631d2f6e15",
+    "src/pcb_inspection/stage4_data.py": "fa6b9dd8a6e7714e59fe2d295cc21dfb74381d33306477a9edc104095f9bc6e6",
+    "src/pcb_inspection/stage4_geometry.py": "50f855ef3d985ad9ee606b0796978c06b6be924582bd0b5deb1f514709c20f1c",
+    "src/pcb_inspection/stage4_review.py": "112920b1058963197292f18da037b06f1eb44658e4e5838f159f05b9e2ad4068",
+    "src/pcb_inspection/stage4_transfer.py": "d4adc937a1663106efcfd06487733bcf7a6404f5a8c3c887b324b441cf1d3d80",
+    "tests/test_data.py": "d89e7e9b9ffea17d123c995837bed70a9b8c6c9974c4adf094b41a47164b07e2",
+    "tests/test_geometry.py": "ce86b091740ce1f9350b5cf9b6c039b4161fe4f37093c4858cb644b0da30720b",
+    "tests/test_geometry_experiment.py": "973d8a7e4ea9b070ed14f3b2e0cfb0c588452bb4bcf84cf123b2010f59f1f930",
+    "tests/test_guard.py": "c8296adc35cedf8cc2a92705d9bed336e15eab2946bf670a7d03ec3f8435bf57",
+    "tests/test_memory_experiment.py": "1983dee8fe41ed423e105ae13ddea0bc0b822461acd0e6ff89ec24900490c905",
+    "tests/test_models.py": "b7941f5dee3e4419d13f0429ec5e9fe727db5185a94c6a938bcf0762b5c7d92b",
+    "tests/test_pcb2_confirmation_data.py": "45416d175fe165a501a8a1e0911bf83b054c4eadda21af5ddc29dbd198ccefdd",
+    "tests/test_stage4_data.py": "81564256f2786aa6668a7a524d8ad4cd143a562d49a6b1448250247bcfc9a2b6",
+    "tests/test_stage4_geometry.py": "d22c4ff79079a5acf6a46ffa6a7195f6e19189a8d11deceb1dc8944b10d5283c",
+    "tests/test_stage4_review.py": "c45ebfe199f0fd44d6a7e7043a99b6e162fadc01155a2e49e24533fb8b9010b5",
+    "tests/test_stage4_transfer.py": "22449d59fbe84c0286d88fc4b449bd89406bec36d677e4c1bdcc1bc6f64b5a84",
+    "artifacts/stage4/normal_protocol.json": "1e1c42713189b43da0c0d8c772165656265d329eae0da5dc32a7ef0ed8d39b6c",
+    "artifacts/stage4/pcb2_d1_primary/prepared.json": "9f584cc3a0e52a2d5d1909adfe63626d59c22cfaaa126004d3a405376fbf2927",
+    "artifacts/stage4/pcb2_d1_primary/independent_normal_review.json": "bb7179b53fa75b8020d096ee2cfc0df9bafa615fe8e67d3b9f53d097554b6ebd",
+    "artifacts/stage4/pcb2_d2_secondary/prepared.json": "47be88e1ec98a2d7cbcdae00e327e5c0709f29e35a032b8739397628b9452f0f",
+    "artifacts/stage4/pcb2_d2_secondary/independent_normal_review.json": "cc76796d3d81bb076e9ed8a7cd63fb3adc5a381e07ffaddaaeac980b21be7b5c",
+    "artifacts/stage4/environment.json": "14eb09582cd1ced137b163ef72ee1958f8642f0f1e9f92a338ef9253deba13fa"
+  }
+}

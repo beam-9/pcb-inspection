@@ -1,0 +1,8 @@
+{
+  "memory": "data/cache/stage4/pcb2_d1_primary/memory.npy",
+  "projected": "data/cache/stage4/pcb2_d1_primary/projected_features.npy",
+  "calibration_maps": "data/cache/stage4/pcb2_d1_primary/calibration_maps.npy",
+  "calibration_model_maps": "data/cache/stage4/pcb2_d1_primary/calibration_model_maps",
+  "model_maps": "data/cache/stage4/pcb2_d1_primary/model_maps",
+  "anomaly_maps": "data/cache/stage4/pcb2_d1_primary/anomaly_maps"
+}

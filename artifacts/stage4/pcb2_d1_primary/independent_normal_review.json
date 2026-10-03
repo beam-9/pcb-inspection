@@ -1,0 +1,23 @@
+{
+  "reviewed_at_utc": "2026-10-03T00:08:51.492926+00:00",
+  "passed": true,
+  "size": 256,
+  "review_code_sha256": "112920b1058963197292f18da037b06f1eb44658e4e5838f159f05b9e2ad4068",
+  "prepared_sha256": "9f584cc3a0e52a2d5d1909adfe63626d59c22cfaaa126004d3a405376fbf2927",
+  "normal_protocol_sha256": "1e1c42713189b43da0c0d8c772165656265d329eae0da5dc32a7ef0ed8d39b6c",
+  "all_hashes_and_exact_group_splits_checked": true,
+  "normal_quantile_ranks_verified": true,
+  "all_calibration_inverse_maps_verified": true,
+  "selected_4096_fitting_coordinates_verified": true,
+  "reextracted_orders": [
+    0,
+    1024,
+    2048,
+    3072,
+    4095
+  ],
+  "independent_selection_prefix_count": 16,
+  "full_4096_selector_not_rerun": true,
+  "held_out_normals_decoded": false,
+  "anomaly_images_masks_types_accessed": false
+}

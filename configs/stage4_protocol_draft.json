@@ -1,0 +1,85 @@
+{
+  "declared_at_utc": "2026-10-02T22:33:00.450222+00:00",
+  "authorization": "Review stage4 handoff, evaluate and begin",
+  "handoff_sha256": "ac03c05e9f8fe2c19d2e16a5dfd8a9ed4b0b788ff886cf920f369b3ae24fe998",
+  "base_commit": "91aa6970ad55872c83f1b39dc4a66cfabf4bb7f4",
+  "role": "Fresh PCB2 confirmation of category-adapted frozen procedure; not zero-shot transfer or a causal comparison of selection methods",
+  "primary": "pcb2_d1_primary,256",
+  "secondary": "pcb2_d2_secondary,512; never post-result fallback",
+  "detector": "Reuse frozen Stage3feature/scoring/selector/map/calibration functions; no old code edits",
+  "normal_split": {
+    "official_train": "SHA duplicate groups sorted then default_rng42 shuffle; ceil20percentcalibration,remainingfit",
+    "official_test_normal": "Final heldoutnormal evaluation; excluded geometry adaptation",
+    "crosscategory_exact_duplicate": "Stop if anyPCB2image SHA matches previouslyexposed PCB1"
+  },
+  "geometry": "Apply inheritedbluecrop first tofit/cal normals only; document normalfailures before anyadaptation; finalparameterspending",
+  "selector": {
+    "memory_count": 4096,
+    "all_fitting_candidates": true,
+    "projection_dimensions": 64,
+    "scoring_dimensions": 384,
+    "projection_seed": 43,
+    "selection_seed": 42,
+    "initial_anchor_count": 10,
+    "method": "Frozen Stage3projected approximate greedy"
+  },
+  "calibration": {
+    "image_quantile": 0.95,
+    "pixel_quantile": 0.99,
+    "method": "higher",
+    "comparison": ">",
+    "pixel_space": "fullsource inverse then common256"
+  },
+  "caps": {
+    "peak_rss_bytes": 8589934592,
+    "preparation_seconds": 1800,
+    "median_inference_seconds": 10
+  },
+  "primary_practical_criteria": {
+    "recall_minimum": 0.8,
+    "normal_fpr_maximum": 0.1,
+    "median_common_pixel_ap_minimum": 0.25,
+    "peak_inside_fraction_minimum": 0.4,
+    "interpretation": "All jointly required for project feasibility criterion; not an equivalence/statistical test or factory target. Report every endpoint regardless."
+  },
+  "size_slices": {
+    "primary": "FixedPCB1A2higherquartile area boundaries; call referencearea bands onPCB2",
+    "edges": [
+      0.001495361328125,
+      0.0019989013671875,
+      0.003143310546875
+    ],
+    "tie": "searchsorted sideleft",
+    "supplement": "PCB2own higher q25/q50/q75 algorithm, computed onceafterunseal without outcomes; tieslowerband,emptygroupsretained"
+  },
+  "qualitative_rule": {
+    "priority": [
+      "2TP smallestpositiveprimaryscoremargin",
+      "2FN largestnegativeprimaryscoremargin",
+      "2FP largestprimaryscore",
+      "2smallestmaskarea",
+      "2largestmaskarea",
+      "onepersourcetype nearestmedianarea",
+      "2recipe disagreements lowestID",
+      "oneoverlapbutpeakoutside lowestID",
+      "onepeakinside lowestID"
+    ],
+    "ties": "fullimageIDascending",
+    "deduplicate": true,
+    "maximum": 24,
+    "do_not_replace_unflattering_examples": true
+  },
+  "normal_geometry_visual_rule": "Allfallbacks plus extreme croparea/aspect/padding and systematic sortednormaltrain samples; heldoutnormals excluded",
+  "freeze_sequence": [
+    "geometryreview and splitidentity",
+    "bothrecipe config/codefreeze",
+    "bothnormalprepare",
+    "independentnormalpreflight",
+    "finalfreeze binds prepared models thresholds environment dataset",
+    "exclusive sharedunseal",
+    "primaryonce then secondaryonce"
+  ],
+  "anomaly_access_before_finalfreeze": false,
+  "retuning_after_unseal": false,
+  "stage5_execution": false
+}

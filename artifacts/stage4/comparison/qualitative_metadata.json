@@ -1,0 +1,13 @@
+{
+  "created_at_utc": "2026-10-03T01:13:08.927515+00:00",
+  "selection_rule": "Frozen configs/stage4_protocol.json; priority order, fullID ties, dedup, max24",
+  "example_count": 18,
+  "pages": [
+    "qualitative_contact_sheet_01.png",
+    "qualitative_contact_sheet_02.png",
+    "qualitative_contact_sheet_03.png"
+  ],
+  "selection_sha256": "8c9ae357c1b3cbffb845720fea617e5b61ed344daeed9fe9aa14d15eee09290a",
+  "new_inference": false,
+  "scope": "Post-confirmation qualitative review; no retuning"
+}

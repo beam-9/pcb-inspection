@@ -1,0 +1,22 @@
+{
+  "reviewed_at_utc": "2026-10-03T01:11:42.939206+00:00",
+  "passed": true,
+  "size": 512,
+  "role": "secondary",
+  "review_code_sha256": "112920b1058963197292f18da037b06f1eb44658e4e5838f159f05b9e2ad4068",
+  "complete_sha256": "e18a3b7caa50bad87d35df57b9aadadb5ed05ed4e1013466b936b3e67e9e96ac",
+  "freeze_receipt_sha256": "a574ab907b9c871dbd55778fa5374b61c4c0d1bd988272e65819ddc4243a8d4d",
+  "normal_review_sha256": "cc76796d3d81bb076e9ed8a7cd63fb3adc5a381e07ffaddaaeac980b21be7b5c",
+  "all_hashes_and_timestamps_checked": true,
+  "all_200_image_flags_ap_auroc_confusion_checked": true,
+  "all_200_inverse_maps_checked": true,
+  "all_100_anomaly_common_ap_checked": true,
+  "pooled_full_denominator_ap_iou_checked": true,
+  "source_resolution_sample_ids": [
+    "0174183097ea8fa63bbe3153",
+    "86317f47cc684a4a33717793",
+    "ff459de5519f27a8cb717372"
+  ],
+  "source_resolution_not_all_independently_recomputed": true,
+  "selected_4096_fitting_coordinates_checked": true
+}
