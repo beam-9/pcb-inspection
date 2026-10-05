@@ -1,0 +1,6 @@
+{
+  "failed_at_utc": "2026-10-03T18:21:15.487508+00:00",
+  "cause": "Chart-only column-name typo after complete broad/small CSV computations",
+  "correction": "Use gt_max_minus_pixel_threshold, matching saved schema",
+  "published": false
+}

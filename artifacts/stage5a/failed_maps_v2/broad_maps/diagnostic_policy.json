@@ -1,0 +1,19 @@
+{
+  "stage": "Post-confirmation PCB2 development diagnosis",
+  "detector_changed": false,
+  "grid": "4x4 normalized full crop, not board segmentation; no pose normalization",
+  "native_center": "(column+.5-pad_x)/content_width and analogous row",
+  "common_center": "((column+.5)*source_width/256-crop_x0)/crop_width and analogous row",
+  "connectivity": "8-connected, scipy.ndimage.label with 3x3 ones, native content only",
+  "normalized_aggregate": "64x64 crop raster; native score bilinear, original source GT nearest pixel-center sample",
+  "full_fp_check": "All200 common256 fullsource images; outsidecrop retained in totals",
+  "small": "Fixed R1/R2 common256 area bands; diagnostic categories may overlap",
+  "small_low_response": "Maximum saved common map score inside GT <= frozen pixel threshold; not proof of representation failure",
+  "small_competing": "Saved common map maximum outside GT > maximum inside GT",
+  "small_threshold": "Image unflagged despite GT map maximum above pixel threshold; image uses patch max, map maxima are supplemental",
+  "resolution_case": "D1missD2hit OR common pixel AP gain>=.10; flag contrast not cause",
+  "reverse_contrast": "D1hitD2miss OR common pixel AP decline>=.10",
+  "declared_at_utc": "2026-10-03T18:20:31.999031+00:00",
+  "pose_labels_sha256": "eab3bcec29101b729bac1e050eae95f63d09a9c8146f4913ac9e3d8bf720eb7e",
+  "code_sha256": "f9d5d426b1b5dabd4ba38be5e42b1629d6a2a4a7083ed276230c0d9dea9bf5c5"
+}

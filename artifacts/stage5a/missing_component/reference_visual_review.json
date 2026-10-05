@@ -1,0 +1,22 @@
+{
+  "created_at_utc": "2026-10-03T18:22:26.037799+00:00",
+  "selected_cases_per_size": 3,
+  "reviewed_pairs": 30,
+  "counts": {
+    "uncertain": 22,
+    "component": 5,
+    "empty_board": 3
+  },
+  "selection": "Smallest fullimageID each observed outcome group M1/M2/M3 both256/512; querycellnearestunionmaskcentroid fixed by trace_sheet_selection.csv. Alltop5 reviewed; all19cases retained separately.",
+  "limits": "30pair views, not allqueries or references. Center context label does not classify full ResNet receptivefield or prove correspondence. Uncertain includes package boundaries/intercomponentgaps. Emptyboard seen only selected both-hit512 case; no general prevalence claim.",
+  "outputs": {
+    "artifacts/stage5a/missing_component/reference_review_sheets/512_0174183097ea8fa63bbe3153.png": "100c6ab2aed2f6da14d5c1bb8108e7de6ecdce4a15cb878b52390accf9610cb2",
+    "artifacts/stage5a/missing_component/reference_review_sheets/256_0174183097ea8fa63bbe3153.png": "791b14548da0ee06fb5b47b03fcb75f6ee31ea49cdc5309315a9b11d9b5095a1",
+    "artifacts/stage5a/missing_component/reference_review_sheets/512_733208e2c25e1af5454d93f2.png": "236e5d39ead713b232404f621f896245515233d365efdfb1f584b71fbdc21f2c",
+    "artifacts/stage5a/missing_component/reference_review_sheets/512_8a393ef07e4999ab89669d93.png": "f1b25e9d5a8d91b319f0152681bdbf954118b73d9b7df4dd393a1104a4e2ec15",
+    "artifacts/stage5a/missing_component/reference_review_sheets/256_8a393ef07e4999ab89669d93.png": "1e0658cddfa4004f64ddadbc1b97af387c87ac3cc47a5f4a58a56ee1152730eb",
+    "artifacts/stage5a/missing_component/reference_review_sheets/256_733208e2c25e1af5454d93f2.png": "9fef7bdf54a6ac31f1e41673205586e62f5b3e1da992c16a9a9785c781b9b702",
+    "artifacts/stage5a/missing_component/selected_reference_context_review.csv": "2a4fa7d892418b9dacdb5896c390287f9cd55cfe1e1c6c52b07b99df416dc54c",
+    "artifacts/stage5a/missing_component/reference_context_labels.csv": "4f9b49b2a9a8251ae96b08773121bcaf069ac6508587cba08466edd3ec2c3a53"
+  }
+}

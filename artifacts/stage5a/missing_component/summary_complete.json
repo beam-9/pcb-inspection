@@ -1,0 +1,7 @@
+{
+  "created_at_utc": "2026-10-03T18:19:35.832020+00:00",
+  "pose_sha256": "eab3bcec29101b729bac1e050eae95f63d09a9c8146f4913ac9e3d8bf720eb7e",
+  "extraction_sha256": "1ec166ef661cae3293a30a83ef803837d931a1b632326d1d74e035296a06eae9",
+  "semantic_context_labels": "30systematicpair views visually reviewed:5component/3emptyboard/22uncertain; otherreferences unreviewed uncertain. See reference_visual_review.json",
+  "image_weighted": true
+}

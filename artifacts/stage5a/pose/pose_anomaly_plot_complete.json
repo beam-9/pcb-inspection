@@ -1,0 +1,9 @@
+{
+  "completed_at_utc": "2026-10-03T18:23:16.347435+00:00",
+  "input_sha256": "5f1457859ed6e46a9a3738bebb343c46df1270a8d6da16640346f0485cc95c51",
+  "code_sha256": "52ed36c26ccd78c9e9f86430c08cc608e0543d24f79b4dd764f050b314f55e9d",
+  "outputs": {
+    "artifacts/stage5a/pose/pose_fp_pixels_anomalies.png": "02c8b5062ed618b6e31ab86e79de4bdfc8e49320f17f35b9b97b6078aa30fbfa",
+    "artifacts/stage5a/pose/pose_findings_addendum.md": "f9273f5eb5b4c8beaeef8a1156d38b9c744cbc92983c3b0c76d7e798094b4ac2"
+  }
+}

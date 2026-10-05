@@ -1,0 +1,25 @@
+{
+  "declared_at_utc": "2026-10-03T18:16:04.750154+00:00",
+  "method": {
+    "id": "pcb2-exterior-pin-ridges-v1",
+    "analysis_width": 512,
+    "central_board_width_fraction": 0.4,
+    "exterior_band_height_fraction": 0.45,
+    "horizontal_median_width": 15,
+    "local_contrast_min": 0.08,
+    "intensity_min": 0.35,
+    "rgb_range_max": 0.2,
+    "vertical_opening_board_height_fraction": 0.1,
+    "component_aspect_min": 3,
+    "minimum_pin_components": 2,
+    "dominance_ratio": 3,
+    "canonical": "top exterior pin cue",
+    "reversed_180": "bottom exterior pin cue",
+    "uncertain": "neither cue decisive, both cues, absent boardbox or nonhorizontal board",
+    "precise_angles_estimated": false,
+    "outcome_inputs": [],
+    "scope": "Post-confirmation PCB2 development diagnosis",
+    "prior_knowledge": "Stage4 visual knowledge exists; classifier itself consumes RGB+existing board box only"
+  },
+  "code_sha256": "c884aa3b3a9f37b96d01c123e3cb61c281b8f4ae07b03ebbc05178832264b173"
+}

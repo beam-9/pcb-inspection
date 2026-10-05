@@ -1,0 +1,10 @@
+{
+  "verified_at_utc": "2026-10-03T18:22:42.772154+00:00",
+  "post_confirmation": true,
+  "input_sha256": "5f1457859ed6e46a9a3738bebb343c46df1270a8d6da16640346f0485cc95c51",
+  "code_sha256": "6734b34d4ab8ae2c5236ed966a03a1500547ab374d97e3e66e29c0e1becc2d58",
+  "outputs": {
+    "artifacts/stage5a/pose/pose_binary_stratified_summary.csv": "0b447f67319f8adf114597d056e11bef4a71f69567dc1ee2044c2d88141b0c7b",
+    "artifacts/stage5a/pose/pose_stratified_findings.md": "befcc2cf83e90ce7329a0b1d22d1ac920dd266ccf31f857249bcaa501790446c"
+  }
+}

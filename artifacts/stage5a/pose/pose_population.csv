@@ -1,0 +1,7 @@
+split,normal_or_anomaly,pose_label,count
+anomaly_test,anomaly,canonical,90
+anomaly_test,anomaly,reversed_180,5
+anomaly_test,anomaly,uncertain,5
+calibration,normal,canonical,181
+fit,normal,canonical,720
+normal_test,normal,canonical,100

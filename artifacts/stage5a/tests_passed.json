@@ -1,0 +1,20 @@
+{
+  "checked_at_utc": "2026-10-03T18:35:09.157220+00:00",
+  "command": ".venv/bin/python -m pytest -q",
+  "passed": 121,
+  "elapsed_seconds": 17.7,
+  "code_identity_after_validation": {
+    "src/pcb_inspection/stage5a_combined.py": "75f85410e99736865a312cf54d495906821a95d6e9da6e4e490759967e7fbeea",
+    "src/pcb_inspection/stage5a_pose_report.py": "9fbebdce4177ebc87d65402909323739e004f4f986163b428f5fbada99883388",
+    "src/pcb_inspection/stage5a_pose.py": "c884aa3b3a9f37b96d01c123e3cb61c281b8f4ae07b03ebbc05178832264b173",
+    "src/pcb_inspection/stage5a_pose_stratified.py": "6734b34d4ab8ae2c5236ed966a03a1500547ab374d97e3e66e29c0e1becc2d58",
+    "src/pcb_inspection/stage5a_review.py": "23d2304021f793a19765a6237aea52cb40737078e989c34cba68109d659110b3",
+    "src/pcb_inspection/stage5a_pose_anomaly_plot.py": "52ed36c26ccd78c9e9f86430c08cc608e0543d24f79b4dd764f050b314f55e9d",
+    "src/pcb_inspection/stage5a_missing.py": "3b5e79f7e68b749e965f526794a96da555667425a58e7cc794d605efc7f4ef90",
+    "src/pcb_inspection/stage5a_maps.py": "52937554396a6309103c99f4077f130f93d2390df30782bd1b2f9f508e2bee83",
+    "tests/test_stage5a_maps.py": "8933fa4c8ebd71afb6bdce8ec82d3651fd2cb9da89e7c9d385ba10206fd0dfba",
+    "tests/test_stage5a_missing.py": "e0b33527418ca9bdc448b92ea6576e519ff7f8a98a30c99c7ffc68d1008a8723",
+    "tests/test_stage5a_pose.py": "05c906df4b0797885a6125dbdb382c0dad1a362b904be0e36c40b4296270ea9b"
+  },
+  "post_test_artifact_only_edits_checked_by": "independent_review.json: applicability-null checks and all frozen metric joins verified; detector and unit-tested pose/missing/map modules unchanged."
+}

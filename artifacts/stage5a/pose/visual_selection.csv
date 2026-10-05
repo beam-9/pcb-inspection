@@ -1,0 +1,43 @@
+image_id,pose_label,split,reason
+0174183097ea8fa63bbe3153,canonical,anomaly_test,systematic within split
+27a4cb4918036207cdfdc810,canonical,anomaly_test,systematic within split
+56a0dfb39e86f8201ac299b6,canonical,anomaly_test,systematic within split
+72798c294d594c84ea7d2040,canonical,anomaly_test,systematic within split
+96f21f047487f62f50f32ff6,canonical,anomaly_test,systematic within split
+c2b89aa8e214ceaec0783be2,canonical,anomaly_test,systematic within split
+ddd9dd1abe20d8d0ae63882e,canonical,anomaly_test,systematic within split
+ff459de5519f27a8cb717372,canonical,anomaly_test,systematic within split
+02852e484ee514e76c650c22,canonical,calibration,systematic within split
+26806af188919845260c2944,canonical,calibration,systematic within split
+460dfbc0e3456157cb3dafe6,canonical,calibration,systematic within split
+6b70c8fa2ac10acaecbef139,canonical,calibration,systematic within split
+934b890bcd75e1257584858f,canonical,calibration,systematic within split
+b5e6d955b061366db8465add,canonical,calibration,systematic within split
+d5430c5566d0290460e83e55,canonical,calibration,systematic within split
+ff4a16b9ca88d0c110949e78,canonical,calibration,systematic within split
+003a70a56fc2e5bf41362c4b,canonical,fit,systematic within split
+1c9bfc2e352f2340578ecb8c,canonical,fit,systematic within split
+42a602029063d0b8b58797fb,canonical,fit,systematic within split
+6a94f7732c738d23f7748f52,canonical,fit,systematic within split
+8f6fbfd2fcc60504ec689e6c,canonical,fit,systematic within split
+b06c06afa1b1de6e1658d692,canonical,fit,systematic within split
+d49d42a8254910de87c125a4,canonical,fit,systematic within split
+ff2ced79066df248fa968991,canonical,fit,systematic within split
+02aae52ee66ba6314996782a,canonical,normal_test,systematic within split
+205a95773fd9f4d7baade61c,canonical,normal_test,systematic within split
+372581c3ce28a2517b1109c7,canonical,normal_test,systematic within split
+56e735259c27809568b70e19,canonical,normal_test,systematic within split
+87ea983f62b27d0f02a72bde,canonical,normal_test,systematic within split
+b0da84ae91f95b36bfca45ff,canonical,normal_test,systematic within split
+db2ce9aae41ccd9feda36d97,canonical,normal_test,systematic within split
+f42c89c5f3cc09c28a9b722e,canonical,normal_test,systematic within split
+2bea857039ef9c03907fb299,reversed_180,anomaly_test,systematic within split
+735d89d870bbb25b3bc3dfce,reversed_180,anomaly_test,systematic within split
+76964f3ab9f7c03b08de6900,reversed_180,anomaly_test,systematic within split
+9bd08200d5d939f4a498aae7,reversed_180,anomaly_test,systematic within split
+bfebbd19caf4dad38fd66eab,reversed_180,anomaly_test,systematic within split
+23a0d4f93b65c3d4c7999361,uncertain,anomaly_test,all uncertain
+b369595e56e69503f81e4901,uncertain,anomaly_test,all uncertain
+d664d5515d0f8355c2df16ea,uncertain,anomaly_test,all uncertain
+e9a182d87ded8090921b62f5,uncertain,anomaly_test,all uncertain
+f47ac1b5ffc4a30190f75ecb,uncertain,anomaly_test,all uncertain

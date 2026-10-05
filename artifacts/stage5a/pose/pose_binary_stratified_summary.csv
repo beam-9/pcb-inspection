@@ -1,0 +1,9 @@
+recipe,pose_label,normal_or_anomaly,n_images,median_fp_pixels,q25_fp_pixels,q75_fp_pixels,total_fp_pixels
+d1,canonical,anomaly,90,2639.5,1551.5,3735.5,248353
+d1,canonical,normal,100,527.0,299.5,1015.25,81281
+d1,reversed_180,anomaly,5,29180.0,28440.0,29697.0,146977
+d1,uncertain,anomaly,5,5912.0,5094.0,6831.0,33725
+d2,canonical,anomaly,90,1577.5,1083.5,2156.25,149832
+d2,canonical,normal,100,585.0,396.75,884.75,65668
+d2,reversed_180,anomaly,5,19367.0,19104.0,19627.0,97150
+d2,uncertain,anomaly,5,2650.0,1940.0,3045.0,12943

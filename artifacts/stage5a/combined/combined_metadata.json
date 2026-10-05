@@ -1,0 +1,28 @@
+{
+  "new_detector_inference": false,
+  "population": 200,
+  "missing_images": 19,
+  "source_identities": {
+    "artifacts/stage5a/pose/pose_labels.csv": "eab3bcec29101b729bac1e050eae95f63d09a9c8146f4913ac9e3d8bf720eb7e",
+    "artifacts/stage5a/pose/labels_final.json": "7a0048df7dc8ba1ec3a1a2b6c5301416ecd39b0bc2dd735f195839b1a154e774",
+    "artifacts/stage5a/broad_maps/map_spread.csv": "9fe01e90d54ff2fa2bb5eaa3355df77a8d23a7b2153757c680ee36d7787ab5ec",
+    "artifacts/stage5a/missing_component/missing_cases.csv": "7821f8bde2d8f09741f8c8bc626a0f97071d0cde584aa9700da0a0198a58cc66",
+    "artifacts/stage4/pcb2_d1_primary/predictions.csv": "2e7a29114f39650fa27d04fef803853846c8558abf9acd327434d9e15e30bc09",
+    "artifacts/stage4/pcb2_d2_secondary/predictions.csv": "37030b96d3f4e315028c4a4380ee7926d32f409491ec328c85900693353b9d7c"
+  },
+  "combined_grain": "One evaluation image; nearest neighbor summaries separate per recipe, overlap-query top5 only; null on nonmissing images.",
+  "null_policy": "Undefined empty groups and nonapplicable anomaly/NN metrics are null, not zero.",
+  "checks": [
+    "uniqueIDs/exact200match",
+    "frozenflags/scores/pixelAP",
+    "commonFP/intersection/uniontotals",
+    "19missingimages"
+  ],
+  "output_identities": {
+    "pose_x_missing.csv": "09413084413259bfc64bc3927795abc8540c1628d70b7c73d2da6a91fd30cbcd",
+    "per_image_diagnostics.csv": "0d862edc2a7e9741556bd6ce75a53c7a3505bfee0e7bd7819e365771d07c37d8",
+    "missing_paired_cases.csv": "cfc591ea4d26b2a9cfcd3b944c594f90eb610165f10668bb659ec6c9fd4f2884",
+    "pose_x_map_spread.csv": "58a7c5b96dcc2ccb5b0e2f19634759da5cc55d92b9873ec1c851892db737d011",
+    "size_x_missing.csv": "f9247a59e230695ee2f4fb0c24e3009afc7a9dbceede767b6e0f15c7f8e830c3"
+  }
+}

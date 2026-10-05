@@ -1,0 +1,35 @@
+{
+  "finalized_at_utc": "2026-10-03T18:17:52.403233+00:00",
+  "scope": "Post-confirmation PCB2 development diagnosis",
+  "label_sha256": "eab3bcec29101b729bac1e050eae95f63d09a9c8146f4913ac9e3d8bf720eb7e",
+  "method_sha256": "adeb30b7085b6965408ed3e43fecd2e66c5d7a9f5861375df7318ef3659988b8",
+  "classifier_code_sha256": "c884aa3b3a9f37b96d01c123e3cb61c281b8f4ae07b03ebbc05178832264b173",
+  "visual_selection_sha256": "d7680ef7833fa068c6f16ce3a8a131ca6e27a02207cdcd0ab7c7310fd1c07b59",
+  "visual_review_count": 42,
+  "all_reversed_reviewed": true,
+  "all_uncertain_reviewed": true,
+  "manual_override_count": 0,
+  "method_refinement_count": 0,
+  "outcome_comparison_started": false,
+  "normal_count": 1001,
+  "anomaly_count": 100,
+  "pose_counts": {
+    "canonical": 1091,
+    "uncertain": 5,
+    "reversed_180": 5
+  },
+  "uncertain_group_caveat": "All5uncertain visually canonical layout with missing/bent/folded connector cue; do not treat uncertain as reversed",
+  "outputs": {
+    "artifacts/stage5a/pose/pose_labels.csv": "eab3bcec29101b729bac1e050eae95f63d09a9c8146f4913ac9e3d8bf720eb7e",
+    "artifacts/stage5a/pose/pose_population.csv": "955430085eac3bed88e0b759eba224e66f3137076cb9e28d63724e1820ba1a2e",
+    "artifacts/stage5a/pose/pose_labeling_notes.md": "f947d08db3cddf45f6082f4e7855c1f7589b0c9deae3f4363a40adf38d59a4b6",
+    "artifacts/stage5a/pose/pose_method.json": "adeb30b7085b6965408ed3e43fecd2e66c5d7a9f5861375df7318ef3659988b8",
+    "artifacts/stage5a/pose/pose_canonical_02.png": "3aa77f99fb327e5fa206b69758009bb1aca01eadd9573045773ba77129560321",
+    "artifacts/stage5a/pose/pose_uncertain_01.png": "2f07a5013b87e9aeeb3ae7f2cd345f15a96812ba614825d4749157650c2af296",
+    "artifacts/stage5a/pose/pose_canonical_03.png": "1198983086095fc375937b64c306568d4c38e31c5e1638b0e003748427151b61",
+    "artifacts/stage5a/pose/pose_reversed_180_01.png": "2d3054d55904d0f83ba43615ba7a7088cc3a6968d105ecbd00402f362248c4d3",
+    "artifacts/stage5a/pose/pose_canonical_01.png": "8f9b16fc5c989389cf5d0cd6119c95553022c6094795b4d8cc4a7fb45a3f9f21",
+    "artifacts/stage5a/pose/pose_contact_sheet.png": "9d174cc0b7198733abde450778ca5d7629742d1515d0ce4b49f26e5686efd184",
+    "artifacts/stage5a/pose/visual_selection.csv": "d7680ef7833fa068c6f16ce3a8a131ca6e27a02207cdcd0ab7c7310fd1c07b59"
+  }
+}

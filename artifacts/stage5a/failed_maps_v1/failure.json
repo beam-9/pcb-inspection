@@ -1,0 +1,6 @@
+{
+  "failed_at_utc": "2026-10-03T18:20:17.554738+00:00",
+  "cause": "Pandas CSV with blank normal pixel_ap inferred string dtype, paired small-case subtraction failed. Saved-map-only diagnostic failure; no Stage4 input or detector changed.",
+  "correction": "Explicit numeric coercion of nullable pixel_ap before row analysis",
+  "published": false
+}

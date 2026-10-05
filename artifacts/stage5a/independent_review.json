@@ -1,0 +1,32 @@
+{
+  "reviewed_at_utc": "2026-10-03T18:36:44.466386+00:00",
+  "passed": true,
+  "new_model_inference": false,
+  "stage4_identity_checks": 1514,
+  "pose_population": 1101,
+  "evaluation_population": 200,
+  "saved_map_independent_counts": [
+    {
+      "recipe": "D1",
+      "independent_saved_map_count_images": 200,
+      "fp_pixels": 510336,
+      "intersection_pixels": 25495,
+      "union_pixels": 537415
+    },
+    {
+      "recipe": "D2",
+      "independent_saved_map_count_images": 200,
+      "fp_pixels": 325593,
+      "intersection_pixels": 24841,
+      "union_pixels": 352672
+    }
+  ],
+  "query_reference_coordinate_checks": 36980,
+  "nn_trace_pairs": 18490,
+  "nn_order": "All saved ranklists/distances sorted; references match exact frozen fitting indices. Independent float64 feature-distance samples provided by trace receipt; no second full feature extraction here.",
+  "subset_distance_checks": 190,
+  "max_subset_distance_error": 1.5445318211071424e-06,
+  "pose_outcome_independence": "Final classifier/label identities and receipt chronology verified; RGB-only source method and grouped visual review, with acknowledged prior Stage4 knowledge.",
+  "grid_reconciliation": "Common-crop grid FP sums match all saved maps; outsidecropFP0",
+  "review_code_sha256": "23d2304021f793a19765a6237aea52cb40737078e989c34cba68109d659110b3"
+}

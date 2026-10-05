@@ -1,0 +1,137 @@
+{
+  "completed_at_utc": "2026-10-03T18:21:21.307348+00:00",
+  "scope": "Post-confirmation PCB2 development diagnosis",
+  "detector_changed": false,
+  "images_per_recipe": 200,
+  "map_spread_rows": 400,
+  "grid_rows": 12800,
+  "small_rows": 58,
+  "fp_total_checks": {
+    "D1": 510336,
+    "D2": 325593
+  },
+  "outside_crop_fp": {
+    "D1": 0,
+    "D2": 0
+  },
+  "small_unique_images": 29,
+  "paired_d1miss_d2hit": 7,
+  "resolution_contrasts": 20,
+  "inputs": {
+    "artifacts/stage5a/pose/pose_labels.csv": "eab3bcec29101b729bac1e050eae95f63d09a9c8146f4913ac9e3d8bf720eb7e",
+    "artifacts/stage5a/pose/labels_final.json": "7a0048df7dc8ba1ec3a1a2b6c5301416ecd39b0bc2dd735f195839b1a154e774",
+    "artifacts/stage4/pcb2_d1_primary/complete.json": "7302c119c1771520d3b190a2ee891c3a02ae4a112e973bb365dae3285fcc62eb",
+    "artifacts/stage4/pcb2_d1_primary/independent_review.json": "7dcddd7243e5269c6a26501583867227eb5c9dbb4b3cbfad75b44e352bfbc3c2",
+    "artifacts/stage4/pcb2_d1_primary/predictions.csv": "2e7a29114f39650fa27d04fef803853846c8558abf9acd327434d9e15e30bc09",
+    "artifacts/stage4/pcb2_d1_primary/test_transforms.json": "273dde65aa41aee612f382fe691c7c1346d33fa6e17cce211ff8ec86734c0d83",
+    "artifacts/stage4/pcb2_d1_primary/calibration.json": "2014cd7fe7cef22d644f7fbfaf849260e4d5c92304c8a3d758b8bb0201c99e80",
+    "artifacts/stage4/pcb2_d2_secondary/complete.json": "e18a3b7caa50bad87d35df57b9aadadb5ed05ed4e1013466b936b3e67e9e96ac",
+    "artifacts/stage4/pcb2_d2_secondary/independent_review.json": "690bffe88f6ebc77f05a46d39c9134682be5d27ceebe9a6e10e025bf5fe71f47",
+    "artifacts/stage4/pcb2_d2_secondary/predictions.csv": "37030b96d3f4e315028c4a4380ee7926d32f409491ec328c85900693353b9d7c",
+    "artifacts/stage4/pcb2_d2_secondary/test_transforms.json": "a389461b86511350489049cc067de1efed8378329f326ab1cbd8d44ae1fbe94d",
+    "artifacts/stage4/pcb2_d2_secondary/calibration.json": "2a52c34b3d5849b26b0bf9af391a66033022679d0365757c90db7f9f866d9d01"
+  },
+  "outputs": {
+    "artifacts/stage5a/broad_maps/summary.md": "a8a9c58d9bda7ceebcb8dc2e765ee27e7560193e68a65cc8b622e95ce5b9a1ba",
+    "artifacts/stage5a/broad_maps/D1_aggregate_maps.png": "cc8b449f4df3d13527c6828b9a60dd1e8893d85536b6f2627e2f7be062c86dd7",
+    "artifacts/stage5a/broad_maps/D2_aggregate_maps.png": "1c8a793f5f04d3159d8f88ae86128bf1b0a636074186b3facbf4fb60eb72bcfc",
+    "artifacts/stage5a/broad_maps/map_spread.csv": "9fe01e90d54ff2fa2bb5eaa3355df77a8d23a7b2153757c680ee36d7787ab5ec",
+    "artifacts/stage5a/broad_maps/diagnostic_policy.json": "ff52177a1e6ae312998b0911a851a2e0374f1c01faa1447e4257aa56ae0b7bfd",
+    "artifacts/stage5a/broad_maps/per_image_grid_counts.csv": "140a1f8a50cbd89978fe0579f418c4fe762c38333e6adbfc83cd3db95c8630e6",
+    "artifacts/stage5a/broad_maps/grid_summary.csv": "035a20c77edda3d9e9aed49bf250c41d91b691ea6603f7f6f1033ce59caadb38",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D1/pose_canonical_fp_frequency.npy": "99b6c15e512346a141479b1a8f274ff0e3076d501ba58c6a2b895b2c049b3169",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D1/pose_reversed_180_anomalies_mean_raw_score.npy": "58d7137da54b613b45e12b23c7c46aa7edc6fe733c0598569a6bdfb7289801d7",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D1/pose_reversed_180_mean_raw_score.npy": "58d7137da54b613b45e12b23c7c46aa7edc6fe733c0598569a6bdfb7289801d7",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D1/all_anomalies_threshold_frequency.npy": "9c95e415352943e23ed0454a6b5e2ad8615491a29af4bf9457e4a569dd9b804f",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D1/all_normals_threshold_frequency.npy": "3979f35e44acc874271947d139ad39e86fdfefef3395b22b0b9c5db837ef189d",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D1/missing_anomalies_fp_frequency.npy": "0703a078a2536e07585e326e3d837950d1c94a35bb7ac8d993b7c8637ec21686",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D1/pose_uncertain_threshold_frequency.npy": "5983009504daac12bc77dcf4f00b41314b0d6e04e4048965fdebde31e6930c7b",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D1/pose_reversed_180_anomalies_threshold_frequency.npy": "98f59bcc3a48b279caab522783f745569d63df315332920c8fac4e7d1852eb4f",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D1/pose_canonical_mean_raw_score.npy": "5a36b53ed7f0559d0e1c6477c795a8486040334e1cd7daf14a3a8a94c60f09b3",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D1/nonmissing_anomalies_mean_raw_score.npy": "d90589f619bf7db07968683dea01561dbc331948fb3c9c4ada2f5bddb122171a",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D1/pose_uncertain_mean_raw_score.npy": "2bc8c85e19938eaf3191f3a1767a9583d592d0ae8e5c5f42eaee81119c78f8be",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D1/pose_uncertain_anomalies_mean_raw_score.npy": "2bc8c85e19938eaf3191f3a1767a9583d592d0ae8e5c5f42eaee81119c78f8be",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D1/pose_uncertain_anomalies_fp_frequency.npy": "8e0697d96988986e1e2ccbdd7c9f8e2c5dbac00bf23d8bb7da821b21288637f0",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D1/pose_canonical_threshold_frequency.npy": "69ef268e5868ed7ac71a8edb85f8bc95e7c287942fd8fbebfdc505984cfbcec4",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D1/all_normals_fp_frequency.npy": "3979f35e44acc874271947d139ad39e86fdfefef3395b22b0b9c5db837ef189d",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D1/all_anomalies_mean_raw_score.npy": "8ea11e86a59895372d5cb260d79db8a983c27fb03451b64d62d9248d02765d54",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D1/pose_uncertain_anomalies_threshold_frequency.npy": "5983009504daac12bc77dcf4f00b41314b0d6e04e4048965fdebde31e6930c7b",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D1/missing_anomalies_mean_raw_score.npy": "30f583770fc16fd13075f0551c2a796556c3fb3e0b01349c8537590d73fc7628",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D1/pose_reversed_180_threshold_frequency.npy": "98f59bcc3a48b279caab522783f745569d63df315332920c8fac4e7d1852eb4f",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D1/nonmissing_anomalies_fp_frequency.npy": "2077f11fd7a08a5053d0753ce3fe4925c483db95e2ea4e918b1a55f43f773866",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D1/pose_uncertain_fp_frequency.npy": "8e0697d96988986e1e2ccbdd7c9f8e2c5dbac00bf23d8bb7da821b21288637f0",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D1/pose_reversed_180_fp_frequency.npy": "8b5d8784ab05fe0598d5f7e6c1aca65a34e71f23844f8ddaa0323f8e8802852e",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D1/pose_canonical_anomalies_fp_frequency.npy": "a3dc4b9a205fd112fa7908a1864e243cadf2537d47b0ddd142f93c7bd543d9e1",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D1/missing_anomalies_threshold_frequency.npy": "56e9a090446550116876f91727fa19599baa3b946c0b1640b0b9f198109d2023",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D1/pose_canonical_anomalies_mean_raw_score.npy": "594996b4773d9e33058d8e24fbf7f4e6f7f20af6e40b402c345a347ffb4e471b",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D1/pose_canonical_anomalies_threshold_frequency.npy": "2cd5106a3089dd34b1a4cb769ea2773f98e1fc82c99e83b55024cdd699efe6e6",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D1/pose_reversed_180_anomalies_fp_frequency.npy": "8b5d8784ab05fe0598d5f7e6c1aca65a34e71f23844f8ddaa0323f8e8802852e",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D1/all_anomalies_fp_frequency.npy": "3ab708f815fd2bd6e467ef6a098a393cdad02889fdf35e950eea6c1d2dfdd06b",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D1/all_normals_mean_raw_score.npy": "96416231486041d317f2525c368ea0cf33600b7753b1fc0e7148bfe42ce89db5",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D1/nonmissing_anomalies_threshold_frequency.npy": "bd348c96ef82c8cb21019c5088c9d867b1c0a44ef128ae7815250496315e99a0",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D2/pose_canonical_fp_frequency.npy": "ffe1bbbb9c66570336a8cb3fc06ce26c290f8b044c2cef23135bc2ca01cdc4b1",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D2/pose_reversed_180_anomalies_mean_raw_score.npy": "32a5cc1b1f9d789725e43a0f13834e588c89957fa814b666c87b72a273250fe6",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D2/pose_reversed_180_mean_raw_score.npy": "32a5cc1b1f9d789725e43a0f13834e588c89957fa814b666c87b72a273250fe6",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D2/all_anomalies_threshold_frequency.npy": "bcf746e5950dbfe4ab927768ca5d290982fca8ea172b7079a9e2d55fdda449d2",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D2/all_normals_threshold_frequency.npy": "bc506dae1c78744c0735916fe6146247428d32f956943a3491b0bd89abbe2978",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D2/missing_anomalies_fp_frequency.npy": "4155edfe587f50d79aaf7219104983f2fa31280646b04524b89c998b6838aad6",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D2/pose_uncertain_threshold_frequency.npy": "f520a1309557eef81c2627ed3e81cc44c63c651e61f4fc13af23bdf72b7e525d",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D2/pose_reversed_180_anomalies_threshold_frequency.npy": "076917cb34b3c1b4de0d615247dff0e6cfb307f320fd948cd16526ce8173b53d",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D2/pose_canonical_mean_raw_score.npy": "1978f13121d73686e4cd55a49e3e9d9aa216dc876f0a5a6ea8afa1af096fad57",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D2/nonmissing_anomalies_mean_raw_score.npy": "6e98924a5748b6bb69da82adec77cbb134a482805b75eabec96fd4e9c9d33d78",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D2/pose_uncertain_mean_raw_score.npy": "0821e5a392ddb78823cb5ed0279ee126a4950874bf01c20498ee4458363d92be",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D2/pose_uncertain_anomalies_mean_raw_score.npy": "0821e5a392ddb78823cb5ed0279ee126a4950874bf01c20498ee4458363d92be",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D2/pose_uncertain_anomalies_fp_frequency.npy": "55d2d97a7733846d296ea049eca00e8af91fed6450e2ba3faf6b065444de4d67",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D2/pose_canonical_threshold_frequency.npy": "847365664e1225a17a540c9bd6bd9f284c69693a01f8c21bb79f977c582ed07c",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D2/all_normals_fp_frequency.npy": "bc506dae1c78744c0735916fe6146247428d32f956943a3491b0bd89abbe2978",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D2/all_anomalies_mean_raw_score.npy": "9cb145d6cb53d77b8dba034e2619082d9dc9a09f1d81469bc569bec5cdfc8796",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D2/pose_uncertain_anomalies_threshold_frequency.npy": "f520a1309557eef81c2627ed3e81cc44c63c651e61f4fc13af23bdf72b7e525d",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D2/missing_anomalies_mean_raw_score.npy": "2ca542fab2666923a5fec58184ddbfbf0b8ea51109e55bb3214d0c34eb77bf2a",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D2/pose_reversed_180_threshold_frequency.npy": "076917cb34b3c1b4de0d615247dff0e6cfb307f320fd948cd16526ce8173b53d",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D2/nonmissing_anomalies_fp_frequency.npy": "75e3e671c80fd5f0e4544c9388ef3d74594530468fe03ebe060eca7a6523b6f8",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D2/pose_uncertain_fp_frequency.npy": "55d2d97a7733846d296ea049eca00e8af91fed6450e2ba3faf6b065444de4d67",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D2/pose_reversed_180_fp_frequency.npy": "02097a7e7b0204a5b4b5cf3f18a44817ac0ae2a49b62331c46d9e019b52c5886",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D2/pose_canonical_anomalies_fp_frequency.npy": "5aeaa716e5ed151cb303d92a9352e22a07f4352e129a29de26f898908e4b28be",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D2/missing_anomalies_threshold_frequency.npy": "49a6a07fa66c9abe0c9f4a7f7d4b3ca04584187826aec29643bc95e1b103b454",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D2/pose_canonical_anomalies_mean_raw_score.npy": "01c7ab18b2e5a7ef0d4cbcfa9ecd06db03b76e17754a3fa4a903953cc7b8ce9a",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D2/pose_canonical_anomalies_threshold_frequency.npy": "34965608e46df9a17460021f2fa59c380ee1fc3114f5a56a6a9440a5e1460945",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D2/pose_reversed_180_anomalies_fp_frequency.npy": "02097a7e7b0204a5b4b5cf3f18a44817ac0ae2a49b62331c46d9e019b52c5886",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D2/all_anomalies_fp_frequency.npy": "e433ae4693621aa16a301644408ff70855a55a9869ca411a87b2b880c38f85e7",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D2/all_normals_mean_raw_score.npy": "5e7ec1ae3e4828fd3da348f55c122e47b183967d18bb8e81dae042d7a5cb2dbc",
+    "artifacts/stage5a/broad_maps/aggregate_maps/D2/nonmissing_anomalies_threshold_frequency.npy": "da56441d71ed25be36402382efb103ddcb4b5c75b984ad8b1428a30cdf429d8b",
+    "artifacts/stage5a/small_defects/summary.md": "54dce174abf137d0563e8509581b886f63a3ce91e043bd819ba5776dcefdb1ea",
+    "artifacts/stage5a/small_defects/small_case_decomposition.png": "1ded2b0892deb7195007b9f54d36e883acbf38ead4fc333506a5d75dbf531b69",
+    "artifacts/stage5a/small_defects/failure_decomposition.csv": "44df61d9ec49ce8a24fd7312a5aedc30788ff8ba000b523d70c1998628b625c9"
+  },
+  "aggregate_plot_scales": {
+    "D1": {
+      "mean_raw_score": [
+        0,
+        2.6900553703308105
+      ],
+      "threshold_frequency": [
+        0,
+        1
+      ],
+      "fp_frequency": [
+        0,
+        1
+      ]
+    },
+    "D2": {
+      "mean_raw_score": [
+        0,
+        2.6920242309570312
+      ],
+      "threshold_frequency": [
+        0,
+        1
+      ],
+      "fp_frequency": [
+        0,
+        1
+      ]
+    }
+  },
+  "figure_refresh_only_at_utc": "2026-10-03T18:23:58.863847+00:00"
+}

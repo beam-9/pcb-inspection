@@ -1,0 +1,42 @@
+{
+  "completed_at_utc": "2026-10-03T18:18:34.196172+00:00",
+  "post_confirmation_development_diagnosis": true,
+  "detector_changed": false,
+  "cases": 19,
+  "sizes": [
+    256,
+    512
+  ],
+  "sources": {
+    "artifacts/stage4/pcb2_d1_primary/complete.json": "7302c119c1771520d3b190a2ee891c3a02ae4a112e973bb365dae3285fcc62eb",
+    "artifacts/stage4/pcb2_d1_primary/predictions.csv": "2e7a29114f39650fa27d04fef803853846c8558abf9acd327434d9e15e30bc09",
+    "artifacts/stage4/pcb2_d1_primary/memory_metadata.json": "2a00f907a83a108ae6074e9a18476d12322c3b0df9d211e3cc8f9386df199c6e",
+    "artifacts/stage4/pcb2_d1_primary/test_transforms.json": "273dde65aa41aee612f382fe691c7c1346d33fa6e17cce211ff8ec86734c0d83",
+    "artifacts/stage4/pcb2_d1_primary/fit_reference_transforms.json": "e27f702a392c89bd59408c160e6207738f11897b32c84c83bc1e78876c48f916",
+    "artifacts/stage4/pcb2_d1_primary/independent_review.json": "7dcddd7243e5269c6a26501583867227eb5c9dbb4b3cbfad75b44e352bfbc3c2",
+    "data/cache/stage4/pcb2_d1_primary/memory.npy": "9a5cd17f188eb27fa2fad8b19d5e085eb618008757c274531f09d3f63162eac7",
+    "artifacts/stage4/pcb2_d2_secondary/complete.json": "e18a3b7caa50bad87d35df57b9aadadb5ed05ed4e1013466b936b3e67e9e96ac",
+    "artifacts/stage4/pcb2_d2_secondary/predictions.csv": "37030b96d3f4e315028c4a4380ee7926d32f409491ec328c85900693353b9d7c",
+    "artifacts/stage4/pcb2_d2_secondary/memory_metadata.json": "7466177d7fdb6e8834f8fd7c9c5f6f0407123a4f04502cfd31dd429501118c4d",
+    "artifacts/stage4/pcb2_d2_secondary/test_transforms.json": "a389461b86511350489049cc067de1efed8378329f326ab1cbd8d44ae1fbe94d",
+    "artifacts/stage4/pcb2_d2_secondary/fit_reference_transforms.json": "c43a26da14d473f80b911fd0380f81345c2ecc6473825e6dd4f3feaa75363442",
+    "artifacts/stage4/pcb2_d2_secondary/independent_review.json": "690bffe88f6ebc77f05a46d39c9134682be5d27ceebe9a6e10e025bf5fe71f47",
+    "data/cache/stage4/pcb2_d2_secondary/memory.npy": "ee75f75abbe9bc9a1d9fcd5b83b4741a1c4488869cd60825433afbfd96bd56f1",
+    "artifacts/stage4/confirmation_data/test_manifest.csv": "f8fd7a91ae6ba31a703f1b99d046da8dd559d3230ad74f88d2e65bcdb293af48",
+    "configs/stage4_protocol.json": "d7840afdca27d879f1279b3d79f8908b94a6fd7a3ccf77a787ef176a532bb650"
+  },
+  "outputs": {
+    "independent_distance_checks.csv": "9b908429ef315ab77fc48bbcfde2a14ba183649d48486f18840203d03026eb9c",
+    "nn_trace_raw.csv": "fdc2c93355b3a83afdcdc284fe27cfa3003404d8a1a2950195fea2b8193e677d",
+    "missing_regions.csv": "357bc10e78cd8b0a91059f6b524a9f224593a8b79c45c30049b66ab8339cfa29"
+  },
+  "query_definition": "Nearest-resized source union mask through exact crop/letterbox, anypositive in 8x8 gridcell; onecell8-connected dilation ring. Footprint is not receptive field.",
+  "spatial_definition": "Crop coordinates (modelcenter-padding)/content; Euclidean displacement divided sqrt2. Padding may exceed normalized crop range; not registered pose.",
+  "radii": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "distance": "Frozen full384 direct Euclidean top5 all4096; stable exact ties lowestbankindex",
+  "semantic_limit": "Multi-type union annotations cannot isolate missing components. Distant coordinates do not establish wrong anatomical matches."
+}

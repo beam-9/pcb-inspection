@@ -1,0 +1,18 @@
+{
+  "created_at_utc": "2026-10-03T18:16:56.032887+00:00",
+  "count": 1101,
+  "pose_counts": {
+    "canonical": 1091,
+    "uncertain": 5,
+    "reversed_180": 5
+  },
+  "label_sha256": "e7a6cf551b78e901993ae85337ba256b281b8513115ec7c2a8b27e05544a8077",
+  "contact_sheets": [
+    "pose_canonical_01.png",
+    "pose_canonical_02.png",
+    "pose_canonical_03.png",
+    "pose_reversed_180_01.png",
+    "pose_uncertain_01.png"
+  ],
+  "outcome_comparison_started": false
+}

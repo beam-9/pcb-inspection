@@ -1,0 +1,4 @@
+pose_label,normal_or_anomaly,n_images,d1_fp_median,d2_fp_median,d1_pixel_ap_median,d2_pixel_ap_median
+canonical_or_cue_failure,anomaly,95,2709.0,1619.0,0.3302935700740556,0.5015799537094733
+canonical_or_cue_failure,normal,100,527.0,585.0,,
+reversed_180,anomaly,5,29180.0,19367.0,0.0756943470819489,0.273940031178279

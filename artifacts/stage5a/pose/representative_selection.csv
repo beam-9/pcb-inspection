@@ -1,0 +1,5 @@
+image_id,normal_or_anomaly,source_labels,pose_label,d1_image_score,d1_flag,d1_pixel_ap,d1_peak_inside,d1_any_overlap,d1_intersection_pixels,d1_union_pixels,d1_false_positive_pixels,d1_positive_predicted_pixels,mask_area,d2_image_score,d2_flag,d2_pixel_ap,d2_peak_inside,d2_any_overlap,d2_intersection_pixels,d2_union_pixels,d2_false_positive_pixels,d2_positive_predicted_pixels,median_distance
+096528d5d7875e34d1ce7795,normal,[],canonical,1.540913701057434,False,,,,0,539,539,539,,2.014503717422486,False,,,,0,426,426,426,12.0
+2744e38a1b628fcbf2067bd4,anomaly,"[""missing""]",canonical,2.015409469604492,True,0.1474015525780867,False,True,220,2885,2647,2867,238.0,2.2414488792419434,True,0.1133389039045396,False,True,90,1567,1329,1419,7.5
+bfebbd19caf4dad38fd66eab,anomaly,"[""missing""]",reversed_180,2.7259650230407715,True,0.001707745829624,False,True,50,29230,29180,29230,50.0,2.8748042583465576,True,0.0020275523526147,False,True,50,20561,20511,20561,0.0
+e9a182d87ded8090921b62f5,anomaly,"[""missing""]",uncertain,2.01947283744812,True,0.1125926418136661,False,True,367,6279,5912,6279,367.0,2.3825364112854004,True,0.1548553589395577,False,True,180,2004,1637,1817,0.0
