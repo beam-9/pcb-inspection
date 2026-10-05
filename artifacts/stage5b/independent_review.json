@@ -1,0 +1,166 @@
+{
+  "passed": true,
+  "reviewed_at_utc": "2026-10-05T05:09:15.271958+00:00",
+  "new_model_inference": true,
+  "independent_inference_scope": "Five reversed RGB reconstructions only; independent float64 SciPy distances; no baseline rerun or tuning",
+  "independent_reversed_feature_distance_checks": [
+    {
+      "image_id": "2bea857039ef9c03907fb299",
+      "patches": 1024,
+      "independent_float64_patchmax": 2.529640414608476,
+      "score_absolute_error": 4.552731489582129e-07,
+      "map_max_absolute_error": 9.5367431640625e-07
+    },
+    {
+      "image_id": "735d89d870bbb25b3bc3dfce",
+      "patches": 1024,
+      "independent_float64_patchmax": 1.65075412323537,
+      "score_absolute_error": 2.0930704947019763e-07,
+      "map_max_absolute_error": 7.152557373046875e-07
+    },
+    {
+      "image_id": "76964f3ab9f7c03b08de6900",
+      "patches": 1024,
+      "independent_float64_patchmax": 2.8040565598176403,
+      "score_absolute_error": 5.614592151204079e-07,
+      "map_max_absolute_error": 1.430511474609375e-06
+    },
+    {
+      "image_id": "9bd08200d5d939f4a498aae7",
+      "patches": 1024,
+      "independent_float64_patchmax": 2.619817466388783,
+      "score_absolute_error": 9.247170300596963e-07,
+      "map_max_absolute_error": 9.5367431640625e-07
+    },
+    {
+      "image_id": "bfebbd19caf4dad38fd66eab",
+      "patches": 1024,
+      "independent_float64_patchmax": 1.5801283091730678,
+      "score_absolute_error": 1.2214712263869387e-07,
+      "map_max_absolute_error": 5.960464477539062e-07
+    }
+  ],
+  "scope": "post-confirmation PCB2 development evidence",
+  "history_hashes_checked": 2811,
+  "pose_rgb_labels_reproduced": 1101,
+  "exact_inverse_map_checks": 200,
+  "no_op_exact_maps_scores_flags": 195,
+  "unchanged_normal_flags": 100,
+  "source_mask_identity": "Original manifest hashes and original source coordinates",
+  "regional_grid_cells_independently_recomputed": 160,
+  "reversed_difference_statistics_recomputed": 5,
+  "paired_rows_independently_checked": 5,
+  "image_metrics": {
+    "tp": 79,
+    "fp": 5,
+    "fn": 21,
+    "tn": 95,
+    "average_precision": 0.9587140571352603,
+    "auroc": 0.9484
+  },
+  "pixel_metrics": {
+    "intersection_pixels": 25473,
+    "union_pixels": 408595,
+    "positive_pixels": 27079,
+    "pixel_iou": 0.06234290679034252,
+    "pixel_average_precision": 0.31416068256623
+  },
+  "false_positive_pixels": 381516,
+  "runtime_summaries_independently_recomputed": {
+    "median_end_to_end_seconds": 0.3636058334959671,
+    "p95_end_to_end_seconds": 0.4049099735479103,
+    "median_inference_seconds": 0.2876564795005834,
+    "reversed_median_seconds": 0.3664140829932876,
+    "no_op_median_seconds": 0.3634292079950683,
+    "median_pose_seconds": 0.04544410450034775
+  },
+  "reversed_independent_metrics": [
+    {
+      "image_id": "2bea857039ef9c03907fb299",
+      "intersection": 1152,
+      "union": 7029,
+      "fp_pixels": 5877,
+      "predicted_positive_pixels": 7029,
+      "iou": 0.16389244558258642,
+      "pixel_ap": 0.848447309182567,
+      "peak_inside": true,
+      "overlap": true,
+      "crop_fraction_above_threshold": 0.16908193005181346,
+      "native_positive_components_8": 29,
+      "native_positive_bbox_area": 46060,
+      "native_positive_bbox_crop_fraction": 0.9322376943005182,
+      "gt_max_score": 2.51218318939209,
+      "outside_gt_max_score": 2.4539215564727783
+    },
+    {
+      "image_id": "735d89d870bbb25b3bc3dfce",
+      "intersection": 165,
+      "union": 2813,
+      "fp_pixels": 2645,
+      "predicted_positive_pixels": 2810,
+      "iou": 0.05865623889086385,
+      "pixel_ap": 0.21443187616743112,
+      "peak_inside": false,
+      "overlap": true,
+      "crop_fraction_above_threshold": 0.06969572368421052,
+      "native_positive_components_8": 14,
+      "native_positive_bbox_area": 36157,
+      "native_positive_bbox_crop_fraction": 0.743359375,
+      "gt_max_score": 1.5831347703933716,
+      "outside_gt_max_score": 1.6176536083221436
+    },
+    {
+      "image_id": "76964f3ab9f7c03b08de6900",
+      "intersection": 2012,
+      "union": 7992,
+      "fp_pixels": 5980,
+      "predicted_positive_pixels": 7992,
+      "iou": 0.25175175175175174,
+      "pixel_ap": 0.8313890793497676,
+      "peak_inside": true,
+      "overlap": true,
+      "crop_fraction_above_threshold": 0.1956806282722513,
+      "native_positive_components_8": 8,
+      "native_positive_bbox_area": 32412,
+      "native_positive_bbox_crop_fraction": 0.6628763089005235,
+      "gt_max_score": 2.7678844928741455,
+      "outside_gt_max_score": 2.633958578109741
+    },
+    {
+      "image_id": "9bd08200d5d939f4a498aae7",
+      "intersection": 1104,
+      "union": 3648,
+      "fp_pixels": 2544,
+      "predicted_positive_pixels": 3648,
+      "iou": 0.3026315789473684,
+      "pixel_ap": 0.8349607202887485,
+      "peak_inside": true,
+      "overlap": true,
+      "crop_fraction_above_threshold": 0.09269425675675676,
+      "native_positive_components_8": 11,
+      "native_positive_bbox_area": 34444,
+      "native_positive_bbox_crop_fraction": 0.7272804054054054,
+      "gt_max_score": 2.5949954986572266,
+      "outside_gt_max_score": 2.494903087615967
+    },
+    {
+      "image_id": "bfebbd19caf4dad38fd66eab",
+      "intersection": 31,
+      "union": 1161,
+      "fp_pixels": 1111,
+      "predicted_positive_pixels": 1142,
+      "iou": 0.026701119724375538,
+      "pixel_ap": 0.025757215191295157,
+      "peak_inside": false,
+      "overlap": true,
+      "crop_fraction_above_threshold": 0.030073924731182797,
+      "native_positive_components_8": 30,
+      "native_positive_bbox_area": 38270,
+      "native_positive_bbox_crop_fraction": 0.803721438172043,
+      "gt_max_score": 1.4464181661605835,
+      "outside_gt_max_score": 1.54546320438385
+    }
+  ],
+  "review_code_sha256": "a5551c9bdd4655c399c2701533bbd14ed483c2c53cb7e76ed92a75b23848bc41",
+  "protocol_sha256": "d85886108280f6b3fb86b2a1860eec7a11698ebe32e9d5914cd124cb942145b9"
+}

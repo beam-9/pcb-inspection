@@ -1,0 +1,7 @@
+{
+  "authoritative_receipt": "independent_review.json",
+  "interim_receipt": "independent_review_initial.json",
+  "interim_note": "Initial audit passed the saved maps, labels, independent five-case float64 feature-distance checks. Its process loaded an earlier code version; the source was enhanced with runtime and anomaly-aggregate checks while it ran, so its recorded code hash was read after that enhancement. It is interim evidence only. The final audit reran the final unchanged source, including runtime and aggregate checks, and its code hash matches the executed code.",
+  "no_detector_tuning": true,
+  "final_receipt_sha256": "ea5306deecec3c20184e0287ddd48d551edd14cf0da9976b80e0740e59834655"
+}

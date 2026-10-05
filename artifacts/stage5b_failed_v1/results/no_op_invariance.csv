@@ -1,0 +1,2 @@
+image_id,label,pose_label,action_no_op,tensor_exact,score_exact,flag_exact,model_map_exact,common_map_exact,pixel_ap_exact,fp_pixels_exact,passed
+fea34ce33cdd25b0ede4efe4,anomaly,canonical,True,True,True,True,True,True,False,True,False

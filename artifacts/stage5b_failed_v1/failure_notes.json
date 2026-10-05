@@ -1,0 +1,15 @@
+{
+  "recorded_at_utc": "2026-10-05T05:03:09.446844+00:00",
+  "failure": "Historical CSV nullable AP column read as text; float compared with str in exact control.",
+  "completed_evaluation_images": 1,
+  "first_case": "fea34ce33cdd25b0ede4efe4",
+  "first_case_pose": "canonical",
+  "reversed_intervention_outcomes_examined": 0,
+  "all_other_first_case_controls_exact": true,
+  "repair": "Explicit Python float conversion for mixed blank scalar numeric fields. No tolerance or scientific recipe change.",
+  "preserved_path_remapping": {
+    "artifacts/stage5b/": "artifacts/stage5b_failed_v1/",
+    "data/cache/stage5b/": "data/cache/stage5b_failed_v1/",
+    "configs/stage5b_orientation_protocol.json": "configs/stage5b_orientation_protocol_failed_v1.json"
+  }
+}

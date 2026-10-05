@@ -1,0 +1,21 @@
+{
+  "recorded_at_utc": "2026-10-05T05:12:54.295515+00:00",
+  "reason": "Navigation evolves after independent audit; earlier Stage5A hash identities resolve against byte-identical pre-update copies. No historical model/evidence changes or receipt rewriting.",
+  "documents": {
+    "README.md": {
+      "snapshot": "artifacts/stage5b/history_navigation/README.md",
+      "snapshot_sha256": "69a5c40bd425df3924ed1dbca6153530881dbb8ec4133c7e4c53f8204701541a",
+      "current_sha256": "dd643f66af2909446e2936392458e2c33c191be2fd5805622cefd822ed2a151d"
+    },
+    "docs/journey/README.md": {
+      "snapshot": "artifacts/stage5b/history_navigation/docs/journey/README.md",
+      "snapshot_sha256": "8bfc43b753606d27697c76827c778502b53d2b8dca00caf4a646eff87af0378e",
+      "current_sha256": "a0cc08f7048b36258bcaedf0f44b4f57b0aec4fe81c3b4a0d9d36969d2a358b6"
+    },
+    "docs/journey/decision_log.md": {
+      "snapshot": "artifacts/stage5b/history_navigation/docs/journey/decision_log.md",
+      "snapshot_sha256": "f43ab588d5a192436849b52834de8a893181d2b3bec15673e8511b50bf089fec",
+      "current_sha256": "aaacb1c4fe190f72fdbc3409be343fddf6e1c05afd836456e58c0d5bf9953e1e"
+    }
+  }
+}

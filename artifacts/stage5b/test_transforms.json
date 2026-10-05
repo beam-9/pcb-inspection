@@ -1,0 +1,5402 @@
+{
+  "fea34ce33cdd25b0ede4efe4": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      89,
+      141,
+      1219,
+      967
+    ],
+    "board_box": [
+      167,
+      337,
+      1141,
+      771
+    ],
+    "component_fraction": 0.18354366987179488,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6213089437388503,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 187,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "596996fa0816db1d904389d5": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      144,
+      127,
+      1274,
+      954
+    ],
+    "board_box": [
+      222,
+      323,
+      1196,
+      758
+    ],
+    "component_fraction": 0.17418870192307692,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6220611337433767,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 187,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "0333ff525de4a8a11f200628": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      133,
+      122,
+      1263,
+      962
+    ],
+    "board_box": [
+      211,
+      321,
+      1185,
+      763
+    ],
+    "component_fraction": 0.19028445512820513,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6318396038022206,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 190,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "40bd4bb7b874a3ca7af54e0d": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      99,
+      132,
+      1237,
+      963
+    ],
+    "board_box": [
+      178,
+      329,
+      1158,
+      766
+    ],
+    "component_fraction": 0.18943810096153846,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6294951673456346,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 187,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "14a83651ed9a4f616caa6729": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      93,
+      120,
+      1228,
+      956
+    ],
+    "board_box": [
+      172,
+      318,
+      1149,
+      758
+    ],
+    "component_fraction": 0.1856570512820513,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6316132811459915,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 189,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "a4566fb447572e53a3508a6c": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      105,
+      129,
+      1236,
+      946
+    ],
+    "board_box": [
+      183,
+      323,
+      1158,
+      752
+    ],
+    "component_fraction": 0.18749499198717948,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6150830737279336,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 185,
+    "pad_x": 0,
+    "pad_y": 35,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "71a397a43897d23245179113": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      53,
+      131,
+      1184,
+      967
+    ],
+    "board_box": [
+      131,
+      329,
+      1106,
+      769
+    ],
+    "component_fraction": 0.18313802083333333,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6293873312564902,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 189,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "d91345bdc375c79088437f11": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      118,
+      125,
+      1259,
+      961
+    ],
+    "board_box": [
+      197,
+      323,
+      1180,
+      763
+    ],
+    "component_fraction": 0.18583233173076924,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6349522059802434,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 188,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "5deb743d4a2a5651892cd335": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      104,
+      123,
+      1242,
+      933
+    ],
+    "board_box": [
+      183,
+      315,
+      1163,
+      741
+    ],
+    "component_fraction": 0.1826171875,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6135873472322071,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 182,
+    "pad_x": 0,
+    "pad_y": 37,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "c2b89aa8e214ceaec0783be2": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      111,
+      127,
+      1230,
+      946
+    ],
+    "board_box": [
+      189,
+      321,
+      1152,
+      752
+    ],
+    "component_fraction": 0.17892628205128205,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6100467289719627,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 187,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "e5628f4b63d7b4897d073d44": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      83,
+      119,
+      1208,
+      959
+    ],
+    "board_box": [
+      161,
+      318,
+      1130,
+      760
+    ],
+    "component_fraction": 0.17445913461538462,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6290438533429188,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 191,
+    "pad_x": 0,
+    "pad_y": 32,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "f47ac1b5ffc4a30190f75ecb": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      86,
+      130,
+      1211,
+      935
+    ],
+    "board_box": [
+      164,
+      321,
+      1133,
+      744
+    ],
+    "component_fraction": 0.17442908653846154,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6028336927869639,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 183,
+    "pad_x": 0,
+    "pad_y": 36,
+    "pose_label": "uncertain",
+    "orientation_action": "no_op"
+  },
+  "3a193415be845c758a9f790f": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      144,
+      139,
+      1263,
+      961
+    ],
+    "board_box": [
+      222,
+      334,
+      1185,
+      766
+    ],
+    "component_fraction": 0.1743389423076923,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6122813323747903,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 188,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "23a0d4f93b65c3d4c7999361": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      92,
+      120,
+      1217,
+      942
+    ],
+    "board_box": [
+      170,
+      315,
+      1139,
+      747
+    ],
+    "component_fraction": 0.18245192307692307,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6155643421998562,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 187,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "uncertain",
+    "orientation_action": "no_op"
+  },
+  "2d37b1ca970ab988e2a93625": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      124,
+      127,
+      1252,
+      954
+    ],
+    "board_box": [
+      202,
+      323,
+      1174,
+      758
+    ],
+    "component_fraction": 0.1789813701923077,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6209601405863088,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 188,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "c3946a4668660ea1badeeb09": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      108,
+      131,
+      1233,
+      953
+    ],
+    "board_box": [
+      186,
+      326,
+      1155,
+      758
+    ],
+    "component_fraction": 0.1863231169871795,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6155643421998562,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 187,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "742e2a8ff4aa5d512df73fda": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      141,
+      129,
+      1263,
+      939
+    ],
+    "board_box": [
+      219,
+      321,
+      1185,
+      747
+    ],
+    "component_fraction": 0.17962740384615383,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.604960460100647,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 185,
+    "pad_x": 0,
+    "pad_y": 35,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "6769687e7725f6474ea47da3": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      86,
+      123,
+      1211,
+      958
+    ],
+    "board_box": [
+      164,
+      321,
+      1133,
+      760
+    ],
+    "component_fraction": 0.18029346955128206,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.625299544692068,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 190,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "735d89d870bbb25b3bc3dfce": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      105,
+      126,
+      1227,
+      957
+    ],
+    "board_box": [
+      183,
+      323,
+      1149,
+      760
+    ],
+    "component_fraction": 0.17567608173076923,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6206446201773305,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 190,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "reversed_180",
+    "orientation_action": "rotate_180"
+  },
+  "27a4cb4918036207cdfdc810": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      83,
+      124,
+      1206,
+      943
+    ],
+    "board_box": [
+      161,
+      318,
+      1128,
+      749
+    ],
+    "component_fraction": 0.17518028846153846,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6122274143302181,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 187,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "72798c294d594c84ea7d2040": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      50,
+      117,
+      1175,
+      939
+    ],
+    "board_box": [
+      128,
+      312,
+      1097,
+      744
+    ],
+    "component_fraction": 0.17610176282051282,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6155643421998562,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 187,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "61d4113d82822d875a099bfd": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      119,
+      118,
+      1247,
+      949
+    ],
+    "board_box": [
+      197,
+      315,
+      1169,
+      752
+    ],
+    "component_fraction": 0.1821414262820513,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6239635753654446,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 189,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "56a0dfb39e86f8201ac299b6": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      92,
+      128,
+      1217,
+      942
+    ],
+    "board_box": [
+      170,
+      321,
+      1139,
+      749
+    ],
+    "component_fraction": 0.18360376602564102,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6095734483584951,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 185,
+    "pad_x": 0,
+    "pad_y": 35,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "f316425a0a5da9c324b8ff3c": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      49,
+      131,
+      1163,
+      967
+    ],
+    "board_box": [
+      126,
+      329,
+      1086,
+      769
+    ],
+    "component_fraction": 0.17940705128205128,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6199270442261097,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 192,
+    "pad_x": 0,
+    "pad_y": 32,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "d8b1b8fdf7b7f8e78db9b3da": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      117,
+      128,
+      1232,
+      950
+    ],
+    "board_box": [
+      194,
+      323,
+      1155,
+      755
+    ],
+    "component_fraction": 0.1824569310897436,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6100926591580798,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 189,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "e7c4839b7c04c852846a8800": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      108,
+      109,
+      1227,
+      945
+    ],
+    "board_box": [
+      186,
+      307,
+      1149,
+      747
+    ],
+    "component_fraction": 0.18556690705128207,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6227094815879862,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 191,
+    "pad_x": 0,
+    "pad_y": 32,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "ff459de5519f27a8cb717372": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      136,
+      130,
+      1251,
+      935
+    ],
+    "board_box": [
+      213,
+      321,
+      1174,
+      744
+    ],
+    "component_fraction": 0.18099459134615384,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.597475171073302,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 185,
+    "pad_x": 0,
+    "pad_y": 35,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "b88ef2d118cce22b2c6f6b12": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      113,
+      113,
+      1233,
+      944
+    ],
+    "board_box": [
+      191,
+      310,
+      1155,
+      747
+    ],
+    "component_fraction": 0.17707832532051282,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6195383017812924,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 190,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "ddd9dd1abe20d8d0ae63882e": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      134,
+      121,
+      1248,
+      952
+    ],
+    "board_box": [
+      211,
+      318,
+      1171,
+      755
+    ],
+    "component_fraction": 0.17462439903846153,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6162193465931783,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 191,
+    "pad_x": 0,
+    "pad_y": 32,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "2f970964dab90ea6ebf65ef6": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      120,
+      134,
+      1235,
+      944
+    ],
+    "board_box": [
+      197,
+      326,
+      1158,
+      752
+    ],
+    "component_fraction": 0.18151041666666667,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6011861969805895,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 186,
+    "pad_x": 0,
+    "pad_y": 35,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "b5d4c77df9634ecb828a64ca": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      119,
+      121,
+      1241,
+      938
+    ],
+    "board_box": [
+      197,
+      315,
+      1163,
+      744
+    ],
+    "component_fraction": 0.17915164262820513,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6101885134595415,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 186,
+    "pad_x": 0,
+    "pad_y": 35,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "65f1164cd43edb4c9aaf3a8e": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      120,
+      140,
+      1235,
+      938
+    ],
+    "board_box": [
+      197,
+      329,
+      1158,
+      749
+    ],
+    "component_fraction": 0.17220552884615384,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.5922797348030993,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 183,
+    "pad_x": 0,
+    "pad_y": 36,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "904d32fddf6e1ee052a5e000": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      113,
+      110,
+      1236,
+      941
+    ],
+    "board_box": [
+      191,
+      307,
+      1158,
+      744
+    ],
+    "component_fraction": 0.18456029647435898,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6211977793753495,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 189,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "96f21f047487f62f50f32ff6": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      135,
+      124,
+      1260,
+      941
+    ],
+    "board_box": [
+      213,
+      318,
+      1182,
+      747
+    ],
+    "component_fraction": 0.1788661858974359,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6118200335490055,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 186,
+    "pad_x": 0,
+    "pad_y": 35,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "4f5abf5368f26200d4992a53": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      112,
+      129,
+      1226,
+      946
+    ],
+    "board_box": [
+      189,
+      323,
+      1149,
+      752
+    ],
+    "component_fraction": 0.17873096955128207,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6058377932209708,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 188,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "cdafe117a8af8b75d42e22e2": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      78,
+      123,
+      1203,
+      966
+    ],
+    "board_box": [
+      156,
+      323,
+      1125,
+      766
+    ],
+    "component_fraction": 0.18716947115384616,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6312904385334291,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 192,
+    "pad_x": 0,
+    "pad_y": 32,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "19c7eaaf7a7c2b71d5da1dc8": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      97,
+      120,
+      1217,
+      967
+    ],
+    "board_box": [
+      175,
+      321,
+      1139,
+      766
+    ],
+    "component_fraction": 0.1845703125,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6314668370743137,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 194,
+    "pad_x": 0,
+    "pad_y": 31,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "4076b6b5665b0bbf381948de": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      109,
+      134,
+      1216,
+      944
+    ],
+    "board_box": [
+      186,
+      326,
+      1139,
+      752
+    ],
+    "component_fraction": 0.17191005608974358,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.5968727534148095,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 187,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "d179fa18b9c1d78dce355509": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      136,
+      135,
+      1251,
+      952
+    ],
+    "board_box": [
+      213,
+      329,
+      1174,
+      758
+    ],
+    "component_fraction": 0.1829326923076923,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6063816332507921,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 188,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "1dcaeae3fbbedfbfa04722ec": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      124,
+      125,
+      1247,
+      951
+    ],
+    "board_box": [
+      202,
+      321,
+      1169,
+      755
+    ],
+    "component_fraction": 0.18274238782051283,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6174601272732114,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 188,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "9bd08200d5d939f4a498aae7": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      155,
+      126,
+      1277,
+      936
+    ],
+    "board_box": [
+      233,
+      318,
+      1199,
+      744
+    ],
+    "component_fraction": 0.1875801282051282,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.604960460100647,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 185,
+    "pad_x": 0,
+    "pad_y": 35,
+    "pose_label": "reversed_180",
+    "orientation_action": "rotate_180"
+  },
+  "2bea857039ef9c03907fb299": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      83,
+      108,
+      1211,
+      960
+    ],
+    "board_box": [
+      161,
+      310,
+      1133,
+      758
+    ],
+    "component_fraction": 0.19029447115384615,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.639731607955907,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 193,
+    "pad_x": 0,
+    "pad_y": 31,
+    "pose_label": "reversed_180",
+    "orientation_action": "rotate_180"
+  },
+  "0174183097ea8fa63bbe3153": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      78,
+      126,
+      1203,
+      957
+    ],
+    "board_box": [
+      156,
+      323,
+      1125,
+      760
+    ],
+    "component_fraction": 0.1964793669871795,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6223040977713875,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 189,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "31656a11b9780d9f8a2fa83f": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      122,
+      131,
+      1241,
+      967
+    ],
+    "board_box": [
+      200,
+      329,
+      1163,
+      769
+    ],
+    "component_fraction": 0.18530649038461539,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6227094815879862,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 191,
+    "pad_x": 0,
+    "pad_y": 32,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "846cfdd3fbe431251239629c": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      117,
+      129,
+      1232,
+      946
+    ],
+    "board_box": [
+      194,
+      323,
+      1155,
+      752
+    ],
+    "component_fraction": 0.1951923076923077,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6063816332507921,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 188,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "8a393ef07e4999ab89669d93": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      108,
+      135,
+      1227,
+      952
+    ],
+    "board_box": [
+      186,
+      329,
+      1149,
+      758
+    ],
+    "component_fraction": 0.18637820512820513,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6085569933700775,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 187,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "76964f3ab9f7c03b08de6900": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      155,
+      120,
+      1277,
+      956
+    ],
+    "board_box": [
+      233,
+      318,
+      1199,
+      758
+    ],
+    "component_fraction": 0.20078625801282052,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6243789440051122,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 191,
+    "pad_x": 0,
+    "pad_y": 32,
+    "pose_label": "reversed_180",
+    "orientation_action": "rotate_180"
+  },
+  "bfebbd19caf4dad38fd66eab": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      152,
+      132,
+      1277,
+      949
+    ],
+    "board_box": [
+      230,
+      326,
+      1199,
+      755
+    ],
+    "component_fraction": 0.18143028846153847,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6118200335490055,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 186,
+    "pad_x": 0,
+    "pad_y": 35,
+    "pose_label": "reversed_180",
+    "orientation_action": "rotate_180"
+  },
+  "b369595e56e69503f81e4901": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      100,
+      134,
+      1227,
+      944
+    ],
+    "board_box": [
+      178,
+      326,
+      1149,
+      752
+    ],
+    "component_fraction": 0.1789863782051282,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6076563623292596,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 184,
+    "pad_x": 0,
+    "pad_y": 36,
+    "pose_label": "uncertain",
+    "orientation_action": "no_op"
+  },
+  "2744e38a1b628fcbf2067bd4": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      75,
+      138,
+      1195,
+      951
+    ],
+    "board_box": [
+      153,
+      331,
+      1117,
+      758
+    ],
+    "component_fraction": 0.17905649038461538,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6061186995766435,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 186,
+    "pad_x": 0,
+    "pad_y": 35,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "e68d2653f5376170791a8674": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      100,
+      124,
+      1222,
+      941
+    ],
+    "board_box": [
+      178,
+      318,
+      1144,
+      747
+    ],
+    "component_fraction": 0.18104967948717948,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6101885134595415,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 186,
+    "pad_x": 0,
+    "pad_y": 35,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "ead24842cb7981c9674e9d4e": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      116,
+      138,
+      1238,
+      943
+    ],
+    "board_box": [
+      194,
+      329,
+      1160,
+      752
+    ],
+    "component_fraction": 0.1830128205128205,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6012261362728653,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 184,
+    "pad_x": 0,
+    "pad_y": 36,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "d664d5515d0f8355c2df16ea": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      60,
+      67,
+      1245,
+      987
+    ],
+    "board_box": [
+      142,
+      285,
+      1163,
+      769
+    ],
+    "component_fraction": 0.20701622596153846,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.7256969406502117,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 199,
+    "pad_x": 0,
+    "pad_y": 28,
+    "pose_label": "uncertain",
+    "orientation_action": "no_op"
+  },
+  "86317f47cc684a4a33717793": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      66,
+      101,
+      1251,
+      958
+    ],
+    "board_box": [
+      148,
+      304,
+      1169,
+      755
+    ],
+    "component_fraction": 0.19889823717948718,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6760024762361211,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 185,
+    "pad_x": 0,
+    "pad_y": 35,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "e9a182d87ded8090921b62f5": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      38,
+      92,
+      1226,
+      986
+    ],
+    "board_box": [
+      120,
+      304,
+      1144,
+      774
+    ],
+    "component_fraction": 0.20226362179487178,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.7069734004313444,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 193,
+    "pad_x": 0,
+    "pad_y": 31,
+    "pose_label": "uncertain",
+    "orientation_action": "no_op"
+  },
+  "a7e7261362d3ab9b5fa975d0": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      77,
+      95,
+      1262,
+      964
+    ],
+    "board_box": [
+      159,
+      301,
+      1180,
+      758
+    ],
+    "component_fraction": 0.20390625,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6854680885054717,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 188,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "d086b78f683af0d19bb68594": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      77,
+      93,
+      1259,
+      982
+    ],
+    "board_box": [
+      159,
+      304,
+      1177,
+      771
+    ],
+    "component_fraction": 0.20388120993589742,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6994688074127327,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 193,
+    "pad_x": 0,
+    "pad_y": 31,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "733208e2c25e1af5454d93f2": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      94,
+      85,
+      1266,
+      949
+    ],
+    "board_box": [
+      175,
+      290,
+      1185,
+      744
+    ],
+    "component_fraction": 0.19603365384615384,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6740474478792235,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 189,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "989748a316d5781c15aa24a6": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      123,
+      94,
+      1311,
+      967
+    ],
+    "board_box": [
+      205,
+      301,
+      1229,
+      760
+    ],
+    "component_fraction": 0.2113731971153846,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6903666427030913,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 188,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "f29f971c989e3457da844b2b": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      52,
+      94,
+      1229,
+      967
+    ],
+    "board_box": [
+      134,
+      301,
+      1147,
+      760
+    ],
+    "component_fraction": 0.19702524038461539,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.683974358974359,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 190,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "f210dd5f4d74b3edf87a8edc": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      76,
+      119,
+      1191,
+      945
+    ],
+    "board_box": [
+      153,
+      315,
+      1114,
+      749
+    ],
+    "component_fraction": 0.17775941506410256,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6130614798839098,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 190,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "e5628e506633f6123990ae36": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      124,
+      115,
+      1252,
+      946
+    ],
+    "board_box": [
+      202,
+      312,
+      1174,
+      749
+    ],
+    "component_fraction": 0.1850060096153846,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6239635753654446,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 189,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "7b21e295e4c564254de297cd": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      130,
+      130,
+      1252,
+      935
+    ],
+    "board_box": [
+      208,
+      321,
+      1174,
+      744
+    ],
+    "component_fraction": 0.1778896233974359,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6012261362728653,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 184,
+    "pad_x": 0,
+    "pad_y": 36,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "ab48d54a454beacaf51a6fff": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      86,
+      127,
+      1211,
+      954
+    ],
+    "board_box": [
+      164,
+      323,
+      1133,
+      758
+    ],
+    "component_fraction": 0.17559595352564103,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.619308650850707,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 188,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "4a64187887711c775f428d0f": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      155,
+      124,
+      1274,
+      943
+    ],
+    "board_box": [
+      233,
+      318,
+      1196,
+      749
+    ],
+    "component_fraction": 0.178114983974359,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6100467289719627,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 187,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "a37c1228e9ff3279e16377fc": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      119,
+      124,
+      1238,
+      955
+    ],
+    "board_box": [
+      197,
+      321,
+      1160,
+      758
+    ],
+    "component_fraction": 0.18627303685897437,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6189851425832734,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 190,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "5b7bb2dd865c569317014e7a": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      78,
+      120,
+      1197,
+      942
+    ],
+    "board_box": [
+      156,
+      315,
+      1119,
+      747
+    ],
+    "component_fraction": 0.17732371794871796,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6122813323747903,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 188,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "454fde2976c690adb252f174": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      150,
+      130,
+      1265,
+      956
+    ],
+    "board_box": [
+      227,
+      326,
+      1188,
+      760
+    ],
+    "component_fraction": 0.17901141826923078,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6130614798839098,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 190,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "0cfaf8dea93dc0646a1d60dd": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      64,
+      118,
+      1189,
+      949
+    ],
+    "board_box": [
+      142,
+      315,
+      1111,
+      752
+    ],
+    "component_fraction": 0.18731470352564103,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6223040977713875,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 189,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "c4de673e229af6580007c4be": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      111,
+      141,
+      1233,
+      942
+    ],
+    "board_box": [
+      189,
+      331,
+      1155,
+      752
+    ],
+    "component_fraction": 0.1778896233974359,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.5982386772106398,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 183,
+    "pad_x": 0,
+    "pad_y": 36,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "5b26e8174612cbac5bf361c6": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      100,
+      131,
+      1222,
+      953
+    ],
+    "board_box": [
+      178,
+      326,
+      1144,
+      758
+    ],
+    "component_fraction": 0.18142027243589742,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6139228372873232,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 188,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "d7c7197b3cab34fe93f2fada": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      67,
+      120,
+      1189,
+      942
+    ],
+    "board_box": [
+      145,
+      315,
+      1111,
+      747
+    ],
+    "component_fraction": 0.1833183092948718,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6139228372873232,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 188,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "bf35ab64688b9cebf87efb76": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      100,
+      124,
+      1225,
+      941
+    ],
+    "board_box": [
+      178,
+      318,
+      1147,
+      747
+    ],
+    "component_fraction": 0.18041866987179486,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6118200335490055,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 186,
+    "pad_x": 0,
+    "pad_y": 35,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "696b15fa7935c77bc6332efd": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      81,
+      131,
+      1203,
+      953
+    ],
+    "board_box": [
+      159,
+      326,
+      1125,
+      758
+    ],
+    "component_fraction": 0.1799979967948718,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6139228372873232,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 188,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "78a69a1922ebd38aabe053c8": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      102,
+      106,
+      1230,
+      953
+    ],
+    "board_box": [
+      180,
+      307,
+      1152,
+      752
+    ],
+    "component_fraction": 0.18919771634615384,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6359773144819874,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 192,
+    "pad_x": 0,
+    "pad_y": 32,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "3c5ec43df6b0c27e160df537": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      100,
+      119,
+      1222,
+      959
+    ],
+    "board_box": [
+      178,
+      318,
+      1144,
+      760
+    ],
+    "component_fraction": 0.192763421474359,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6273664030673376,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 192,
+    "pad_x": 0,
+    "pad_y": 32,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "b55803eaf5bb3067295b2cf5": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      92,
+      127,
+      1211,
+      954
+    ],
+    "board_box": [
+      170,
+      323,
+      1133,
+      758
+    ],
+    "component_fraction": 0.18279747596153847,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6160056713795031,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 189,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "7c459783721c82f677ac35c7": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      123,
+      125,
+      1235,
+      951
+    ],
+    "board_box": [
+      200,
+      321,
+      1158,
+      755
+    ],
+    "component_fraction": 0.17964242788461537,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6114119871129217,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 190,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "ce4859a6c6cd0f9caa9c4564": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      119,
+      129,
+      1244,
+      946
+    ],
+    "board_box": [
+      197,
+      323,
+      1166,
+      752
+    ],
+    "component_fraction": 0.1742588141025641,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6118200335490055,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 186,
+    "pad_x": 0,
+    "pad_y": 35,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "1f6be8b2d2e29e8e8d8952db": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      171,
+      132,
+      1293,
+      938
+    ],
+    "board_box": [
+      249,
+      323,
+      1215,
+      747
+    ],
+    "component_fraction": 0.17720853365384615,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6019730010384216,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 184,
+    "pad_x": 0,
+    "pad_y": 36,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "68b9e3462b7bb3850fb406a7": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      98,
+      124,
+      1213,
+      943
+    ],
+    "board_box": [
+      175,
+      318,
+      1136,
+      749
+    ],
+    "component_fraction": 0.1763371394230769,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6078660436137072,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 188,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "2dcc7ada2b6bfab6a91a3742": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      116,
+      138,
+      1238,
+      965
+    ],
+    "board_box": [
+      194,
+      334,
+      1160,
+      769
+    ],
+    "component_fraction": 0.1896083733974359,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.617657161115105,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 189,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "e29dae89a422801349d5d030": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      68,
+      122,
+      1251,
+      962
+    ],
+    "board_box": [
+      150,
+      321,
+      1169,
+      763
+    ],
+    "component_fraction": 0.19830729166666666,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6614745586708204,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 182,
+    "pad_x": 0,
+    "pad_y": 37,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "156203b86fd0a31b58234f24": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      82,
+      93,
+      1262,
+      950
+    ],
+    "board_box": [
+      164,
+      296,
+      1180,
+      747
+    ],
+    "component_fraction": 0.2013721955128205,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6731501451127619,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 186,
+    "pad_x": 0,
+    "pad_y": 35,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "c5158c1aa4bbc8cbdbd24874": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      82,
+      82,
+      1259,
+      960
+    ],
+    "board_box": [
+      164,
+      290,
+      1177,
+      752
+    ],
+    "component_fraction": 0.19798677884615384,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6878917378917379,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 191,
+    "pad_x": 0,
+    "pad_y": 32,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "d17c6a6b5114e1294ad9cc22": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      119,
+      113,
+      1249,
+      944
+    ],
+    "board_box": [
+      197,
+      310,
+      1171,
+      747
+    ],
+    "component_fraction": 0.17823016826923077,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6250698937614826,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 188,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "6039bd78d688a37977631738": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      53,
+      98,
+      1184,
+      966
+    ],
+    "board_box": [
+      131,
+      304,
+      1106,
+      760
+    ],
+    "component_fraction": 0.18391426282051282,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.653478712357217,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 196,
+    "pad_x": 0,
+    "pad_y": 30,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "b12a028d7cef91259468f264": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      82,
+      99,
+      1218,
+      951
+    ],
+    "board_box": [
+      161,
+      301,
+      1139,
+      749
+    ],
+    "component_fraction": 0.1865635016025641,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6442687115584312,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 192,
+    "pad_x": 0,
+    "pad_y": 32,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "8e283e953bb207214a134d47": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      64,
+      127,
+      1192,
+      946
+    ],
+    "board_box": [
+      142,
+      321,
+      1114,
+      752
+    ],
+    "component_fraction": 0.18547175480769232,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6149532710280374,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 186,
+    "pad_x": 0,
+    "pad_y": 35,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "9d17ee5e0a75493b8f4210c0": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      63,
+      122,
+      1198,
+      970
+    ],
+    "board_box": [
+      142,
+      323,
+      1119,
+      769
+    ],
+    "component_fraction": 0.18684895833333334,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6406795004925846,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 191,
+    "pad_x": 0,
+    "pad_y": 32,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "f8d29a19edc548c8cc6e6d89": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      112,
+      111,
+      1250,
+      951
+    ],
+    "board_box": [
+      191,
+      310,
+      1171,
+      752
+    ],
+    "component_fraction": 0.18573217147435897,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6363128045371036,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 189,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "824de58bab8ab9b7d07b673c": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      82,
+      127,
+      1223,
+      946
+    ],
+    "board_box": [
+      161,
+      321,
+      1144,
+      752
+    ],
+    "component_fraction": 0.18651342147435898,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6220404984423676,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 184,
+    "pad_x": 0,
+    "pad_y": 36,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "b9bd4f2bc63c2c7651916ea0": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      80,
+      121,
+      1215,
+      973
+    ],
+    "board_box": [
+      159,
+      323,
+      1136,
+      771
+    ],
+    "component_fraction": 0.18414463141025642,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6437015736081156,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 192,
+    "pad_x": 0,
+    "pad_y": 32,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "fa34ec9ecc44f946a375d974": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      94,
+      120,
+      1217,
+      956
+    ],
+    "board_box": [
+      172,
+      318,
+      1139,
+      758
+    ],
+    "component_fraction": 0.1781300080128205,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6249354314774875,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 191,
+    "pad_x": 0,
+    "pad_y": 32,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "25a492906921005d25cd44b3": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      100,
+      135,
+      1230,
+      962
+    ],
+    "board_box": [
+      178,
+      331,
+      1152,
+      766
+    ],
+    "component_fraction": 0.18901241987179487,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6220611337433767,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 187,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "25ec33aab6cc9475a4e49915": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      72,
+      136,
+      1203,
+      958
+    ],
+    "board_box": [
+      150,
+      331,
+      1125,
+      763
+    ],
+    "component_fraction": 0.18275741185897437,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6188473520249221,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 186,
+    "pad_x": 0,
+    "pad_y": 35,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "31c82c66a7fccb2763c06c8c": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      113,
+      119,
+      1244,
+      959
+    ],
+    "board_box": [
+      191,
+      318,
+      1166,
+      760
+    ],
+    "component_fraction": 0.17498998397435897,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.632398753894081,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 190,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "56b0ca13e534cebedf32c5c1": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      130,
+      116,
+      1255,
+      943
+    ],
+    "board_box": [
+      208,
+      312,
+      1177,
+      747
+    ],
+    "component_fraction": 0.18342848557692307,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.619308650850707,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 188,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "ccb69f884e0466da8bf7341e": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      100,
+      135,
+      1225,
+      954
+    ],
+    "board_box": [
+      178,
+      329,
+      1147,
+      760
+    ],
+    "component_fraction": 0.17862580128205127,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6133177570093458,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 186,
+    "pad_x": 0,
+    "pad_y": 35,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "166db33b924deb15dc0a50d8": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      92,
+      108,
+      1219,
+      960
+    ],
+    "board_box": [
+      170,
+      310,
+      1141,
+      758
+    ],
+    "component_fraction": 0.18358874198717948,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6391644700055915,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 194,
+    "pad_x": 0,
+    "pad_y": 31,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "452f2685edcad7b69fecd9b6": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      123,
+      100,
+      1261,
+      948
+    ],
+    "board_box": [
+      202,
+      301,
+      1182,
+      747
+    ],
+    "component_fraction": 0.17686298076923077,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.642372926485076,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 191,
+    "pad_x": 0,
+    "pad_y": 32,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "2b6a7d049fa1b9e094d4b1b7": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      148,
+      108,
+      1283,
+      948
+    ],
+    "board_box": [
+      227,
+      307,
+      1204,
+      749
+    ],
+    "component_fraction": 0.182236578525641,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6346353542615225,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 189,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "db2ce9aae41ccd9feda36d97": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      133,
+      117,
+      1260,
+      939
+    ],
+    "board_box": [
+      211,
+      312,
+      1182,
+      744
+    ],
+    "component_fraction": 0.17678285256410256,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6166586788082116,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 187,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "aabb50dfd6fa95309b6e460a": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      91,
+      117,
+      1226,
+      964
+    ],
+    "board_box": [
+      170,
+      318,
+      1147,
+      763
+    ],
+    "component_fraction": 0.18555188301282052,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6399239822137018,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 191,
+    "pad_x": 0,
+    "pad_y": 32,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "02aae52ee66ba6314996782a": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      93,
+      100,
+      1228,
+      948
+    ],
+    "board_box": [
+      172,
+      301,
+      1149,
+      747
+    ],
+    "component_fraction": 0.18333834134615384,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6406795004925846,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 191,
+    "pad_x": 0,
+    "pad_y": 32,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "64be38abeac63bef2d999f46": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      64,
+      136,
+      1192,
+      958
+    ],
+    "board_box": [
+      142,
+      331,
+      1114,
+      763
+    ],
+    "component_fraction": 0.17975260416666666,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6172058471123891,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 187,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "a44f87b6ff4debf5efe4bd01": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      123,
+      125,
+      1259,
+      961
+    ],
+    "board_box": [
+      202,
+      323,
+      1180,
+      763
+    ],
+    "component_fraction": 0.17916666666666667,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6321697686183667,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 188,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "0accc51b6cbde741542000fe": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      130,
+      114,
+      1258,
+      950
+    ],
+    "board_box": [
+      208,
+      312,
+      1180,
+      752
+    ],
+    "component_fraction": 0.18587740384615384,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6277178688393642,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 190,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "53fe2b96c7614eef9f61e761": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      93,
+      110,
+      1231,
+      974
+    ],
+    "board_box": [
+      172,
+      315,
+      1152,
+      769
+    ],
+    "component_fraction": 0.19302884615384616,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6544931703810208,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 194,
+    "pad_x": 0,
+    "pad_y": 31,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "4053335d3bde455cde81acdb": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      112,
+      106,
+      1248,
+      953
+    ],
+    "board_box": [
+      191,
+      307,
+      1169,
+      752
+    ],
+    "component_fraction": 0.19122596153846153,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6404877918896611,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 191,
+    "pad_x": 0,
+    "pad_y": 32,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "b86d36c40af62aafb6b0074f": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      89,
+      116,
+      1217,
+      943
+    ],
+    "board_box": [
+      167,
+      312,
+      1139,
+      747
+    ],
+    "component_fraction": 0.17968249198717948,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6209601405863088,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 188,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "205a95773fd9f4d7baade61c": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      100,
+      100,
+      1230,
+      926
+    ],
+    "board_box": [
+      178,
+      296,
+      1152,
+      730
+    ],
+    "component_fraction": 0.17847055288461539,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6213089437388503,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 187,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "2dffce1dbe6997fc6f6e3e1b": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      166,
+      132,
+      1293,
+      963
+    ],
+    "board_box": [
+      244,
+      329,
+      1215,
+      766
+    ],
+    "component_fraction": 0.1877353766025641,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6234104161674255,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 189,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "375fd2c746b090e60f3f7340": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      102,
+      85,
+      1230,
+      949
+    ],
+    "board_box": [
+      180,
+      290,
+      1152,
+      744
+    ],
+    "component_fraction": 0.18380408653846153,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6487419122933141,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 196,
+    "pad_x": 0,
+    "pad_y": 30,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "f42c89c5f3cc09c28a9b722e": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      101,
+      91,
+      1237,
+      922
+    ],
+    "board_box": [
+      180,
+      288,
+      1158,
+      725
+    ],
+    "component_fraction": 0.18515625,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6283888489495966,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 187,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "961755159b280739cc1ba46d": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      126,
+      112,
+      1267,
+      955
+    ],
+    "board_box": [
+      205,
+      312,
+      1188,
+      755
+    ],
+    "component_fraction": 0.18593249198717948,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6402687914370158,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 189,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "56e735259c27809568b70e19": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      135,
+      124,
+      1266,
+      943
+    ],
+    "board_box": [
+      213,
+      318,
+      1188,
+      749
+    ],
+    "component_fraction": 0.17849058493589742,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.616588785046729,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 185,
+    "pad_x": 0,
+    "pad_y": 35,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "b08d5dfe16f0c5e3c2cc69f1": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      88,
+      95,
+      1231,
+      956
+    ],
+    "board_box": [
+      167,
+      299,
+      1152,
+      752
+    ],
+    "component_fraction": 0.17998297275641026,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6550862688713156,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 193,
+    "pad_x": 0,
+    "pad_y": 31,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "550983ee30b980727bb33675": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      99,
+      114,
+      1234,
+      950
+    ],
+    "board_box": [
+      178,
+      312,
+      1155,
+      752
+    ],
+    "component_fraction": 0.18362880608974358,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6316132811459915,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 189,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "4ae29c9501c432b69a8cc15e": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      64,
+      122,
+      1195,
+      948
+    ],
+    "board_box": [
+      142,
+      318,
+      1117,
+      752
+    ],
+    "component_fraction": 0.18251201923076923,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6218587746625129,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 187,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "4f15590f560ec8dab6dc09f2": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      102,
+      106,
+      1225,
+      942
+    ],
+    "board_box": [
+      180,
+      304,
+      1147,
+      744
+    ],
+    "component_fraction": 0.17957231570512822,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6249354314774875,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 191,
+    "pad_x": 0,
+    "pad_y": 32,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "ec4e48b6b9adcb98383ae5e7": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      46,
+      120,
+      1194,
+      967
+    ],
+    "board_box": [
+      126,
+      321,
+      1114,
+      766
+    ],
+    "component_fraction": 0.1867588141025641,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6472535080011715,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 189,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "3684efe93fd3b7afa813281f": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      91,
+      115,
+      1228,
+      958
+    ],
+    "board_box": [
+      170,
+      315,
+      1149,
+      758
+    ],
+    "component_fraction": 0.18318810096153845,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6380242032111191,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 190,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "e1f62c6c20085b5c157be757": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      100,
+      146,
+      1230,
+      963
+    ],
+    "board_box": [
+      178,
+      340,
+      1152,
+      769
+    ],
+    "component_fraction": 0.1781300080128205,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6145392336981123,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 185,
+    "pad_x": 0,
+    "pad_y": 35,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "d7df11e6c55823bc9ebf76b0": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      85,
+      112,
+      1220,
+      980
+    ],
+    "board_box": [
+      164,
+      318,
+      1141,
+      774
+    ],
+    "component_fraction": 0.1825370592948718,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6557898660702399,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 196,
+    "pad_x": 0,
+    "pad_y": 30,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "ea10de32d4034b13bea5cb13": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      92,
+      125,
+      1222,
+      951
+    ],
+    "board_box": [
+      170,
+      321,
+      1144,
+      755
+    ],
+    "component_fraction": 0.1781650641025641,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6213089437388503,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 187,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "24696494ba3fa35e11bffd53": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      124,
+      130,
+      1249,
+      956
+    ],
+    "board_box": [
+      202,
+      326,
+      1171,
+      760
+    ],
+    "component_fraction": 0.17904146634615384,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6185597891205368,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 188,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "0dafbc81c75425b6d986d52b": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      28,
+      113,
+      1159,
+      965
+    ],
+    "board_box": [
+      106,
+      315,
+      1081,
+      763
+    ],
+    "component_fraction": 0.18482572115384616,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6414330218068536,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 193,
+    "pad_x": 0,
+    "pad_y": 31,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "dc6046917e9e86adee57ce3f": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      63,
+      116,
+      1204,
+      989
+    ],
+    "board_box": [
+      142,
+      323,
+      1125,
+      782
+    ],
+    "component_fraction": 0.1861278044871795,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6630541576803259,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 196,
+    "pad_x": 0,
+    "pad_y": 30,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "372581c3ce28a2517b1109c7": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      64,
+      111,
+      1195,
+      959
+    ],
+    "board_box": [
+      142,
+      312,
+      1117,
+      758
+    ],
+    "component_fraction": 0.1871444310897436,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6384215991692627,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 192,
+    "pad_x": 0,
+    "pad_y": 32,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "098152f95bce223133b4eaf6": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      69,
+      123,
+      1204,
+      958
+    ],
+    "board_box": [
+      148,
+      321,
+      1125,
+      760
+    ],
+    "component_fraction": 0.18229667467948718,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6308577628671087,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 188,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "b930a578ee0d8cbee9eabfc5": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      67,
+      143,
+      1195,
+      960
+    ],
+    "board_box": [
+      145,
+      337,
+      1117,
+      766
+    ],
+    "component_fraction": 0.178515625,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6134515536384695,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 185,
+    "pad_x": 0,
+    "pad_y": 35,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "48ad272fcc28e7771d6392e5": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      45,
+      140,
+      1170,
+      957
+    ],
+    "board_box": [
+      123,
+      334,
+      1092,
+      763
+    ],
+    "component_fraction": 0.17940705128205128,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6118200335490055,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 186,
+    "pad_x": 0,
+    "pad_y": 35,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "abd28ac017018f790aba3758": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      69,
+      135,
+      1207,
+      952
+    ],
+    "board_box": [
+      148,
+      329,
+      1128,
+      758
+    ],
+    "component_fraction": 0.1846103766025641,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6188899539366829,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 184,
+    "pad_x": 0,
+    "pad_y": 36,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "93c63850a99e3167013fea89": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      111,
+      127,
+      1238,
+      954
+    ],
+    "board_box": [
+      189,
+      323,
+      1160,
+      758
+    ],
+    "component_fraction": 0.17466446314102563,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6204096440077749,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 188,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "d1bd146b3e2c069af7e68092": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      61,
+      120,
+      1189,
+      942
+    ],
+    "board_box": [
+      139,
+      315,
+      1111,
+      747
+    ],
+    "component_fraction": 0.17604166666666668,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6172058471123891,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 187,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "156066904c1735208479fb72": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      113,
+      120,
+      1244,
+      967
+    ],
+    "board_box": [
+      191,
+      321,
+      1166,
+      766
+    ],
+    "component_fraction": 0.18415965544871796,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.637668743509865,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 192,
+    "pad_x": 0,
+    "pad_y": 32,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "eecd6eb5060453a25dedb777": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      41,
+      108,
+      1179,
+      960
+    ],
+    "board_box": [
+      120,
+      310,
+      1100,
+      758
+    ],
+    "component_fraction": 0.18893229166666667,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6454029874590622,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 192,
+    "pad_x": 0,
+    "pad_y": 32,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "abd584aa4166098b27ad3783": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      102,
+      117,
+      1227,
+      939
+    ],
+    "board_box": [
+      180,
+      312,
+      1149,
+      744
+    ],
+    "component_fraction": 0.1821013621794872,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6155643421998562,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 187,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "d5b4d184035e0b8f1126f99a": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      127,
+      116,
+      1255,
+      943
+    ],
+    "board_box": [
+      205,
+      312,
+      1177,
+      747
+    ],
+    "component_fraction": 0.17897135416666668,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6209601405863088,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 188,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "35ec358c4f85bbdc6c79646b": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      55,
+      115,
+      1193,
+      958
+    ],
+    "board_box": [
+      134,
+      315,
+      1114,
+      758
+    ],
+    "component_fraction": 0.18732471955128205,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6385853502675932,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 190,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "87ea983f62b27d0f02a72bde": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      101,
+      107,
+      1237,
+      938
+    ],
+    "board_box": [
+      180,
+      304,
+      1158,
+      741
+    ],
+    "component_fraction": 0.1783603766025641,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6283888489495966,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 187,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "9de01ef43dbefdf8c5261a51": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      70,
+      121,
+      1197,
+      938
+    ],
+    "board_box": [
+      148,
+      315,
+      1119,
+      744
+    ],
+    "component_fraction": 0.17970753205128207,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6129077136086482,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 186,
+    "pad_x": 0,
+    "pad_y": 35,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "e194687c728b162906b9c214": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      89,
+      98,
+      1217,
+      945
+    ],
+    "board_box": [
+      167,
+      299,
+      1139,
+      744
+    ],
+    "component_fraction": 0.18556690705128207,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6359773144819874,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 192,
+    "pad_x": 0,
+    "pad_y": 32,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "95cc752fc86f263bfca7d12b": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      50,
+      137,
+      1181,
+      954
+    ],
+    "board_box": [
+      128,
+      331,
+      1103,
+      760
+    ],
+    "component_fraction": 0.1789413060897436,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6150830737279336,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 185,
+    "pad_x": 0,
+    "pad_y": 35,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "d21081ff25bdec6b7b70285d": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      118,
+      116,
+      1253,
+      935
+    ],
+    "board_box": [
+      197,
+      310,
+      1174,
+      741
+    ],
+    "component_fraction": 0.17775941506410256,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6187694704049844,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 185,
+    "pad_x": 0,
+    "pad_y": 35,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "66c4aa0948e7b6625b018f38": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      92,
+      112,
+      1222,
+      947
+    ],
+    "board_box": [
+      170,
+      310,
+      1144,
+      749
+    ],
+    "component_fraction": 0.18430989583333332,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6280786537795884,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 189,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "b42b96bcc8da76dd7917b679": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      102,
+      115,
+      1230,
+      946
+    ],
+    "board_box": [
+      180,
+      312,
+      1152,
+      749
+    ],
+    "component_fraction": 0.17735877403846154,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6239635753654446,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 189,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "e15b9790767114a2828c1672": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      75,
+      136,
+      1203,
+      958
+    ],
+    "board_box": [
+      153,
+      331,
+      1125,
+      763
+    ],
+    "component_fraction": 0.1782802483974359,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6172058471123891,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 187,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "0be6a9d652c5bc82c5d0a148": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      107,
+      119,
+      1245,
+      971
+    ],
+    "board_box": [
+      186,
+      321,
+      1166,
+      769
+    ],
+    "component_fraction": 0.1856670673076923,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6454029874590622,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 192,
+    "pad_x": 0,
+    "pad_y": 32,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "e00d4ae25bf79e94a10d6503": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      104,
+      111,
+      1242,
+      951
+    ],
+    "board_box": [
+      183,
+      310,
+      1163,
+      752
+    ],
+    "component_fraction": 0.18177584134615385,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6363128045371036,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 189,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "17be65e9b30bb93d48a0c633": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      80,
+      103,
+      1218,
+      964
+    ],
+    "board_box": [
+      159,
+      307,
+      1139,
+      760
+    ],
+    "component_fraction": 0.1793719951923077,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6522206246505312,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 194,
+    "pad_x": 0,
+    "pad_y": 31,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "ae2bf0ea32353e5714332a3e": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      111,
+      99,
+      1241,
+      963
+    ],
+    "board_box": [
+      189,
+      304,
+      1163,
+      758
+    ],
+    "component_fraction": 0.1860877403846154,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6498921639108555,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 196,
+    "pad_x": 0,
+    "pad_y": 30,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "f2ebf08071002f3b55c192a2": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      67,
+      90,
+      1195,
+      958
+    ],
+    "board_box": [
+      145,
+      296,
+      1117,
+      752
+    ],
+    "component_fraction": 0.18270733173076922,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6517453470724499,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 197,
+    "pad_x": 0,
+    "pad_y": 29,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "566d247031de1517a7bf7c75": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      63,
+      99,
+      1204,
+      977
+    ],
+    "board_box": [
+      142,
+      307,
+      1125,
+      769
+    ],
+    "component_fraction": 0.19195713141025642,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6668517187208776,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 197,
+    "pad_x": 0,
+    "pad_y": 29,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "14980ec28efed557021b5113": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      96,
+      85,
+      1231,
+      949
+    ],
+    "board_box": [
+      175,
+      290,
+      1152,
+      744
+    ],
+    "component_fraction": 0.18458533653846154,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6527677929547089,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 195,
+    "pad_x": 0,
+    "pad_y": 30,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "382bf0865d25414790e9ea61": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      69,
+      108,
+      1204,
+      948
+    ],
+    "board_box": [
+      148,
+      307,
+      1125,
+      749
+    ],
+    "component_fraction": 0.18057892628205127,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6346353542615225,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 189,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "1dd7a0396140bca72ac7681e": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      110,
+      140,
+      1245,
+      957
+    ],
+    "board_box": [
+      189,
+      334,
+      1166,
+      763
+    ],
+    "component_fraction": 0.18329827724358974,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6172584338472189,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 184,
+    "pad_x": 0,
+    "pad_y": 36,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "56639c20153c027d1b98e342": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      59,
+      104,
+      1186,
+      947
+    ],
+    "board_box": [
+      137,
+      304,
+      1108,
+      747
+    ],
+    "component_fraction": 0.184950921474359,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6324127326463775,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 191,
+    "pad_x": 0,
+    "pad_y": 32,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "51599afeb8b177237f862bf6": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      113,
+      116,
+      1238,
+      935
+    ],
+    "board_box": [
+      191,
+      310,
+      1160,
+      741
+    ],
+    "component_fraction": 0.1826973157051282,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6133177570093458,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 186,
+    "pad_x": 0,
+    "pad_y": 35,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "7add970b6fffd5a0361046c7": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      72,
+      130,
+      1203,
+      956
+    ],
+    "board_box": [
+      150,
+      326,
+      1125,
+      760
+    ],
+    "component_fraction": 0.1842147435897436,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6218587746625129,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 187,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "622c7a21c4068548b6d75b4f": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      92,
+      127,
+      1219,
+      954
+    ],
+    "board_box": [
+      170,
+      323,
+      1141,
+      758
+    ],
+    "component_fraction": 0.1848407451923077,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6204096440077749,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 188,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "86ba4c2ba433f83d3ef72b7b": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      70,
+      120,
+      1197,
+      956
+    ],
+    "board_box": [
+      148,
+      318,
+      1119,
+      758
+    ],
+    "component_fraction": 0.18166566506410256,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6271613813669888,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 190,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "1737d9c73fe23cb012799cc8": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      66,
+      106,
+      1204,
+      975
+    ],
+    "board_box": [
+      145,
+      312,
+      1125,
+      769
+    ],
+    "component_fraction": 0.18075420673076922,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6582807465985037,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 195,
+    "pad_x": 0,
+    "pad_y": 30,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "d7ec6afa2fc6caca16d5701c": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      130,
+      125,
+      1260,
+      961
+    ],
+    "board_box": [
+      208,
+      323,
+      1182,
+      763
+    ],
+    "component_fraction": 0.17761919070512822,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6288308437841148,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 189,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "1909f465333614830dff44f2": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      56,
+      134,
+      1181,
+      944
+    ],
+    "board_box": [
+      134,
+      326,
+      1103,
+      752
+    ],
+    "component_fraction": 0.17079326923076923,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6065780014378145,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 184,
+    "pad_x": 0,
+    "pad_y": 36,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "60fe972d68352e6821269288": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      86,
+      131,
+      1211,
+      953
+    ],
+    "board_box": [
+      164,
+      326,
+      1133,
+      758
+    ],
+    "component_fraction": 0.18147035256410257,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6155643421998562,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 187,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "273cad5f26957e4c7d06f7e3": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      92,
+      124,
+      1219,
+      943
+    ],
+    "board_box": [
+      170,
+      318,
+      1141,
+      749
+    ],
+    "component_fraction": 0.18376402243589743,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6144080996884735,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 186,
+    "pad_x": 0,
+    "pad_y": 35,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "26570c03543a2e6324e09243": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      102,
+      125,
+      1227,
+      951
+    ],
+    "board_box": [
+      180,
+      321,
+      1149,
+      755
+    ],
+    "component_fraction": 0.17818008814102565,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6185597891205368,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 188,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "7e156c1c6f8db3ce7e3ccad0": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      122,
+      114,
+      1247,
+      940
+    ],
+    "board_box": [
+      200,
+      310,
+      1169,
+      744
+    ],
+    "component_fraction": 0.18267728365384617,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6185597891205368,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 188,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "24a02107e447d68b081e46e7": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      63,
+      98,
+      1204,
+      966
+    ],
+    "board_box": [
+      142,
+      304,
+      1125,
+      760
+    ],
+    "component_fraction": 0.18677884615384616,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6592565966397742,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 195,
+    "pad_x": 0,
+    "pad_y": 30,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "ca6447e395d2e4c9a41a9343": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      77,
+      111,
+      1215,
+      959
+    ],
+    "board_box": [
+      156,
+      312,
+      1136,
+      758
+    ],
+    "component_fraction": 0.1842548076923077,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.642372926485076,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 191,
+    "pad_x": 0,
+    "pad_y": 32,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "9af51eeeedd5685174612ad4": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      91,
+      109,
+      1226,
+      945
+    ],
+    "board_box": [
+      170,
+      307,
+      1147,
+      747
+    ],
+    "component_fraction": 0.1851512419871795,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6316132811459915,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 189,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "7b451c6c324d6bb30a354118": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      107,
+      111,
+      1242,
+      937
+    ],
+    "board_box": [
+      186,
+      307,
+      1163,
+      741
+    ],
+    "component_fraction": 0.18095452724358974,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6240580983571637,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 186,
+    "pad_x": 0,
+    "pad_y": 35,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "1af9364f2fa6938fa08d80d7": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      122,
+      108,
+      1252,
+      948
+    ],
+    "board_box": [
+      200,
+      307,
+      1174,
+      749
+    ],
+    "component_fraction": 0.17686298076923077,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6318396038022206,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 190,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "ee12763d9a69961a567037e5": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      83,
+      131,
+      1211,
+      953
+    ],
+    "board_box": [
+      161,
+      326,
+      1133,
+      758
+    ],
+    "component_fraction": 0.18439002403846153,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6172058471123891,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 187,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "5834ab9c460489057897a4be": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      116,
+      129,
+      1241,
+      939
+    ],
+    "board_box": [
+      194,
+      321,
+      1163,
+      747
+    ],
+    "component_fraction": 0.18077924679487178,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6065780014378145,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 184,
+    "pad_x": 0,
+    "pad_y": 36,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "c6f55ba2051edb1e35f9131c": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      88,
+      104,
+      1226,
+      982
+    ],
+    "board_box": [
+      167,
+      312,
+      1147,
+      774
+    ],
+    "component_fraction": 0.1889523237179487,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6650983837899725,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 198,
+    "pad_x": 0,
+    "pad_y": 29,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "dfb2c185a44a2d33dea3516f": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      59,
+      109,
+      1181,
+      931
+    ],
+    "board_box": [
+      137,
+      304,
+      1103,
+      736
+    ],
+    "component_fraction": 0.18486578525641026,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6139228372873232,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 188,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "bbf2be5ae37229d562a5ce85": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      94,
+      114,
+      1214,
+      950
+    ],
+    "board_box": [
+      172,
+      312,
+      1136,
+      752
+    ],
+    "component_fraction": 0.18538161057692307,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6232659690603616,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 191,
+    "pad_x": 0,
+    "pad_y": 32,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "cd7d0ca80c321f5f4c0e83ed": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      130,
+      115,
+      1255,
+      946
+    ],
+    "board_box": [
+      208,
+      312,
+      1177,
+      749
+    ],
+    "component_fraction": 0.17639222756410255,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6223040977713875,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 189,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "2662b4037283d35b28570faf": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      116,
+      112,
+      1244,
+      934
+    ],
+    "board_box": [
+      194,
+      307,
+      1166,
+      739
+    ],
+    "component_fraction": 0.17643229166666666,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6172058471123891,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 187,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "ef5ec1f69e4986a868b4d224": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      105,
+      101,
+      1227,
+      937
+    ],
+    "board_box": [
+      183,
+      299,
+      1149,
+      739
+    ],
+    "component_fraction": 0.18483573717948718,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6243789440051122,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 191,
+    "pad_x": 0,
+    "pad_y": 32,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "781ed00408bb76171df9c478": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      61,
+      131,
+      1181,
+      953
+    ],
+    "board_box": [
+      139,
+      326,
+      1103,
+      758
+    ],
+    "component_fraction": 0.1802033253205128,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.612828500678968,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 188,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "5f1fdd3eda3bda2c26f6b7b4": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      94,
+      114,
+      1214,
+      950
+    ],
+    "board_box": [
+      172,
+      312,
+      1136,
+      752
+    ],
+    "component_fraction": 0.18483072916666668,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6232659690603616,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 191,
+    "pad_x": 0,
+    "pad_y": 32,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "69f74f45bee4081bfa4d94bb": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      111,
+      127,
+      1233,
+      946
+    ],
+    "board_box": [
+      189,
+      321,
+      1155,
+      752
+    ],
+    "component_fraction": 0.18335336538461539,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6116822429906542,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 187,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "17f72ccbd097e9fd071db250": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      124,
+      124,
+      1247,
+      943
+    ],
+    "board_box": [
+      202,
+      318,
+      1169,
+      749
+    ],
+    "component_fraction": 0.18850661057692308,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6122274143302181,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 187,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "30fc45da793691fbfd74e995": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      92,
+      97,
+      1219,
+      949
+    ],
+    "board_box": [
+      170,
+      299,
+      1141,
+      747
+    ],
+    "component_fraction": 0.18858173076923077,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6391644700055915,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 194,
+    "pad_x": 0,
+    "pad_y": 31,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "73f39067f4c09d66b5e9dedf": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      116,
+      129,
+      1238,
+      946
+    ],
+    "board_box": [
+      194,
+      323,
+      1160,
+      752
+    ],
+    "component_fraction": 0.1862129407051282,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6101885134595415,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 186,
+    "pad_x": 0,
+    "pad_y": 35,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "973f2cf5735887a4f3ce1597": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      127,
+      120,
+      1247,
+      942
+    ],
+    "board_box": [
+      205,
+      315,
+      1169,
+      747
+    ],
+    "component_fraction": 0.18345853365384615,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.612828500678968,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 188,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "e4d01f5bb7bf376177f723b4": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      124,
+      115,
+      1247,
+      958
+    ],
+    "board_box": [
+      202,
+      315,
+      1169,
+      758
+    ],
+    "component_fraction": 0.18416967147435898,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6301681444204809,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 192,
+    "pad_x": 0,
+    "pad_y": 32,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "de99daf2757aff1c8cb4ca86": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      138,
+      115,
+      1263,
+      958
+    ],
+    "board_box": [
+      216,
+      315,
+      1185,
+      758
+    ],
+    "component_fraction": 0.18668870192307693,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6312904385334291,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 192,
+    "pad_x": 0,
+    "pad_y": 32,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "48eea2da9c92409f5437f19f": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      141,
+      128,
+      1266,
+      942
+    ],
+    "board_box": [
+      219,
+      321,
+      1188,
+      749
+    ],
+    "component_fraction": 0.18045372596153847,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6095734483584951,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 185,
+    "pad_x": 0,
+    "pad_y": 35,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "24bddc73e51fafa8d2e8096c": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      100,
+      120,
+      1219,
+      942
+    ],
+    "board_box": [
+      178,
+      315,
+      1141,
+      747
+    ],
+    "component_fraction": 0.17958233173076923,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6122813323747903,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 188,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "3345a7559e85193f82fc78f4": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      122,
+      121,
+      1244,
+      973
+    ],
+    "board_box": [
+      200,
+      323,
+      1166,
+      771
+    ],
+    "component_fraction": 0.18650841346153846,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6363287802540138,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 194,
+    "pad_x": 0,
+    "pad_y": 31,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "096528d5d7875e34d1ce7795": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      122,
+      127,
+      1244,
+      954
+    ],
+    "board_box": [
+      200,
+      323,
+      1166,
+      758
+    ],
+    "component_fraction": 0.18071915064102564,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.617657161115105,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 189,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "b2c29250de881ef717620575": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      149,
+      123,
+      1277,
+      958
+    ],
+    "board_box": [
+      227,
+      321,
+      1199,
+      760
+    ],
+    "component_fraction": 0.1821163862179487,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6269670101445802,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 190,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "2f3b3f7aaf40cd0b5e920590": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      116,
+      141,
+      1238,
+      942
+    ],
+    "board_box": [
+      194,
+      331,
+      1160,
+      752
+    ],
+    "component_fraction": 0.1772586137820513,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.5982386772106398,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 183,
+    "pad_x": 0,
+    "pad_y": 36,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "926f45ae46975296f27d7760": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      122,
+      124,
+      1247,
+      955
+    ],
+    "board_box": [
+      200,
+      321,
+      1169,
+      758
+    ],
+    "component_fraction": 0.19158153044871795,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.6223040977713875,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 189,
+    "pad_x": 0,
+    "pad_y": 33,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  },
+  "b0da84ae91f95b36bfca45ff": {
+    "source_width": 1404,
+    "source_height": 1070,
+    "crop_box": [
+      83,
+      120,
+      1203,
+      942
+    ],
+    "board_box": [
+      161,
+      315,
+      1125,
+      747
+    ],
+    "component_fraction": 0.18155048076923078,
+    "fallback": false,
+    "failure_reason": null,
+    "crop_area_fraction": 0.612828500678968,
+    "input_size": 256,
+    "content_width": 256,
+    "content_height": 188,
+    "pad_x": 0,
+    "pad_y": 34,
+    "pose_label": "canonical",
+    "orientation_action": "no_op"
+  }
+}

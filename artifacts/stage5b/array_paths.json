@@ -1,0 +1,5 @@
+{
+  "model_maps": "data/cache/stage5b/model_maps",
+  "anomaly_maps": "data/cache/stage5b/anomaly_maps",
+  "source_maps": "data/cache/stage5b/source_maps"
+}
