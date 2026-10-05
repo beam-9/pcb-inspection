@@ -1,0 +1,18 @@
+{
+  "updated_at_utc": "2026-10-05T22:27:25.943277+00:00",
+  "preupdate_hashes": {
+    "README.md": "dd643f66af2909446e2936392458e2c33c191be2fd5805622cefd822ed2a151d",
+    "docs/journey/README.md": "a0cc08f7048b36258bcaedf0f44b4f57b0aec4fe81c3b4a0d9d36969d2a358b6",
+    "docs/journey/decision_log.md": "aaacb1c4fe190f72fdbc3409be343fddf6e1c05afd836456e58c0d5bf9953e1e"
+  },
+  "snapshots": {
+    "README.md": "artifacts/stage5c/history_navigation/README.md",
+    "docs/journey/README.md": "artifacts/stage5c/history_navigation/docs/journey/README.md",
+    "docs/journey/decision_log.md": "artifacts/stage5c/history_navigation/docs/journey/decision_log.md"
+  },
+  "postupdate_hashes": {
+    "README.md": "81f5275c59a73e7644a4c7daf461c5c2eb66a6f0e1b3604d7599110ffece83f7",
+    "docs/journey/README.md": "384adbd2b4fd0479aaee7e899cefe82c51e4359a59de9dbc5254d9b62ebe0878",
+    "docs/journey/decision_log.md": "d0c0c8c73be7d8f54bff405a3e2e361c0572a68b0cd6162b930478eee45022be"
+  }
+}

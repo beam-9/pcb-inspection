@@ -1,0 +1,161 @@
+{
+  "scope": "post-confirmation PCB2 development evidence",
+  "historical_baseline": {
+    "role": "secondary",
+    "input_size": 512,
+    "image": {
+      "n_images": 200,
+      "anomaly_count": 100,
+      "normal_count": 100,
+      "anomaly_prevalence": 0.5,
+      "threshold": 2.060171127319336,
+      "tp": 91,
+      "fp": 4,
+      "fn": 9,
+      "tn": 96,
+      "precision": 0.9578947368421052,
+      "recall": 0.91,
+      "normal_false_alarm_rate": 0.04,
+      "average_precision": 0.97701246093806,
+      "auroc": 0.9697
+    },
+    "localization_common256": {
+      "pixel_average_precision": 0.2766434708060562,
+      "n_images": 200,
+      "n_pixels": 13107200,
+      "positive_pixels": 27079,
+      "includes_normal_images": true,
+      "pixel_threshold": 1.6943607330322266,
+      "intersection_pixels": 24841,
+      "union_pixels": 352672,
+      "pixel_iou": 0.07043655294437891
+    },
+    "anomaly_localization": {
+      "common256_": {
+        "anomaly_count": 100,
+        "median_per_image_pixel_ap": 0.4956751101349518,
+        "q25": 0.29666390520809005,
+        "q75": 0.6723013907488086,
+        "peak_inside_count": 71,
+        "overlap_count": 100
+      },
+      "source_": {
+        "anomaly_count": 100,
+        "median_per_image_pixel_ap": 0.486939006230926,
+        "q25": 0.29121013500778564,
+        "q75": 0.6637786122181721,
+        "peak_inside_count": 66,
+        "overlap_count": 100
+      }
+    },
+    "runtime": {
+      "total_evaluation_seconds": 232.50571870900603,
+      "median_inference_seconds": 1.0756663960019068,
+      "p95_inference_seconds": 1.1169285517458774,
+      "peak_rss_bytes": 1342603264
+    },
+    "geometry": {
+      "fallback_count": 0,
+      "anomaly_with_annotation_outside_crop_count": 0,
+      "maximum_annotation_outside_fraction": 0.0
+    },
+    "memory": {
+      "count": 4096,
+      "candidate_count": 2949120,
+      "fraction": 0.001388888888888889,
+      "represented_fit_images": 696,
+      "padding_center_fraction": 0.004638671875
+    }
+  },
+  "image": {
+    "n_images": 200,
+    "anomaly_count": 100,
+    "normal_count": 100,
+    "anomaly_prevalence": 0.5,
+    "threshold": 2.060171127319336,
+    "tp": 91,
+    "fp": 4,
+    "fn": 9,
+    "tn": 96,
+    "precision": 0.9578947368421052,
+    "recall": 0.91,
+    "normal_false_alarm_rate": 0.04,
+    "average_precision": 0.9765628457652663,
+    "auroc": 0.9692999999999999
+  },
+  "localization_common256": {
+    "pixel_average_precision": 0.44493679172757256,
+    "n_images": 200,
+    "n_pixels": 13107200,
+    "positive_pixels": 27079,
+    "includes_normal_images": true,
+    "pixel_threshold": 1.6943607330322266,
+    "intersection_pixels": 24837,
+    "union_pixels": 266252,
+    "pixel_iou": 0.09328380631882577
+  },
+  "anomaly_localization": {
+    "common256_": {
+      "anomaly_count": 100,
+      "median_per_image_pixel_ap": 0.510077864126999,
+      "q25": 0.3128150005011786,
+      "q75": 0.6778935080424873,
+      "peak_inside_count": 73,
+      "overlap_count": 100
+    }
+  },
+  "total_fp_pixels": 239173,
+  "no_op_invariance": {
+    "count": 195,
+    "passed": true,
+    "normal_count": 100
+  },
+  "reversed": {
+    "count": 5,
+    "detected": 5,
+    "historical_total_fp_pixels": 97150,
+    "normalized_total_fp_pixels": 10730,
+    "historical_median_fp_pixels": 19367.0,
+    "normalized_median_fp_pixels": 1940.0
+  },
+  "runtime": {
+    "peak_rss_bytes": 1765425152,
+    "median_end_to_end_seconds": 1.1104375629984133,
+    "p95_end_to_end_seconds": 1.1163656756511044,
+    "median_inference_seconds": 1.0077470209998864,
+    "reversed_median_seconds": 1.1164077920002455,
+    "no_op_median_seconds": 1.1103986249981972,
+    "median_pose_seconds": 0.04222072899938212,
+    "rotation_timing": "actual exact array reversal/copy within preprocessing; inference includes frozen score_feature historical common inverse"
+  },
+  "missing": {
+    "count": 19,
+    "historical_detected": 13,
+    "normalized_detected": 13
+  },
+  "small_R1_R2": {
+    "count": 29,
+    "historical_detected": 21,
+    "normalized_detected": 21
+  },
+  "pose_subgroups": {
+    "canonical": {
+      "count": 90,
+      "detected": 81,
+      "median_pixel_ap": 0.5147788716394426,
+      "fp_pixels": 149832
+    },
+    "reversed_180": {
+      "count": 5,
+      "detected": 5,
+      "median_pixel_ap": 0.8491297814812562,
+      "fp_pixels": 10730
+    },
+    "uncertain": {
+      "count": 5,
+      "detected": 5,
+      "median_pixel_ap": 0.15485535893955774,
+      "fp_pixels": 12943
+    }
+  }
+}

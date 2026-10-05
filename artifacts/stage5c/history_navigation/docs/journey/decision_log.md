@@ -204,28 +204,3 @@ and [decision evidence](../../artifacts/stage5a/combined/decision_summary.md).
 - **Preservation:** first canonical attempt failed a float-versus-string CSV AP check, with allactual arrays/scores exact. Reader repair only, regression test, new freeze; no reversed outcome viewed. Failed attempt/code/tests/maps retained. Stage4/5A evidence/code/banks remain unchanged; navigation snapshots preserve Stage5A's original hashes. Five reversed anomalies/no reversed normals and exposedPCB2 limit inference. Stage5C/UI/publication not executed.
 
 [Chapter](stage_05b_orientation_normalization.md), [complete findings](../../artifacts/stage5b/findings.md), [review](../../artifacts/stage5b/independent_review.json), [completion](../../artifacts/stage5b/complete.json).
-
-
-## October 5, 2026 — Stage 5C retains signal with the existing D2 recipe
-
-Controlled post-confirmation PCB2 development evidence: historical D2 versus
-exact Stage 5B orientation normalization at 512. Bank, weights, crop, thresholds,
-features and scoring unchanged. Reversed detection remains5/5; all five AP/FP
-outcomes improve, total reversed FP 97,150→10,730 (88.96%). Stage 5B's lost small
-missing-component case returns above threshold by only 0.032106 (1.56%). All 195
-no-op outputs and 100 normal flags match exactly. Full recall 91/100, FPR 4/100;
-pooled pixel AP 0.4449, IoU0.09328. All 139 tests and computational independent
-checks passed, including manual transformed RGB and float64 distance checks.
-
-Decision: strong support on this fixed five-case target, with a marginal rescue.
-Keep D2+orientation as a high-sensitivity development candidate, not an automatic
-replacement of the historical portfolio primary. D1/D2 context cannot attribute
-changes solely to resolution. Dense broad response decreases; sparse native
-exceedances still span much of the crop. n=5 and no reversed normal controls limit
-scope. Next separately scoped question: diagnose the canonical missing/small
-failures and marginal rescued case before selecting representation or aggregation
-changes. No tuning, next detector, UI, commit or push occurred in this stage.
-
-[Stage 5C chapter](stage_05c_orientation_512.md) ·
-[preexperiment audit](../../artifacts/stage5c/preexperiment_signal_audit.csv) ·
-[review](../../artifacts/stage5c/independent_review.json).

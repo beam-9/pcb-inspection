@@ -1,0 +1,166 @@
+{
+  "passed": true,
+  "reviewed_at_utc": "2026-10-05T22:25:09.188534+00:00",
+  "new_model_inference": true,
+  "independent_inference_scope": "Five reversed RGB reconstructions only; independent float64 SciPy distances; no baseline rerun or tuning",
+  "independent_reversed_feature_distance_checks": [
+    {
+      "image_id": "2bea857039ef9c03907fb299",
+      "patches": 4096,
+      "independent_float64_patchmax": 2.6548219281673435,
+      "score_absolute_error": 2.9387474098641064e-07,
+      "map_max_absolute_error": 1.1920928955078125e-06
+    },
+    {
+      "image_id": "735d89d870bbb25b3bc3dfce",
+      "patches": 4096,
+      "independent_float64_patchmax": 2.2976411797194065,
+      "score_absolute_error": 1.408247531919926e-07,
+      "map_max_absolute_error": 9.5367431640625e-07
+    },
+    {
+      "image_id": "76964f3ab9f7c03b08de6900",
+      "patches": 4096,
+      "independent_float64_patchmax": 2.892320087955661,
+      "score_absolute_error": 6.814175090852359e-08,
+      "map_max_absolute_error": 1.1920928955078125e-06
+    },
+    {
+      "image_id": "9bd08200d5d939f4a498aae7",
+      "patches": 4096,
+      "independent_float64_patchmax": 2.7555548079227776,
+      "score_absolute_error": 6.087040276270272e-07,
+      "map_max_absolute_error": 1.1920928955078125e-06
+    },
+    {
+      "image_id": "bfebbd19caf4dad38fd66eab",
+      "patches": 4096,
+      "independent_float64_patchmax": 2.0922764473284645,
+      "score_absolute_error": 3.642712669282844e-07,
+      "map_max_absolute_error": 1.0728836059570312e-06
+    }
+  ],
+  "scope": "post-confirmation PCB2 development evidence",
+  "history_hashes_checked": 2848,
+  "pose_rgb_labels_reproduced": 1101,
+  "exact_inverse_map_checks": 200,
+  "no_op_exact_maps_scores_flags": 195,
+  "unchanged_normal_flags": 100,
+  "source_mask_identity": "Original manifest hashes and original source coordinates",
+  "regional_grid_cells_independently_recomputed": 160,
+  "reversed_difference_statistics_recomputed": 5,
+  "paired_rows_independently_checked": 5,
+  "image_metrics": {
+    "tp": 91,
+    "fp": 4,
+    "fn": 9,
+    "tn": 96,
+    "average_precision": 0.9765628457652663,
+    "auroc": 0.9692999999999999
+  },
+  "pixel_metrics": {
+    "intersection_pixels": 24837,
+    "union_pixels": 266252,
+    "positive_pixels": 27079,
+    "pixel_iou": 0.09328380631882577,
+    "pixel_average_precision": 0.44493679172757256
+  },
+  "false_positive_pixels": 239173,
+  "runtime_summaries_independently_recomputed": {
+    "median_end_to_end_seconds": 1.1104375629984133,
+    "p95_end_to_end_seconds": 1.1163656756511044,
+    "median_inference_seconds": 1.0077470209998864,
+    "reversed_median_seconds": 1.1164077920002455,
+    "no_op_median_seconds": 1.1103986249981972,
+    "median_pose_seconds": 0.04222072899938212
+  },
+  "reversed_independent_metrics": [
+    {
+      "image_id": "2bea857039ef9c03907fb299",
+      "intersection": 1152,
+      "union": 4309,
+      "fp_pixels": 3157,
+      "predicted_positive_pixels": 4309,
+      "iou": 0.2673474123926665,
+      "pixel_ap": 0.8491297814812562,
+      "peak_inside": true,
+      "overlap": true,
+      "crop_fraction_above_threshold": 0.10450985142118863,
+      "native_positive_components_8": 51,
+      "native_positive_bbox_area": 190298,
+      "native_positive_bbox_crop_fraction": 0.9604025355297158,
+      "gt_max_score": 2.615081310272217,
+      "outside_gt_max_score": 2.4829018115997314
+    },
+    {
+      "image_id": "735d89d870bbb25b3bc3dfce",
+      "intersection": 168,
+      "union": 1643,
+      "fp_pixels": 1475,
+      "predicted_positive_pixels": 1643,
+      "iou": 0.10225197808886184,
+      "pixel_ap": 0.5064634194026023,
+      "peak_inside": true,
+      "overlap": true,
+      "crop_fraction_above_threshold": 0.04185046998680739,
+      "native_positive_components_8": 45,
+      "native_positive_bbox_area": 169416,
+      "native_positive_bbox_crop_fraction": 0.8730623350923483,
+      "gt_max_score": 2.2697370052337646,
+      "outside_gt_max_score": 2.2282235622406006
+    },
+    {
+      "image_id": "76964f3ab9f7c03b08de6900",
+      "intersection": 2010,
+      "union": 4617,
+      "fp_pixels": 2605,
+      "predicted_positive_pixels": 4615,
+      "iou": 0.43534762833008445,
+      "pixel_ap": 0.8604692676037425,
+      "peak_inside": true,
+      "overlap": true,
+      "crop_fraction_above_threshold": 0.11365034448818898,
+      "native_positive_components_8": 33,
+      "native_positive_bbox_area": 186372,
+      "native_positive_bbox_crop_fraction": 0.9554010826771654,
+      "gt_max_score": 2.869753122329712,
+      "outside_gt_max_score": 2.7674741744995117
+    },
+    {
+      "image_id": "9bd08200d5d939f4a498aae7",
+      "intersection": 1104,
+      "union": 2657,
+      "fp_pixels": 1553,
+      "predicted_positive_pixels": 2657,
+      "iou": 0.41550621001129096,
+      "pixel_ap": 0.8739005233596703,
+      "peak_inside": true,
+      "overlap": true,
+      "crop_fraction_above_threshold": 0.06772065033783783,
+      "native_positive_components_8": 33,
+      "native_positive_bbox_area": 132246,
+      "native_positive_bbox_crop_fraction": 0.6980891047297297,
+      "gt_max_score": 2.7296032905578613,
+      "outside_gt_max_score": 2.5961618423461914
+    },
+    {
+      "image_id": "bfebbd19caf4dad38fd66eab",
+      "intersection": 48,
+      "union": 1990,
+      "fp_pixels": 1940,
+      "predicted_positive_pixels": 1988,
+      "iou": 0.024120603015075376,
+      "pixel_ap": 0.31407896384944073,
+      "peak_inside": true,
+      "overlap": true,
+      "crop_fraction_above_threshold": 0.051915322580645164,
+      "native_positive_components_8": 60,
+      "native_positive_bbox_area": 159080,
+      "native_positive_bbox_crop_fraction": 0.8352234543010753,
+      "gt_max_score": 2.058973789215088,
+      "outside_gt_max_score": 2.0230934619903564
+    }
+  ],
+  "review_code_sha256": "1b11e381f2bb4eea16af211df7ab94e075cbf012931f7e8250184f8c9924a2cf",
+  "protocol_sha256": "efa1d57110f2023bade0a708becdec3dd1684d22f8e6b7e823e79e0010f5dd04"
+}

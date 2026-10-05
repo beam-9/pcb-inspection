@@ -265,15 +265,3 @@ No anomaly model was fine-tuned; uniform memory sampling is a departure from the
 PatchCore coreset method. Direct 256-square resizing can discard small defects;
 benchmark prevalence and acquisition conditions cannot establish factory precision.
 Local pretrained-weight use is educational; commercial rights remain unverified.
-
-
-## Stage 5C — Orientation with the existing 512 recipe
-
-[Stage 5C](docs/journey/stage_05c_orientation_512.md) preserves reversed detection
-at **5/5**, recovers the Stage 5B lost case, and reduces reversed FP pixels
-**97,150 → 10,730 (88.96%)**. The rescue is marginal: only 1.56% above its frozen
-image threshold. All 195 non-reversed D2 outputs remain exact. Full recall 91/100,
-normal flags 4/100; pooled pixel AP 0.4449 and IoU0.09328. All 139 tests and independent
-computational checks passed. Keep D2+orientation as a high-sensitivity development
-candidate; historical Stage 4 D1 remains the portfolio primary. The 256/512
-comparison is contextual and does not isolate resolution causality.

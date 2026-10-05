@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "created_at_utc": "2026-10-05T22:26:22.845991+00:00",
+  "new_model_inference": false,
+  "source_map_rows_checked": 10,
+  "sources": {
+    "data/cache/stage4/pcb2_d2_secondary/model_maps/2bea857039ef9c03907fb299.npy": "730e96cd95eaaebb47277190843bc2109139c2e333949c3fa0ac27f68b52def4",
+    "data/raw/stage4/pcb2/Data/Masks/Anomaly/041.png": "556a1ca7e540ec74133ebd807e660b2ca82d70fbce61bd18dc05178928445f0f",
+    "data/cache/stage4/pcb2_d2_secondary/model_maps/735d89d870bbb25b3bc3dfce.npy": "aa693289feff616e4c42be2d7837d6682b3c2a5c44f5c039eb5a8b08c00095c3",
+    "data/raw/stage4/pcb2/Data/Masks/Anomaly/018.png": "eefe49539bc04e7a83a59809cb781237b2ce40fecf234ecce981cd4b5628d0b0",
+    "data/cache/stage4/pcb2_d2_secondary/model_maps/76964f3ab9f7c03b08de6900.npy": "d43832e84a76a695bfc0c1802668e5cae527815ae591ec83d2ff06391436c4d2",
+    "data/raw/stage4/pcb2/Data/Masks/Anomaly/046.png": "c372be08e88569d2a895bf51fee7e577b0f9e3f6184cfc5b43ad444c3cbdada1",
+    "data/cache/stage4/pcb2_d2_secondary/model_maps/9bd08200d5d939f4a498aae7.npy": "bb7898c4eeb2d7fafbc16e5e4bcd7241c2ca5d34ffce117e446682e0ba5e6bbe",
+    "data/raw/stage4/pcb2/Data/Masks/Anomaly/040.png": "9111a1fa3ac79189c2d12139e710d1296464e6102146ec1e5b11bf507b53ce5e",
+    "data/cache/stage4/pcb2_d2_secondary/model_maps/bfebbd19caf4dad38fd66eab.npy": "2e179b283f1072368c65bc3876b0a351c9108c91983ad9de7152fd849b9cc9c3",
+    "data/raw/stage4/pcb2/Data/Masks/Anomaly/047.png": "a59499edb9319a8759d22bcde2547f63a118a816f1e708b3a1bde5104387b5dc",
+    "data/cache/stage5c/model_maps/2bea857039ef9c03907fb299.npy": "6f3de196d7fada3378c05cfa066ba9ec9a201519124c5eb5f2fdab756083f6ad",
+    "data/cache/stage5c/model_maps/735d89d870bbb25b3bc3dfce.npy": "bcd6c3d449fe5f115ba60827b9a4e68498f13b3c2369cb0fe8af87df30c85372",
+    "data/cache/stage5c/model_maps/76964f3ab9f7c03b08de6900.npy": "ba0cb303ba2f9cc3af7e10496259c14ba4102b7c21c318e64c2c1dce68f9f591",
+    "data/cache/stage5c/model_maps/9bd08200d5d939f4a498aae7.npy": "1ef88837e31c7b6ec412e3434153913bfc53a494670868b3adaf945f2b21636b",
+    "data/cache/stage5c/model_maps/bfebbd19caf4dad38fd66eab.npy": "2b57d6e3058b9050a746426956f4b01a1f839bba548c6597db2a06d85de6ad20",
+    "src/pcb_inspection/stage5c_supporting.py": "5fe8e04e834ca3864d4b733aca363813ef2bb1401652a8c8931848acb8d41abc"
+  },
+  "output_sha256": "1227e3767779597a0ea8fd0d7b8b937d97593bc0106f0c9f3783991029285f32"
+}

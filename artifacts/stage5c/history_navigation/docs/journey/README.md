@@ -176,21 +176,3 @@ See [full findings](../../artifacts/stage5b/findings.md),
 Stage5A's earlier recommendation above is its historical completion snapshot.
 Pre-update navigation copies under Stage5B history_navigation preserve its receipt
 hashes; model/evidence history remains unchanged. Stage5C and UI remain deferred.
-
-
-## Stage 5C — Preserve defect signal after pose cleanup
-
-[Completed Stage 5C](stage_05c_orientation_512.md) applies the unchanged orientation
-wrapper to historical D2. Detection remains5/5 on reversed anomalies and 91/100
-overall; all 100 normal flags remain unchanged at 4/100. Reversed FP burden falls
-88.96%, median reversed AP 0.2739→0.8491, and the Stage 5B lost case is recovered
-with a narrow 1.56% image margin. All 195 no-ops remain exact; 139 tests passed.
-Retain a high-sensitivity development candidate, preserving historical primary
-and matched baseline. Next: diagnose canonical missing/small failures before
-choosing one new intervention. Earlier deferred-stage statements above are their
-historical completion snapshots. Stage 5C navigation snapshots preserve the
-pre-update Stage 5B-bound navigation; earlier model/evidence files remain intact.
-See [findings](../../artifacts/stage5c/findings.md),
-[independent computational audit](../../artifacts/stage5c/independent_review.json),
-[paired evidence](../../artifacts/stage5c/results/reversed_paired_d2.csv) and
-[executed artifact-only notebook](../../notebooks/pcb2_stage5c_orientation512.ipynb).

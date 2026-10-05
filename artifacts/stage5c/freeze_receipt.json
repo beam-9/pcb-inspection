@@ -1,0 +1,8 @@
+{
+  "frozen_at_utc": "2026-10-05T22:17:08.521036+00:00",
+  "scope": "post-confirmation PCB2 development evidence",
+  "protocol_sha256": "efa1d57110f2023bade0a708becdec3dd1684d22f8e6b7e823e79e0010f5dd04",
+  "artifact_protocol_sha256": "efa1d57110f2023bade0a708becdec3dd1684d22f8e6b7e823e79e0010f5dd04",
+  "inference_started": false,
+  "preexperiment_signal_audit_sha256": "d57be24c21684c0559c2ef6c38706d037de77ff5b6101ae2bfdd86ee0f25bece"
+}
