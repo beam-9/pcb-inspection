@@ -229,7 +229,3 @@ changes. No tuning, next detector, UI, commit or push occurred in this stage.
 [Stage 5C chapter](stage_05c_orientation_512.md) ·
 [preexperiment audit](../../artifacts/stage5c/preexperiment_signal_audit.csv) ·
 [review](../../artifacts/stage5c/independent_review.json).
-
-### October 5, 2026 — Stage6A remaining-failure decision gate
-
-Reviewed and implemented the supplied Stage6 proposal within the human-requested Stage6A scope. Diagnosed36 fixed anomalies with frozen D1/D2+orientation evidence:6/12 canonical missing cases missed,8/29 R1/R2 missed,9 distinct misses. GT peak rank1 on7/9; remaining ranks2,12; image margins0.63–8.26% below threshold. Lower GT nearest distances on misses support limited separation, with overlapping missing-hit controls and no unique causal intervention. Max outside-GT response cannot cause a false negative; top-k means cannot improve fixed-threshold recall. Predeclared descriptive flags preserve ambiguity. Select proposal Branch D: recommend freeze-now of current D2+orientation with unresolved limits, without forcing Stage6B. Formal model receipt/freeze, publication and UI were not executed. Historical primary, baselines and scientific outputs remain unchanged. See Stage6 chapter, gate and separate computational audit; all142 tests pass.

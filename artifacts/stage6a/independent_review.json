@@ -1,0 +1,446 @@
+{
+  "passed": true,
+  "reviewed_at_utc": "2026-10-06T03:31:01.914614+00:00",
+  "review_type": "separate computational implementation; same author, no external reviewer",
+  "case_count": 36,
+  "canonical_missing_cases": 12,
+  "canonical_missing_misses": 6,
+  "small_cases": 29,
+  "small_misses": 8,
+  "prior_tracked_files_verified": 839,
+  "checks": [
+    {
+      "image_id": "0174183097ea8fa63bbe3153",
+      "recipe": "d1",
+      "float64_top5_error": 6.950176674180852e-07,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "0333ff525de4a8a11f200628",
+      "recipe": "d1",
+      "float64_top5_error": 1.362701044893555e-06,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "0cfaf8dea93dc0646a1d60dd",
+      "recipe": "d1",
+      "float64_top5_error": 6.299316730462579e-07,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "156203b86fd0a31b58234f24",
+      "recipe": "d1",
+      "float64_top5_error": 8.012286223380016e-07,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "19c7eaaf7a7c2b71d5da1dc8",
+      "recipe": "d1",
+      "float64_top5_error": 7.059642708195923e-07,
+      "first_gt_rank": 3
+    },
+    {
+      "image_id": "2744e38a1b628fcbf2067bd4",
+      "recipe": "d1",
+      "float64_top5_error": 6.564579859702491e-07,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "31656a11b9780d9f8a2fa83f",
+      "recipe": "d1",
+      "float64_top5_error": 9.003103260685208e-07,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "454fde2976c690adb252f174",
+      "recipe": "d1",
+      "float64_top5_error": 6.635560523271522e-07,
+      "first_gt_rank": 33
+    },
+    {
+      "image_id": "596996fa0816db1d904389d5",
+      "recipe": "d1",
+      "float64_top5_error": 8.212009294794598e-07,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "5b26e8174612cbac5bf361c6",
+      "recipe": "d1",
+      "float64_top5_error": 9.317024027843956e-07,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "68b9e3462b7bb3850fb406a7",
+      "recipe": "d1",
+      "float64_top5_error": 7.495573017823887e-07,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "696b15fa7935c77bc6332efd",
+      "recipe": "d1",
+      "float64_top5_error": 8.314534687414721e-07,
+      "first_gt_rank": 4
+    },
+    {
+      "image_id": "733208e2c25e1af5454d93f2",
+      "recipe": "d1",
+      "float64_top5_error": 3.9216620573157e-07,
+      "first_gt_rank": 7
+    },
+    {
+      "image_id": "7b21e295e4c564254de297cd",
+      "recipe": "d1",
+      "float64_top5_error": 7.412968305864354e-07,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "846cfdd3fbe431251239629c",
+      "recipe": "d1",
+      "float64_top5_error": 8.786985854492002e-07,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "86317f47cc684a4a33717793",
+      "recipe": "d1",
+      "float64_top5_error": 3.6425392258010447e-07,
+      "first_gt_rank": 226
+    },
+    {
+      "image_id": "8a393ef07e4999ab89669d93",
+      "recipe": "d1",
+      "float64_top5_error": 5.223267569576251e-07,
+      "first_gt_rank": 4
+    },
+    {
+      "image_id": "904d32fddf6e1ee052a5e000",
+      "recipe": "d1",
+      "float64_top5_error": 4.808224129959626e-07,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "989748a316d5781c15aa24a6",
+      "recipe": "d1",
+      "float64_top5_error": 7.639359980160521e-07,
+      "first_gt_rank": 26
+    },
+    {
+      "image_id": "a7e7261362d3ab9b5fa975d0",
+      "recipe": "d1",
+      "float64_top5_error": 5.122552064751318e-07,
+      "first_gt_rank": 4
+    },
+    {
+      "image_id": "ab48d54a454beacaf51a6fff",
+      "recipe": "d1",
+      "float64_top5_error": 6.189577934634372e-07,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "b55803eaf5bb3067295b2cf5",
+      "recipe": "d1",
+      "float64_top5_error": 5.760484178551906e-07,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "b5d4c77df9634ecb828a64ca",
+      "recipe": "d1",
+      "float64_top5_error": 4.4640316287924975e-07,
+      "first_gt_rank": 17
+    },
+    {
+      "image_id": "bf35ab64688b9cebf87efb76",
+      "recipe": "d1",
+      "float64_top5_error": 6.640165304272472e-07,
+      "first_gt_rank": 5
+    },
+    {
+      "image_id": "bfebbd19caf4dad38fd66eab",
+      "recipe": "d1",
+      "float64_top5_error": 5.04450802241152e-07,
+      "first_gt_rank": 8
+    },
+    {
+      "image_id": "c4de673e229af6580007c4be",
+      "recipe": "d1",
+      "float64_top5_error": 9.274003409664999e-07,
+      "first_gt_rank": 3
+    },
+    {
+      "image_id": "cdafe117a8af8b75d42e22e2",
+      "recipe": "d1",
+      "float64_top5_error": 4.5955253025198317e-07,
+      "first_gt_rank": 2
+    },
+    {
+      "image_id": "d086b78f683af0d19bb68594",
+      "recipe": "d1",
+      "float64_top5_error": 6.656189732723305e-07,
+      "first_gt_rank": 182
+    },
+    {
+      "image_id": "e29dae89a422801349d5d030",
+      "recipe": "d1",
+      "float64_top5_error": 7.279098015455787e-07,
+      "first_gt_rank": 2
+    },
+    {
+      "image_id": "e5628e506633f6123990ae36",
+      "recipe": "d1",
+      "float64_top5_error": 9.870293959934884e-07,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "e5628f4b63d7b4897d073d44",
+      "recipe": "d1",
+      "float64_top5_error": 5.672282925583971e-07,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "e68d2653f5376170791a8674",
+      "recipe": "d1",
+      "float64_top5_error": 8.682183074704142e-07,
+      "first_gt_rank": 6
+    },
+    {
+      "image_id": "ead24842cb7981c9674e9d4e",
+      "recipe": "d1",
+      "float64_top5_error": 4.6590326729933906e-07,
+      "first_gt_rank": 9
+    },
+    {
+      "image_id": "f210dd5f4d74b3edf87a8edc",
+      "recipe": "d1",
+      "float64_top5_error": 8.007138241339362e-07,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "f29f971c989e3457da844b2b",
+      "recipe": "d1",
+      "float64_top5_error": 5.748615399259194e-07,
+      "first_gt_rank": 9
+    },
+    {
+      "image_id": "fea34ce33cdd25b0ede4efe4",
+      "recipe": "d1",
+      "float64_top5_error": 6.233849181302986e-07,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "0174183097ea8fa63bbe3153",
+      "recipe": "d2",
+      "float64_top5_error": 1.0463614086297923e-06,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "0333ff525de4a8a11f200628",
+      "recipe": "d2",
+      "float64_top5_error": 8.813650298478137e-07,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "0cfaf8dea93dc0646a1d60dd",
+      "recipe": "d2",
+      "float64_top5_error": 4.941337885533414e-07,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "156203b86fd0a31b58234f24",
+      "recipe": "d2",
+      "float64_top5_error": 7.447752563560783e-07,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "19c7eaaf7a7c2b71d5da1dc8",
+      "recipe": "d2",
+      "float64_top5_error": 6.590403383022192e-07,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "2744e38a1b628fcbf2067bd4",
+      "recipe": "d2",
+      "float64_top5_error": 7.837512749908626e-07,
+      "first_gt_rank": 2
+    },
+    {
+      "image_id": "31656a11b9780d9f8a2fa83f",
+      "recipe": "d2",
+      "float64_top5_error": 6.858210896965033e-07,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "454fde2976c690adb252f174",
+      "recipe": "d2",
+      "float64_top5_error": 7.358200166951434e-07,
+      "first_gt_rank": 4
+    },
+    {
+      "image_id": "596996fa0816db1d904389d5",
+      "recipe": "d2",
+      "float64_top5_error": 1.2262076132252275e-06,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "5b26e8174612cbac5bf361c6",
+      "recipe": "d2",
+      "float64_top5_error": 1.0491609145901748e-06,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "68b9e3462b7bb3850fb406a7",
+      "recipe": "d2",
+      "float64_top5_error": 8.583477435486486e-07,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "696b15fa7935c77bc6332efd",
+      "recipe": "d2",
+      "float64_top5_error": 6.559093539415528e-07,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "733208e2c25e1af5454d93f2",
+      "recipe": "d2",
+      "float64_top5_error": 6.087504438312408e-07,
+      "first_gt_rank": 12
+    },
+    {
+      "image_id": "7b21e295e4c564254de297cd",
+      "recipe": "d2",
+      "float64_top5_error": 9.167371617380127e-07,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "846cfdd3fbe431251239629c",
+      "recipe": "d2",
+      "float64_top5_error": 1.333116674828716e-06,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "86317f47cc684a4a33717793",
+      "recipe": "d2",
+      "float64_top5_error": 7.500592928977312e-07,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "8a393ef07e4999ab89669d93",
+      "recipe": "d2",
+      "float64_top5_error": 1.0513242654219823e-06,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "904d32fddf6e1ee052a5e000",
+      "recipe": "d2",
+      "float64_top5_error": 1.0062296036394969e-06,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "989748a316d5781c15aa24a6",
+      "recipe": "d2",
+      "float64_top5_error": 9.157514639923647e-07,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "a7e7261362d3ab9b5fa975d0",
+      "recipe": "d2",
+      "float64_top5_error": 7.990713211114553e-07,
+      "first_gt_rank": 2
+    },
+    {
+      "image_id": "ab48d54a454beacaf51a6fff",
+      "recipe": "d2",
+      "float64_top5_error": 9.202786892537063e-07,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "b55803eaf5bb3067295b2cf5",
+      "recipe": "d2",
+      "float64_top5_error": 8.917704845678998e-07,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "b5d4c77df9634ecb828a64ca",
+      "recipe": "d2",
+      "float64_top5_error": 8.185391702220102e-07,
+      "first_gt_rank": 3
+    },
+    {
+      "image_id": "bf35ab64688b9cebf87efb76",
+      "recipe": "d2",
+      "float64_top5_error": 9.756562628915333e-07,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "bfebbd19caf4dad38fd66eab",
+      "recipe": "d2",
+      "float64_top5_error": 7.124457224172431e-07,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "c4de673e229af6580007c4be",
+      "recipe": "d2",
+      "float64_top5_error": 6.406905490585757e-07,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "cdafe117a8af8b75d42e22e2",
+      "recipe": "d2",
+      "float64_top5_error": 8.411726803991826e-07,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "d086b78f683af0d19bb68594",
+      "recipe": "d2",
+      "float64_top5_error": 7.657639224945001e-07,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "e29dae89a422801349d5d030",
+      "recipe": "d2",
+      "float64_top5_error": 1.2531909243662653e-06,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "e5628e506633f6123990ae36",
+      "recipe": "d2",
+      "float64_top5_error": 8.97351720929862e-07,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "e5628f4b63d7b4897d073d44",
+      "recipe": "d2",
+      "float64_top5_error": 8.189877944708712e-07,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "e68d2653f5376170791a8674",
+      "recipe": "d2",
+      "float64_top5_error": 6.416514313212218e-07,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "ead24842cb7981c9674e9d4e",
+      "recipe": "d2",
+      "float64_top5_error": 5.275617889211048e-07,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "f210dd5f4d74b3edf87a8edc",
+      "recipe": "d2",
+      "float64_top5_error": 1.0863002426475532e-06,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "f29f971c989e3457da844b2b",
+      "recipe": "d2",
+      "float64_top5_error": 6.647764498879383e-07,
+      "first_gt_rank": 1
+    },
+    {
+      "image_id": "fea34ce33cdd25b0ede4efe4",
+      "recipe": "d2",
+      "float64_top5_error": 6.741196889592516e-07,
+      "first_gt_rank": 1
+    }
+  ],
+  "review_code_sha256": "16cd3d518b5dde3c66eefa7d6ca47e900340650ea8aed6ab0a868cfface8897e"
+}

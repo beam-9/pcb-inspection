@@ -1,0 +1,6 @@
+{
+  "command": ".venv/bin/python -m pytest -q",
+  "passed": 142,
+  "seconds": 4.49,
+  "after_audit_code_repair": true
+}

@@ -1,0 +1,1 @@
+Visual review found rescue-title overlap and incorrect missing-hit marker selection (substring `miss` also matched `missing`). Fix title spacing and use exact outcome suffix. Rebuild artifact-only figures and notebook; no numerical results changed.

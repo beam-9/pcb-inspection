@@ -1,0 +1,29 @@
+{
+  "created_at_utc": "2026-10-06T03:31:14.394236+00:00",
+  "decision": "Branch D: recommend freeze current D2+orientation candidate; do not force Stage6B",
+  "scope": "Stage6A recommendation only; formal v1 receipt and final freeze not executed",
+  "selected_stage6b_intervention": null,
+  "distinct_target_misses": 9,
+  "gt_peak_rank1_misses": 7,
+  "first_gt_ranks": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    12
+  ],
+  "miss_image_ratio_range": [
+    0.9174339403938256,
+    0.9937052307931596
+  ],
+  "F1_distinct_misses": 0,
+  "F4_distinct_misses": 5,
+  "F2_distinct_misses": 1,
+  "rationale": "GT ranks usually strong; GT evidence close to image operating threshold. Distances are lower on misses; canonical missing-hit controls overlap, while per-image small-case nearest medians separate in this fixed cohort. No pervasive low-GT/poor-rank representation failure, no proof of pure resolution causality, and outside responses cannot cause max-score false negatives. Margin/limited separation is evident but no single allowed intervention has clear supporting mechanism. Top-k means cannot improve fixed-threshold recall; recalibrated policy could change tradeoffs but is not demonstrated here. Retain limitations instead of forcing a model experiment.",
+  "formal_freeze_pending": true,
+  "detector_changed": false
+}

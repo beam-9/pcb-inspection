@@ -194,7 +194,3 @@ See [findings](../../artifacts/stage5c/findings.md),
 [independent computational audit](../../artifacts/stage5c/independent_review.json),
 [paired evidence](../../artifacts/stage5c/results/reversed_paired_d2.csv) and
 [executed artifact-only notebook](../../notebooks/pcb2_stage5c_orientation512.ipynb).
-
-## Stage 6A — Diagnose the remaining failures
-
-[Stage6A](stage_06_final_model_selection.md) is complete:36 anomalies,6 canonical missing misses,8 small misses,9 distinct misses. Most misses already rank GT first; limited operating margin and weaker distance separation remain. Branch D recommends freezing D2+orientation with limitations; no single proposed6B intervention is clearly supported. Formal model freeze and UI remain pending. See [case table](../../artifacts/stage6a/case_diagnosis.csv), [gate](../../artifacts/stage6a/decision_gate.json) and [notebook](../../notebooks/pcb2_stage6a_diagnosis.ipynb). Stage6A snapshots preserve all prior navigation identities.

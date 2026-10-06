@@ -277,7 +277,3 @@ normal flags 4/100; pooled pixel AP 0.4449 and IoU0.09328. All 139 tests and ind
 computational checks passed. Keep D2+orientation as a high-sensitivity development
 candidate; historical Stage 4 D1 remains the portfolio primary. The 256/512
 comparison is contextual and does not isolate resolution causality.
-
-## Stage 6A — Remaining failure diagnosis
-
-[Completed Stage6A diagnosis](docs/journey/stage_06_final_model_selection.md) covers36 fixed PCB2 development anomalies, including all12 canonical missing-label cases and29 R1/R2 cases. The6 canonical missing misses and8 small misses overlap across9 distinct images. Seven misses have GT patch rank1, with image scores0.6–8.3% below threshold. No detector changed. The decision gate recommends the proposal's Branch D: freeze the current D2+orientation candidate with limitations instead of forcing an unsupported Stage6B intervention. Formalv1.0 freeze and UI remain pending. See [case evidence](artifacts/stage6a/case_diagnosis.csv), [computational review](artifacts/stage6a/independent_review.json) and [artifact-only notebook](notebooks/pcb2_stage6a_diagnosis.ipynb). Earlier stage navigation is preserved in Stage6A snapshots.

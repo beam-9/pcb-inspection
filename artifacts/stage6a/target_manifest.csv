@@ -1,0 +1,37 @@
+image_id,source_labels,pose_label,size_band,groups
+0174183097ea8fa63bbe3153,"[""missing""]",canonical,R4,canonical_missing_hit
+0333ff525de4a8a11f200628,"[""bent""]",canonical,R2,small_hit
+0cfaf8dea93dc0646a1d60dd,"[""melt""]",canonical,R2,small_hit
+156203b86fd0a31b58234f24,"[""melt""]",canonical,R1,small_miss
+19c7eaaf7a7c2b71d5da1dc8,"[""melt""]",canonical,R2,small_miss
+2744e38a1b628fcbf2067bd4,"[""missing""]",canonical,R4,canonical_missing_hit
+31656a11b9780d9f8a2fa83f,"[""scratch"", ""missing""]",canonical,R4,canonical_missing_hit
+454fde2976c690adb252f174,"[""melt""]",canonical,R1,small_hit
+596996fa0816db1d904389d5,"[""bent"", ""melt""]",canonical,R2,small_hit
+5b26e8174612cbac5bf361c6,"[""melt""]",canonical,R2,small_hit
+68b9e3462b7bb3850fb406a7,"[""melt""]",canonical,R2,small_hit
+696b15fa7935c77bc6332efd,"[""melt""]",canonical,R1,small_hit
+733208e2c25e1af5454d93f2,"[""missing""]",canonical,R2,canonical_missing_miss|small_miss
+7b21e295e4c564254de297cd,"[""melt""]",canonical,R1,small_hit
+846cfdd3fbe431251239629c,"[""missing""]",canonical,R4,canonical_missing_hit
+86317f47cc684a4a33717793,"[""missing""]",canonical,R1,canonical_missing_miss|small_miss
+8a393ef07e4999ab89669d93,"[""missing""]",canonical,R4,canonical_missing_hit
+904d32fddf6e1ee052a5e000,"[""melt""]",canonical,R2,small_hit
+989748a316d5781c15aa24a6,"[""melt""]",canonical,R1,small_miss
+a7e7261362d3ab9b5fa975d0,"[""missing""]",canonical,R1,canonical_missing_miss|small_miss
+ab48d54a454beacaf51a6fff,"[""melt""]",canonical,R2,small_hit
+b55803eaf5bb3067295b2cf5,"[""melt""]",canonical,R1,small_hit
+b5d4c77df9634ecb828a64ca,"[""melt""]",canonical,R2,small_hit
+bf35ab64688b9cebf87efb76,"[""melt""]",canonical,R2,small_hit
+bfebbd19caf4dad38fd66eab,"[""missing""]",reversed_180,R1,small_hit|marginal_reversed_rescue
+c4de673e229af6580007c4be,"[""melt""]",canonical,R1,small_hit
+cdafe117a8af8b75d42e22e2,"[""melt""]",canonical,R2,small_hit
+d086b78f683af0d19bb68594,"[""missing""]",canonical,R1,canonical_missing_miss|small_miss
+e29dae89a422801349d5d030,"[""melt""]",canonical,R1,small_hit
+e5628e506633f6123990ae36,"[""melt""]",canonical,R2,small_hit
+e5628f4b63d7b4897d073d44,"[""bent"", ""melt""]",canonical,R2,small_hit
+e68d2653f5376170791a8674,"[""missing""]",canonical,R2,canonical_missing_miss|small_miss
+ead24842cb7981c9674e9d4e,"[""missing""]",canonical,R3,canonical_missing_miss
+f210dd5f4d74b3edf87a8edc,"[""melt""]",canonical,R1,small_hit
+f29f971c989e3457da844b2b,"[""missing""]",canonical,R4,canonical_missing_hit
+fea34ce33cdd25b0ede4efe4,"[""bent""]",canonical,R1,small_hit

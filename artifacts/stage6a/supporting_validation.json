@@ -1,0 +1,12 @@
+{
+  "created_at_utc": "2026-10-06T03:34:50.549310+00:00",
+  "passed": true,
+  "case_categories_recomputed": 36,
+  "group_summary_rows": 10,
+  "source_sha256": {
+    "case_diagnosis.csv": "046d8f6e9784e3d7845105a89bd358d945fb5aa3d0b002f0ed773d4f54b1c050",
+    "per_recipe_diagnostics.csv": "ce735b4128a783277832e9eb20774a80937a841a42bde8fd22f4f20d84902192",
+    "feature_distance.csv": "b4ead68f3626fa1270d10ffea9954be67bd91e6547d36ab5b3545afc6e14c0ef"
+  },
+  "method": "separate explicit category formulas and image-weighted GT-query distance group summaries"
+}

@@ -1,0 +1,13 @@
+{
+  "reason": "First separate computational audit failed before results validation: root README.md and journey README.md collided in basename-only navigation snapshots. Neither original navigation file had changed. Restore full relative-path snapshots from unchanged hash-bound originals; fix snapshot/verification paths. No extraction, thresholds, categories, results or figures changed.",
+  "failed_check": "prior tracked README.md snapshot identity",
+  "original_code_snapshots": {
+    "src/pcb_inspection/stage6a_diagnosis.py": "artifacts/stage6a/audit_repair_v1/stage6a_diagnosis.py",
+    "src/pcb_inspection/stage6a_review.py": "artifacts/stage6a/audit_repair_v1/stage6a_review.py"
+  },
+  "repaired_code": {
+    "src/pcb_inspection/stage6a_diagnosis.py": "7ed4f684adfa34100d292a362d06cfaaf05120c6ed21c5f2fe7866c4e48cd7e4",
+    "src/pcb_inspection/stage6a_review.py": "16cd3d518b5dde3c66eefa7d6ca47e900340650ea8aed6ab0a868cfface8897e"
+  },
+  "detector_rerun": false
+}
