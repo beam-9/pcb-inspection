@@ -1,0 +1,16 @@
+# Model v1.0 and UI proposal review
+
+The current human request authorizes evaluating and implementing the supplied next-step proposal. Accept formal freeze of Stage5C D2+orientation after Stage6A Branch D, followed by a local inspection API, React frontend with Framer Motion and source-backed journey. The user confirmed React with the local Python backend. This is productization, not new model development.
+
+Implementation decisions:
+
+- Bind the published scientific recipe commit4abc845 and hashes of its effective preprocessing/pose/feature/scoring code, exact ordered D2 bank and cached pretrained weights. Save the exact historical calibration values, strict comparison, complete saved metrics and limitations. Do not recompute calibration or fit a detector.
+- Preserve all historical receipts and outputs. Snapshot current navigation before adding productization links. Prior creation-state fields remain historical facts. Formal freeze promotes the current development candidate without recasting it as fresh validation.
+- UI metadata comes from the frozen model artifacts. Journey metrics are imported from original CSV/JSON, not the proposal's rounded numbers. Preserve PCB1 development, fresh PCB2 confirmation and subsequent exposed development boundaries. Historical portfolio primary remains historical; v1.0 adopts the selected D2+orientation candidate.
+- Serve the application on loopback using the existing Python environment, PyTorch and standard-library HTTP server. No new scientific Python dependencies, cloud registration, external publication or Git push are needed to implement and verify the demo. A hosted GPU/CPU backend is future deployment work; static Sites cannot run this local frozen detector.
+- Expose `inspect(image)` and `/api/inspect` plus `/model-info`. Decode bounded JPEG/PNG/WebP inputs; no uploads are persisted. Avoid fake processing milestones or score probabilities. Show actual inference elapsed time, crop fallback and uncertain orientation. Heatmap uses one fixed response/pixel-threshold scale0–2; GT is available only on selected annotated benchmarks.
+- Include true negatives, detected anomalies, missing/small cases, reversed and uncertain cases, and a known miss. Benchmark buttons execute the same frozen inference as uploads. Published examples show original VisA sources with attribution, not fabricated boards.
+- Smoke-check score, flag, pose, model/common/source maps and exact frozen identities against representative saved Stage5C outputs. Test input/API errors, metadata and journey provenance. Verify real browser flows, mobile layout, keyboard access and accessibility. Preserve scientific failures; fix product bugs without modifying the model.
+- The local final freeze receipt is hash-bound immediately; recipe commit is the existing published scientific commit. New wrapper/UI work remains reviewable in the working tree. A new release commit/tag or remote publication is a separate Git action, rather than a fabricated commit ID in a receipt.
+
+Deliver frozen artifacts, source-backed content, runnable local app, representative smoke evidence, product validation and portfolio screenshots. Future research becomes v1.1/v2.0 and should use an untouched category where practical.

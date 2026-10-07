@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "checked_at_utc": "2026-10-07T06:49:59.493085+00:00",
+  "browser": "Playwright CLI Chromium",
+  "desktop_viewport": [
+    1440,
+    1000
+  ],
+  "mobile_viewport": [
+    390,
+    844
+  ],
+  "checks": [
+    "actual annotated benchmark inference",
+    "real reversed upload without GT",
+    "corrupt image error and recovery",
+    "canonical normal no-flag result",
+    "known missed anomaly retained",
+    "uncertain orientation is no-op",
+    "all principal routes and stage details load",
+    "no mobile horizontal overflow",
+    "reduced-motion uncertain result",
+    "keyboard skip link",
+    "navigation and browser history",
+    "all three image modes aria-pressed reflect selection",
+    "keyboard opacity changes 45 to46",
+    "threshold and GT canvas contains painted pixels",
+    "exact values disclose strict comparator",
+    "every journey lazy figure decoded on desktop and mobile",
+    "purpose/Athena boundary, seven methods and eight tool groups visible",
+    "public six recorded benchmark scores match metadata",
+    "public uploads disabled and zero POST requests",
+    "public deep routes render with no mobile horizontal overflow",
+    "all four methods evidence links return HTTP 200",
+    "local and public methods hash links scroll after content load",
+    "GSAP stage jump restores link focus with reduced-motion preference",
+    "new public routes produce zero page errors"
+  ],
+  "screenshots": [
+    "output/playwright/home-desktop.png",
+    "output/playwright/home-mobile.png",
+    "output/playwright/inspect-desktop.png",
+    "output/playwright/inspect-mobile.png",
+    "output/playwright/journey-desktop.png",
+    "output/playwright/journey-mobile.png",
+    "output/playwright/stage6a-desktop.png",
+    "output/playwright/model-desktop.png",
+    "output/playwright/about-final-desktop.png",
+    "output/playwright/about-final-mobile.png",
+    "output/playwright/methods-desktop.png",
+    "output/playwright/methods-mobile.png",
+    "output/playwright/home-final-desktop.png",
+    "output/playwright/home-final-mobile.png",
+    "output/playwright/journey-final-desktop.png",
+    "output/playwright/journey-final-mobile.png",
+    "output/playwright/public-inspect-desktop.png",
+    "output/playwright/public-inspect-mobile.png",
+    "output/playwright/future-mobile-confirm.png"
+  ],
+  "expected_error": "Deliberately corrupt image causes a recoverable HTTP 400 and a failed preview decode; initial favicon 404 fixed with self-contained SVG favicon.",
+  "limits": "Targeted browser checks; not exhaustive accessibility certification.",
+  "final_extension_checked_at_utc": "2026-10-07T18:23:21.684076+00:00"
+}

@@ -1,0 +1,93 @@
+{
+  "model_name": "PCB-AD-v1.0",
+  "version": "1.0",
+  "input_size": 512,
+  "geometry": {
+    "mode": "inherited_blue",
+    "id": "pcb1-blue-margin-letterbox-v1",
+    "detection_width": 512,
+    "blue_minus_red": 0.05,
+    "green_minus_red": 0.03,
+    "minimum_saturation": 0.12,
+    "closing_iterations": 3,
+    "minimum_component_fraction": 0.02,
+    "maximum_component_fraction": 0.65,
+    "horizontal_margin_board_width": 0.08,
+    "vertical_margin_board_height": 0.45,
+    "padding_rgb": [
+      128,
+      128,
+      128
+    ],
+    "pose": "unchanged; 180-degree ambiguity retained"
+  },
+  "orientation": {
+    "method": {
+      "id": "pcb2-exterior-pin-ridges-v1",
+      "analysis_width": 512,
+      "central_board_width_fraction": 0.4,
+      "exterior_band_height_fraction": 0.45,
+      "horizontal_median_width": 15,
+      "local_contrast_min": 0.08,
+      "intensity_min": 0.35,
+      "rgb_range_max": 0.2,
+      "vertical_opening_board_height_fraction": 0.1,
+      "component_aspect_min": 3,
+      "minimum_pin_components": 2,
+      "dominance_ratio": 3,
+      "canonical": "top exterior pin cue",
+      "reversed_180": "bottom exterior pin cue",
+      "uncertain": "neither cue decisive, both cues, absent boardbox or nonhorizontal board",
+      "precise_angles_estimated": false,
+      "outcome_inputs": [],
+      "scope": "Post-confirmation PCB2 development diagnosis",
+      "prior_knowledge": "Stage4 visual knowledge exists; classifier itself consumes RGB+existing board box only"
+    },
+    "actions": {
+      "canonical": "no_op",
+      "reversed_180": "exact_180_crop_reversal",
+      "uncertain": "no_op"
+    }
+  },
+  "backbone": "ResNet18 IMAGENET1K_V1",
+  "weights_path": "data/cache/hub/checkpoints/resnet18-f37072fd.pth",
+  "feature_layers": [
+    "layer2",
+    "layer3"
+  ],
+  "feature_dimensions": 384,
+  "feature_aggregation": "avg_pool2d3 stride1 pad1 per layer; bilinear layer3 to layer2 align_corners=False",
+  "memory": {
+    "path": "data/cache/stage4/pcb2_d2_secondary/memory.npy",
+    "shape": [
+      4096,
+      384
+    ],
+    "dtype": "float32",
+    "selection": "historical D2 projected approximate-greedy selection; preserve order",
+    "sha256": "ee75f75abbe9bc9a1d9fcd5b83b4741a1c4488869cd60825433afbfd96bd56f1"
+  },
+  "distance": "full384 direct Euclidean CPU against all4096 references",
+  "image_aggregation": "maximum all native feature-grid scores including padding patches",
+  "thresholds": {
+    "image_threshold": 2.060171127319336,
+    "pixel_threshold": 1.6943607330322266,
+    "comparison": ">"
+  },
+  "map_semantics": "bilinear native patch distances to512; unpad/crop-resize/inverse180 when reversed/paste source; common256 direct-square for historical metrics",
+  "device": "cpu",
+  "threads": 4,
+  "limitations": [
+    "PCB2 became exposed development data after Stage 4; this final candidate is not another fresh confirmation.",
+    "Only five reversed anomalies were available, with no reversed PCB2 normal controls.",
+    "Arbitrary rotations are unsupported; uncertain pose is a no-op.",
+    "Canonical missing and small defects remain the primary known weakness; a no-flag result can miss anomalies.",
+    "Annotations can be union masks across multiple defect types.",
+    "Anomaly response is not a calibrated probability; highlighted regions are not precise segmentation.",
+    "Physical board identity is not fully controlled.",
+    "No factory robustness study was performed; not certified for manufacturing decisions.",
+    "The D2 bank is PCB2-specific; arbitrary board categories and capture conditions are outside demonstrated coverage.",
+    "PCB1 evidence describes the staged development history, not a fresh test of this final PCB2 bank/orientation recipe."
+  ],
+  "intended_use": "Research and portfolio demonstration of one-class visual anomaly detection for PCB inspection."
+}

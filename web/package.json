@@ -1,0 +1,25 @@
+{
+  "name": "pcb-ad-demo",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "build:public": "node build.mjs --public"
+  },
+  "dependencies": {
+    "@fontsource/dm-sans": "5.3.0",
+    "@fontsource/instrument-serif": "5.3.0",
+    "@gsap/react": "2.1.2",
+    "framer-motion": "14.0.0",
+    "gsap": "3.15.0",
+    "papaparse": "5.7.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-markdown": "10.1.0",
+    "remark-gfm": "4.0.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  }
+}

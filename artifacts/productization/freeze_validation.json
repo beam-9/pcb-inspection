@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "created_at_utc": "2026-10-07T02:44:05.741834+00:00",
+  "runtime_identities_verified": 9,
+  "scientific_source_identities_verified": 7,
+  "model_artifacts_verified": 5,
+  "new_bank_fit_or_calibration": false,
+  "recipe_commit": "4abc845929bb0d67a1cf9b6882243adc8106b4ef"
+}

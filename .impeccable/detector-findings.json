@@ -1,0 +1,15 @@
+{
+  "run_once": true,
+  "findings": [
+    {
+      "severity": "warning",
+      "rule": "overused-font",
+      "files": [
+        "web/src/app.css:7",
+        "web/src/app.css:11"
+      ],
+      "font": "Instrument Serif",
+      "context": "Approved workbench mockup uses editorial serif lettering; review actual character against the approved comp."
+    }
+  ]
+}

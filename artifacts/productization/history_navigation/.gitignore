@@ -16,7 +16,3 @@ artifacts/runs/**/memory.npy
 artifacts/stage3_engineering/*.npy
 artifacts/runs/**/cache/
 artifacts/runs/**/model_maps/
-web/node_modules/
-web/dist/
-.playwright-cli/
-web/public-dist/

@@ -1,0 +1,122 @@
+{
+  "passed": true,
+  "created_at_utc": "2026-10-07T02:36:44.427411+00:00",
+  "checks": [
+    {
+      "id": "canonical_normal",
+      "image_id": "2b6a7d049fa1b9e094d4b1b7",
+      "pose": "canonical",
+      "score_error": 0.0,
+      "flag_exact": true,
+      "map_max_errors": {
+        "model_maps": 0.0,
+        "anomaly_maps": 0.0,
+        "source_maps": 0.0
+      },
+      "runtime": {
+        "preprocessing_seconds": 0.06657087500207126,
+        "feature_scoring_seconds": 1.095109500005492,
+        "inverse_map_seconds": 0.005893499997910112,
+        "end_to_end_seconds": 1.1931465829984518,
+        "timing_boundary": "Decode/preprocess/features/scoring including historical common inverse, then orientation-aware common/source inverse; excludes display PNG encoding."
+      }
+    },
+    {
+      "id": "canonical_anomaly",
+      "image_id": "fea34ce33cdd25b0ede4efe4",
+      "pose": "canonical",
+      "score_error": 0.0,
+      "flag_exact": true,
+      "map_max_errors": {
+        "model_maps": 0.0,
+        "anomaly_maps": 0.0,
+        "source_maps": 0.0
+      },
+      "runtime": {
+        "preprocessing_seconds": 0.06358937500044703,
+        "feature_scoring_seconds": 1.1123672079993412,
+        "inverse_map_seconds": 0.0062973749882075936,
+        "end_to_end_seconds": 1.1867520829982823,
+        "timing_boundary": "Decode/preprocess/features/scoring including historical common inverse, then orientation-aware common/source inverse; excludes display PNG encoding."
+      }
+    },
+    {
+      "id": "reversed_anomaly",
+      "image_id": "bfebbd19caf4dad38fd66eab",
+      "pose": "reversed_180",
+      "score_error": 4.440892098500626e-16,
+      "flag_exact": true,
+      "map_max_errors": {
+        "model_maps": 0.0,
+        "anomaly_maps": 0.0,
+        "source_maps": 0.0
+      },
+      "runtime": {
+        "preprocessing_seconds": 0.06812137500673998,
+        "feature_scoring_seconds": 1.0825538329954725,
+        "inverse_map_seconds": 0.00779083400266245,
+        "end_to_end_seconds": 1.1631998340017162,
+        "timing_boundary": "Decode/preprocess/features/scoring including historical common inverse, then orientation-aware common/source inverse; excludes display PNG encoding."
+      }
+    },
+    {
+      "id": "uncertain_pose",
+      "image_id": "f47ac1b5ffc4a30190f75ecb",
+      "pose": "uncertain",
+      "score_error": 4.440892098500626e-16,
+      "flag_exact": true,
+      "map_max_errors": {
+        "model_maps": 0.0,
+        "anomaly_maps": 0.0,
+        "source_maps": 0.0
+      },
+      "runtime": {
+        "preprocessing_seconds": 0.0627881249965867,
+        "feature_scoring_seconds": 1.0820703339995816,
+        "inverse_map_seconds": 0.0064184160000877455,
+        "end_to_end_seconds": 1.1558371249993797,
+        "timing_boundary": "Decode/preprocess/features/scoring including historical common inverse, then orientation-aware common/source inverse; excludes display PNG encoding."
+      }
+    },
+    {
+      "id": "known_small_missing_miss",
+      "image_id": "d086b78f683af0d19bb68594",
+      "pose": "canonical",
+      "score_error": 0.0,
+      "flag_exact": true,
+      "map_max_errors": {
+        "model_maps": 0.0,
+        "anomaly_maps": 0.0,
+        "source_maps": 0.0
+      },
+      "runtime": {
+        "preprocessing_seconds": 0.06283387499570381,
+        "feature_scoring_seconds": 1.0794659999955911,
+        "inverse_map_seconds": 0.005676875007338822,
+        "end_to_end_seconds": 1.1524776669975836,
+        "timing_boundary": "Decode/preprocess/features/scoring including historical common inverse, then orientation-aware common/source inverse; excludes display PNG encoding."
+      }
+    },
+    {
+      "id": "missing_detected",
+      "image_id": "0174183097ea8fa63bbe3153",
+      "pose": "canonical",
+      "score_error": 0.0,
+      "flag_exact": true,
+      "map_max_errors": {
+        "model_maps": 0.0,
+        "anomaly_maps": 0.0,
+        "source_maps": 0.0
+      },
+      "runtime": {
+        "preprocessing_seconds": 0.06349275000684429,
+        "feature_scoring_seconds": 1.0796605409996118,
+        "inverse_map_seconds": 0.006519083995954134,
+        "end_to_end_seconds": 1.1543811669980641,
+        "timing_boundary": "Decode/preprocess/features/scoring including historical common inverse, then orientation-aware common/source inverse; excludes display PNG encoding."
+      }
+    }
+  ],
+  "model_receipt_sha256": "02fbb5065a367a39b6bbc3a794db77c795e5101c5659b6371d9765ee0eb7f1c8",
+  "wrapper_code_sha256": "3ce08f8b2b7a28565791ca822c2858ece52d81d4268eca4ac6d58d3388524ee8"
+}

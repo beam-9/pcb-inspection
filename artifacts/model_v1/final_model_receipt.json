@@ -1,0 +1,147 @@
+{
+  "model_name": "PCB-AD-v1.0",
+  "version": "1.0",
+  "freeze_timestamp": "2026-10-07T02:35:44.396239+00:00",
+  "git_commit": "4abc845929bb0d67a1cf9b6882243adc8106b4ef",
+  "commit_semantics": "published scientific recipe at Stage6A completion; wrapper/UI identities separately recorded",
+  "decision": "Formal freeze of existing Stage5C D2+orientation after Stage6A Branch D; no Stage6B experiment",
+  "preprocessing_identity": "pcb1-blue-margin-letterbox-v1 at512, unchanged effective Stage4geometry",
+  "crop_identity": {
+    "mode": "inherited_blue",
+    "id": "pcb1-blue-margin-letterbox-v1",
+    "detection_width": 512,
+    "blue_minus_red": 0.05,
+    "green_minus_red": 0.03,
+    "minimum_saturation": 0.12,
+    "closing_iterations": 3,
+    "minimum_component_fraction": 0.02,
+    "maximum_component_fraction": 0.65,
+    "horizontal_margin_board_width": 0.08,
+    "vertical_margin_board_height": 0.45,
+    "padding_rgb": [
+      128,
+      128,
+      128
+    ],
+    "pose": "unchanged; 180-degree ambiguity retained"
+  },
+  "orientation_identity": {
+    "id": "pcb2-exterior-pin-ridges-v1",
+    "analysis_width": 512,
+    "central_board_width_fraction": 0.4,
+    "exterior_band_height_fraction": 0.45,
+    "horizontal_median_width": 15,
+    "local_contrast_min": 0.08,
+    "intensity_min": 0.35,
+    "rgb_range_max": 0.2,
+    "vertical_opening_board_height_fraction": 0.1,
+    "component_aspect_min": 3,
+    "minimum_pin_components": 2,
+    "dominance_ratio": 3,
+    "canonical": "top exterior pin cue",
+    "reversed_180": "bottom exterior pin cue",
+    "uncertain": "neither cue decisive, both cues, absent boardbox or nonhorizontal board",
+    "precise_angles_estimated": false,
+    "outcome_inputs": [],
+    "scope": "Post-confirmation PCB2 development diagnosis",
+    "prior_knowledge": "Stage4 visual knowledge exists; classifier itself consumes RGB+existing board box only"
+  },
+  "input_resolution": 512,
+  "backbone_identity": "ResNet18 IMAGENET1K_V1",
+  "feature_layers": [
+    "layer2",
+    "layer3"
+  ],
+  "aggregation": "maximum all native feature-grid scores including padding patches",
+  "memory_bank_identity": {
+    "path": "data/cache/stage4/pcb2_d2_secondary/memory.npy",
+    "shape": [
+      4096,
+      384
+    ],
+    "dtype": "float32",
+    "selection": "historical D2 projected approximate-greedy selection; preserve order",
+    "sha256": "ee75f75abbe9bc9a1d9fcd5b83b4741a1c4488869cd60825433afbfd96bd56f1"
+  },
+  "memory_size": 4096,
+  "selection_identity": "historical D2 projected approximate-greedy memory",
+  "image_threshold": 2.060171127319336,
+  "pixel_threshold": 1.6943607330322266,
+  "threshold_semantics": "strict >",
+  "evaluation_summary": {
+    "n_images": 200,
+    "anomaly_count": 100,
+    "normal_count": 100,
+    "anomaly_prevalence": 0.5,
+    "threshold": 2.060171127319336,
+    "tp": 91,
+    "fp": 4,
+    "fn": 9,
+    "tn": 96,
+    "precision": 0.9578947368421052,
+    "recall": 0.91,
+    "normal_false_alarm_rate": 0.04,
+    "average_precision": 0.9765628457652663,
+    "auroc": 0.9692999999999999
+  },
+  "runtime_summary": {
+    "peak_rss_bytes": 1765425152,
+    "median_end_to_end_seconds": 1.1104375629984133,
+    "p95_end_to_end_seconds": 1.1163656756511044,
+    "median_inference_seconds": 1.0077470209998864,
+    "reversed_median_seconds": 1.1164077920002455,
+    "no_op_median_seconds": 1.1103986249981972,
+    "median_pose_seconds": 0.04222072899938212,
+    "rotation_timing": "actual exact array reversal/copy within preprocessing; inference includes frozen score_feature historical common inverse"
+  },
+  "known_limitations": [
+    "PCB2 became exposed development data after Stage 4; this final candidate is not another fresh confirmation.",
+    "Only five reversed anomalies were available, with no reversed PCB2 normal controls.",
+    "Arbitrary rotations are unsupported; uncertain pose is a no-op.",
+    "Canonical missing and small defects remain the primary known weakness; a no-flag result can miss anomalies.",
+    "Annotations can be union masks across multiple defect types.",
+    "Anomaly response is not a calibrated probability; highlighted regions are not precise segmentation.",
+    "Physical board identity is not fully controlled.",
+    "No factory robustness study was performed; not certified for manufacturing decisions.",
+    "The D2 bank is PCB2-specific; arbitrary board categories and capture conditions are outside demonstrated coverage.",
+    "PCB1 evidence describes the staged development history, not a fresh test of this final PCB2 bank/orientation recipe."
+  ],
+  "pcb1_status": "development history only; final PCB2 bank/pose wrapper not independently confirmed on PCB1",
+  "pcb2_status": "Stage4 fresh-category confirmation; Stage5C final candidate is exposed post-confirmation development",
+  "stage_history_links": [
+    "artifacts/stage5c/complete.json",
+    "artifacts/stage5c/orientation_protocol.json",
+    "artifacts/stage5c/results/full_metrics.json",
+    "artifacts/stage4/pcb2_d2_secondary/calibration.json",
+    "artifacts/stage4/pcb2_d2_secondary/memory_metadata.json",
+    "artifacts/stage6a/complete.json",
+    "artifacts/stage6a/decision_gate.json"
+  ],
+  "source_identities": {
+    "artifacts/stage5c/complete.json": "71fe6fb66c7a25fa283199ae319d851ba1776662057841361e4f92ea8a31678f",
+    "artifacts/stage5c/orientation_protocol.json": "efa1d57110f2023bade0a708becdec3dd1684d22f8e6b7e823e79e0010f5dd04",
+    "artifacts/stage5c/results/full_metrics.json": "65588ef077a494acff2356b0aeefd48c9829045877efe751f1ca5dc28ea2a28d",
+    "artifacts/stage4/pcb2_d2_secondary/calibration.json": "2a52c34b3d5849b26b0bf9af391a66033022679d0365757c90db7f9f866d9d01",
+    "artifacts/stage4/pcb2_d2_secondary/memory_metadata.json": "7466177d7fdb6e8834f8fd7c9c5f6f0407123a4f04502cfd31dd429501118c4d",
+    "artifacts/stage6a/complete.json": "8acf95fa2eba2d1d794e3b7e1a4c8091c59517a6715bfaeb4e6498f4c110ab3d",
+    "artifacts/stage6a/decision_gate.json": "ba7c9f913db1eb3982b08fa95362f979daa5ff4fa0a19e001c9df8764473f2d4"
+  },
+  "runtime_identities": {
+    "src/pcb_inspection/preprocessing.py": "74ff71deb0ba352dde813fb6c1cc4499d82b1e682ddc8827e7e54218cf1246fd",
+    "src/pcb_inspection/geometry.py": "932bca6b7b1209764536532857a10beec465a9f073b554846c83a7ba1a101c0f",
+    "src/pcb_inspection/geometry_experiment.py": "e46d9e27c59cd1158c2e9df56c382e8ac446a44ea68ed62c5aac8c78c95a7049",
+    "src/pcb_inspection/baseline.py": "f3278d89674d4f0b503054f8200d3ff4f1432e6126b3bb2f03dccedba140627d",
+    "src/pcb_inspection/stage4_geometry.py": "50f855ef3d985ad9ee606b0796978c06b6be924582bd0b5deb1f514709c20f1c",
+    "src/pcb_inspection/stage5a_pose.py": "c884aa3b3a9f37b96d01c123e3cb61c281b8f4ae07b03ebbc05178832264b173",
+    "src/pcb_inspection/stage5b_orientation.py": "51f650a27a3c51612455ec56b535a0e17825ed4e465c8bc0d5d82ac92b55b977",
+    "data/cache/hub/checkpoints/resnet18-f37072fd.pth": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+    "data/cache/stage4/pcb2_d2_secondary/memory.npy": "ee75f75abbe9bc9a1d9fcd5b83b4741a1c4488869cd60825433afbfd96bd56f1"
+  },
+  "artifact_identities": {
+    "artifacts/model_v1/final_bank_hash.txt": "6ea90042d6e5e1435cac3cc832f568a3395cee560f5905738f79f0146089cf4e",
+    "artifacts/model_v1/final_config.json": "8a615846ff5b3def2dd9dc501a55c1731b9556a9864d274110c078ebd36844ba",
+    "artifacts/model_v1/final_metrics.json": "65588ef077a494acff2356b0aeefd48c9829045877efe751f1ca5dc28ea2a28d",
+    "artifacts/model_v1/limitations.md": "ddb5a9851efa2acdb65289a87bbf3daf624c258058928c99941c1a32ae83ba7b",
+    "artifacts/model_v1/reproducibility.md": "37f85875ddc1c374228b5524405044a0f1aaf986f0847f8285cb9802358b90ad"
+  }
+}

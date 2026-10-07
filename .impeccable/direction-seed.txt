@@ -1,0 +1,112 @@
+DIRECTION CONCEPT SEED (key: d31bfc55; mode: experience; source: api; approved pool: c3b204a1eed6; 306/564 human-approved; rerun with --scope direction --mode experience --from d31bfc55 --candidate-count 7 to reproduce this roll against this catalog revision)
+ASSIGNED INDEX: 4
+  After ordering the grounded directions by resonance, build candidate
+  4 of your own grounded list; the assignment never points at a
+  challenger. The assignment is the roll, not a suggestion: your top-ranked
+  direction is what every run would ship, so the script decides which grounded
+  direction gets built. Each direction joins a durable visual system to a
+  concrete expression for the requested first surface, decided as one. It must
+  survive the current task plus navigation, quiet and dense content,
+  interaction and state, and a substantially different future surface. In an
+  attended run, present the assigned direction fully committed and offer
+  re-roll; never present a ranked lineup to choose from. Re-roll yourself only
+  on named factual grounds, when the assignment cannot carry the product's
+  truth or task; taste is never grounds.
+  The assignment exists to refuse the model's ranking rut, never to outrank
+  the user or the brief. Never expose assignment metadata in user-facing labels.
+CHALLENGERS:
+  1. An access-control surface built as a cathode numeral stack: every possible value present at once as a dark ghost behind a fine bronze anode gauze, one struck forward in glowing orange, with no box, rule or divider anywhere on a plane that runs past every edge.
+     SOURCE ID: operate-b-struck-cathode-gauze
+     CREATIVE SPARK: A decade counter at 2am: the numeral 4 blazing orange while nine unlit sisters hang behind it in the same glass, faint wire outlines crossed by the mesh of the anode gauze, the tube stack throwing warm light onto blue-black bench felt.
+     SYSTEM GRAMMAR:
+       - Palette/material: two hues, ink-blue black and cathode orange, on fine bronze wire gauze; roles: ground, gauze, ghost, glow. Imported photos stay untinted under a gauze veil.
+       - Type/composition: one condensed numeral-derived display face against bone-white body prose; labels may align, but the ghost layer behind them overlaps freely at differing depths.
+       - Topology/navigation: the gauze plane runs past every edge unframed; no rules, boxes or dividers, grouping is gauze density and depth; prose columns clear the mesh entirely.
+       - Controls/state: all options sit present as unlit ghosts behind the gauze; the chosen one is struck forward, crisp and haloed; stale keeps a decayed afterglow; refused stays dark.
+       - Responsive/motion: values snap, never tween; the old glow decays over one beat as the new strikes. Width adds ghost depth to the stack, never new columns or framing.
+     WEB LEVERAGE: Render every alternative in the DOM at once: unlit states as low-opacity ghost text staggered in depth behind a repeating SVG mesh, the active one promoted by a hard opacity and blur step with no transition.
+     QUALITY BAR: board https://impeccable.style/worlds/cards/operate-b-struck-cathode-gauze.webp · hero https://impeccable.style/worlds/cards/operate-b-struck-cathode-gauze-hero.webp
+  2. A film cutting bench flattened into a sheet: a perforated select rail crossing a grain-orange field, each step a punched frame held between two pins, the place you stopped marked by a folded tape flag, and everything set aside still hanging on pins below the rail.
+     SOURCE ID: operate-a-cutting-bench-select-rail
+     CREATIVE SPARK: A work print strung between two pins under a bench lamp, white grease crosses struck across three frames, a folded orange tape flag doubled over the perforation where the editor stopped, and a dozen trims hanging on pins in the bin below.
+     SYSTEM GRAMMAR:
+       - Palette/material: one ink, flag orange in coarse film grain on true black; orange holds a third of any screen. Running copy and foreign images sit only in punched white windows.
+       - Type/composition: one size of condensed grotesk throughout, caps for labels; rank is cell count not size, a window may span twelve frame cells while edge ticks stay hairline.
+       - Topology/navigation: a perforated rail crosses every sheet at a fixed height; sections string along it as frames, and anything set aside hangs below on pins in an open bin.
+       - Controls/state: state is a mark, not a hue: grease cross done, punched corner unavailable, tape band committed, folded flag where you stopped, hung on a pin deferred.
+       - Responsive/motion: the strip scrubs with inertia and settles on perforation pitch, never between frames; hung trims swing and damp. Narrow screens drop frame count, not size.
+     WEB LEVERAGE: The rail is one virtual strip whose scrub snaps to a fixed frame pitch; the frame you left is persisted and re-flagged on return, and every discarded frame stays reachable on a pin below the rail.
+     QUALITY BAR: board https://impeccable.style/worlds/cards/operate-a-cutting-bench-select-rail.webp · hero https://impeccable.style/worlds/cards/operate-a-cutting-bench-select-rail-hero.webp
+  3. an Emigre bitmap type specimen, where coarse pixel letterforms are set proudly at poster scale and the low resolution is the aesthetic
+     SOURCE ID: emigre-bitmap-specimen
+     CREATIVE SPARK: A headline built from visible pixels towers over dense justified columns; the same face repeats at five sizes, and at the smallest the pixels dissolve into smooth gray text.
+     SYSTEM GRAMMAR:
+       - Palette/material: newsprint white and rich black with one synthetic accent; halftone and dot-matrix textures as legitimate surfaces
+       - Type/composition: coarse bitmap display faces against fine text grotesks; specimen-style repetition of one form at many sizes
+       - Topology/navigation: Move by typeface, by size step, and by issue spread.
+       - Controls/state: Scale, compare, and toggle bitmap versus smooth rendering as an honest state.
+       - Responsive/motion: Pixel letterforms scale only in whole-pixel multiples; nothing antialiases unless the reader asks.
+     WEB LEVERAGE: Pixel-honest display type via image-rendering rules and font sizes locked to integer multiples
+     QUALITY BAR: board https://impeccable.style/worlds/cards/emigre-bitmap-specimen.webp · hero https://impeccable.style/worlds/cards/emigre-bitmap-specimen-hero.webp
+  4. a tokyo boutique-pop sleeve wrapped in a printed paper obi band, the band crowded with dense vertical credits and catalog numbers while the sleeve face behind it holds one geometric mark and nothing else
+     SOURCE ID: posters-covers-sleeves-shibuya-boutique-sleeve
+     CREATIVE SPARK: a nearly empty sleeve with one small mark on it, and wrapped around the bottom third a paper band so crowded with credits that the collision between the two is the whole design.
+     SYSTEM GRAMMAR:
+       - Palette/material: a saturated obi band in one strong hue against a pale sleeve face, the band printed dense and the face left almost bare
+       - Type/composition: crowded vertical credits packed onto the obi band, a single geometric mark on the face behind, and a deliberate density collision between the two
+       - Topology/navigation: the band overlays the face, so navigation slides the band to reveal what it was covering
+       - Controls/state: controls are band segments, the active one slides clear of the face, and inactive ones stay wrapped across it
+       - Responsive/motion: the band holds its proportion of the face at any width, and motion is the band sliding off and back on
+     WEB LEVERAGE: a proportional overlay band that slides on pointer state, responsive density on the band, and reveal state for the face beneath
+     QUALITY BAR: board https://impeccable.style/worlds/cards/posters-covers-sleeves-shibuya-boutique-sleeve.webp · hero https://impeccable.style/worlds/cards/posters-covers-sleeves-shibuya-boutique-sleeve-hero.webp
+  5. a circular sheet folded along one sweeping curved crease, where paper rises into a rigid shell without straight facets or added support
+     SOURCE ID: paper-folds-pleats-deployable-curved-crease-shell
+     CREATIVE SPARK: The cream disc lifts along one charcoal arc and locks into a saddle whose shadow looks drawn with a compass in midair.
+     SYSTEM GRAMMAR:
+       - Palette/material: cream cotton paper as ground, one charcoal compass arc as the active crease, graphite shadow gradients for depth, body notes in soft black ink
+       - Type/composition: geometer's inclined serif italic for labels, figures numbered like plates, layout ruled by the sweep of one arc rather than a rectangular grid
+       - Topology/navigation: Connect planar crease, local curvature, ridge, and resulting shell through registered views.
+       - Controls/state: Bend, invert, lock, and compare with flat, curving, stable, buckled, and reversed states.
+       - Responsive/motion: Pair plan and section on small screens and expose a small set of stable key forms.
+     WEB LEVERAGE: A curve-driven deformation model can show how one line produces spatial rigidity while retaining a precise 2D source.
+     QUALITY BAR: board https://impeccable.style/worlds/cards/paper-folds-pleats-deployable-curved-crease-shell.webp · hero https://impeccable.style/worlds/cards/paper-folds-pleats-deployable-curved-crease-shell-hero.webp
+  6. a sleeping city fold, where streets crease into blankets, towers become bedposts, and neighborhoods dream different weather beneath one night
+     SOURCE ID: dream-surreal-impossible-worlds-sleeping-city-fold
+     CREATIVE SPARK: At midnight an avenue rises like a quilt seam, apartment lights become embroidered stars, and a whole district folds gently over a park dreaming tropical rain.
+     SYSTEM GRAMMAR:
+       - Palette/material: night navy city as ground, window lights as embroidered gold stars, quilt seams in pale thread white, each dreaming district tinted its own weather hue
+       - Type/composition: soft rounded caps for district names stitched along seam lines, the map grid relaxing into blanket folds, morning notes set in a plain waking sans
+       - Topology/navigation: Move through waking streets, folded neighborhoods, shared dream edges, and morning return.
+       - Controls/state: Tuck a district, open its dream, connect two sleeping weather patterns, and unfold at dawn.
+       - Responsive/motion: Use layered city quilts on phones and substitute crossfades with static night and morning plates.
+     WEB LEVERAGE: Deformable map geometry, local time, and collaborative dream fragments create a nightly city that remains spatially recognizable.
+     QUALITY BAR: board https://impeccable.style/worlds/cards/dream-surreal-impossible-worlds-sleeping-city-fold.webp · hero https://impeccable.style/worlds/cards/dream-surreal-impossible-worlds-sleeping-city-fold-hero.webp
+Fuse each challenger before judging it: the challenger supplies the form
+  and its system grammar, the product supplies every fact, and clarity wins
+  conflicts. Weigh the fused result against the assigned direction on exactly
+  two axes, audience identification and product clarity. Losing to strong
+  grounded material is a valid outcome; beating a thin or tool-monoculture
+  list is the point. A fused challenger that wins both axes becomes the build.
+When you can view images, open the QUALITY BAR board and hero for any
+challenger you weigh seriously and for the world you build. They exist as a
+craft bar, the finish level and commitment the build is expected to reach,
+never as a mockup to copy; your surface serves this product, not that render.
+PRODUCT.md and explicit incumbent brand commitments constrain every direction.
+The seed never chooses exact colors, fonts, tokens, or a user preference, and
+it never permits the world and first surface to be selected independently.
+The CREATIVE SPARK is a complete visual system, not a theme or decorative
+reference. Translate every supplied system rule into the product: palette and
+material, type and composition, topology, controls and states, and adaptation.
+Keep the source's visible character, scale, rhythm, and interaction instead of
+reducing vivid grammar to generic nouns. When the source is already a credible
+interface language, commit to it across navigation, content, controls, and
+states. Otherwise keep a literal carrier only when it becomes functional.
+Ambitious motion, spatial media, or interaction is welcome when it strengthens
+the product without weakening semantics, performance, or fallback behavior.
+TELEMETRY: if the resolved direction uses one of these challengers, rerun
+  this script once with --chosen <challenger-id> --from d31bfc55 --scope direction --mode experience
+  after resolution. The ping is anonymous (chosen id only) and is skipped
+  automatically when DO_NOT_TRACK or IMPECCABLE_NO_TELEMETRY is set.
+A user- or brief-pinned decision beats the roll, always.
+ASSIGNED INDEX (restated for truncated readers): 4. Build candidate
+4 of your own grounded list; seed key d31bfc55.

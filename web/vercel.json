@@ -1,0 +1,47 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "npm run build:public",
+  "outputDirectory": "public-dist",
+  "framework": null,
+  "rewrites": [
+    {
+      "source": "/inspect",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/journey",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/journey/:stage",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/model",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/about",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/read/:path*",
+      "destination": "/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; img-src 'self' data: blob:; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "title": "Help people spot unusual PCB regions and understand the model’s decision.",
+  "purpose": "We built this project to test whether a reference built from normal PCB images could help someone inspect an unfamiliar-looking region. Each experiment asks what improves detection, what causes mistakes and where an inspector still needs to make the judgment.",
+  "inspiration": {
+    "title": "Inspired by Seagate’s Project Athena",
+    "text": "Seagate’s 2019 Project Athena case study describes microscope-image inspection at its Normandale facility, where wafers are made for HDD read/write heads. The system flags anomalous images for an expert to assess. That workflow prompted our question: could a visual anomaly model give a reviewer useful evidence on a PCB?",
+    "source_title": "Seagate Project Athena case study · 2019",
+    "source_url": "https://www.seagate.com/www-content/enterprise-storage/it-4-0/images/cs595-1-1901-seagate-athena.pdf",
+    "boundary": "This independent educational project uses public VisA PCB photographs. We use no Seagate data or internal technology. Our detector does not reproduce Athena or demonstrate performance in manufacturing."
+  },
+  "why_one_class": "We used normal images to build a reference, so the detector can measure unusual appearance without learning a classifier for every defect label. The small PatchCore-inspired model runs on a CPU and lets us inspect its scores, reference patches and mistakes.",
+  "principles": [
+    {
+      "title": "Keep the reviewer in the loop",
+      "text": "Show the original image beside the response, score and pose decision. A low score can still miss a real defect."
+    },
+    {
+      "title": "Give each change a reason",
+      "text": "Test geometry, memory selection and orientation in separate steps. Keep the controls fixed and report any detections lost along the way."
+    },
+    {
+      "title": "Know when to stop tuning",
+      "text": "Stage 6A examined the remaining misses. It did not support one clear next change, so we froze v1.0."
+    }
+  ],
+  "future": [
+    {
+      "title": "Test an untouched category",
+      "reason": "PCB2 became development data after the first confirmation.",
+      "experiment": "Declare the recipe and thresholds before testing a new category. Group observations by physical board when identifiers are available.",
+      "success": "Report detection, localization, false alarms, uncertainty and failures together.",
+      "status": "Proposed · new evaluation protocol"
+    },
+    {
+      "title": "Improve small and missing-defect detection",
+      "reason": "Six of the nine misses are canonical missing-label cases. Eight are small cases; these groups overlap.",
+      "experiment": "In a new version, compare higher-detail or multi-scale features with normal-only calibration and controls matched for compute.",
+      "success": "Increase small-defect recall while reporting any cost in false alarms or localization.",
+      "status": "Research hypothesis · v1.1/v2.0"
+    },
+    {
+      "title": "Test orientation on more examples",
+      "reason": "We had only five reversed anomalies and no reversed normal controls.",
+      "experiment": "Collect independent reversed normals and varied capture poses. Compare registration methods and keep explicit handling for uncertain poses.",
+      "success": "Measure errors for each supported pose and check that correction preserves the defect signal.",
+      "status": "Needs independent data"
+    },
+    {
+      "title": "Track individual defects and boards",
+      "reason": "Union masks can combine defect labels, and the available data does not fully identify physical boards.",
+      "experiment": "Obtain instance-level masks and board identifiers, then evaluate localization and generalization across boards.",
+      "success": "Separate missing components from overlapping labels and account for related observations.",
+      "status": "Dataset improvement"
+    },
+    {
+      "title": "Test the reviewer’s workflow",
+      "reason": "A benchmark cannot tell us whether the tool helps an inspector in a factory.",
+      "experiment": "With appropriate real-world data, study reviewer decisions, capture variation, latency, drift and threshold policy.",
+      "success": "Measure review outcomes and operational costs before claiming that the model is ready for deployment.",
+      "status": "Future applied validation"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Project data and scope",
+      "path": "docs/data_card.md",
+      "sha256": "9fbb9d1af4e3abacb98c4697787bcaba2888080242137f36ad6e4725eb3328df"
+    },
+    {
+      "title": "Stage 6A stopping decision",
+      "path": "docs/journey/stage_06_final_model_selection.md",
+      "sha256": "c7e74c4a8c2887fa3fa21d08d5ff031d76f1da84ed5071d0d7584fe1b2061300"
+    },
+    {
+      "title": "Scientific library and method decisions",
+      "path": "docs/source_research.md",
+      "sha256": "ba31cc9c435ee44d59683b87a52a7c6e5cd0ab896a2a0c3d0109124990c09376"
+    },
+    {
+      "title": "Python dependency lock",
+      "path": "requirements.lock",
+      "sha256": "3d871d66732cfc5d114d4be8f4befa152ece2f7789cd9666e3bc5f90637b8a0b"
+    }
+  ],
+  "methods": [
+    {
+      "title": "Fit on normal images",
+      "text": "We use the official VisA one-class split. Normal fitting images build the reference memory, and held-out normals set the thresholds. Anomalies are used for evaluation. Once we used a test category to guide later changes, we labelled that work as development.",
+      "reason": "Keep defect labels out of fitting and threshold calibration, and show when evaluation data has influenced a decision."
+    },
+    {
+      "title": "Preserve shape and check orientation",
+      "text": "The inherited colour and morphology rules locate the board. We apply fixed margins and letterbox the crop to 512 × 512. An RGB cue from the exterior pins identifies confidently reversed boards; only those crops are rotated exactly 180°. Uncertain crops stay unchanged.",
+      "reason": "Preserve board shape and local detail. Limit pose correction to the orientation that the evidence supports."
+    },
+    {
+      "title": "Extract frozen patch features",
+      "text": "ResNet18 uses the frozen IMAGENET1K_V1 weights. We average layer2 and layer3 features over a 3 × 3 neighbourhood, align their grids and join them into 384-dimensional patch features.",
+      "reason": "Reuse pretrained visual features in a small CPU model without training a network to classify defects."
+    },
+    {
+      "title": "Choose a normal reference bank",
+      "text": "The ordered D2 bank contains 4,096 float32 patches. We built it with projected approximate-greedy selection. At inference, each patch gets its exact Euclidean distance to the closest reference in the full 384-dimensional space.",
+      "reason": "Cover normal appearance within a fixed memory budget. The projection helps select references; it does not approximate the inference score."
+    },
+    {
+      "title": "Score the image and map the response",
+      "text": "The image score is the largest native patch distance, including padding patches. We interpolate the map, remove the padding and return it to the original image coordinates, undoing the pose correction where needed. A result is flagged only when it is strictly greater than the frozen threshold.",
+      "reason": "Keep the decision rule reproducible. Map colours show response strength, not defect probability or exact defect boundaries."
+    },
+    {
+      "title": "Check detection and localization separately",
+      "text": "We report image AP, AUROC, recall and normal false alarms, alongside pooled common-256 pixel AP/IoU and per-image diagnostics in common and source coordinates. We also examine pose groups and failures. PCB1 development, fresh PCB2 confirmation and later PCB2 development remain separate phases.",
+      "reason": "A model can detect an anomalous image while locating the defect poorly. Separate phases also prevent development results from being mistaken for a fresh test."
+    },
+    {
+      "title": "Freeze the recipe and check it again",
+      "text": "SHA-256 records bind the scientific code, ordered bank, weights, thresholds, metrics and limitations. Six representative cases check scores, flags, poses and native/common/source maps against the saved Stage 5C outputs.",
+      "reason": "Make interface changes without changing the detector or recalibrating its decisions."
+    }
+  ],
+  "tools": [
+    {
+      "category": "Scientific runtime",
+      "name": "Python 3.11 · PyTorch · Torchvision",
+      "versions": "PyTorch 2.14.1 · Torchvision 0.29.1",
+      "use": "Extract frozen ResNet18 features, aggregate tensors and compute exact Euclidean scores in chunks on the CPU.",
+      "reason": "The project’s small implementation makes the scoring steps and normal references easy to inspect."
+    },
+    {
+      "category": "Scientific runtime",
+      "name": "NumPy · Pillow · SciPy",
+      "versions": "NumPy 2.4.6 · Pillow 12.3.0 · SciPy 1.17.1",
+      "use": "Store banks and maps; decode bounded uploads, handle EXIF orientation, resize images and apply morphology and geometry rules.",
+      "reason": "Keep image coordinates and array transformations explicit while preserving the original geometry rules."
+    },
+    {
+      "category": "Analysis & evidence",
+      "name": "pandas · scikit-learn",
+      "versions": "pandas 3.0.6 · scikit-learn 1.9.1",
+      "use": "Build diagnostic tables, summarize pose and defect groups, and calculate AP/AUROC.",
+      "reason": "Trace aggregate results back to individual cases and separate ranking quality from threshold decisions."
+    },
+    {
+      "category": "Analysis & evidence",
+      "name": "Jupyter · Matplotlib",
+      "versions": "Locked in requirements.lock",
+      "use": "Read saved artifacts and create contact sheets, distributions and before/after figures.",
+      "reason": "Inspect visual failures and compare the evidence behind each change."
+    },
+    {
+      "category": "Interface",
+      "name": "React · esbuild",
+      "versions": "React 19.3.0 · esbuild 0.28.2",
+      "use": "Manage inspection states and pages, then bundle the local and static interfaces.",
+      "reason": "Use the same workbench for live local inference and the labelled public evidence preview."
+    },
+    {
+      "category": "Interface",
+      "name": "Framer Motion · GSAP",
+      "versions": "Framer Motion 14.0.0 · GSAP 3.15.0",
+      "use": "Framer Motion handles controls and result changes. GSAP ScrollTrigger tracks journey progress; ScrollToPlugin moves to a chosen stage.",
+      "reason": "Help readers follow state changes and navigate the journey, with keyboard focus, reduced motion and cleanup on route changes."
+    },
+    {
+      "category": "Serving & publishing",
+      "name": "Python standard-library HTTP · Vercel-ready static build",
+      "versions": "Local loopback server; separate public-preview build",
+      "use": "Run exact inference locally. The static build publishes evidence and recorded benchmark results without the model bank or weights.",
+      "reason": "Prepare a free portfolio deployment while clearly identifying which results are saved and where live inference runs."
+    },
+    {
+      "category": "Verification & provenance",
+      "name": "pytest · Playwright · Git · SHA-256",
+      "versions": "Pinned Python and npm locks; scientific recipe commit recorded in the model receipt",
+      "use": "Check regressions and browser flows, preserve project history and verify file identities.",
+      "reason": "Catch changed behaviour, retain known failures and trace displayed results to their scientific sources."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "all_example_saved_values_match_smoke_manifest": true,
+  "cases": 6,
+  "journey_metrics_verified_by_test": "test_journey_values_match_original_sources_and_boundaries",
+  "tests_passed": 150,
+  "model_receipt_sha256": "02fbb5065a367a39b6bbc3a794db77c795e5101c5659b6371d9765ee0eb7f1c8",
+  "journey_rationales": 9,
+  "method_steps": 7,
+  "tool_groups": 8,
+  "purpose_source_hashes_verified": true,
+  "future_experiments": 5
+}

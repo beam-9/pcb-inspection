@@ -1,0 +1,10 @@
+{
+  "image": "comp-c.png",
+  "approved": false,
+  "generation": "built-in image_gen",
+  "intent": "High-fidelity layout study, not benchmark evidence",
+  "composition": "Asymmetric three-part exhibition spread; left actions, center comparison slider, right scientific captions; journey and frozen recipe below.",
+  "world": "Engineering exhibition catalogue; warm paper, ink, rust, sage; editorial serif plus readable sans; real controls; no card dashboard, fake confidence or technical decoration.",
+  "implementation_corrections": "Replace all generated PCB imagery with real VisA assets and all generated copy/values/dates with source-backed content. No years, PCB1 numbers or factory/transfer guarantees from these mocks are authoritative.",
+  "actual_ui_uses_generated_imagery": false
+}

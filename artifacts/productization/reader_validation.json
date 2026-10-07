@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "checked_at_utc": "2026-10-07T21:19:24.670550+00:00",
+  "tests_passed": 151,
+  "tests_seconds": 19.29,
+  "local_and_public_builds_passed": true,
+  "reader_sources_verified_per_build": 232,
+  "original_downloads_byte_identical": true,
+  "browser_checks": [
+    "all four methods source links open reader pages",
+    "Markdown headings, GFM tables, CSV rows, structured JSON and dependency list render",
+    "Stage 6A nested source links and browser back navigation work",
+    "case table has all 36 original data rows",
+    "desktop and 390px mobile reader routes have no document horizontal overflow",
+    "download originals are byte-identical",
+    "unknown source offers return to methods",
+    "source error recovers using Try again",
+    "raw HTML scripts and javascript links do not execute",
+    "Model limitations heading accurately covers known failures and untested conditions"
+  ],
+  "screenshots": [
+    "output/playwright/reader-8765-desktop.png",
+    "output/playwright/reader-8765-mobile.png",
+    "output/playwright/reader-8766-desktop.png",
+    "output/playwright/reader-8766-mobile.png",
+    "output/playwright/humanized-methods-8765-mobile.png",
+    "output/playwright/humanized-methods-8766-mobile.png",
+    "output/playwright/reader-final.png"
+  ],
+  "expected_error": "A deliberately intercepted HTTP 503 verifies the reader retry flow; no normal-route page errors.",
+  "live_api_verify_only": "passed after final server reload",
+  "scientific_files_preserved": 901,
+  "scientific_claims_and_values": "Metric values, source identities, thresholds and scientific originals unchanged."
+}

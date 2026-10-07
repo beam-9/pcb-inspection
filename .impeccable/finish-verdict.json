@@ -1,0 +1,28 @@
+{
+  "reviewer": "impeccable_finish_reviewer",
+  "disposition": "ship",
+  "verdict": [
+    {
+      "finding": "Mobile photographic scale",
+      "status": "resolved",
+      "evidence": "Stacked individually captioned uncropped images restore board prominence."
+    },
+    {
+      "finding": "Heading whitespace",
+      "status": "resolved",
+      "evidence": "Mobile reads A small margin. A real decision."
+    },
+    {
+      "finding": "Visible initial content",
+      "status": "resolved",
+      "evidence": "Hero and route start visible; result and selector motion remain."
+    },
+    {
+      "finding": "Journey figures",
+      "status": "resolved",
+      "evidence": "All nine figures visible in desktop and mobile recaptures."
+    }
+  ],
+  "remaining": [],
+  "introduced_regressions": []
+}

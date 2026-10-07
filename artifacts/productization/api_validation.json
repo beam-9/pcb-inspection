@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "created_at_utc": "2026-10-07T02:42:56.384797+00:00",
+  "model_metadata_matches_receipt": true,
+  "real_upload_reversed_action": true,
+  "benchmark_known_miss_retained": true,
+  "uploaded_image_no_GT": true,
+  "invalid_image_unknown_example_invalid_json_empty_upload_rejected": true,
+  "path_traversal_rejected": true,
+  "receipt_sha256": "02fbb5065a367a39b6bbc3a794db77c795e5101c5659b6371d9765ee0eb7f1c8"
+}

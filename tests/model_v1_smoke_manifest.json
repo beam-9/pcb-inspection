@@ -1,0 +1,131 @@
+{
+  "model_receipt_sha256": "02fbb5065a367a39b6bbc3a794db77c795e5101c5659b6371d9765ee0eb7f1c8",
+  "score_map_tolerance": 1e-05,
+  "cases": [
+    {
+      "id": "canonical_normal",
+      "image_id": "2b6a7d049fa1b9e094d4b1b7",
+      "image_path": "data/raw/stage4/pcb2/Data/Images/Normal/0013.JPG",
+      "image_sha256": "e147fb6bc898b1e23f97b34b7d78bf7f19a29aefb2b40003776fea187fdef9ec",
+      "mask_path": null,
+      "score": 2.0410783290863037,
+      "detected": false,
+      "pose_label": "canonical",
+      "maps": {
+        "model_maps": "data/cache/stage5c/model_maps/2b6a7d049fa1b9e094d4b1b7.npy",
+        "anomaly_maps": "data/cache/stage5c/anomaly_maps/2b6a7d049fa1b9e094d4b1b7.npy",
+        "source_maps": "data/cache/stage5c/source_maps/2b6a7d049fa1b9e094d4b1b7.npy"
+      },
+      "map_hashes": {
+        "model_maps": "fa8f92fdf0fed682cc167836e09e8ff8a23acfce55f3b789cbcd314def99fb37",
+        "anomaly_maps": "9e5ff6a58a4a6aa5874bcd06cb54c12c71e510e914e710f1c0e6ffa0ac1044b8",
+        "source_maps": "f23f4695ad44deda0e11dbf872ef8bf98d5fcc8c82c628be6a39b5d25d521cfd"
+      }
+    },
+    {
+      "id": "canonical_anomaly",
+      "image_id": "fea34ce33cdd25b0ede4efe4",
+      "image_path": "data/raw/stage4/pcb2/Data/Images/Anomaly/000.JPG",
+      "image_sha256": "7ee5d8e7d7496860aa60447f3e779003f4bd852a9f2a1f35b9ed49103a7ef708",
+      "mask_path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/000.png",
+      "score": 2.250951051712036,
+      "detected": true,
+      "pose_label": "canonical",
+      "maps": {
+        "model_maps": "data/cache/stage5c/model_maps/fea34ce33cdd25b0ede4efe4.npy",
+        "anomaly_maps": "data/cache/stage5c/anomaly_maps/fea34ce33cdd25b0ede4efe4.npy",
+        "source_maps": "data/cache/stage5c/source_maps/fea34ce33cdd25b0ede4efe4.npy"
+      },
+      "map_hashes": {
+        "model_maps": "5e6755c6409cb2ba451c7b90789a198c9341e5f315c0e98f727aeae9e684ccbf",
+        "anomaly_maps": "f43124eacbd289ada14903cae9b91b7036558891f8b4f0f547ef9e83cd569c80",
+        "source_maps": "73037ebce7a79ade22956d64c5758d8ee74554aba79e55596d143148489e8c6a"
+      },
+      "mask_sha256": "f42fd0018ffafe756cbea26e556a5d0fab36ca2413ad18896206559d63ee7667"
+    },
+    {
+      "id": "reversed_anomaly",
+      "image_id": "bfebbd19caf4dad38fd66eab",
+      "image_path": "data/raw/stage4/pcb2/Data/Images/Anomaly/047.JPG",
+      "image_sha256": "1be7809506f2372505d7506c47502f75ec9ba094e306c9d394a067b368c6a8e3",
+      "mask_path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/047.png",
+      "score": 2.092276811599731,
+      "detected": true,
+      "pose_label": "reversed_180",
+      "maps": {
+        "model_maps": "data/cache/stage5c/model_maps/bfebbd19caf4dad38fd66eab.npy",
+        "anomaly_maps": "data/cache/stage5c/anomaly_maps/bfebbd19caf4dad38fd66eab.npy",
+        "source_maps": "data/cache/stage5c/source_maps/bfebbd19caf4dad38fd66eab.npy"
+      },
+      "map_hashes": {
+        "model_maps": "2b57d6e3058b9050a746426956f4b01a1f839bba548c6597db2a06d85de6ad20",
+        "anomaly_maps": "d8a526bf7996dedf1be9bd755a062f8e30913b2c770ea330690520dc46bab7e3",
+        "source_maps": "0fddc7e9921d7eea672407caced986ac57191150222dedd5a387e281da1bd29d"
+      },
+      "mask_sha256": "a59499edb9319a8759d22bcde2547f63a118a816f1e708b3a1bde5104387b5dc"
+    },
+    {
+      "id": "uncertain_pose",
+      "image_id": "f47ac1b5ffc4a30190f75ecb",
+      "image_path": "data/raw/stage4/pcb2/Data/Images/Anomaly/011.JPG",
+      "image_sha256": "18004aad0cd4de743a5d76e66c89d3a2b5992b1f6379edb56aeceda53eb9ee98",
+      "mask_path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/011.png",
+      "score": 2.828041076660156,
+      "detected": true,
+      "pose_label": "uncertain",
+      "maps": {
+        "model_maps": "data/cache/stage5c/model_maps/f47ac1b5ffc4a30190f75ecb.npy",
+        "anomaly_maps": "data/cache/stage5c/anomaly_maps/f47ac1b5ffc4a30190f75ecb.npy",
+        "source_maps": "data/cache/stage5c/source_maps/f47ac1b5ffc4a30190f75ecb.npy"
+      },
+      "map_hashes": {
+        "model_maps": "5b4431f0dd3ed2c3f3c1513f499344cf37520db07c0b3430dcc31f25fecd24ff",
+        "anomaly_maps": "b20161d86b949e39858cbf3e3f6b9f6412ada254e207d4a0246f17708570d2fc",
+        "source_maps": "d923ec0bf04974893c834941f70f30034f7e8445599ae5b17260975b760afe0c"
+      },
+      "mask_sha256": "81e463afd8fe0e9546e0c408c8039b0d4940a481ddcaff6aece6555d3b9608d7"
+    },
+    {
+      "id": "known_small_missing_miss",
+      "image_id": "d086b78f683af0d19bb68594",
+      "image_path": "data/raw/stage4/pcb2/Data/Images/Anomaly/056.JPG",
+      "image_sha256": "a61d6f7c94133b912e943b27b3a4d6642047101576fc7f8fe09c8b7e51ba6e4e",
+      "mask_path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/056.png",
+      "score": 2.0472028255462646,
+      "detected": false,
+      "pose_label": "canonical",
+      "maps": {
+        "model_maps": "data/cache/stage5c/model_maps/d086b78f683af0d19bb68594.npy",
+        "anomaly_maps": "data/cache/stage5c/anomaly_maps/d086b78f683af0d19bb68594.npy",
+        "source_maps": "data/cache/stage5c/source_maps/d086b78f683af0d19bb68594.npy"
+      },
+      "map_hashes": {
+        "model_maps": "226bfeb55f5ee44976c65acd486878bde17558e7b13d18bbdcdf3d9cd1eb1e2f",
+        "anomaly_maps": "7b2943ff03baeb86543f51b3adb1d25a4143c2e8ee8a1d0286ec837c6d5768ca",
+        "source_maps": "61870cd007032dfaa55a1923f9148fb9ab8a3f7e943de2428cbd6d9c1083268c"
+      },
+      "mask_sha256": "edab5451157db12e894c0a03631c7a778f66a5367a45f3fe957a9a307bf0ae63"
+    },
+    {
+      "id": "missing_detected",
+      "image_id": "0174183097ea8fa63bbe3153",
+      "image_path": "data/raw/stage4/pcb2/Data/Images/Anomaly/042.JPG",
+      "image_sha256": "6e0a927e28aed3e01385b860002b39d88f6d6c1a2ad4fcdaf52cd7ffebcfb2f8",
+      "mask_path": "data/raw/stage4/pcb2/Data/Masks/Anomaly/042.png",
+      "score": 3.0314815044403076,
+      "detected": true,
+      "pose_label": "canonical",
+      "maps": {
+        "model_maps": "data/cache/stage5c/model_maps/0174183097ea8fa63bbe3153.npy",
+        "anomaly_maps": "data/cache/stage5c/anomaly_maps/0174183097ea8fa63bbe3153.npy",
+        "source_maps": "data/cache/stage5c/source_maps/0174183097ea8fa63bbe3153.npy"
+      },
+      "map_hashes": {
+        "model_maps": "ba8eebc0b47e30882e8367c18f5eb6fdee77cbc20cf6ac072d32d858853c0dcb",
+        "anomaly_maps": "80be2b3ab86387cb4078d5993b7a97aec1ca15086cdb6660b58f909404b44c2e",
+        "source_maps": "6fcade57a586e3a195dadcb5064e0e585f913d112eff52ac9d0d66a8dd8333ed"
+      },
+      "mask_sha256": "07a7546c160e6ef7a3f313bae0addeaa818050fbe7e60d977f6131c986673361"
+    }
+  ]
+}

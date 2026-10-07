@@ -1,0 +1,887 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-10-07T02:38:06.366531+00:00",
+  "scientific_commit": "4abc845929bb0d67a1cf9b6882243adc8106b4ef",
+  "stages": [
+    {
+      "id": "stage-1",
+      "title": "Establish a baseline",
+      "datasetPhase": "PCB1 development",
+      "question": "Can features from normal boards detect visible PCB anomalies?",
+      "change": "Resize each image directly to 256 × 256. Extract frozen ResNet18 local features and score them against 4,096 uniformly selected normal references.",
+      "learning": "The detector picked up anomalies, but recall was low and the response maps located defects poorly.",
+      "nextQuestion": "Would preserving board shape and more local detail help?",
+      "heldConstant": "Normal-only fitting, frozen features and strict calibrated thresholds.",
+      "limits": "These are PCB1 development results. The implementation draws on PatchCore but does not reproduce all of its details.",
+      "metrics": [
+        {
+          "label": "Recall",
+          "value": 0.43,
+          "format": "percent",
+          "source": {
+            "path": "artifacts/pcb1_geometry_comparison/comparison.csv",
+            "selector": "recall",
+            "row": {
+              "column": "recipe",
+              "value": "Run1 direct256"
+            },
+            "sha256": "6212f90cb2182eb658ef58558dec0093b44e42390c6f75929a5c24835f950c06"
+          }
+        },
+        {
+          "label": "Normal FPR",
+          "value": 0.09,
+          "format": "percent",
+          "source": {
+            "path": "artifacts/pcb1_geometry_comparison/comparison.csv",
+            "selector": "fpr",
+            "row": {
+              "column": "recipe",
+              "value": "Run1 direct256"
+            },
+            "sha256": "6212f90cb2182eb658ef58558dec0093b44e42390c6f75929a5c24835f950c06"
+          }
+        },
+        {
+          "label": "Image AP",
+          "value": 0.8515676413274791,
+          "format": "decimal",
+          "source": {
+            "path": "artifacts/pcb1_geometry_comparison/comparison.csv",
+            "selector": "image_ap",
+            "row": {
+              "column": "recipe",
+              "value": "Run1 direct256"
+            },
+            "sha256": "6212f90cb2182eb658ef58558dec0093b44e42390c6f75929a5c24835f950c06"
+          }
+        },
+        {
+          "label": "Median pixel AP",
+          "value": 0.0393373782486498,
+          "format": "decimal",
+          "source": {
+            "path": "artifacts/pcb1_geometry_comparison/comparison.csv",
+            "selector": "median_pixel_ap",
+            "row": {
+              "column": "recipe",
+              "value": "Run1 direct256"
+            },
+            "sha256": "6212f90cb2182eb658ef58558dec0093b44e42390c6f75929a5c24835f950c06"
+          }
+        }
+      ],
+      "figures": [
+        {
+          "path": "artifacts/pcb1_a2/qualitative/contact_sheet_01.png",
+          "alt": "Early PCB1 anomaly responses, including weak localization",
+          "sha256": "dba40d72b6435453956e6a307a6e02c12ac393c850e4054514d9db058153d44f"
+        }
+      ],
+      "sources": [
+        {
+          "path": "artifacts/pcb1_geometry_comparison/comparison.csv",
+          "sha256": "6212f90cb2182eb658ef58558dec0093b44e42390c6f75929a5c24835f950c06",
+          "url": "https://github.com/beam-9/pcb-inspection/blob/4abc845929bb0d67a1cf9b6882243adc8106b4ef/artifacts/pcb1_geometry_comparison/comparison.csv"
+        },
+        {
+          "path": "README.md",
+          "sha256": "eaa6332d60b20527af0ac790b24bfd4a05fb9399aba5058de29bd9d4953b1e6c",
+          "url": "https://github.com/beam-9/pcb-inspection/blob/4abc845929bb0d67a1cf9b6882243adc8106b4ef/README.md"
+        }
+      ],
+      "rationale": "A fixed baseline gives later comparisons a starting score and map. Without it, we cannot attribute improvements to a particular change."
+    },
+    {
+      "id": "stage-2",
+      "title": "Preserve the board’s shape",
+      "datasetPhase": "PCB1 development",
+      "question": "What did we lose by squeezing the whole image into a square?",
+      "change": "Crop around the blue board and letterbox it without changing its proportions. Compare 256 and 512 inputs.",
+      "learning": "Preserving geometry improved detection. The 512 recipe improved localization, with more false alarms and higher compute cost.",
+      "nextQuestion": "Is reference memory now limiting detection?",
+      "heldConstant": "The frozen backbone, local scoring and budget of 4,096 references.",
+      "limits": "These crop and resolution comparisons use development data. A larger input can improve detail while worsening other results.",
+      "metrics": [
+        {
+          "label": "256 recall",
+          "value": 0.61,
+          "format": "percent",
+          "source": {
+            "path": "artifacts/pcb1_geometry_comparison/comparison.csv",
+            "selector": "recall",
+            "row": {
+              "column": "recipe",
+              "value": "C1 crop256"
+            },
+            "sha256": "6212f90cb2182eb658ef58558dec0093b44e42390c6f75929a5c24835f950c06"
+          }
+        },
+        {
+          "label": "256 normal FPR",
+          "value": 0.04,
+          "format": "percent",
+          "source": {
+            "path": "artifacts/pcb1_geometry_comparison/comparison.csv",
+            "selector": "fpr",
+            "row": {
+              "column": "recipe",
+              "value": "C1 crop256"
+            },
+            "sha256": "6212f90cb2182eb658ef58558dec0093b44e42390c6f75929a5c24835f950c06"
+          }
+        },
+        {
+          "label": "256 median pixel AP",
+          "value": 0.0968200747101784,
+          "format": "decimal",
+          "source": {
+            "path": "artifacts/pcb1_geometry_comparison/comparison.csv",
+            "selector": "median_pixel_ap",
+            "row": {
+              "column": "recipe",
+              "value": "C1 crop256"
+            },
+            "sha256": "6212f90cb2182eb658ef58558dec0093b44e42390c6f75929a5c24835f950c06"
+          }
+        },
+        {
+          "label": "512 recall",
+          "value": 0.7,
+          "format": "percent",
+          "source": {
+            "path": "artifacts/pcb1_geometry_comparison/comparison.csv",
+            "selector": "recall",
+            "row": {
+              "column": "recipe",
+              "value": "C2 crop512"
+            },
+            "sha256": "6212f90cb2182eb658ef58558dec0093b44e42390c6f75929a5c24835f950c06"
+          }
+        },
+        {
+          "label": "512 normal FPR",
+          "value": 0.12,
+          "format": "percent",
+          "source": {
+            "path": "artifacts/pcb1_geometry_comparison/comparison.csv",
+            "selector": "fpr",
+            "row": {
+              "column": "recipe",
+              "value": "C2 crop512"
+            },
+            "sha256": "6212f90cb2182eb658ef58558dec0093b44e42390c6f75929a5c24835f950c06"
+          }
+        },
+        {
+          "label": "512 median pixel AP",
+          "value": 0.35352044745421085,
+          "format": "decimal",
+          "source": {
+            "path": "artifacts/pcb1_geometry_comparison/comparison.csv",
+            "selector": "median_pixel_ap",
+            "row": {
+              "column": "recipe",
+              "value": "C2 crop512"
+            },
+            "sha256": "6212f90cb2182eb658ef58558dec0093b44e42390c6f75929a5c24835f950c06"
+          }
+        }
+      ],
+      "figures": [
+        {
+          "path": "artifacts/pcb1_geometry_comparison/comparison.png",
+          "alt": "Matched PCB1 direct-resize and cropped-recipe metric comparison",
+          "sha256": "214bb0495739599633cbe41f4f023d6b68ea505fa14c5de4aaedeb8725504974"
+        }
+      ],
+      "sources": [
+        {
+          "path": "artifacts/pcb1_geometry_comparison/comparison.csv",
+          "sha256": "6212f90cb2182eb658ef58558dec0093b44e42390c6f75929a5c24835f950c06",
+          "url": "https://github.com/beam-9/pcb-inspection/blob/4abc845929bb0d67a1cf9b6882243adc8106b4ef/artifacts/pcb1_geometry_comparison/comparison.csv"
+        }
+      ],
+      "rationale": "The weak baseline map suggested lost geometry or detail. We tested those explanations before changing the backbone or detector."
+    },
+    {
+      "id": "stage-3",
+      "title": "Improve reference coverage",
+      "datasetPhase": "PCB1 development",
+      "question": "Would better normal-reference coverage help with the same memory budget?",
+      "change": "Replace uniform selection with projected approximate-greedy selection, keeping 4,096 references.",
+      "learning": "Reference selection limited the baseline. D1 was practical; D2 was more sensitive and more expensive to run.",
+      "nextQuestion": "Will the frozen procedure work on a fresh PCB category?",
+      "heldConstant": "Crop, resolution-specific features, reference count and the one-class framework.",
+      "limits": "D1 and D2 use separate banks and calibration. This is PCB1 development, so it does not establish generalization to a fresh category.",
+      "metrics": [
+        {
+          "label": "D1 recall",
+          "value": 0.89,
+          "format": "percent",
+          "source": {
+            "path": "artifacts/pcb1_memory_selection_comparison/comparison.csv",
+            "selector": "recall",
+            "row": {
+              "column": "recipe",
+              "value": "D1 coreset256"
+            },
+            "sha256": "50349a06f4355a42066418de9a90e3cfd8f2897e9ac4df7e86716abbafa60bf9"
+          }
+        },
+        {
+          "label": "D1 normal FPR",
+          "value": 0.04,
+          "format": "percent",
+          "source": {
+            "path": "artifacts/pcb1_memory_selection_comparison/comparison.csv",
+            "selector": "fpr",
+            "row": {
+              "column": "recipe",
+              "value": "D1 coreset256"
+            },
+            "sha256": "50349a06f4355a42066418de9a90e3cfd8f2897e9ac4df7e86716abbafa60bf9"
+          }
+        },
+        {
+          "label": "D1 median pixel AP",
+          "value": 0.35290586236314053,
+          "format": "decimal",
+          "source": {
+            "path": "artifacts/pcb1_memory_selection_comparison/comparison.csv",
+            "selector": "median_pixel_ap",
+            "row": {
+              "column": "recipe",
+              "value": "D1 coreset256"
+            },
+            "sha256": "50349a06f4355a42066418de9a90e3cfd8f2897e9ac4df7e86716abbafa60bf9"
+          }
+        },
+        {
+          "label": "D2 recall",
+          "value": 0.95,
+          "format": "percent",
+          "source": {
+            "path": "artifacts/pcb1_memory_selection_comparison/comparison.csv",
+            "selector": "recall",
+            "row": {
+              "column": "recipe",
+              "value": "D2 coreset512"
+            },
+            "sha256": "50349a06f4355a42066418de9a90e3cfd8f2897e9ac4df7e86716abbafa60bf9"
+          }
+        },
+        {
+          "label": "D2 normal FPR",
+          "value": 0.11,
+          "format": "percent",
+          "source": {
+            "path": "artifacts/pcb1_memory_selection_comparison/comparison.csv",
+            "selector": "fpr",
+            "row": {
+              "column": "recipe",
+              "value": "D2 coreset512"
+            },
+            "sha256": "50349a06f4355a42066418de9a90e3cfd8f2897e9ac4df7e86716abbafa60bf9"
+          }
+        },
+        {
+          "label": "D2 median pixel AP",
+          "value": 0.534819595317216,
+          "format": "decimal",
+          "source": {
+            "path": "artifacts/pcb1_memory_selection_comparison/comparison.csv",
+            "selector": "median_pixel_ap",
+            "row": {
+              "column": "recipe",
+              "value": "D2 coreset512"
+            },
+            "sha256": "50349a06f4355a42066418de9a90e3cfd8f2897e9ac4df7e86716abbafa60bf9"
+          }
+        }
+      ],
+      "figures": [
+        {
+          "path": "artifacts/pcb1_memory_selection_comparison/journey.png",
+          "alt": "PCB1 uniform and representative-memory comparison",
+          "sha256": "5d18670a35951565cad3e216f441df2a17f8f762618c14da3cc7f2c88c58dea8"
+        }
+      ],
+      "sources": [
+        {
+          "path": "artifacts/pcb1_memory_selection_comparison/comparison.csv",
+          "sha256": "50349a06f4355a42066418de9a90e3cfd8f2897e9ac4df7e86716abbafa60bf9",
+          "url": "https://github.com/beam-9/pcb-inspection/blob/4abc845929bb0d67a1cf9b6882243adc8106b4ef/artifacts/pcb1_memory_selection_comparison/comparison.csv"
+        },
+        {
+          "path": "docs/journey/stage_03_memory_selection.md",
+          "sha256": "e250ab1763c7c015f3a484a28e756d186f46955b58aeedd0a3b5bdcfd2c1bcd9",
+          "url": "https://github.com/beam-9/pcb-inspection/blob/4abc845929bb0d67a1cf9b6882243adc8106b4ef/docs/journey/stage_03_memory_selection.md"
+        }
+      ],
+      "rationale": "At a fixed bank size, which patches we keep can matter as much as how many we keep. This comparison holds features, geometry and normal-only calibration fixed."
+    },
+    {
+      "id": "stage-4",
+      "title": "Test a fresh PCB category",
+      "datasetPhase": "PCB2 fresh confirmation",
+      "question": "Does the frozen procedure hold up on another PCB category?",
+      "change": "Introduce the previously untouched PCB2 category. Use the frozen procedure to fit its normal bank and calibrate on its normal split.",
+      "learning": "Image-level detection transferred well. The localization maps became broader and less precise.",
+      "nextQuestion": "Why are the maps broad, and why are small or missing defects hard to detect?",
+      "heldConstant": "Feature extraction, scoring, selection and geometry procedures; normal-only adaptation and the frozen evaluation protocol.",
+      "limits": "This is category-adapted confirmation, not zero-shot testing. PCB1 and PCB2 results come from different test populations.",
+      "metrics": [
+        {
+          "label": "D1 recall",
+          "value": 0.8,
+          "format": "percent",
+          "source": {
+            "path": "artifacts/stage4/pcb2_d1_primary/metrics.json",
+            "selector": [
+              "image",
+              "recall"
+            ],
+            "row": null,
+            "sha256": "1a6d537bb1ffab9b656f714e90ded3875a15dabb156d580e00c02b98a5fb5d1e"
+          }
+        },
+        {
+          "label": "D1 normal FPR",
+          "value": 0.05,
+          "format": "percent",
+          "source": {
+            "path": "artifacts/stage4/pcb2_d1_primary/metrics.json",
+            "selector": [
+              "image",
+              "normal_false_alarm_rate"
+            ],
+            "row": null,
+            "sha256": "1a6d537bb1ffab9b656f714e90ded3875a15dabb156d580e00c02b98a5fb5d1e"
+          }
+        },
+        {
+          "label": "D1 pooled pixel AP",
+          "value": 0.15338704972139622,
+          "format": "decimal",
+          "source": {
+            "path": "artifacts/stage4/pcb2_d1_primary/metrics.json",
+            "selector": [
+              "localization_common256",
+              "pixel_average_precision"
+            ],
+            "row": null,
+            "sha256": "1a6d537bb1ffab9b656f714e90ded3875a15dabb156d580e00c02b98a5fb5d1e"
+          }
+        },
+        {
+          "label": "D2 recall",
+          "value": 0.91,
+          "format": "percent",
+          "source": {
+            "path": "artifacts/stage4/pcb2_d2_secondary/metrics.json",
+            "selector": [
+              "image",
+              "recall"
+            ],
+            "row": null,
+            "sha256": "3d64f4dac7ac551f9995b76f42b2620f17c6ea768602774d5f5e599acaf78d0b"
+          }
+        },
+        {
+          "label": "D2 normal FPR",
+          "value": 0.04,
+          "format": "percent",
+          "source": {
+            "path": "artifacts/stage4/pcb2_d2_secondary/metrics.json",
+            "selector": [
+              "image",
+              "normal_false_alarm_rate"
+            ],
+            "row": null,
+            "sha256": "3d64f4dac7ac551f9995b76f42b2620f17c6ea768602774d5f5e599acaf78d0b"
+          }
+        },
+        {
+          "label": "D2 pooled pixel AP",
+          "value": 0.2766434708060562,
+          "format": "decimal",
+          "source": {
+            "path": "artifacts/stage4/pcb2_d2_secondary/metrics.json",
+            "selector": [
+              "localization_common256",
+              "pixel_average_precision"
+            ],
+            "row": null,
+            "sha256": "3d64f4dac7ac551f9995b76f42b2620f17c6ea768602774d5f5e599acaf78d0b"
+          }
+        }
+      ],
+      "figures": [
+        {
+          "path": "artifacts/stage4/comparison/figures/journey.png",
+          "alt": "Fresh PCB2 D1 and D2 evidence",
+          "sha256": "994b49e658ff228726c243aad201e93b679b38821caf6676cc731a5fd6c85c36"
+        }
+      ],
+      "sources": [
+        {
+          "path": "artifacts/stage4/pcb2_d1_primary/metrics.json",
+          "sha256": "1a6d537bb1ffab9b656f714e90ded3875a15dabb156d580e00c02b98a5fb5d1e",
+          "url": "https://github.com/beam-9/pcb-inspection/blob/4abc845929bb0d67a1cf9b6882243adc8106b4ef/artifacts/stage4/pcb2_d1_primary/metrics.json"
+        },
+        {
+          "path": "artifacts/stage4/pcb2_d2_secondary/metrics.json",
+          "sha256": "3d64f4dac7ac551f9995b76f42b2620f17c6ea768602774d5f5e599acaf78d0b",
+          "url": "https://github.com/beam-9/pcb-inspection/blob/4abc845929bb0d67a1cf9b6882243adc8106b4ef/artifacts/stage4/pcb2_d2_secondary/metrics.json"
+        },
+        {
+          "path": "docs/journey/stage_04_pcb2_confirmation.md",
+          "sha256": "e1d56ba871d4dfa9365216ed502f9965a272103d2084dc9e63140e1f498e21a1",
+          "url": "https://github.com/beam-9/pcb-inspection/blob/4abc845929bb0d67a1cf9b6882243adc8106b4ef/docs/journey/stage_04_pcb2_confirmation.md"
+        }
+      ],
+      "rationale": "PCB1 had already guided development. Testing fresh PCB2 data checks whether the procedure works beyond the category used to develop it."
+    },
+    {
+      "id": "stage-5a",
+      "title": "Investigate the pose failure",
+      "datasetPhase": "PCB2 post-confirmation development",
+      "question": "Which failure can we address while keeping other variables fixed?",
+      "change": "Analyze saved pose groups, reference matches and small-defect results. Leave the detector unchanged.",
+      "learning": "Reversed boards accounted for much of the broad false-positive response. Canonical missing-defect failures remained; distant reference locations did not distinguish those failures.",
+      "nextQuestion": "Can exact orientation correction remove the broad response?",
+      "heldConstant": "Historical D1/D2 detectors, outputs, masks, thresholds and evaluation population.",
+      "limits": "There were only five reversed anomalies and no reversed normal controls. The association alone does not prove the cause.",
+      "metrics": [
+        {
+          "label": "D1 FP burden from 5 reversed cases",
+          "value": 0.288000454602458,
+          "format": "percent",
+          "source": {
+            "path": "artifacts/stage5a/combined/per_image_diagnostics.csv",
+            "sha256": "0d862edc2a7e9741556bd6ce75a53c7a3505bfee0e7bd7819e365771d07c37d8",
+            "computation": "sum(d1_common_fp_pixels where pose_label=reversed_180)/sum(d1_common_fp_pixels)"
+          }
+        },
+        {
+          "label": "D2 FP burden from 5 reversed cases",
+          "value": 0.29837865064666624,
+          "format": "percent",
+          "source": {
+            "path": "artifacts/stage5a/combined/per_image_diagnostics.csv",
+            "sha256": "0d862edc2a7e9741556bd6ce75a53c7a3505bfee0e7bd7819e365771d07c37d8",
+            "computation": "sum(d2_common_fp_pixels where pose_label=reversed_180)/sum(d2_common_fp_pixels)"
+          }
+        }
+      ],
+      "figures": [
+        {
+          "path": "artifacts/stage5a/pose/pose_fp_pixels.png",
+          "alt": "False-positive burden by image-only pose label",
+          "sha256": "ab2e9b9928560f273a20c14d16e7b79f2e411064e1d79f664cf0c89da0150d96"
+        }
+      ],
+      "sources": [
+        {
+          "path": "artifacts/stage5a/combined/per_image_diagnostics.csv",
+          "sha256": "0d862edc2a7e9741556bd6ce75a53c7a3505bfee0e7bd7819e365771d07c37d8",
+          "url": "https://github.com/beam-9/pcb-inspection/blob/4abc845929bb0d67a1cf9b6882243adc8106b4ef/artifacts/stage5a/combined/per_image_diagnostics.csv"
+        },
+        {
+          "path": "docs/journey/stage_05a_failure_diagnosis.md",
+          "sha256": "3a4206664812eecbbafe98f2408b4d676bd0dc77ce996406859022471389d7f4",
+          "url": "https://github.com/beam-9/pcb-inspection/blob/4abc845929bb0d67a1cf9b6882243adc8106b4ef/docs/journey/stage_05a_failure_diagnosis.md"
+        }
+      ],
+      "rationale": "The new category exposed a possible orientation problem. We examined pose groups and saved maps before choosing a correction."
+    },
+    {
+      "id": "stage-5b",
+      "title": "Correct pose and check the cost",
+      "datasetPhase": "PCB2 post-confirmation development",
+      "question": "Can an image-only cue identify and correct confidently reversed boards?",
+      "change": "Reverse the crop exactly 180° before the unchanged 256 detector. Leave canonical and uncertain inputs unchanged.",
+      "learning": "The broad pose response fell sharply, but the detector lost one small missing-component detection.",
+      "nextQuestion": "Can the 512 recipe keep the cleaner response and recover that case?",
+      "heldConstant": "Each historical recipe’s bank, crop, thresholds, masks and scoring. All 195 unchanged-pose outputs remain exact.",
+      "limits": "These five cases are exposed development evidence. The 512 rescue has a small margin, and D1/D2 comparisons cannot attribute the result to resolution alone.",
+      "metrics": [
+        {
+          "label": "Reversed FP pixels before",
+          "value": 146977,
+          "format": "integer",
+          "source": {
+            "path": "artifacts/stage5b/results/modified_d1_metrics.json",
+            "selector": [
+              "reversed",
+              "historical_total_fp_pixels"
+            ],
+            "row": null,
+            "sha256": "e245ddb8d1dc80488865d80a95c81ab63995215d40f815025a2a9f589321d412"
+          }
+        },
+        {
+          "label": "Reversed FP pixels after",
+          "value": 18157,
+          "format": "integer",
+          "source": {
+            "path": "artifacts/stage5b/results/modified_d1_metrics.json",
+            "selector": [
+              "reversed",
+              "normalized_total_fp_pixels"
+            ],
+            "row": null,
+            "sha256": "e245ddb8d1dc80488865d80a95c81ab63995215d40f815025a2a9f589321d412"
+          }
+        },
+        {
+          "label": "Reversed detections after",
+          "value": 4,
+          "format": "integer",
+          "source": {
+            "path": "artifacts/stage5b/results/modified_d1_metrics.json",
+            "selector": [
+              "reversed",
+              "detected"
+            ],
+            "row": null,
+            "sha256": "e245ddb8d1dc80488865d80a95c81ab63995215d40f815025a2a9f589321d412"
+          }
+        },
+        {
+          "label": "Overall recall",
+          "value": 0.79,
+          "format": "percent",
+          "source": {
+            "path": "artifacts/stage5b/results/modified_d1_metrics.json",
+            "selector": [
+              "image",
+              "recall"
+            ],
+            "row": null,
+            "sha256": "e245ddb8d1dc80488865d80a95c81ab63995215d40f815025a2a9f589321d412"
+          }
+        },
+        {
+          "label": "Normal FPR",
+          "value": 0.05,
+          "format": "percent",
+          "source": {
+            "path": "artifacts/stage5b/results/modified_d1_metrics.json",
+            "selector": [
+              "image",
+              "normal_false_alarm_rate"
+            ],
+            "row": null,
+            "sha256": "e245ddb8d1dc80488865d80a95c81ab63995215d40f815025a2a9f589321d412"
+          }
+        }
+      ],
+      "figures": [
+        {
+          "path": "artifacts/stage5b/figures/reversed_before_after.png",
+          "alt": "All five reversed boards before and after pose normalization on shared scales",
+          "sha256": "715933c9be8f5b34d0a341c2a86d1a7cbe27191bc1614f91992ec200dda650c3"
+        }
+      ],
+      "sources": [
+        {
+          "path": "artifacts/stage5b/results/modified_d1_metrics.json",
+          "sha256": "e245ddb8d1dc80488865d80a95c81ab63995215d40f815025a2a9f589321d412",
+          "url": "https://github.com/beam-9/pcb-inspection/blob/4abc845929bb0d67a1cf9b6882243adc8106b4ef/artifacts/stage5b/results/modified_d1_metrics.json"
+        },
+        {
+          "path": "docs/journey/stage_05b_orientation_normalization.md",
+          "sha256": "def16f1dcae660a237313f67883a984908fa0bfdfd9d32112eb78d778654ade4",
+          "url": "https://github.com/beam-9/pcb-inspection/blob/4abc845929bb0d67a1cf9b6882243adc8106b4ef/docs/journey/stage_05b_orientation_normalization.md"
+        }
+      ],
+      "rationale": "The evidence pointed to a 180-degree ambiguity. A decisive image-only cue supports exact reversal; it does not support estimating arbitrary rotation angles."
+    },
+    {
+      "id": "stage-5c",
+      "title": "Recover the lost detection",
+      "datasetPhase": "PCB2 post-confirmation development",
+      "question": "Can the 512 recipe preserve detection while correcting reversed boards?",
+      "change": "Reverse the crop exactly 180° before the unchanged 512 detector. Leave canonical and uncertain inputs unchanged.",
+      "learning": "The 512 orientation recipe kept all five reversed detections and recovered the case lost at 256, while reducing the broad response.",
+      "nextQuestion": "Why does the detector still miss canonical missing and small defects?",
+      "heldConstant": "Each historical recipe’s bank, crop, thresholds, masks and scoring. All 195 unchanged-pose outputs remain exact.",
+      "limits": "These five cases are exposed development evidence. The recovered case sits close to the threshold, and the comparison does not isolate resolution from the other D1/D2 differences.",
+      "metrics": [
+        {
+          "label": "Reversed FP pixels before",
+          "value": 97150,
+          "format": "integer",
+          "source": {
+            "path": "artifacts/stage5c/results/full_metrics.json",
+            "selector": [
+              "reversed",
+              "historical_total_fp_pixels"
+            ],
+            "row": null,
+            "sha256": "65588ef077a494acff2356b0aeefd48c9829045877efe751f1ca5dc28ea2a28d"
+          }
+        },
+        {
+          "label": "Reversed FP pixels after",
+          "value": 10730,
+          "format": "integer",
+          "source": {
+            "path": "artifacts/stage5c/results/full_metrics.json",
+            "selector": [
+              "reversed",
+              "normalized_total_fp_pixels"
+            ],
+            "row": null,
+            "sha256": "65588ef077a494acff2356b0aeefd48c9829045877efe751f1ca5dc28ea2a28d"
+          }
+        },
+        {
+          "label": "Reversed detections after",
+          "value": 5,
+          "format": "integer",
+          "source": {
+            "path": "artifacts/stage5c/results/full_metrics.json",
+            "selector": [
+              "reversed",
+              "detected"
+            ],
+            "row": null,
+            "sha256": "65588ef077a494acff2356b0aeefd48c9829045877efe751f1ca5dc28ea2a28d"
+          }
+        },
+        {
+          "label": "Overall recall",
+          "value": 0.91,
+          "format": "percent",
+          "source": {
+            "path": "artifacts/stage5c/results/full_metrics.json",
+            "selector": [
+              "image",
+              "recall"
+            ],
+            "row": null,
+            "sha256": "65588ef077a494acff2356b0aeefd48c9829045877efe751f1ca5dc28ea2a28d"
+          }
+        },
+        {
+          "label": "Normal FPR",
+          "value": 0.04,
+          "format": "percent",
+          "source": {
+            "path": "artifacts/stage5c/results/full_metrics.json",
+            "selector": [
+              "image",
+              "normal_false_alarm_rate"
+            ],
+            "row": null,
+            "sha256": "65588ef077a494acff2356b0aeefd48c9829045877efe751f1ca5dc28ea2a28d"
+          }
+        }
+      ],
+      "figures": [
+        {
+          "path": "artifacts/stage5c/figures/reversed_d2_before_after.png",
+          "alt": "All five reversed boards before and after pose normalization on shared scales",
+          "sha256": "c5b4102b4b598b2e3c4d81a10e89b9c5f80a49208bdeed9c807164fb0c4b7e67"
+        }
+      ],
+      "sources": [
+        {
+          "path": "artifacts/stage5c/results/full_metrics.json",
+          "sha256": "65588ef077a494acff2356b0aeefd48c9829045877efe751f1ca5dc28ea2a28d",
+          "url": "https://github.com/beam-9/pcb-inspection/blob/4abc845929bb0d67a1cf9b6882243adc8106b4ef/artifacts/stage5c/results/full_metrics.json"
+        },
+        {
+          "path": "docs/journey/stage_05c_orientation_512.md",
+          "sha256": "ab45e12328431142c14e6b86970ca5ab0b79ec0c9090ffff8de0d03dfd562b72",
+          "url": "https://github.com/beam-9/pcb-inspection/blob/4abc845929bb0d67a1cf9b6882243adc8106b4ef/docs/journey/stage_05c_orientation_512.md"
+        }
+      ],
+      "rationale": "Pose correction at 256 cost us a detection. We checked the higher-detail 512 recipe with D2 memory to see whether correction could preserve the signal."
+    },
+    {
+      "id": "stage-6a",
+      "title": "Examine the misses before stopping",
+      "datasetPhase": "PCB2 post-confirmation development",
+      "question": "Do the remaining failures justify one final model change?",
+      "change": "Examine 36 fixed anomalies: canonical missing cases, all R1/R2 cases and the marginal reversed rescue.",
+      "learning": "Most misses already ranked an annotated patch first, but their scores stayed below the decision threshold. The results did not point to one clear change in backbone, resolution, aggregation or operating policy.",
+      "nextQuestion": "Freeze this candidate. Future research needs a new version and, where practical, an untouched category.",
+      "heldConstant": "All detector code, memory, thresholds and scoring. This stage is diagnosis only; there is no Stage 6B experiment.",
+      "limits": "An annotated patch’s grid footprint is not its receptive field. Union masks and exposed data limit causal claims; a high rank alone does not prove adequate features.",
+      "metrics": [
+        {
+          "label": "Distinct target misses",
+          "value": 9,
+          "format": "integer",
+          "source": {
+            "path": "artifacts/stage6a/decision_gate.json",
+            "selector": [
+              "distinct_target_misses"
+            ],
+            "row": null,
+            "sha256": "ba7c9f913db1eb3982b08fa95362f979daa5ff4fa0a19e001c9df8764473f2d4"
+          }
+        },
+        {
+          "label": "Misses with GT patch ranked #1",
+          "value": 7,
+          "format": "integer",
+          "source": {
+            "path": "artifacts/stage6a/decision_gate.json",
+            "selector": [
+              "gt_peak_rank1_misses"
+            ],
+            "row": null,
+            "sha256": "ba7c9f913db1eb3982b08fa95362f979daa5ff4fa0a19e001c9df8764473f2d4"
+          }
+        },
+        {
+          "label": "Smallest score / threshold",
+          "value": 0.9174339403938256,
+          "format": "decimal",
+          "source": {
+            "path": "artifacts/stage6a/decision_gate.json",
+            "selector": [
+              "miss_image_ratio_range",
+              0
+            ],
+            "row": null,
+            "sha256": "ba7c9f913db1eb3982b08fa95362f979daa5ff4fa0a19e001c9df8764473f2d4"
+          }
+        },
+        {
+          "label": "Largest score / threshold",
+          "value": 0.9937052307931596,
+          "format": "decimal",
+          "source": {
+            "path": "artifacts/stage6a/decision_gate.json",
+            "selector": [
+              "miss_image_ratio_range",
+              1
+            ],
+            "row": null,
+            "sha256": "ba7c9f913db1eb3982b08fa95362f979daa5ff4fa0a19e001c9df8764473f2d4"
+          }
+        }
+      ],
+      "figures": [
+        {
+          "path": "artifacts/stage6a/figures/patch_rank_distribution.png",
+          "alt": "GT patch ranks for detected and missed target groups",
+          "sha256": "972719924a4cec43f8a315de7cb3ee4ba866a4876c3c98b94a542ddef7dc0032"
+        }
+      ],
+      "sources": [
+        {
+          "path": "artifacts/stage6a/decision_gate.json",
+          "sha256": "ba7c9f913db1eb3982b08fa95362f979daa5ff4fa0a19e001c9df8764473f2d4",
+          "url": "https://github.com/beam-9/pcb-inspection/blob/4abc845929bb0d67a1cf9b6882243adc8106b4ef/artifacts/stage6a/decision_gate.json"
+        },
+        {
+          "path": "artifacts/stage6a/case_diagnosis.csv",
+          "sha256": "046d8f6e9784e3d7845105a89bd358d945fb5aa3d0b002f0ed773d4f54b1c050",
+          "url": "https://github.com/beam-9/pcb-inspection/blob/4abc845929bb0d67a1cf9b6882243adc8106b4ef/artifacts/stage6a/case_diagnosis.csv"
+        },
+        {
+          "path": "docs/journey/stage_06_final_model_selection.md",
+          "sha256": "c7e74c4a8c2887fa3fa21d08d5ff031d76f1da84ed5071d0d7584fe1b2061300",
+          "url": "https://github.com/beam-9/pcb-inspection/blob/4abc845929bb0d67a1cf9b6882243adc8106b4ef/docs/journey/stage_06_final_model_selection.md"
+        }
+      ],
+      "rationale": "PCB2 had already influenced development, so further tuning could chase these examples. We examined the misses without changing the detector and looked for one supported mechanism."
+    },
+    {
+      "id": "model-v1",
+      "title": "Freeze the selected recipe",
+      "datasetPhase": "PCB2 post-confirmation development",
+      "question": "Can we make the selected detector reproducible and easy to inspect?",
+      "change": "Record Stage 5C D2 + orientation as PCB-AD-v1.0. Add a verified inference wrapper with the model unchanged.",
+      "learning": "The interface makes the frozen model’s results and remaining failures available for review.",
+      "nextQuestion": "Put future experiments in v1.1/v2.0 and keep v1.0’s detector unchanged.",
+      "heldConstant": "Exact scientific code identities, ordered bank, cached pretrained weights, pose handling, score and thresholds.",
+      "limits": "This is a research portfolio, with no certification or factory validation. A no-flag result can still miss a defect.",
+      "metrics": [
+        {
+          "label": "PCB2 recall",
+          "value": 0.91,
+          "format": "percent",
+          "source": {
+            "path": "artifacts/stage5c/results/full_metrics.json",
+            "selector": [
+              "image",
+              "recall"
+            ],
+            "row": null,
+            "sha256": "65588ef077a494acff2356b0aeefd48c9829045877efe751f1ca5dc28ea2a28d"
+          }
+        },
+        {
+          "label": "Normal FPR",
+          "value": 0.04,
+          "format": "percent",
+          "source": {
+            "path": "artifacts/stage5c/results/full_metrics.json",
+            "selector": [
+              "image",
+              "normal_false_alarm_rate"
+            ],
+            "row": null,
+            "sha256": "65588ef077a494acff2356b0aeefd48c9829045877efe751f1ca5dc28ea2a28d"
+          }
+        },
+        {
+          "label": "AUROC",
+          "value": 0.9692999999999999,
+          "format": "decimal",
+          "source": {
+            "path": "artifacts/stage5c/results/full_metrics.json",
+            "selector": [
+              "image",
+              "auroc"
+            ],
+            "row": null,
+            "sha256": "65588ef077a494acff2356b0aeefd48c9829045877efe751f1ca5dc28ea2a28d"
+          }
+        },
+        {
+          "label": "Pooled pixel AP",
+          "value": 0.44493679172757256,
+          "format": "decimal",
+          "source": {
+            "path": "artifacts/stage5c/results/full_metrics.json",
+            "selector": [
+              "localization_common256",
+              "pixel_average_precision"
+            ],
+            "row": null,
+            "sha256": "65588ef077a494acff2356b0aeefd48c9829045877efe751f1ca5dc28ea2a28d"
+          }
+        }
+      ],
+      "figures": [
+        {
+          "path": "artifacts/stage6a/figures/marginal_rescue_comparison.png",
+          "alt": "Historical and normalized maps of the marginal reversed rescue",
+          "sha256": "0781a3025066cb50a2a686be96b2f7fe6f1659af0aab89354bcfe68c46eba75f"
+        }
+      ],
+      "sources": [
+        {
+          "path": "artifacts/model_v1/final_model_receipt.json",
+          "sha256": "02fbb5065a367a39b6bbc3a794db77c795e5101c5659b6371d9765ee0eb7f1c8",
+          "url": "/evidence/artifacts/model_v1/final_model_receipt.json"
+        },
+        {
+          "path": "artifacts/stage5c/results/full_metrics.json",
+          "sha256": "65588ef077a494acff2356b0aeefd48c9829045877efe751f1ca5dc28ea2a28d",
+          "url": "https://github.com/beam-9/pcb-inspection/blob/4abc845929bb0d67a1cf9b6882243adc8106b4ef/artifacts/stage5c/results/full_metrics.json"
+        }
+      ],
+      "rationale": "Freeze the chosen recipe so interface changes cannot silently alter the scientific result. New research requires a new version and an explicit evaluation boundary."
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "examples": [
+    {
+      "id": "canonical_normal",
+      "title": "Canonical normal",
+      "description": "A held-out normal board. No defect annotation is available.",
+      "kind": "normal",
+      "thumbnail": "/assets/canonical_normal.jpg",
+      "saved_heatmap": "/assets/canonical_normal_heatmap.png",
+      "annotated": false,
+      "source": "VisA PCB2 benchmark; originally saved Stage5C evaluation",
+      "saved_score": 2.0410783290863037,
+      "saved_pose": "canonical",
+      "saved_detected": false,
+      "score_source": "tests/model_v1_smoke_manifest.json"
+    },
+    {
+      "id": "canonical_anomaly",
+      "title": "Visible anomaly",
+      "description": "A detected anomaly on a canonical board, with a union annotation.",
+      "kind": "anomaly",
+      "thumbnail": "/assets/canonical_anomaly.jpg",
+      "saved_heatmap": "/assets/canonical_anomaly_heatmap.png",
+      "annotated": true,
+      "source": "VisA PCB2 benchmark; originally saved Stage5C evaluation",
+      "saved_score": 2.250951051712036,
+      "saved_pose": "canonical",
+      "saved_detected": true,
+      "score_source": "tests/model_v1_smoke_manifest.json"
+    },
+    {
+      "id": "reversed_anomaly",
+      "title": "Reversed · marginal rescue",
+      "description": "The reversed board whose detection was recovered with a small margin above the threshold.",
+      "kind": "reversed",
+      "thumbnail": "/assets/reversed_anomaly.jpg",
+      "saved_heatmap": "/assets/reversed_anomaly_heatmap.png",
+      "annotated": true,
+      "source": "VisA PCB2 benchmark; originally saved Stage5C evaluation",
+      "saved_score": 2.092276811599731,
+      "saved_pose": "reversed_180",
+      "saved_detected": true,
+      "score_source": "tests/model_v1_smoke_manifest.json"
+    },
+    {
+      "id": "uncertain_pose",
+      "title": "Uncertain orientation",
+      "description": "The orientation cue is uncertain, so the model leaves this crop unchanged.",
+      "kind": "uncertain",
+      "thumbnail": "/assets/uncertain_pose.jpg",
+      "saved_heatmap": "/assets/uncertain_pose_heatmap.png",
+      "annotated": true,
+      "source": "VisA PCB2 benchmark; originally saved Stage5C evaluation",
+      "saved_score": 2.828041076660156,
+      "saved_pose": "uncertain",
+      "saved_detected": true,
+      "score_source": "tests/model_v1_smoke_manifest.json"
+    },
+    {
+      "id": "known_small_missing_miss",
+      "title": "Known limitation · missing",
+      "description": "The detector misses this missing-label anomaly. Compare its response with the annotation.",
+      "kind": "limitation",
+      "thumbnail": "/assets/known_small_missing_miss.jpg",
+      "saved_heatmap": "/assets/known_small_missing_miss_heatmap.png",
+      "annotated": true,
+      "source": "VisA PCB2 benchmark; originally saved Stage5C evaluation",
+      "saved_score": 2.0472028255462646,
+      "saved_pose": "canonical",
+      "saved_detected": false,
+      "score_source": "tests/model_v1_smoke_manifest.json"
+    },
+    {
+      "id": "missing_detected",
+      "title": "Missing-label detection",
+      "description": "A missing-label anomaly the detector flags, with a union annotation.",
+      "kind": "missing",
+      "thumbnail": "/assets/missing_detected.jpg",
+      "saved_heatmap": "/assets/missing_detected_heatmap.png",
+      "annotated": true,
+      "source": "VisA PCB2 benchmark; originally saved Stage5C evaluation",
+      "saved_score": 3.0314815044403076,
+      "saved_pose": "canonical",
+      "saved_detected": true,
+      "score_source": "tests/model_v1_smoke_manifest.json"
+    }
+  ],
+  "attribution": "VisA dataset (Amazon Science), PCB2; original image sources are retained in the smoke manifest.",
+  "dataset_url": "https://github.com/amazon-science/spot-diff"
+}

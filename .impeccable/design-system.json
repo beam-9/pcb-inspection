@@ -1,0 +1,602 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-07T21:16:30.322705+00:00",
+  "title": "Design System: PCB–AD",
+  "sources": [
+    "web/src/app.css",
+    "web/src/App.jsx",
+    "web/index.html",
+    ".impeccable/surface-brief.md",
+    ".impeccable/mocks/comp-b.json",
+    "content/purpose.json",
+    "content/journey.json",
+    "web/build.mjs",
+    "web/vercel.json",
+    "web/src/EvidenceReader.jsx"
+  ],
+  "extensions": {
+    "colorMeta": {
+      "rust": {
+        "role": "primary",
+        "displayName": "Rust"
+      },
+      "sage": {
+        "role": "secondary",
+        "displayName": "Sage"
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Warm Paper"
+      },
+      "plate": {
+        "role": "neutral",
+        "displayName": "Charcoal Plate"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Editorial display",
+        "purpose": "Primary headings; italic phrases share the same family."
+      },
+      "control": {
+        "displayName": "Instrument text",
+        "purpose": "Readable operations and navigation."
+      }
+    },
+    "shadows": [],
+    "elevation": {
+      "strategy": "Flat tonal surfaces and fine rules.",
+      "navigationCurrent": "box-shadow: inset 0 -2px var(--rust)"
+    },
+    "focus": {
+      "shared": "outline: 3px solid var(--rust); outline-offset: 4px",
+      "targets": [
+        "a",
+        "button",
+        "input",
+        "select",
+        "summary"
+      ],
+      "result": "outline: 2px solid var(--sage); outline-offset: 5px",
+      "resultBehavior": "Result status is programmatically focused after inference; tabIndex=-1."
+    },
+    "motion": [
+      {
+        "name": "route-entry",
+        "value": {
+          "initial": {
+            "opacity": 1,
+            "x": 8
+          },
+          "animate": {
+            "opacity": 1,
+            "x": 0
+          },
+          "exit": {
+            "opacity": 0
+          },
+          "duration": 0.16
+        },
+        "purpose": "Visible route entrance; reduced-motion x and duration become 0."
+      },
+      {
+        "name": "home-plate-entry",
+        "value": {
+          "initial": {
+            "opacity": 1,
+            "y": 12
+          },
+          "animate": {
+            "opacity": 1,
+            "y": 0
+          },
+          "duration": 0.45
+        },
+        "purpose": "Visible plate entrance; MotionConfig governs reduced-motion transforms."
+      },
+      {
+        "name": "image-view-selection",
+        "value": {
+          "layoutId": "image-view",
+          "type": "spring",
+          "stiffness": 400,
+          "damping": 35
+        },
+        "purpose": "Shared selector backing follows the active image view."
+      },
+      {
+        "name": "result-image",
+        "value": {
+          "initial": {
+            "opacity": 0
+          },
+          "animate": {
+            "opacity": 1
+          },
+          "duration": 0.25
+        },
+        "purpose": "Image result fade; reduced-motion duration is 0."
+      },
+      {
+        "name": "decision-entry",
+        "value": {
+          "initial": {
+            "opacity": 0,
+            "y": 8
+          },
+          "animate": {
+            "opacity": 1,
+            "y": 0
+          }
+        },
+        "purpose": "Decision appearance uses Framer Motion default transition; reduced-motion y becomes 0."
+      },
+      {
+        "name": "journey-reading-progress",
+        "value": {
+          "from": {
+            "scaleX": 0
+          },
+          "to": {
+            "scaleX": 1
+          },
+          "ease": "none",
+          "trigger": "journey root",
+          "start": "top 20%",
+          "end": "bottom bottom",
+          "scrub": 0.2,
+          "reducedMotionScrub": true,
+          "invalidateOnRefresh": true
+        },
+        "purpose": "Rust reading progress line; reduced motion tracks scroll immediately."
+      },
+      {
+        "name": "journey-stage-jump",
+        "value": {
+          "duration": 0.65,
+          "ease": "power2.inOut",
+          "scrollTo": {
+            "target": "selected journey row",
+            "offsetY": "wayfinding height + 24px",
+            "autoKill": true
+          },
+          "overwrite": "auto",
+          "reducedMotionDuration": 0
+        },
+        "purpose": "Jump to selected stage and focus its heading link with preventScroll on completion."
+      }
+    ],
+    "reducedMotion": {
+      "react": "MotionConfig reducedMotion=\"user\" with useReducedMotion checks for route, result and decision.",
+      "css": "@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}",
+      "note": "Home entrance remains visible at opacity 1. MotionConfig disables transform/layout motion according to user preference; default opacity behavior is retained where not explicitly shortened.",
+      "gsap": "gsap.matchMedia tracks reduce/no-preference. Reduced motion uses immediate scrub and zero-duration stage jumps."
+    },
+    "breakpoints": [
+      {
+        "name": "inspection-tight",
+        "value": "1000px"
+      },
+      {
+        "name": "home-tight",
+        "value": "900px"
+      },
+      {
+        "name": "inspection-stack",
+        "value": "760px"
+      },
+      {
+        "name": "home-stack",
+        "value": "640px"
+      }
+    ],
+    "dataVisualization": {
+      "responseLegend": {
+        "colors": [
+          "#0d0a19",
+          "#372661",
+          "#903270",
+          "#ec6c3d",
+          "#ffe793"
+        ],
+        "css": "linear-gradient(to right,#0d0a19,#372661,#903270,#ec6c3d,#ffe793)",
+        "height": "8px",
+        "labels": [
+          "0",
+          "1 · pixel threshold",
+          "2+"
+        ],
+        "meaning": "Fixed response / frozen pixel threshold; not probability or precise segmentation.",
+        "scope": "Frontend legend values; saved/backend heatmap pixels remain authoritative."
+      },
+      "thresholdOverlay": {
+        "rgba": [
+          255,
+          218,
+          88,
+          130
+        ],
+        "meaning": "Response above frozen pixel threshold"
+      },
+      "benchmarkAnnotation": {
+        "rgba": [
+          53,
+          231,
+          222,
+          175
+        ],
+        "meaning": "Benchmark union annotation, available only with ground truth"
+      },
+      "overlayOpacity": {
+        "initialPercent": 45,
+        "rangePercent": [
+          0,
+          100
+        ],
+        "availableIn": "Overlay view"
+      },
+      "numericTypography": "Tabular numerals in tables and compact stage metrics.",
+      "figureTreatment": "Real VisA boards and original saved figures; source-space proportions, captions and accessible alternatives."
+    },
+    "accessibility": {
+      "language": "en",
+      "skipLink": "Skip to content, visible on focus; targets main.",
+      "semantics": [
+        "Main navigation has an accessible label and aria-current.",
+        "View controls use aria-pressed.",
+        "Loading and processing use role=status; service/input failures use role=alert.",
+        "Completed decision uses role=status and receives focus.",
+        "Image alternatives describe original board, response or saved evidence.",
+        "Canvas accessible label identifies cyan annotation and yellow threshold response.",
+        "Native selects, ranges, checkboxes and details retain their semantics.",
+        "Journey stage navigation is labelled; each jump button has a full stage aria-label and active stage uses aria-current=step.",
+        "Stage jump completion focuses its heading link with preventScroll; the reading progress line is aria-hidden.",
+        "About sections navigation has a label and uses native hash-anchor links.",
+        "Tools table uses a caption, column scopes and row scopes; mobile stacks its existing semantic cells.",
+        "Public uploads are disabled with a visible explanation; saved-result actions and runtime labels distinguish their mode.",
+        "Source tables use focusable labelled regions, captions and scoped column headers; horizontal scroll preserves narrow-screen columns.",
+        "Reader downloads have explicit original-file wording; supplied SHA-256 identity uses a native details disclosure.",
+        "Reader loading uses role=status; fetch errors use role=alert and an explicit retry action."
+      ],
+      "controlSizes": {
+        "primaryMinimumHeight": "48px",
+        "viewMinimumHeight": "44px",
+        "desktopNavMinimumHeight": "44px",
+        "mobileNavMinimumHeight": "36px",
+        "mobileOverlayCheckboxMinimumHeight": "44px"
+      },
+      "stateCommunication": "Color is accompanied by explicit wording, captions and legends.",
+      "verificationScope": "Source extraction and supplied desktop/mobile screenshots; no new browser audit or detector run by documenter."
+    },
+    "scrollLifecycle": {
+      "scope": "JourneyScroll useGSAP with dependencies=[stages] and revertOnUpdate=true; event handler uses contextSafe.",
+      "stageTriggers": {
+        "start": "top 35%",
+        "end": "bottom 35%",
+        "events": "onEnter/onEnterBack select row; onLeaveBack selects preceding row."
+      },
+      "refresh": "Image loads and document.fonts.ready schedule requestAnimationFrame ScrollTrigger.refresh.",
+      "cleanup": "Cancel pending frame, remove image-load listeners, revert gsap.matchMedia; useGSAP reverts its scoped context."
+    },
+    "editorialPatterns": {
+      "purpose": {
+        "desktopColumns": "1.1fr 1fr",
+        "gap": "50px 75px",
+        "padding": "38px 0",
+        "margin": "40px 0",
+        "thesis": {
+          "size": "21px",
+          "lineHeight": 1.5,
+          "maxWidth": "520px"
+        },
+        "principles": "Three columns, full-width ruled row; stacks below 760px.",
+        "inspirationTreatment": "Source link plus muted independent-project boundary; Athena does not create a new visual identity.",
+        "mobile": "Single column, 28px gap, 30px vertical padding; heading 38px."
+      },
+      "methods": {
+        "count": 7,
+        "desktopColumns": "1fr 1fr",
+        "columnGap": "45px",
+        "rowPadding": "24px 0",
+        "titleSize": "22px",
+        "bodySize": "14px",
+        "reason": "Muted text with ink, 500-weight Why. lead-in.",
+        "mobile": "Single column below 760px."
+      },
+      "toolTable": {
+        "count": 8,
+        "columns": [
+          "Tool / role",
+          "What it does",
+          "Why it was used"
+        ],
+        "widths": [
+          "31%",
+          "34.5%",
+          "34.5%"
+        ],
+        "padding": "18px 14px 18px 0",
+        "fontSize": "13px",
+        "lineHeight": 1.6,
+        "provenance": "Category and recorded versions appear below the tool name in muted 11px text; caption says versions describe the recorded environment, not a new recipe.",
+        "mobile": "Below 760px, hide thead; display each row and cell as a block; remove cell borders; use full widths and 7px vertical cell padding; final reason is muted.",
+        "contentAuthority": "content/purpose.json tools and source links; scientific versions are content, not design tokens."
+      },
+      "future": {
+        "count": 5,
+        "desktopColumns": "1fr 1.7fr",
+        "gap": "65px",
+        "rowPadding": "28px 0",
+        "titleSize": "24px",
+        "status": "Sage 12px proposed/research/data status text.",
+        "labels": [
+          "Why.",
+          "Next experiment.",
+          "What would count as progress."
+        ],
+        "mobile": "Below 760px, stack columns with 12px gap and 22px title."
+      },
+      "journeyRationale": {
+        "count": 9,
+        "marginTop": "14px",
+        "text": "Muted with ink, 500-weight rationale lead-in."
+      },
+      "sectionNavigation": {
+        "anchors": [
+          "purpose",
+          "methods",
+          "future"
+        ],
+        "ariaLabel": "About sections",
+        "gap": "12px 28px",
+        "padding": "18px 0",
+        "linkMinimumHeight": "44px",
+        "scrollMarginTop": "24px",
+        "hashHandling": "Cross-page destination scrollIntoView scheduled 220ms after path/data change; normal navigation scrolls to top only without hash.",
+        "mobile": "Below 760px: gap 5px 20px, font-size 13px."
+      }
+    },
+    "servingModes": {
+      "appearance": "One shared component implementation and visual system.",
+      "local": {
+        "label": "Local research demo",
+        "uploads": "Enabled when not busy; live loopback inference.",
+        "action": "Run inspection",
+        "runtimeLabel": "Inference runtime"
+      },
+      "public": {
+        "label": "Saved evidence preview",
+        "notice": "This preview displays saved model results. To inspect an uploaded image, run the local Python app.",
+        "uploads": "Disabled, including file input; chooser ignores file drops; label explains local availability.",
+        "disabledUploadCSS": "cursor: default; opacity: .7",
+        "action": "View saved result",
+        "busyAction": "Loading saved result…",
+        "runtimeLabel": "Recorded inference runtime",
+        "metadata": "Copied JSON metadata and six hash-verified recorded benchmark results.",
+        "routeSupport": "web/vercel.json rewrites inspection, journey/stages, model, about and /read/:path* to index.html.",
+        "buildEvidence": "web/build.mjs verifies receipt artifact identities, recorded result hashes, receipt binding and source-backed copied evidence."
+      }
+    },
+    "visualVerification": {
+      "screenshots": [
+        "output/playwright/about-final-desktop.png",
+        "output/playwright/about-final-mobile.png",
+        "output/playwright/methods-desktop.png",
+        "output/playwright/methods-mobile.png",
+        "output/playwright/reader-8765-desktop.png",
+        "output/playwright/reader-8765-mobile.png",
+        "output/playwright/humanized-methods-8765-mobile.png"
+      ],
+      "observed": [
+        "Paper, serif hierarchy and fine-rule language remain coherent across added editorial sections.",
+        "Desktop purpose and methods use paired columns; the methods table retains separated role/use/reason columns.",
+        "Mobile About stacks editorial sections; Methods crop shows readable single-column method copy and stacked tool row.",
+        "Desktop reader uses shared header, editorial title, original-download row and readable centered source text.",
+        "Mobile JSON reader stacks labelled records without altering their values.",
+        "Humanized mobile methods retain the serif section title, ruled sans method headings and readable Why. paragraphs."
+      ],
+      "scope": "Screenshots supplied by parent; no browser interaction or inference performed."
+    },
+    "sourceReader": {
+      "route": "/read/<encoded source path>",
+      "modes": "Shared local/public EvidenceReader component; Vercel rewrite supports /read/:path*.",
+      "layout": {
+        "columnMaxWidth": "950px",
+        "margin": "35px auto 0",
+        "bodySize": "16px",
+        "lineHeight": 1.7,
+        "outerTitle": "clamp(42px,5vw,68px)",
+        "documentHeadingSizes": {
+          "h1": "38px",
+          "h2": "33px"
+        },
+        "actionRow": "Fine rules, 18px vertical padding, 24px gap; path wraps; download minimum height 44px."
+      },
+      "formats": {
+        "markdown": "react-markdown + remark-gfm, skipHtml; original headings, prose, lists, quotes and tables.",
+        "csv": "Papa Parse with skipEmptyLines; first row supplies scoped column headers.",
+        "json": "Labelled dl fields; key underscores display as spaces; nested objects and arrays use expanded details; arrays use ordered lists; parse failures fall back to preformatted original text.",
+        "pythonLock": "requirements.lock displays lines with == as Package / Pinned version table.",
+        "image": "Catalogued evidence image with source-title alternative text.",
+        "otherText": "Scrollable preformatted source text."
+      },
+      "tables": {
+        "region": "tabIndex=0, role=region, accessible caption/name",
+        "overflow": "overflow-x: auto",
+        "minimumWidth": "440px",
+        "fontSize": "13px",
+        "cellPadding": "12px",
+        "alignment": "Left aligned, top aligned, wrapping cell text."
+      },
+      "jsonFields": {
+        "columns": "minmax(120px,1fr) minmax(0,3fr)",
+        "gap": "24px",
+        "rowPadding": "15px 0",
+        "label": "Muted 13px",
+        "value": "14px"
+      },
+      "preformatted": {
+        "background": "#e9e5db",
+        "padding": "20px",
+        "fontSize": "13px",
+        "lineHeight": 1.65,
+        "overflow": "auto"
+      },
+      "mobile": {
+        "breakpoint": "760px",
+        "actions": "Stacked with 8px gap.",
+        "body": "15px",
+        "documentH1": "32px",
+        "jsonFields": "Single column with 8px gap; nested fields inset 12px."
+      },
+      "sourceIdentity": {
+        "label": "File identity (SHA-256)",
+        "presentation": "12px muted details disclosure; code wraps anywhere.",
+        "availability": "Shown where catalogue metadata supplies sha256; no claim that every file displays a hash."
+      },
+      "downloads": "Download original file links directly to /evidence/<path> with filename download attribute.",
+      "links": {
+        "recognizedRelative": "Reader link for catalogue source paths.",
+        "external": "New tab with noreferrer.",
+        "uncataloguedRelative": "Repository link pinned to model recipe commit.",
+        "images": "Only paths present in source catalogue render; otherwise alternative text is displayed."
+      },
+      "states": {
+        "loading": "role=status with Loading source…",
+        "error": "role=alert and Try again button",
+        "unavailable": "Source not available with return-to-methods link."
+      },
+      "immutableScope": "Formatting leaves original scientific files, exported result values, dependency records and original downloads intact. JSON key labels and dependency-table structure are presentation adaptations; UI copy rewrites do not rewrite scientific originals."
+    },
+    "interfaceWriting": {
+      "style": "Plain, direct authored UI copy: action names, concrete result meanings and explicit limitations.",
+      "appliedBy": "User-invoked humanizer workflow in the parent implementation task.",
+      "scope": "Interface headings, controls and explanatory copy; original scientific source files remain verbatim.",
+      "examples": [
+        "Inspect a PCB.",
+        "See how the model works.",
+        "How we built it.",
+        "This preview displays saved model results. To inspect an uploaded image, run the local Python app."
+      ]
+    }
+  },
+  "components": [
+    {
+      "name": "Primary button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Rust action with explicit keyboard focus.",
+      "html": "<button class=\"ds-button ds-control\">Run inspection <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" aria-hidden=\"true\"><path d=\"M4 12h16m-6-6 6 6-6 6\"/></svg></button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:24px;min-height:48px;padding:12px 22px;border:1px solid var(--rust,#a13f27);background:var(--rust,#a13f27);color:white;border-radius:3px;font:400 14px \"DM Sans\",sans-serif;cursor:pointer}.ds-button:hover{filter:brightness(.93)}.ds-button:disabled{opacity:.6;cursor:wait}.ds-control:focus-visible{outline:3px solid var(--rust,#a13f27);outline-offset:4px}"
+    },
+    {
+      "name": "Secondary button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Ruled transparent supporting action.",
+      "html": "<button class=\"ds-button ds-secondary ds-control\">Secondary action</button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:24px;min-height:48px;padding:12px 22px;border:1px solid var(--rust,#a13f27);background:var(--rust,#a13f27);color:white;border-radius:3px;font:400 14px \"DM Sans\",sans-serif;cursor:pointer}.ds-button:hover{filter:brightness(.93)}.ds-button:disabled{opacity:.6;cursor:wait}.ds-control:focus-visible{outline:3px solid var(--rust,#a13f27);outline-offset:4px}.ds-secondary{background:transparent;color:var(--ink,#242c29);border-color:var(--rule,#c8ccc2)}"
+    },
+    {
+      "name": "Benchmark select",
+      "kind": "input",
+      "refersTo": "select",
+      "description": "Native selector on a soft-white surface.",
+      "html": "<label class=\"ds-label\" for=\"ds-example\">Benchmark</label><select class=\"ds-select ds-control\" id=\"ds-example\"><option>Choose a benchmark</option></select>",
+      "css": ".ds-label{display:block;font:400 12px \"DM Sans\",sans-serif;margin-bottom:10px}.ds-select{width:100%;height:48px;padding:0 12px;background:var(--white,#fcfaf5);color:var(--ink,#242c29);border:1px solid var(--rule,#c8ccc2);border-radius:3px;font-family:\"DM Sans\",sans-serif}.ds-control:focus-visible{outline:3px solid var(--rust,#a13f27);outline-offset:4px}"
+    },
+    {
+      "name": "Upload boundary",
+      "kind": "input",
+      "description": "A dashed image chooser with native button behavior.",
+      "html": "<div class=\"ds-upload\"><button class=\"ds-upload-button ds-control\">Choose an image<small>JPEG, PNG or WebP</small></button></div>",
+      "css": ".ds-upload{border:1px dashed var(--field-stroke,#899489);border-radius:3px}.ds-upload-button{display:block;text-align:left;width:100%;min-height:80px;padding:16px;background:transparent;border:0;color:var(--ink,#242c29);font:400 14px \"DM Sans\",sans-serif;cursor:pointer}.ds-upload-button small{display:block;color:var(--muted,#616a63);font-size:12px;margin-top:4px}.ds-upload-button:disabled{opacity:.7;cursor:default}.ds-control:focus-visible{outline:3px solid var(--rust,#a13f27);outline-offset:4px}"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "description": "Plain labels with a current-page underline.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Preview navigation\"><a class=\"ds-control\" href=\"#\" aria-current=\"page\">Inspect</a><a class=\"ds-control\" href=\"#\">Journey</a></nav>",
+      "css": ".ds-nav{display:flex;gap:28px}.ds-nav a{color:var(--ink,#242c29);font:400 14px \"DM Sans\",sans-serif;min-height:44px;display:flex;align-items:center;text-decoration:none}.ds-nav a[aria-current]{box-shadow:inset 0 -2px var(--rust,#a13f27)}.ds-control:focus-visible{outline:3px solid var(--rust,#a13f27);outline-offset:4px}"
+    },
+    {
+      "name": "Image view selector",
+      "kind": "custom",
+      "refersTo": "view-selected",
+      "description": "Plate controls with explicit pressed state; snippet shows the selected treatment.",
+      "html": "<div class=\"ds-views\"><button class=\"ds-view ds-control\" aria-pressed=\"false\">Original</button><button class=\"ds-view ds-control\" aria-pressed=\"true\">Overlay</button><button class=\"ds-view ds-control\" aria-pressed=\"false\">Heatmap</button></div>",
+      "css": ".ds-views{background:var(--plate,#222826);display:flex;gap:5px;padding:18px;border-bottom:1px solid var(--plate-rule,#56605a)}.ds-view{color:var(--plate-text,#e7e8e1);border:0;background:none;padding:12px;min-height:44px;border-radius:3px;font:400 12px \"DM Sans\",sans-serif;cursor:pointer}.ds-view[aria-pressed=\"true\"]{background:var(--selected-view,#46544b)}.ds-view:disabled{opacity:.7;cursor:default}.ds-control:focus-visible{outline:3px solid var(--rust,#a13f27);outline-offset:4px}"
+    },
+    {
+      "name": "Measurement rail",
+      "kind": "custom",
+      "refersTo": "measurement-rail",
+      "description": "Flat soft-white rail with serif state and ruled rows.",
+      "html": "<aside class=\"ds-rail\"><h2>No anomaly flagged.</h2><p>Read the response in context.</p><dl><div><dt>Image score</dt><dd>Exact value</dd></div></dl></aside>",
+      "css": ".ds-rail{padding:25px 24px;background:var(--white,#fcfaf5);color:var(--ink,#242c29);font:400 14px \"DM Sans\",sans-serif}.ds-rail h2{margin:0;font:400 38px/1.03 \"Instrument Serif\",serif;letter-spacing:-.025em;color:var(--sage,#496659)}.ds-rail p{line-height:1.65}.ds-rail dl{margin:0}.ds-rail dl div{display:flex;justify-content:space-between;gap:12px;border-top:1px solid var(--rule,#c8ccc2);padding:11px 0;font-size:12px}.ds-rail dd{margin:0;font-weight:500}"
+    },
+    {
+      "name": "Journey stage navigation",
+      "kind": "nav",
+      "refersTo": "journey-stage-active",
+      "description": "Sticky reading label and stage controls with a rust progress line; snippet shows static visual states.",
+      "html": "<div class=\"ds-wayfinding\"><p><span>Reading</span><strong>Stage title</strong></p><nav aria-label=\"Jump to journey stage\"><button class=\"ds-control\" aria-label=\"Jump to first stage\" aria-current=\"step\">1</button><button class=\"ds-control\" aria-label=\"Jump to second stage\">2</button></nav><div class=\"ds-reading-track\" aria-hidden=\"true\"><span></span></div></div>",
+      "css": ".ds-wayfinding{background:var(--paper,#f4f1e9);padding:12px 0 0;border-bottom:1px solid var(--rule,#c8ccc2);display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;font-family:\"DM Sans\",sans-serif}.ds-wayfinding p{display:flex;gap:14px;align-items:center;font-size:13px}.ds-wayfinding p span{color:var(--muted,#616a63);font-size:11px}.ds-wayfinding strong{font-weight:500}.ds-wayfinding nav{display:flex;gap:4px}.ds-wayfinding button{min-width:44px;min-height:44px;background:transparent;color:var(--ink,#242c29);border:0;border-radius:3px;font:400 12px \"DM Sans\",sans-serif;cursor:pointer}.ds-wayfinding button[aria-current]{background:var(--sage,#496659);color:white}.ds-wayfinding button:hover{background:#dfe5db;color:var(--ink,#242c29)}.ds-control:focus-visible{outline:3px solid var(--rust,#a13f27);outline-offset:4px}.ds-reading-track{flex-basis:100%;height:3px;background:#dfe3d9;overflow:hidden}.ds-reading-track span{display:block;width:35%;height:100%;background:var(--rust,#a13f27)}"
+    },
+    {
+      "name": "Method explanation",
+      "kind": "custom",
+      "description": "Ruled method text and its reason; sample uses presentation text rather than fabricated scientific values.",
+      "html": "<article class=\"ds-method\"><h3>Method title</h3><p>Source-backed method explanation.</p><p class=\"ds-reason\"><strong>Why.</strong> Reason for the controlled choice.</p></article>",
+      "css": ".ds-method{padding:24px 0;border-top:1px solid var(--rule,#c8ccc2);color:var(--ink,#242c29);font-family:\"DM Sans\",sans-serif}.ds-method h3{font-size:22px;font-weight:500;margin:0 0 14px}.ds-method p{font-size:14px;line-height:1.65;margin:0 0 12px}.ds-reason{color:var(--muted,#616a63)}.ds-reason strong{color:var(--ink,#242c29);font-weight:500}"
+    },
+    {
+      "name": "About section navigation",
+      "kind": "nav",
+      "description": "Wrapping native anchor links in a flat ruled row.",
+      "html": "<nav class=\"ds-editorial\" aria-label=\"About sections\"><a href=\"#purpose\">Purpose &amp; Athena inspiration</a><a href=\"#methods\">Tools &amp; methods</a><a href=\"#future\">Future improvements</a></nav>",
+      "css": ".ds-editorial{display:flex;flex-wrap:wrap;gap:12px 28px;padding:18px 0;border-block:1px solid var(--rule,#c8ccc2);font:400 14px \"DM Sans\",sans-serif}.ds-editorial a{color:var(--ink,#242c29);min-height:44px;display:flex;align-items:center;text-underline-offset:4px}.ds-editorial a:focus-visible{outline:3px solid var(--rust,#a13f27);outline-offset:4px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Engineering Exhibition Workbench",
+    "overview": "The inspection workbench gives real photographic evidence the largest surface and places explanation beside it. Warm paper, charcoal plates, fine rules and editorial headings make the interface feel like an engineering exhibition catalogue with usable instruments.\n\nThe system stays restrained and flat. Rust marks actions and flagged decisions; sage marks the no-flag state without replacing its written explanation. Captions, exact-value rows and clearly separated evidence phases provide the visual structure.",
+    "keyCharacteristics": [
+      "Warm paper with charcoal photographic plates.",
+      "Instrument Serif headings paired with DM Sans controls and reading text.",
+      "Fine ruled measurements and generous editorial spacing.",
+      "Visible evidence, explicit state labels and restrained functional motion."
+    ],
+    "rules": [
+      {
+        "name": "The Response Is Separate Rule",
+        "body": "The fixed response palette belongs to image data; rust and sage belong to interface actions and decisions. Keep the response legend visible with the map. Its scale, overlay colors and rendering details live in the sidecar.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Voices Rule",
+        "body": "Serif leads the story; sans carries operations, labels and exact values. Preserve this division on new screens.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Workbench Rule",
+        "body": "Use paper, plate and rail surfaces with fine rules to establish hierarchy. Do not add floating-card shadows to ordinary content.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep real board images and their corresponding response together, with clear captions.",
+      "Do let the image plate dominate and keep the measurement rail readable.",
+      "Do retain the same response legend across inspected images.",
+      "Do use explicit phase bands and captions to separate evidence contexts.",
+      "Do preserve keyboard focus, written decision states and reduced-motion support."
+    ],
+    "donts": [
+      "Don't substitute generated board pictures for project evidence.",
+      "Don't turn the flat ruled workbench into a dashboard of floating rounded cards.",
+      "Don't use sage or rust alone to communicate a decision.",
+      "Don't relabel anomaly response as probability or a certified pass/fail outcome.",
+      "Don't crop mobile home figures to force the desktop pair into a narrow viewport."
+    ]
+  }
+}

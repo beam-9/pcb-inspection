@@ -1,0 +1,2 @@
+# Preserve Markdown hard breaks in the archived supplied proposal.
+artifacts/productization/supplied_proposal.md whitespace=-blank-at-eol
