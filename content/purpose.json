@@ -1,14 +1,14 @@
 {
   "title": "Help people spot unusual PCB regions and understand the model’s decision.",
-  "purpose": "We built this project to test whether a reference built from normal PCB images could help someone inspect an unfamiliar-looking region. Each experiment asks what improves detection, what causes mistakes and where an inspector still needs to make the judgment.",
+  "purpose": "I built this project to test whether a reference built from normal PCB images could help someone inspect an unfamiliar-looking region. Each experiment asks what improves detection, what causes mistakes and where an inspector still needs to make the judgment.",
   "inspiration": {
     "title": "Inspired by Seagate’s Project Athena",
-    "text": "Seagate’s 2019 Project Athena case study describes microscope-image inspection at its Normandale facility, where wafers are made for HDD read/write heads. The system flags anomalous images for an expert to assess. That workflow prompted our question: could a visual anomaly model give a reviewer useful evidence on a PCB?",
+    "text": "Seagate’s 2019 Project Athena case study describes microscope-image inspection at its Normandale facility, where wafers are made for HDD read/write heads. The system flags anomalous images for an expert to assess. That workflow prompted my question: could a visual anomaly model give a reviewer useful evidence on a PCB?",
     "source_title": "Seagate Project Athena case study · 2019",
     "source_url": "https://www.seagate.com/www-content/enterprise-storage/it-4-0/images/cs595-1-1901-seagate-athena.pdf",
-    "boundary": "This independent educational project uses public VisA PCB photographs. We use no Seagate data or internal technology. Our detector does not reproduce Athena or demonstrate performance in manufacturing."
+    "boundary": "This independent educational project uses public VisA PCB photographs. I use no Seagate data or internal technology. My detector does not reproduce Athena or demonstrate performance in manufacturing."
   },
-  "why_one_class": "We used normal images to build a reference, so the detector can measure unusual appearance without learning a classifier for every defect label. The small PatchCore-inspired model runs on a CPU and lets us inspect its scores, reference patches and mistakes.",
+  "why_one_class": "I used normal images to build a reference, so the detector can measure unusual appearance without learning a classifier for every defect label. The small PatchCore-inspired model runs on a CPU and lets me inspect its scores, reference patches and mistakes.",
   "principles": [
     {
       "title": "Keep the reviewer in the loop",
@@ -20,7 +20,7 @@
     },
     {
       "title": "Know when to stop tuning",
-      "text": "Stage 6A examined the remaining misses. It did not support one clear next change, so we froze v1.0."
+      "text": "Stage 6A examined the remaining misses. It did not support one clear next change, so I froze v1.0."
     }
   ],
   "future": [
@@ -40,7 +40,7 @@
     },
     {
       "title": "Test orientation on more examples",
-      "reason": "We had only five reversed anomalies and no reversed normal controls.",
+      "reason": "I had only five reversed anomalies and no reversed normal controls.",
       "experiment": "Collect independent reversed normals and varied capture poses. Compare registration methods and keep explicit handling for uncertain poses.",
       "success": "Measure errors for each supported pose and check that correction preserves the defect signal.",
       "status": "Needs independent data"
@@ -54,7 +54,7 @@
     },
     {
       "title": "Test the reviewer’s workflow",
-      "reason": "A benchmark cannot tell us whether the tool helps an inspector in a factory.",
+      "reason": "A benchmark cannot tell me whether the tool helps an inspector in a factory.",
       "experiment": "With appropriate real-world data, study reviewer decisions, capture variation, latency, drift and threshold policy.",
       "success": "Measure review outcomes and operational costs before claiming that the model is ready for deployment.",
       "status": "Future applied validation"
@@ -85,32 +85,32 @@
   "methods": [
     {
       "title": "Fit on normal images",
-      "text": "We use the official VisA one-class split. Normal fitting images build the reference memory, and held-out normals set the thresholds. Anomalies are used for evaluation. Once we used a test category to guide later changes, we labelled that work as development.",
+      "text": "I use the official VisA one-class split. Normal fitting images build the reference memory, and held-out normals set the thresholds. Anomalies are used for evaluation. Once I used a test category to guide later changes, I labelled that work as development.",
       "reason": "Keep defect labels out of fitting and threshold calibration, and show when evaluation data has influenced a decision."
     },
     {
       "title": "Preserve shape and check orientation",
-      "text": "The inherited colour and morphology rules locate the board. We apply fixed margins and letterbox the crop to 512 × 512. An RGB cue from the exterior pins identifies confidently reversed boards; only those crops are rotated exactly 180°. Uncertain crops stay unchanged.",
+      "text": "The inherited colour and morphology rules locate the board. I apply fixed margins and letterbox the crop to 512 × 512. An RGB cue from the exterior pins identifies confidently reversed boards; only those crops are rotated exactly 180°. Uncertain crops stay unchanged.",
       "reason": "Preserve board shape and local detail. Limit pose correction to the orientation that the evidence supports."
     },
     {
       "title": "Extract frozen patch features",
-      "text": "ResNet18 uses the frozen IMAGENET1K_V1 weights. We average layer2 and layer3 features over a 3 × 3 neighbourhood, align their grids and join them into 384-dimensional patch features.",
+      "text": "ResNet18 uses the frozen IMAGENET1K_V1 weights. I average layer2 and layer3 features over a 3 × 3 neighbourhood, align their grids and join them into 384-dimensional patch features.",
       "reason": "Reuse pretrained visual features in a small CPU model without training a network to classify defects."
     },
     {
       "title": "Choose a normal reference bank",
-      "text": "The ordered D2 bank contains 4,096 float32 patches. We built it with projected approximate-greedy selection. At inference, each patch gets its exact Euclidean distance to the closest reference in the full 384-dimensional space.",
+      "text": "The ordered D2 bank contains 4,096 float32 patches. I built it with projected approximate-greedy selection. At inference, each patch gets its exact Euclidean distance to the closest reference in the full 384-dimensional space.",
       "reason": "Cover normal appearance within a fixed memory budget. The projection helps select references; it does not approximate the inference score."
     },
     {
       "title": "Score the image and map the response",
-      "text": "The image score is the largest native patch distance, including padding patches. We interpolate the map, remove the padding and return it to the original image coordinates, undoing the pose correction where needed. A result is flagged only when it is strictly greater than the frozen threshold.",
+      "text": "The image score is the largest native patch distance, including padding patches. I interpolate the map, remove the padding and return it to the original image coordinates, undoing the pose correction where needed. A result is flagged only when it is strictly greater than the frozen threshold.",
       "reason": "Keep the decision rule reproducible. Map colours show response strength, not defect probability or exact defect boundaries."
     },
     {
       "title": "Check detection and localization separately",
-      "text": "We report image AP, AUROC, recall and normal false alarms, alongside pooled common-256 pixel AP/IoU and per-image diagnostics in common and source coordinates. We also examine pose groups and failures. PCB1 development, fresh PCB2 confirmation and later PCB2 development remain separate phases.",
+      "text": "I report image AP, AUROC, recall and normal false alarms, alongside pooled common-256 pixel AP/IoU and per-image diagnostics in common and source coordinates. I also examine pose groups and failures. PCB1 development, fresh PCB2 confirmation and later PCB2 development remain separate phases.",
       "reason": "A model can detect an anomalous image while locating the defect poorly. Separate phases also prevent development results from being mistaken for a fresh test."
     },
     {

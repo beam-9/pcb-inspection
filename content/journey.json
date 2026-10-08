@@ -90,13 +90,13 @@
           "url": "https://github.com/beam-9/pcb-inspection/blob/4abc845929bb0d67a1cf9b6882243adc8106b4ef/README.md"
         }
       ],
-      "rationale": "A fixed baseline gives later comparisons a starting score and map. Without it, we cannot attribute improvements to a particular change."
+      "rationale": "A fixed baseline gives later comparisons a starting score and map. Without it, I cannot attribute improvements to a particular change."
     },
     {
       "id": "stage-2",
       "title": "Preserve the board’s shape",
       "datasetPhase": "PCB1 development",
-      "question": "What did we lose by squeezing the whole image into a square?",
+      "question": "What did I lose by squeezing the whole image into a square?",
       "change": "Crop around the blue board and letterbox it without changing its proportions. Compare 256 and 512 inputs.",
       "learning": "Preserving geometry improved detection. The 512 recipe improved localization, with more false alarms and higher compute cost.",
       "nextQuestion": "Is reference memory now limiting detection?",
@@ -202,7 +202,7 @@
           "url": "https://github.com/beam-9/pcb-inspection/blob/4abc845929bb0d67a1cf9b6882243adc8106b4ef/artifacts/pcb1_geometry_comparison/comparison.csv"
         }
       ],
-      "rationale": "The weak baseline map suggested lost geometry or detail. We tested those explanations before changing the backbone or detector."
+      "rationale": "The weak baseline map suggested lost geometry or detail. I tested those explanations before changing the backbone or detector."
     },
     {
       "id": "stage-3",
@@ -319,7 +319,7 @@
           "url": "https://github.com/beam-9/pcb-inspection/blob/4abc845929bb0d67a1cf9b6882243adc8106b4ef/docs/journey/stage_03_memory_selection.md"
         }
       ],
-      "rationale": "At a fixed bank size, which patches we keep can matter as much as how many we keep. This comparison holds features, geometry and normal-only calibration fixed."
+      "rationale": "At a fixed bank size, which patches I keep can matter as much as how many I keep. This comparison holds features, geometry and normal-only calibration fixed."
     },
     {
       "id": "stage-4",
@@ -447,7 +447,7 @@
       "id": "stage-5a",
       "title": "Investigate the pose failure",
       "datasetPhase": "PCB2 post-confirmation development",
-      "question": "Which failure can we address while keeping other variables fixed?",
+      "question": "Which failure can I address while keeping other variables fixed?",
       "change": "Analyze saved pose groups, reference matches and small-defect results. Leave the detector unchanged.",
       "learning": "Reversed boards accounted for much of the broad false-positive response. Canonical missing-defect failures remained; distant reference locations did not distinguish those failures.",
       "nextQuestion": "Can exact orientation correction remove the broad response?",
@@ -494,7 +494,7 @@
           "url": "https://github.com/beam-9/pcb-inspection/blob/4abc845929bb0d67a1cf9b6882243adc8106b4ef/docs/journey/stage_05a_failure_diagnosis.md"
         }
       ],
-      "rationale": "The new category exposed a possible orientation problem. We examined pose groups and saved maps before choosing a correction."
+      "rationale": "The new category exposed a possible orientation problem. I examined pose groups and saved maps before choosing a correction."
     },
     {
       "id": "stage-5b",
@@ -700,7 +700,7 @@
           "url": "https://github.com/beam-9/pcb-inspection/blob/4abc845929bb0d67a1cf9b6882243adc8106b4ef/docs/journey/stage_05c_orientation_512.md"
         }
       ],
-      "rationale": "Pose correction at 256 cost us a detection. We checked the higher-detail 512 recipe with D2 memory to see whether correction could preserve the signal."
+      "rationale": "Pose correction at 256 cost me a detection. I checked the higher-detail 512 recipe with D2 memory to see whether correction could preserve the signal."
     },
     {
       "id": "stage-6a",
@@ -792,13 +792,13 @@
           "url": "https://github.com/beam-9/pcb-inspection/blob/4abc845929bb0d67a1cf9b6882243adc8106b4ef/docs/journey/stage_06_final_model_selection.md"
         }
       ],
-      "rationale": "PCB2 had already influenced development, so further tuning could chase these examples. We examined the misses without changing the detector and looked for one supported mechanism."
+      "rationale": "PCB2 had already influenced development, so further tuning could chase these examples. I examined the misses without changing the detector and looked for one supported mechanism."
     },
     {
       "id": "model-v1",
       "title": "Freeze the selected recipe",
       "datasetPhase": "PCB2 post-confirmation development",
-      "question": "Can we make the selected detector reproducible and easy to inspect?",
+      "question": "Can I make the selected detector reproducible and easy to inspect?",
       "change": "Record Stage 5C D2 + orientation as PCB-AD-v1.0. Add a verified inference wrapper with the model unchanged.",
       "learning": "The interface makes the frozen model’s results and remaining failures available for review.",
       "nextQuestion": "Put future experiments in v1.1/v2.0 and keep v1.0’s detector unchanged.",
